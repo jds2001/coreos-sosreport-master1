@@ -1,0 +1,6 @@
+IMAGE                                     TAG                 IMAGE ID            SIZE
+<none>                                    <none>              2093342e730a2       251MB
+<none>                                    <none>              8f4a196644f7f       405MB
+<none>                                    <none>              dc24c7b8dba05       277MB
+<none>                                    <none>              9186cbcdb7f1e       304MB
+registry.local:5000/rhel8/support-tools   latest              30e2614628512       248MB

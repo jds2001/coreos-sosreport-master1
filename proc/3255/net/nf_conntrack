@@ -1,0 +1,678 @@
+ipv4     2 udp      17 11 src=172.16.1.10 dst=172.16.1.1 sport=39410 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39410 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 14 src=172.16.1.10 dst=172.16.1.1 sport=35998 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=35998 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 25 src=172.16.1.10 dst=172.16.1.1 sport=54318 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=54318 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 1 src=172.16.1.10 dst=172.16.1.1 sport=49019 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=49019 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 3 src=172.16.1.10 dst=172.16.1.1 sport=59655 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59655 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 65 src=172.16.1.10 dst=172.16.1.1 sport=38996 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=38996 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 88 src=172.16.1.10 dst=172.16.1.1 sport=40581 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40581 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 153 src=172.16.1.10 dst=172.16.1.1 sport=57095 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=57095 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 22 src=172.16.1.10 dst=172.16.1.1 sport=47632 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47632 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 3 src=172.16.1.10 dst=172.16.1.1 sport=36813 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=36813 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 27 src=172.16.1.10 dst=172.16.1.1 sport=42727 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=42727 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 0 src=172.16.1.10 dst=172.16.1.1 sport=45889 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=45889 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 136 src=172.16.1.10 dst=172.16.1.1 sport=54603 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=54603 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 28 src=172.16.1.10 dst=172.16.1.1 sport=41201 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=41201 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 12 src=172.16.1.10 dst=172.16.1.1 sport=51138 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51138 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 106 src=172.16.1.10 dst=172.16.1.1 sport=44869 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44869 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 13 src=172.16.1.10 dst=172.16.1.1 sport=50298 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50298 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 5 src=172.16.1.10 dst=172.16.1.1 sport=39484 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39484 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 118 src=172.16.1.10 dst=172.16.1.1 sport=60598 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60598 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 4 src=172.16.1.10 dst=172.16.1.1 sport=47177 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47177 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 20 src=172.16.1.10 dst=172.16.1.1 sport=36749 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=36749 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 5 src=172.16.1.10 dst=172.16.1.1 sport=47743 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47743 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 tcp      6 431997 ESTABLISHED src=172.16.1.11 dst=172.16.1.10 sport=48714 dport=2380 src=172.16.1.10 dst=172.16.1.11 sport=2380 dport=48714 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 28 src=172.16.1.10 dst=172.16.1.1 sport=48174 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48174 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 21 src=172.16.1.10 dst=172.16.1.1 sport=39523 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39523 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 2 src=172.16.1.10 dst=172.16.1.1 sport=58526 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58526 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 7 src=172.16.1.10 dst=172.16.1.1 sport=59926 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59926 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 5 src=172.16.1.10 dst=172.16.1.1 sport=49146 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=49146 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 16 src=172.16.1.10 dst=172.16.1.1 sport=60453 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60453 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 5 src=172.16.1.10 dst=172.16.1.1 sport=34127 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34127 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 20 src=172.16.1.10 dst=172.16.1.1 sport=58333 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58333 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 17 src=172.16.1.10 dst=172.16.1.1 sport=34398 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34398 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 17 src=172.16.1.10 dst=172.16.1.1 sport=59676 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59676 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 149 src=172.16.1.10 dst=172.16.1.1 sport=41459 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=41459 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 14 src=172.16.1.10 dst=172.16.1.1 sport=48551 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48551 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 10 src=172.16.1.10 dst=172.16.1.1 sport=37150 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=37150 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 1 src=172.16.1.10 dst=172.16.1.1 sport=57308 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=57308 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 29 src=172.16.1.10 dst=172.16.1.1 sport=47221 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47221 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 25 src=172.16.1.10 dst=172.16.1.1 sport=40055 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40055 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 1 src=172.16.1.10 dst=172.16.1.1 sport=38511 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=38511 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 116 src=172.16.1.10 dst=172.16.1.1 sport=39364 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39364 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 13 src=172.16.1.10 dst=172.16.1.1 sport=57659 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=57659 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 69 src=172.16.1.10 dst=172.16.1.1 sport=57681 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=57681 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 5 src=172.16.1.10 dst=172.16.1.1 sport=39629 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39629 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 157 src=172.16.1.10 dst=172.16.1.1 sport=43364 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=43364 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 27 src=172.16.1.10 dst=172.16.1.1 sport=44779 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44779 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 9 src=172.16.1.10 dst=172.16.1.1 sport=44854 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44854 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 29 src=172.16.1.10 dst=172.16.1.1 sport=52439 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52439 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 5 src=172.16.1.10 dst=172.16.1.1 sport=59442 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59442 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 17 src=172.16.1.10 dst=172.16.1.1 sport=53188 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=53188 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 16 src=172.16.1.10 dst=172.16.1.1 sport=60144 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60144 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 8 src=172.16.1.10 dst=172.16.1.1 sport=50559 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50559 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 7 src=172.16.1.10 dst=172.16.1.1 sport=55657 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=55657 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 17 src=172.16.1.10 dst=172.16.1.1 sport=58874 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58874 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 21 src=172.16.1.10 dst=172.16.1.1 sport=60043 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60043 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 11 src=172.16.1.10 dst=172.16.1.1 sport=59318 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59318 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 9 src=172.16.1.10 dst=172.16.1.1 sport=34534 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34534 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 4 src=172.16.1.10 dst=172.16.1.1 sport=39671 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39671 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=172.16.1.10 dst=172.16.1.1 sport=60465 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60465 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 10 src=172.16.1.10 dst=172.16.1.1 sport=58154 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58154 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 3 src=172.16.1.10 dst=172.16.1.1 sport=42937 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=42937 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 109 src=172.16.1.10 dst=172.16.1.1 sport=60339 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60339 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 11 src=172.16.1.10 dst=172.16.1.1 sport=43609 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=43609 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 2 src=172.16.1.10 dst=172.16.1.1 sport=33473 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=33473 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 25 src=172.16.1.10 dst=172.16.1.1 sport=34840 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34840 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 24 src=172.16.1.10 dst=172.16.1.1 sport=50841 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50841 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 1 src=172.16.1.10 dst=172.16.1.1 sport=51956 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51956 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 2 src=172.16.1.10 dst=172.16.1.1 sport=60984 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60984 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 25 src=172.16.1.10 dst=172.16.1.1 sport=57959 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=57959 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 27 src=172.16.1.10 dst=172.16.1.1 sport=37993 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=37993 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 27 src=172.16.1.10 dst=172.16.1.1 sport=55407 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=55407 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 2 src=172.16.1.10 dst=172.16.1.1 sport=52869 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52869 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 8 src=172.16.1.10 dst=172.16.1.1 sport=36548 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=36548 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 17 src=172.16.1.10 dst=172.16.1.1 sport=46073 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46073 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 20 src=172.16.1.10 dst=172.16.1.1 sport=59002 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59002 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 15 src=172.16.1.10 dst=172.16.1.1 sport=40999 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40999 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 18 src=172.16.1.10 dst=172.16.1.1 sport=33327 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=33327 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 3 src=172.16.1.10 dst=172.16.1.1 sport=59961 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59961 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 0 src=172.16.1.10 dst=172.16.1.1 sport=47160 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47160 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 9 src=172.16.1.10 dst=172.16.1.1 sport=58952 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58952 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 13 src=172.16.1.10 dst=172.16.1.1 sport=57519 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=57519 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 116 src=172.16.1.10 dst=172.16.1.1 sport=46322 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46322 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 168 src=172.16.1.10 dst=172.16.1.1 sport=51178 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51178 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 61 src=172.16.1.10 dst=172.16.1.1 sport=40371 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40371 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 12 src=172.16.1.10 dst=172.16.1.1 sport=42981 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=42981 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 20 src=172.16.1.10 dst=172.16.1.1 sport=45585 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=45585 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=172.16.1.10 dst=172.16.1.1 sport=47224 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47224 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 16 src=172.16.1.10 dst=172.16.1.1 sport=50901 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50901 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 tcp      6 431999 ESTABLISHED src=172.16.1.1 dst=172.16.1.10 sport=41282 dport=22 src=172.16.1.10 dst=172.16.1.1 sport=22 dport=41282 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 13 src=172.16.1.10 dst=172.16.1.1 sport=40483 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40483 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 13 src=172.16.1.10 dst=172.16.1.1 sport=59287 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59287 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 5 src=172.16.1.10 dst=172.16.1.1 sport=41956 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=41956 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 13 src=172.16.1.10 dst=172.16.1.1 sport=40730 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40730 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 18 src=172.16.1.10 dst=172.16.1.1 sport=56338 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=56338 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 101 src=172.16.1.10 dst=172.16.1.1 sport=48612 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48612 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 3 src=172.16.1.10 dst=172.16.1.1 sport=51205 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51205 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 22 src=172.16.1.10 dst=172.16.1.1 sport=51548 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51548 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 17 src=172.16.1.10 dst=172.16.1.1 sport=40890 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40890 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 26 src=172.16.1.10 dst=172.16.1.1 sport=37950 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=37950 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 11 src=172.16.1.10 dst=172.16.1.1 sport=35306 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=35306 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 14 src=172.16.1.10 dst=172.16.1.1 sport=35679 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=35679 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 4 src=172.16.1.10 dst=172.16.1.1 sport=45450 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=45450 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 tcp      6 299 ESTABLISHED src=172.16.1.10 dst=172.16.1.10 sport=45248 dport=9978 src=172.16.1.10 dst=172.16.1.10 sport=9978 dport=45248 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 3 src=172.16.1.10 dst=172.16.1.1 sport=55254 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=55254 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 100 src=172.16.1.10 dst=172.16.1.1 sport=40440 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40440 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 26 src=172.16.1.10 dst=172.16.1.1 sport=47365 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47365 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 1 src=172.16.1.10 dst=172.16.1.1 sport=54931 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=54931 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 tcp      6 431998 ESTABLISHED src=172.16.1.11 dst=172.16.1.10 sport=48864 dport=2380 src=172.16.1.10 dst=172.16.1.11 sport=2380 dport=48864 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 8 src=172.16.1.10 dst=172.16.1.1 sport=57230 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=57230 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 16 src=172.16.1.10 dst=172.16.1.1 sport=42299 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=42299 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 25 src=172.16.1.10 dst=172.16.1.1 sport=35963 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=35963 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 4 src=172.16.1.10 dst=172.16.1.1 sport=59713 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59713 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 5 src=172.16.1.10 dst=172.16.1.1 sport=49400 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=49400 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 18 src=172.16.1.10 dst=172.16.1.1 sport=44207 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44207 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 tcp      6 0 CLOSE src=172.16.1.11 dst=172.16.1.10 sport=40048 dport=2380 src=172.16.1.10 dst=172.16.1.11 sport=2380 dport=40048 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 29 src=172.16.1.10 dst=172.16.1.1 sport=46637 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46637 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 8 src=172.16.1.10 dst=172.16.1.1 sport=58977 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58977 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 tcp      6 8 CLOSE src=172.16.1.11 dst=172.16.1.10 sport=40554 dport=2380 src=172.16.1.10 dst=172.16.1.11 sport=2380 dport=40554 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 0 src=172.16.1.10 dst=172.16.1.1 sport=48592 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48592 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 23 src=172.16.1.10 dst=172.16.1.1 sport=37279 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=37279 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 103 src=172.16.1.10 dst=172.16.1.1 sport=44782 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44782 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 59 src=172.16.1.10 dst=172.16.1.1 sport=34500 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34500 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 10 src=172.16.1.10 dst=172.16.1.1 sport=51942 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51942 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 17 src=172.16.1.10 dst=172.16.1.1 sport=51024 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51024 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 13 src=172.16.1.10 dst=172.16.1.1 sport=55189 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=55189 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 25 src=172.16.1.10 dst=172.16.1.1 sport=56251 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=56251 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 173 src=172.16.1.10 dst=172.16.1.1 sport=40858 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40858 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 28 src=172.16.1.10 dst=172.16.1.1 sport=35844 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=35844 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 27 src=172.16.1.10 dst=172.16.1.1 sport=34803 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34803 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 9 src=172.16.1.10 dst=172.16.1.1 sport=59369 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59369 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 26 src=172.16.1.10 dst=172.16.1.1 sport=52397 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52397 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 29 src=172.16.1.10 dst=172.16.1.1 sport=34048 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34048 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 20 src=172.16.1.10 dst=172.16.1.1 sport=48662 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48662 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 130 src=172.16.1.10 dst=172.16.1.1 sport=52472 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52472 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 4 src=172.16.1.10 dst=172.16.1.1 sport=55228 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=55228 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 11 src=172.16.1.10 dst=172.16.1.1 sport=43634 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=43634 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 17 src=172.16.1.10 dst=172.16.1.1 sport=46709 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46709 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 21 src=172.16.1.10 dst=172.16.1.1 sport=44074 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44074 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 26 src=172.16.1.10 dst=172.16.1.1 sport=39705 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39705 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 2 src=172.16.1.10 dst=172.16.1.1 sport=47129 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47129 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 16 src=172.16.1.10 dst=172.16.1.1 sport=47630 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47630 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 6 src=172.16.1.10 dst=172.16.1.1 sport=34644 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34644 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 28 src=172.16.1.10 dst=172.16.1.1 sport=54337 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=54337 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 13 src=172.16.1.10 dst=172.16.1.1 sport=57733 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=57733 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 44 src=172.16.1.10 dst=172.16.1.1 sport=47296 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47296 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 1 src=172.16.1.10 dst=172.16.1.1 sport=60403 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60403 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 9 src=172.16.1.10 dst=172.16.1.1 sport=46376 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46376 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 1 src=172.16.1.10 dst=172.16.1.1 sport=48066 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48066 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 2 src=172.16.1.10 dst=172.16.1.1 sport=48565 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48565 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 0 src=172.16.1.10 dst=172.16.1.1 sport=36024 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=36024 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 21 src=172.16.1.10 dst=172.16.1.1 sport=52970 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52970 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 18 src=172.16.1.10 dst=172.16.1.1 sport=60239 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60239 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 135 src=172.16.1.10 dst=172.16.1.1 sport=44137 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44137 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 18 src=172.16.1.10 dst=172.16.1.1 sport=56488 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=56488 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 6 src=172.16.1.10 dst=172.16.1.1 sport=45626 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=45626 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 6 src=172.16.1.10 dst=172.16.1.1 sport=44421 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44421 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 20 src=172.16.1.10 dst=172.16.1.1 sport=49979 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=49979 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 66 src=172.16.1.10 dst=172.16.1.1 sport=40056 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40056 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 1 src=172.16.1.10 dst=172.16.1.1 sport=60247 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60247 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 16 src=172.16.1.10 dst=172.16.1.1 sport=53955 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=53955 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 13 src=172.16.1.10 dst=172.16.1.1 sport=51345 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51345 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 11 src=172.16.1.10 dst=172.16.1.1 sport=42208 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=42208 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 0 src=172.16.1.10 dst=172.16.1.1 sport=52957 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52957 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 1 src=172.16.1.10 dst=172.16.1.1 sport=55586 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=55586 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 7 src=172.16.1.10 dst=172.16.1.1 sport=55977 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=55977 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 106 src=172.16.1.10 dst=172.16.1.1 sport=34139 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34139 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 10 src=172.16.1.10 dst=172.16.1.1 sport=57636 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=57636 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 75 src=172.16.1.10 dst=172.16.1.1 sport=46802 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46802 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 7 src=172.16.1.10 dst=172.16.1.1 sport=43664 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=43664 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 12 src=172.16.1.10 dst=172.16.1.1 sport=60914 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60914 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 1 src=172.16.1.10 dst=172.16.1.1 sport=40974 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40974 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 173 src=172.16.1.10 dst=172.16.1.1 sport=40979 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40979 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 24 src=172.16.1.10 dst=172.16.1.1 sport=59822 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59822 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 12 src=172.16.1.10 dst=172.16.1.1 sport=50628 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50628 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 29 src=172.16.1.10 dst=172.16.1.1 sport=38825 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=38825 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 106 src=172.16.1.10 dst=172.16.1.1 sport=43191 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=43191 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 4 src=172.16.1.10 dst=172.16.1.1 sport=41415 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=41415 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 77 src=172.16.1.10 dst=172.16.1.1 sport=52680 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52680 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 tcp      6 276 ESTABLISHED src=172.16.1.10 dst=172.16.1.2 sport=39114 dport=6443 src=172.16.1.2 dst=172.16.1.10 sport=6443 dport=39114 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 11 src=172.16.1.10 dst=172.16.1.1 sport=51789 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51789 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 24 src=172.16.1.10 dst=172.16.1.1 sport=42209 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=42209 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 8 src=172.16.1.10 dst=172.16.1.1 sport=48330 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48330 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 24 src=172.16.1.10 dst=172.16.1.1 sport=57048 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=57048 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 5 src=172.16.1.10 dst=172.16.1.1 sport=55592 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=55592 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 27 src=172.16.1.10 dst=172.16.1.1 sport=54417 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=54417 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=172.16.1.10 dst=172.16.1.1 sport=46873 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46873 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 23 src=172.16.1.10 dst=172.16.1.1 sport=35571 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=35571 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 8 src=172.16.1.10 dst=172.16.1.1 sport=36398 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=36398 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 2 src=172.16.1.10 dst=172.16.1.1 sport=58191 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58191 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 4 src=172.16.1.10 dst=172.16.1.1 sport=42888 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=42888 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 7 src=172.16.1.10 dst=172.16.1.1 sport=53068 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=53068 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 21 src=172.16.1.10 dst=172.16.1.1 sport=60673 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60673 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 10 src=172.16.1.10 dst=172.16.1.1 sport=53003 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=53003 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 12 src=172.16.1.10 dst=172.16.1.1 sport=44986 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44986 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 25 src=172.16.1.10 dst=172.16.1.1 sport=53398 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=53398 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 16 src=172.16.1.10 dst=172.16.1.1 sport=52497 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52497 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 8 src=172.16.1.10 dst=172.16.1.1 sport=46198 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46198 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 27 src=172.16.1.10 dst=172.16.1.1 sport=38840 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=38840 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 2 src=172.16.1.10 dst=172.16.1.1 sport=51983 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51983 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 16 src=172.16.1.10 dst=172.16.1.1 sport=56847 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=56847 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 18 src=172.16.1.10 dst=172.16.1.1 sport=44628 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44628 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 21 src=172.16.1.10 dst=172.16.1.1 sport=38742 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=38742 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 5 src=172.16.1.10 dst=172.16.1.1 sport=39470 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39470 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 14 src=172.16.1.10 dst=172.16.1.1 sport=40222 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40222 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 0 src=172.16.1.10 dst=172.16.1.1 sport=58942 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58942 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 49 src=172.16.1.10 dst=172.16.1.1 sport=56148 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=56148 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 18 src=172.16.1.10 dst=172.16.1.1 sport=58537 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58537 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 14 src=172.16.1.10 dst=172.16.1.1 sport=58589 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58589 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 14 src=172.16.1.10 dst=172.16.1.1 sport=41256 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=41256 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 26 src=172.16.1.10 dst=172.16.1.1 sport=60157 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60157 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 6 src=172.16.1.10 dst=172.16.1.1 sport=54578 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=54578 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 8 src=172.16.1.10 dst=172.16.1.1 sport=34219 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34219 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 18 src=172.16.1.10 dst=172.16.1.1 sport=55827 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=55827 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 20 src=172.16.1.10 dst=172.16.1.1 sport=55136 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=55136 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 20 src=172.16.1.10 dst=172.16.1.1 sport=51707 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51707 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 20 src=172.16.1.10 dst=172.16.1.1 sport=48307 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48307 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 24 src=172.16.1.10 dst=172.16.1.1 sport=44454 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44454 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 11 src=172.16.1.10 dst=172.16.1.1 sport=35408 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=35408 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 11 src=172.16.1.10 dst=172.16.1.1 sport=35932 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=35932 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 15 src=172.16.1.10 dst=172.16.1.1 sport=38526 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=38526 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 11 src=172.16.1.10 dst=172.16.1.1 sport=49075 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=49075 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 2 src=172.16.1.10 dst=172.16.1.1 sport=36874 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=36874 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 6 src=172.16.1.10 dst=172.16.1.1 sport=49251 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=49251 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 6 src=172.16.1.10 dst=172.16.1.1 sport=53187 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=53187 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 116 src=172.16.1.10 dst=172.16.1.1 sport=41687 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=41687 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 22 src=172.16.1.10 dst=172.16.1.1 sport=45389 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=45389 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 22 src=172.16.1.10 dst=172.16.1.1 sport=60240 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60240 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 13 src=172.16.1.10 dst=172.16.1.1 sport=42873 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=42873 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 3 src=172.16.1.10 dst=172.16.1.1 sport=56772 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=56772 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 6 src=172.16.1.10 dst=172.16.1.1 sport=60751 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60751 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 3 src=172.16.1.10 dst=172.16.1.1 sport=54916 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=54916 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 21 src=172.16.1.10 dst=172.16.1.1 sport=40737 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40737 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 22 src=172.16.1.10 dst=172.16.1.1 sport=55381 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=55381 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 21 src=172.16.1.10 dst=172.16.1.1 sport=47498 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47498 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 26 src=172.16.1.10 dst=172.16.1.1 sport=51681 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51681 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 15 src=172.16.1.10 dst=172.16.1.1 sport=40614 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40614 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 26 src=172.16.1.10 dst=172.16.1.1 sport=47344 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47344 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 27 src=172.16.1.10 dst=172.16.1.1 sport=54251 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=54251 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 11 src=172.16.1.10 dst=172.16.1.1 sport=48648 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48648 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 7 src=172.16.1.10 dst=172.16.1.1 sport=44791 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44791 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 124 src=172.16.1.10 dst=172.16.1.1 sport=48512 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48512 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 9 src=172.16.1.10 dst=172.16.1.1 sport=58583 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58583 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 10 src=172.16.1.10 dst=172.16.1.1 sport=53745 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=53745 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=172.16.1.10 dst=172.16.1.1 sport=47975 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47975 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 5 src=172.16.1.10 dst=172.16.1.1 sport=44131 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44131 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 9 src=172.16.1.10 dst=172.16.1.1 sport=50943 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50943 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 0 src=172.16.1.10 dst=172.16.1.1 sport=51641 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51641 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 21 src=172.16.1.10 dst=172.16.1.1 sport=36357 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=36357 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 4 src=172.16.1.10 dst=172.16.1.1 sport=59546 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59546 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 22 src=172.16.1.10 dst=172.16.1.1 sport=34252 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34252 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 13 src=172.16.1.10 dst=172.16.1.1 sport=34977 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34977 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 100 src=172.16.1.10 dst=172.16.1.1 sport=36065 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=36065 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 21 src=172.16.1.10 dst=172.16.1.1 sport=45954 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=45954 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 21 src=172.16.1.10 dst=172.16.1.1 sport=44520 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44520 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 13 src=172.16.1.10 dst=172.16.1.1 sport=50296 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50296 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 21 src=172.16.1.10 dst=172.16.1.1 sport=33538 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=33538 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 18 src=172.16.1.10 dst=172.16.1.1 sport=56389 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=56389 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 71 src=172.16.1.10 dst=172.16.1.1 sport=35789 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=35789 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 26 src=172.16.1.10 dst=172.16.1.1 sport=51066 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51066 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 28 src=172.16.1.10 dst=172.16.1.1 sport=51386 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51386 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 14 src=172.16.1.10 dst=172.16.1.1 sport=36132 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=36132 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 6 src=172.16.1.10 dst=172.16.1.1 sport=59211 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59211 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 18 src=172.16.1.10 dst=172.16.1.1 sport=38098 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=38098 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 102 src=172.16.1.10 dst=172.16.1.1 sport=38260 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=38260 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 20 src=172.16.1.10 dst=172.16.1.1 sport=58248 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58248 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 2 src=172.16.1.10 dst=172.16.1.1 sport=37892 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=37892 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 13 src=172.16.1.10 dst=172.16.1.1 sport=60120 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60120 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 6 src=172.16.1.10 dst=172.16.1.1 sport=45919 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=45919 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 14 src=172.16.1.10 dst=172.16.1.1 sport=59129 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59129 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 14 src=172.16.1.10 dst=172.16.1.1 sport=50982 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50982 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 80 src=172.16.1.10 dst=172.16.1.1 sport=36084 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=36084 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 1 src=172.16.1.10 dst=172.16.1.1 sport=48921 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48921 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 14 src=172.16.1.10 dst=172.16.1.1 sport=39739 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39739 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 23 src=172.16.1.10 dst=172.16.1.1 sport=51624 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51624 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 23 src=172.16.1.10 dst=172.16.1.1 sport=42615 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=42615 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 12 src=172.16.1.10 dst=172.16.1.1 sport=60399 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60399 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 23 src=172.16.1.10 dst=172.16.1.1 sport=34951 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34951 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 174 src=172.16.1.10 dst=172.16.1.1 sport=58565 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58565 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 17 src=172.16.1.10 dst=172.16.1.1 sport=54626 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=54626 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 2 src=172.16.1.10 dst=172.16.1.1 sport=38906 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=38906 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 9 src=172.16.1.10 dst=172.16.1.1 sport=50372 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50372 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 14 src=172.16.1.10 dst=172.16.1.1 sport=33047 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=33047 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 1 src=172.16.1.10 dst=172.16.1.1 sport=59069 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59069 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 7 src=172.16.1.10 dst=172.16.1.1 sport=36725 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=36725 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 17 src=172.16.1.10 dst=172.16.1.1 sport=47895 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47895 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 13 src=172.16.1.10 dst=172.16.1.1 sport=42213 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=42213 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 29 src=172.16.1.10 dst=172.16.1.1 sport=37608 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=37608 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 9 src=172.16.1.10 dst=172.16.1.1 sport=49266 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=49266 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 29 src=172.16.1.10 dst=172.16.1.1 sport=37121 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=37121 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 152 src=172.16.1.10 dst=172.16.1.1 sport=39558 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39558 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=172.16.1.10 dst=172.16.1.1 sport=47347 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47347 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 25 src=172.16.1.10 dst=172.16.1.1 sport=58923 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58923 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 17 src=172.16.1.10 dst=172.16.1.1 sport=50318 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50318 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 69 src=172.16.1.10 dst=172.16.1.1 sport=46262 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46262 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 11 src=172.16.1.10 dst=172.16.1.1 sport=54121 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=54121 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 25 src=172.16.1.10 dst=172.16.1.1 sport=42975 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=42975 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 7 src=172.16.1.10 dst=172.16.1.1 sport=56807 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=56807 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=172.16.1.10 dst=172.16.1.1 sport=53760 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=53760 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 22 src=172.16.1.10 dst=172.16.1.1 sport=54974 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=54974 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 12 src=172.16.1.10 dst=172.16.1.1 sport=60947 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60947 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 29 src=172.16.1.10 dst=172.16.1.1 sport=37341 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=37341 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 28 src=172.16.1.10 dst=172.16.1.1 sport=32812 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=32812 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 22 src=172.16.1.10 dst=172.16.1.1 sport=58008 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58008 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 17 src=172.16.1.10 dst=172.16.1.1 sport=52016 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52016 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 0 src=172.16.1.10 dst=172.16.1.1 sport=56060 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=56060 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 14 src=172.16.1.10 dst=172.16.1.1 sport=39969 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39969 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 8 src=172.16.1.10 dst=172.16.1.1 sport=33263 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=33263 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 29 src=172.16.1.10 dst=172.16.1.1 sport=35236 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=35236 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 107 src=172.16.1.10 dst=172.16.1.1 sport=34941 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34941 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 6 src=172.16.1.10 dst=172.16.1.1 sport=57650 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=57650 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 18 src=172.16.1.10 dst=172.16.1.1 sport=41261 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=41261 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 26 src=172.16.1.10 dst=172.16.1.1 sport=40888 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40888 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 29 src=172.16.1.10 dst=172.16.1.1 sport=48780 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48780 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 11 src=172.16.1.10 dst=172.16.1.1 sport=34406 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34406 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 29 src=172.16.1.10 dst=172.16.1.1 sport=58411 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58411 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 21 src=172.16.1.10 dst=172.16.1.1 sport=39664 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39664 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=172.16.1.10 dst=172.16.1.1 sport=45848 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=45848 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 5 src=172.16.1.10 dst=172.16.1.1 sport=38986 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=38986 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 9 src=172.16.1.10 dst=172.16.1.1 sport=49784 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=49784 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 23 src=172.16.1.10 dst=172.16.1.1 sport=35981 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=35981 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 23 src=172.16.1.10 dst=172.16.1.1 sport=38502 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=38502 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 26 src=172.16.1.10 dst=172.16.1.1 sport=56161 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=56161 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 28 src=172.16.1.10 dst=172.16.1.1 sport=44861 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44861 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 9 src=172.16.1.10 dst=172.16.1.1 sport=36100 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=36100 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 4 src=172.16.1.10 dst=172.16.1.1 sport=38018 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=38018 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 5 src=172.16.1.10 dst=172.16.1.1 sport=50878 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50878 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 26 src=172.16.1.10 dst=172.16.1.1 sport=34598 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34598 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 5 src=172.16.1.10 dst=172.16.1.1 sport=58093 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58093 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 3 src=172.16.1.10 dst=172.16.1.1 sport=44672 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44672 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 16 src=172.16.1.10 dst=172.16.1.1 sport=41108 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=41108 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 27 src=172.16.1.10 dst=172.16.1.1 sport=58312 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58312 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 76 src=172.16.1.10 dst=172.16.1.1 sport=39835 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39835 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 27 src=172.16.1.10 dst=172.16.1.1 sport=37252 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=37252 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 135 src=172.16.1.10 dst=172.16.1.1 sport=52248 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52248 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 10 src=172.16.1.10 dst=172.16.1.1 sport=44165 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44165 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=172.16.1.10 dst=172.16.1.1 sport=39185 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39185 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 1 src=172.16.1.10 dst=172.16.1.1 sport=34284 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34284 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 13 src=172.16.1.10 dst=172.16.1.1 sport=44874 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44874 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 177 src=172.16.1.10 dst=172.16.1.1 sport=32893 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=32893 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 20 src=172.16.1.10 dst=172.16.1.1 sport=53204 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=53204 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 5 src=172.16.1.10 dst=172.16.1.1 sport=38057 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=38057 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 16 src=172.16.1.10 dst=172.16.1.1 sport=38575 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=38575 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 17 src=172.16.1.10 dst=172.16.1.1 sport=37563 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=37563 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 110 src=172.16.1.10 dst=172.16.1.1 sport=53183 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=53183 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 25 src=172.16.1.10 dst=172.16.1.1 sport=34547 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34547 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 116 src=172.16.1.10 dst=172.16.1.1 sport=55266 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=55266 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 0 src=172.16.1.10 dst=172.16.1.1 sport=35638 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=35638 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 89 src=172.16.1.10 dst=172.16.1.1 sport=50683 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50683 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 24 src=172.16.1.10 dst=172.16.1.1 sport=60663 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60663 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 10 src=172.16.1.10 dst=172.16.1.1 sport=38914 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=38914 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 21 src=172.16.1.10 dst=172.16.1.1 sport=50999 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50999 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 0 src=172.16.1.10 dst=172.16.1.1 sport=48222 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48222 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 28 src=172.16.1.10 dst=172.16.1.1 sport=34769 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34769 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 2 src=172.16.1.10 dst=172.16.1.1 sport=46793 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46793 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 11 src=172.16.1.10 dst=172.16.1.1 sport=57788 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=57788 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 23 src=172.16.1.10 dst=172.16.1.1 sport=41006 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=41006 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 4 src=172.16.1.10 dst=172.16.1.1 sport=38027 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=38027 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 9 src=172.16.1.10 dst=172.16.1.1 sport=50125 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50125 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 1 src=172.16.1.10 dst=172.16.1.1 sport=39231 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39231 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 27 src=172.16.1.10 dst=172.16.1.1 sport=48420 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48420 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 25 src=172.16.1.10 dst=172.16.1.1 sport=53693 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=53693 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 25 src=172.16.1.10 dst=172.16.1.1 sport=52729 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52729 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 6 src=172.16.1.10 dst=172.16.1.1 sport=35216 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=35216 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 113 src=172.16.1.10 dst=172.16.1.1 sport=59796 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59796 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 21 src=172.16.1.10 dst=172.16.1.1 sport=37174 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=37174 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 18 src=172.16.1.10 dst=172.16.1.1 sport=47583 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47583 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 20 src=172.16.1.10 dst=172.16.1.1 sport=44453 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44453 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=172.16.1.10 dst=172.16.1.1 sport=59202 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59202 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 24 src=172.16.1.10 dst=172.16.1.1 sport=47771 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47771 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 28 src=172.16.1.10 dst=172.16.1.1 sport=60139 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60139 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 22 src=172.16.1.10 dst=172.16.1.1 sport=36501 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=36501 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 25 src=172.16.1.10 dst=172.16.1.1 sport=48081 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48081 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 64 src=172.16.1.10 dst=172.16.1.1 sport=45386 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=45386 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 23 src=172.16.1.10 dst=172.16.1.1 sport=43404 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=43404 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 24 src=172.16.1.10 dst=172.16.1.1 sport=58088 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58088 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 10 src=172.16.1.10 dst=172.16.1.1 sport=42595 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=42595 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 7 src=172.16.1.10 dst=172.16.1.1 sport=45400 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=45400 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 8 src=172.16.1.10 dst=172.16.1.1 sport=46518 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46518 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 1 src=172.16.1.10 dst=172.16.1.1 sport=48369 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48369 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 15 src=172.16.1.10 dst=172.16.1.1 sport=42239 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=42239 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 116 src=172.16.1.10 dst=172.16.1.1 sport=48056 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48056 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 0 src=172.16.1.10 dst=172.16.1.1 sport=54157 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=54157 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 116 src=172.16.1.10 dst=172.16.1.1 sport=55102 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=55102 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 139 src=172.16.1.10 dst=172.16.1.1 sport=34240 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34240 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 23 src=172.16.1.10 dst=172.16.1.1 sport=44107 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44107 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 48 src=172.16.1.10 dst=172.16.1.1 sport=42337 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=42337 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 3 src=172.16.1.10 dst=172.16.1.1 sport=39354 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39354 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 13 src=172.16.1.10 dst=172.16.1.1 sport=41359 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=41359 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 2 src=172.16.1.10 dst=172.16.1.1 sport=38236 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=38236 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 28 src=172.16.1.10 dst=172.16.1.1 sport=52143 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52143 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 28 src=172.16.1.10 dst=172.16.1.1 sport=38413 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=38413 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 0 src=172.16.1.10 dst=172.16.1.1 sport=58330 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58330 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 tcp      6 431998 ESTABLISHED src=172.16.1.11 dst=172.16.1.10 sport=48638 dport=2380 src=172.16.1.10 dst=172.16.1.11 sport=2380 dport=48638 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 12 src=172.16.1.10 dst=172.16.1.1 sport=40132 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40132 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 6 src=172.16.1.10 dst=172.16.1.1 sport=46127 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46127 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 2 src=172.16.1.10 dst=172.16.1.1 sport=53824 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=53824 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 8 src=172.16.1.10 dst=172.16.1.1 sport=58057 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58057 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 9 src=172.16.1.10 dst=172.16.1.1 sport=42219 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=42219 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 12 src=172.16.1.10 dst=172.16.1.1 sport=42942 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=42942 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 29 src=172.16.1.10 dst=172.16.1.1 sport=42217 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=42217 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 6 src=172.16.1.10 dst=172.16.1.1 sport=57336 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=57336 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 0 src=172.16.1.10 dst=172.16.1.1 sport=44159 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44159 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 5 src=172.16.1.10 dst=172.16.1.1 sport=52440 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52440 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 9 src=172.16.1.10 dst=172.16.1.1 sport=37700 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=37700 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=172.16.1.10 dst=172.16.1.1 sport=46733 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46733 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 10 src=172.16.1.10 dst=172.16.1.1 sport=59998 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59998 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 20 src=172.16.1.10 dst=172.16.1.1 sport=46708 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46708 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 4 src=172.16.1.10 dst=172.16.1.1 sport=34164 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34164 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 25 src=172.16.1.10 dst=172.16.1.1 sport=48157 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48157 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 21 src=172.16.1.10 dst=172.16.1.1 sport=50270 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50270 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 10 src=172.16.1.10 dst=172.16.1.1 sport=60257 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60257 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 25 src=172.16.1.10 dst=172.16.1.1 sport=38323 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=38323 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 17 src=172.16.1.10 dst=172.16.1.1 sport=46777 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46777 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 28 src=172.16.1.10 dst=172.16.1.1 sport=39723 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39723 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 116 src=172.16.1.10 dst=172.16.1.1 sport=52972 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52972 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 1 src=172.16.1.10 dst=172.16.1.1 sport=40285 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40285 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 6 src=172.16.1.10 dst=172.16.1.1 sport=52425 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52425 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 18 src=172.16.1.10 dst=172.16.1.1 sport=34490 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34490 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 4 src=172.16.1.10 dst=172.16.1.1 sport=52307 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52307 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 104 src=172.16.1.10 dst=172.16.1.1 sport=57300 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=57300 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 9 src=172.16.1.10 dst=172.16.1.1 sport=51040 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51040 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 22 src=172.16.1.10 dst=172.16.1.1 sport=41656 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=41656 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 28 src=172.16.1.10 dst=172.16.1.1 sport=57870 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=57870 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 6 src=172.16.1.10 dst=172.16.1.1 sport=46888 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46888 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 4 src=172.16.1.10 dst=172.16.1.1 sport=36040 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=36040 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=172.16.1.10 dst=172.16.1.1 sport=37400 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=37400 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 35 src=172.16.1.10 dst=172.16.1.1 sport=55745 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=55745 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 7 src=172.16.1.10 dst=172.16.1.1 sport=53566 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=53566 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 25 src=172.16.1.10 dst=172.16.1.1 sport=44839 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44839 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 2 src=172.16.1.10 dst=172.16.1.1 sport=51625 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51625 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 28 src=172.16.1.10 dst=172.16.1.1 sport=47579 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47579 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 105 src=172.16.1.10 dst=172.16.1.1 sport=41062 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=41062 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 15 src=172.16.1.10 dst=172.16.1.1 sport=45201 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=45201 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 27 src=172.16.1.10 dst=172.16.1.1 sport=33001 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=33001 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 8 src=172.16.1.10 dst=172.16.1.1 sport=39367 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39367 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 2 src=172.16.1.10 dst=172.16.1.1 sport=48633 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48633 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=172.16.1.10 dst=172.16.1.1 sport=52443 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52443 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 16 src=172.16.1.10 dst=172.16.1.1 sport=53645 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=53645 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=172.16.1.10 dst=172.16.1.1 sport=60484 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60484 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 26 src=172.16.1.10 dst=172.16.1.1 sport=42478 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=42478 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 12 src=172.16.1.10 dst=172.16.1.1 sport=49787 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=49787 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 25 src=172.16.1.10 dst=172.16.1.1 sport=51804 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51804 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 3 src=172.16.1.10 dst=172.16.1.1 sport=43764 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=43764 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 2 src=172.16.1.10 dst=172.16.1.1 sport=39291 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39291 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 14 src=172.16.1.10 dst=172.16.1.1 sport=41686 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=41686 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 8 src=172.16.1.10 dst=172.16.1.1 sport=54988 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=54988 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 17 src=172.16.1.10 dst=172.16.1.1 sport=51353 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51353 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 24 src=172.16.1.10 dst=172.16.1.1 sport=57537 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=57537 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 115 src=172.16.1.10 dst=172.16.1.1 sport=48059 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48059 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 17 src=172.16.1.10 dst=172.16.1.1 sport=43474 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=43474 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 11 src=172.16.1.10 dst=172.16.1.1 sport=47868 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47868 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 18 src=172.16.1.10 dst=172.16.1.1 sport=59940 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59940 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 17 src=172.16.1.10 dst=172.16.1.1 sport=59665 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59665 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 tcp      6 431999 ESTABLISHED src=172.16.1.10 dst=172.16.1.11 sport=60126 dport=2380 src=172.16.1.11 dst=172.16.1.10 sport=2380 dport=60126 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 7 src=172.16.1.10 dst=172.16.1.1 sport=50725 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50725 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 17 src=172.16.1.10 dst=172.16.1.1 sport=33724 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=33724 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 23 src=172.16.1.10 dst=172.16.1.1 sport=50033 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50033 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 122 src=172.16.1.10 dst=172.16.1.1 sport=52051 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52051 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 5 src=172.16.1.10 dst=172.16.1.1 sport=34465 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34465 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 25 src=172.16.1.10 dst=172.16.1.1 sport=53107 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=53107 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 25 src=172.16.1.10 dst=172.16.1.1 sport=44034 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44034 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 16 src=172.16.1.10 dst=172.16.1.1 sport=56683 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=56683 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 145 src=172.16.1.10 dst=172.16.1.1 sport=46808 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46808 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 13 src=172.16.1.10 dst=172.16.1.1 sport=35747 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=35747 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 39 src=172.16.1.10 dst=172.16.1.1 sport=57475 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=57475 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 14 src=172.16.1.10 dst=172.16.1.1 sport=44961 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44961 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 4 src=172.16.1.10 dst=172.16.1.1 sport=60596 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60596 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 15 src=172.16.1.10 dst=172.16.1.1 sport=43700 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=43700 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 27 src=172.16.1.10 dst=172.16.1.1 sport=56616 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=56616 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 4 src=172.16.1.10 dst=172.16.1.1 sport=59271 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59271 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 9 src=172.16.1.10 dst=172.16.1.1 sport=40697 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40697 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 17 src=172.16.1.10 dst=172.16.1.1 sport=43055 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=43055 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 3 src=172.16.1.10 dst=172.16.1.1 sport=55052 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=55052 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 1 src=172.16.1.10 dst=172.16.1.1 sport=56758 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=56758 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 tcp      6 431981 ESTABLISHED src=172.16.1.20 dst=172.16.1.10 sport=50892 dport=2379 src=172.16.1.10 dst=172.16.1.20 sport=2379 dport=50892 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 29 src=172.16.1.10 dst=172.16.1.1 sport=47666 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47666 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 7 src=172.16.1.10 dst=172.16.1.1 sport=50549 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50549 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 29 src=172.16.1.10 dst=172.16.1.1 sport=52539 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52539 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 8 src=172.16.1.10 dst=172.16.1.1 sport=50397 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50397 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 105 src=172.16.1.10 dst=172.16.1.1 sport=43581 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=43581 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 21 src=172.16.1.10 dst=172.16.1.1 sport=50994 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50994 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 27 src=172.16.1.10 dst=172.16.1.1 sport=52252 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52252 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 22 src=172.16.1.10 dst=172.16.1.1 sport=49413 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=49413 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 29 src=172.16.1.10 dst=172.16.1.1 sport=48383 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48383 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 28 src=172.16.1.10 dst=172.16.1.1 sport=47442 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47442 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 58 src=172.16.1.10 dst=172.16.1.1 sport=33819 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=33819 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 18 src=172.16.1.10 dst=172.16.1.1 sport=37308 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=37308 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 14 src=172.16.1.10 dst=172.16.1.1 sport=38785 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=38785 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 1 src=172.16.1.10 dst=172.16.1.1 sport=60879 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60879 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=172.16.1.10 dst=172.16.1.1 sport=45221 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=45221 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 8 src=172.16.1.10 dst=172.16.1.1 sport=51549 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51549 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 163 src=172.16.1.10 dst=172.16.1.1 sport=42587 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=42587 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 12 src=172.16.1.10 dst=172.16.1.1 sport=49937 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=49937 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 23 src=172.16.1.10 dst=172.16.1.1 sport=45314 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=45314 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 12 src=172.16.1.10 dst=172.16.1.1 sport=57356 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=57356 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 15 src=172.16.1.10 dst=172.16.1.1 sport=51018 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51018 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 4 src=172.16.1.10 dst=172.16.1.1 sport=45293 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=45293 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 15 src=172.16.1.10 dst=172.16.1.1 sport=50059 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50059 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 15 src=172.16.1.10 dst=172.16.1.1 sport=33439 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=33439 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 28 src=172.16.1.10 dst=172.16.1.1 sport=59038 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59038 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 15 src=172.16.1.10 dst=172.16.1.1 sport=60717 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60717 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 5 src=172.16.1.10 dst=172.16.1.1 sport=44152 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44152 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 23 src=172.16.1.10 dst=172.16.1.1 sport=40395 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40395 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 22 src=172.16.1.10 dst=172.16.1.1 sport=50614 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50614 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 8 src=172.16.1.10 dst=172.16.1.1 sport=51458 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51458 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=172.16.1.10 dst=172.16.1.1 sport=45323 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=45323 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 13 src=172.16.1.10 dst=172.16.1.1 sport=50510 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50510 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 15 src=172.16.1.10 dst=172.16.1.1 sport=50431 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50431 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 tcp      6 431998 ESTABLISHED src=172.16.1.10 dst=172.16.1.11 sport=60094 dport=2380 src=172.16.1.11 dst=172.16.1.10 sport=2380 dport=60094 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 20 src=172.16.1.10 dst=172.16.1.1 sport=44276 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44276 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 6 src=172.16.1.10 dst=172.16.1.1 sport=54939 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=54939 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 12 src=172.16.1.10 dst=172.16.1.1 sport=50455 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50455 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 16 src=172.16.1.10 dst=172.16.1.1 sport=37143 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=37143 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 29 src=172.16.1.10 dst=172.16.1.1 sport=46671 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46671 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 15 src=172.16.1.10 dst=172.16.1.1 sport=49688 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=49688 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 42 src=172.16.1.10 dst=172.16.1.1 sport=52784 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52784 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 21 src=172.16.1.10 dst=172.16.1.1 sport=33688 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=33688 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 13 src=172.16.1.10 dst=172.16.1.1 sport=57094 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=57094 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 3 src=172.16.1.10 dst=172.16.1.1 sport=41782 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=41782 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 27 src=172.16.1.10 dst=172.16.1.1 sport=44563 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44563 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 126 src=172.16.1.10 dst=172.16.1.1 sport=51879 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51879 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 26 src=172.16.1.10 dst=172.16.1.1 sport=37533 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=37533 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 24 src=172.16.1.10 dst=172.16.1.1 sport=43686 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=43686 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 27 src=172.16.1.10 dst=172.16.1.1 sport=33224 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=33224 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 27 src=172.16.1.10 dst=172.16.1.1 sport=45838 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=45838 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 tcp      6 9 CLOSE src=172.16.1.10 dst=172.16.1.11 sport=54956 dport=2380 src=172.16.1.11 dst=172.16.1.10 sport=2380 dport=54956 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 13 src=172.16.1.10 dst=172.16.1.1 sport=44875 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44875 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 27 src=172.16.1.10 dst=172.16.1.1 sport=46428 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46428 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 0 src=172.16.1.10 dst=172.16.1.1 sport=59298 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59298 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 14 src=172.16.1.10 dst=172.16.1.1 sport=55029 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=55029 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 155 src=172.16.1.10 dst=172.16.1.1 sport=50180 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50180 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 2 src=172.16.1.10 dst=172.16.1.1 sport=48308 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48308 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 11 src=172.16.1.10 dst=172.16.1.1 sport=54085 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=54085 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 151 src=172.16.1.10 dst=172.16.1.1 sport=33399 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=33399 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 21 src=172.16.1.10 dst=172.16.1.1 sport=49986 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=49986 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 0 src=172.16.1.10 dst=172.16.1.1 sport=42907 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=42907 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 9 src=172.16.1.10 dst=172.16.1.1 sport=37353 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=37353 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 10 src=172.16.1.10 dst=172.16.1.1 sport=35750 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=35750 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 26 src=172.16.1.10 dst=172.16.1.1 sport=40995 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40995 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 112 src=172.16.1.10 dst=172.16.1.1 sport=32885 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=32885 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 tcp      6 1 CLOSE src=172.16.1.10 dst=172.16.1.11 sport=54618 dport=2380 src=172.16.1.11 dst=172.16.1.10 sport=2380 dport=54618 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 15 src=172.16.1.10 dst=172.16.1.1 sport=39625 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39625 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 16 src=172.16.1.10 dst=172.16.1.1 sport=48411 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48411 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 28 src=172.16.1.10 dst=172.16.1.1 sport=47186 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47186 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 15 src=172.16.1.10 dst=172.16.1.1 sport=33592 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=33592 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 28 src=172.16.1.10 dst=172.16.1.1 sport=34612 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34612 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 91 src=172.16.1.10 dst=172.16.1.1 sport=33365 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=33365 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 8 src=172.16.1.10 dst=172.16.1.1 sport=42315 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=42315 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 25 src=172.16.1.10 dst=172.16.1.1 sport=45248 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=45248 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 81 src=172.16.1.10 dst=172.16.1.1 sport=60081 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60081 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 1 src=172.16.1.10 dst=172.16.1.1 sport=53750 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=53750 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 11 src=172.16.1.10 dst=172.16.1.1 sport=59024 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59024 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 25 src=172.16.1.10 dst=172.16.1.1 sport=40298 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40298 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 158 src=172.16.1.10 dst=172.16.1.1 sport=34016 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34016 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 10 src=172.16.1.10 dst=172.16.1.1 sport=36027 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=36027 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 9 src=172.16.1.10 dst=172.16.1.1 sport=60019 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60019 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=172.16.1.10 dst=172.16.1.1 sport=48654 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48654 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 9 src=172.16.1.10 dst=172.16.1.1 sport=40405 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40405 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 17 src=172.16.1.10 dst=172.16.1.1 sport=60298 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60298 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 9 src=172.16.1.10 dst=172.16.1.1 sport=59216 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59216 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 141 src=172.16.1.10 dst=172.16.1.1 sport=55583 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=55583 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 9 src=172.16.1.10 dst=172.16.1.1 sport=54018 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=54018 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 23 src=172.16.1.10 dst=172.16.1.1 sport=52553 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52553 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 7 src=172.16.1.10 dst=172.16.1.1 sport=52583 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52583 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=172.16.1.10 dst=172.16.1.1 sport=52089 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52089 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 24 src=172.16.1.10 dst=172.16.1.1 sport=53219 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=53219 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 29 src=172.16.1.10 dst=172.16.1.1 sport=49825 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=49825 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 16 src=172.16.1.10 dst=172.16.1.1 sport=35391 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=35391 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 8 src=172.16.1.10 dst=172.16.1.1 sport=48748 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48748 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 39 src=172.16.1.10 dst=172.16.1.1 sport=41707 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=41707 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 12 src=172.16.1.10 dst=172.16.1.1 sport=54501 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=54501 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 10 src=172.16.1.10 dst=172.16.1.1 sport=40718 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40718 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 15 src=172.16.1.10 dst=172.16.1.1 sport=40759 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40759 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 22 src=172.16.1.10 dst=172.16.1.1 sport=36912 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=36912 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 4 src=172.16.1.10 dst=172.16.1.1 sport=35316 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=35316 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 22 src=172.16.1.10 dst=172.16.1.1 sport=53736 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=53736 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 9 src=172.16.1.10 dst=172.16.1.1 sport=47971 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47971 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 159 src=172.16.1.10 dst=172.16.1.1 sport=53482 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=53482 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 18 src=172.16.1.10 dst=172.16.1.1 sport=55912 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=55912 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 23 src=172.16.1.10 dst=172.16.1.1 sport=38689 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=38689 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 9 src=172.16.1.10 dst=172.16.1.1 sport=33553 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=33553 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 78 src=172.16.1.10 dst=172.16.1.1 sport=47493 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47493 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 0 src=172.16.1.10 dst=172.16.1.1 sport=54749 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=54749 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=172.16.1.10 dst=172.16.1.1 sport=53476 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=53476 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 8 src=172.16.1.10 dst=172.16.1.1 sport=41663 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=41663 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 29 src=172.16.1.10 dst=172.16.1.1 sport=49889 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=49889 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 17 src=172.16.1.10 dst=172.16.1.1 sport=57648 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=57648 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 24 src=172.16.1.10 dst=172.16.1.1 sport=33237 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=33237 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 10 src=172.16.1.10 dst=172.16.1.1 sport=50710 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50710 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 13 src=172.16.1.10 dst=172.16.1.1 sport=35420 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=35420 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 18 src=172.16.1.10 dst=172.16.1.1 sport=55603 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=55603 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 65 src=172.16.1.10 dst=172.16.1.1 sport=52451 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52451 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 0 src=172.16.1.10 dst=172.16.1.1 sport=40363 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=40363 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 7 src=172.16.1.10 dst=172.16.1.1 sport=52506 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52506 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 167 src=172.16.1.10 dst=172.16.1.1 sport=44126 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44126 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 0 src=172.16.1.10 dst=172.16.1.1 sport=35824 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=35824 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 15 src=172.16.1.10 dst=172.16.1.1 sport=45990 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=45990 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 16 src=172.16.1.10 dst=172.16.1.1 sport=34220 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34220 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 tcp      6 4 CLOSE src=172.16.1.11 dst=172.16.1.10 sport=40300 dport=2380 src=172.16.1.10 dst=172.16.1.11 sport=2380 dport=40300 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 135 src=172.16.1.10 dst=172.16.1.1 sport=48555 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48555 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 43 src=172.16.1.10 dst=172.16.1.1 sport=43748 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=43748 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 20 src=172.16.1.10 dst=172.16.1.1 sport=50933 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50933 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 26 src=172.16.1.10 dst=172.16.1.1 sport=44834 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44834 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 4 src=172.16.1.10 dst=172.16.1.1 sport=38144 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=38144 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 11 src=172.16.1.10 dst=172.16.1.1 sport=47896 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47896 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 10 src=172.16.1.10 dst=172.16.1.1 sport=46760 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46760 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 7 src=172.16.1.10 dst=172.16.1.1 sport=53836 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=53836 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 125 src=172.16.1.10 dst=172.16.1.1 sport=36277 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=36277 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 27 src=172.16.1.10 dst=172.16.1.1 sport=46571 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46571 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 3 src=172.16.1.10 dst=172.16.1.1 sport=44701 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44701 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 1 src=172.16.1.10 dst=172.16.1.1 sport=38160 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=38160 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 27 src=172.16.1.10 dst=172.16.1.1 sport=55886 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=55886 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 12 src=172.16.1.10 dst=172.16.1.1 sport=52845 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52845 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=172.16.1.10 dst=172.16.1.1 sport=45735 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=45735 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 20 src=172.16.1.10 dst=172.16.1.1 sport=50467 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50467 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 7 src=172.16.1.10 dst=172.16.1.1 sport=41872 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=41872 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 22 src=172.16.1.10 dst=172.16.1.1 sport=57701 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=57701 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 29 src=172.16.1.10 dst=172.16.1.1 sport=50168 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50168 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 21 src=172.16.1.10 dst=172.16.1.1 sport=51110 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51110 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 tcp      6 5 CLOSE src=172.16.1.10 dst=172.16.1.11 sport=54790 dport=2380 src=172.16.1.11 dst=172.16.1.10 sport=2380 dport=54790 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 15 src=172.16.1.10 dst=172.16.1.1 sport=52612 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52612 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 34 src=172.16.1.10 dst=172.16.1.1 sport=54017 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=54017 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 16 src=172.16.1.10 dst=172.16.1.1 sport=51719 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51719 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=172.16.1.10 dst=172.16.1.1 sport=35702 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=35702 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 160 src=172.16.1.10 dst=172.16.1.1 sport=37975 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=37975 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 28 src=172.16.1.10 dst=172.16.1.1 sport=60398 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60398 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 24 src=172.16.1.10 dst=172.16.1.1 sport=47216 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47216 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 28 src=172.16.1.10 dst=172.16.1.1 sport=47454 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47454 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 14 src=172.16.1.10 dst=172.16.1.1 sport=60438 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60438 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 13 src=172.16.1.10 dst=172.16.1.1 sport=58987 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58987 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 16 src=172.16.1.10 dst=172.16.1.1 sport=52211 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=52211 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 50 src=172.16.1.10 dst=172.16.1.1 sport=58218 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58218 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 10 src=172.16.1.10 dst=172.16.1.1 sport=53313 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=53313 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 11 src=172.16.1.10 dst=172.16.1.1 sport=47255 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47255 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 tcp      6 431999 ESTABLISHED src=172.16.1.10 dst=172.16.1.11 sport=60092 dport=2380 src=172.16.1.11 dst=172.16.1.10 sport=2380 dport=60092 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 51 src=172.16.1.10 dst=172.16.1.1 sport=44845 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44845 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 91 src=172.16.1.10 dst=172.16.1.1 sport=60671 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=60671 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 21 src=172.16.1.10 dst=172.16.1.1 sport=39466 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39466 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 24 src=172.16.1.10 dst=172.16.1.1 sport=57163 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=57163 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 6 src=172.16.1.10 dst=172.16.1.1 sport=46481 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46481 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 29 src=172.16.1.10 dst=172.16.1.1 sport=50611 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50611 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=172.16.1.10 dst=172.16.1.1 sport=44980 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44980 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 26 src=172.16.1.10 dst=172.16.1.1 sport=59484 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59484 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 81 src=172.16.1.10 dst=172.16.1.1 sport=46369 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46369 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 12 src=172.16.1.10 dst=172.16.1.1 sport=58510 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58510 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 14 src=172.16.1.10 dst=172.16.1.1 sport=39295 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39295 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 1 src=172.16.1.10 dst=172.16.1.1 sport=59214 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=59214 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 22 src=172.16.1.10 dst=172.16.1.1 sport=44135 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44135 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 24 src=172.16.1.10 dst=172.16.1.1 sport=54513 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=54513 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 6 src=172.16.1.10 dst=172.16.1.1 sport=36551 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=36551 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 83 src=172.16.1.10 dst=172.16.1.1 sport=57809 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=57809 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 26 src=172.16.1.10 dst=172.16.1.1 sport=39702 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39702 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 18 src=172.16.1.10 dst=172.16.1.1 sport=58961 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=58961 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 26 src=172.16.1.10 dst=172.16.1.1 sport=47462 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=47462 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 22 src=172.16.1.10 dst=172.16.1.1 sport=41704 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=41704 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 21 src=172.16.1.10 dst=172.16.1.1 sport=46306 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46306 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 20 src=172.16.1.10 dst=172.16.1.1 sport=44399 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=44399 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 22 src=172.16.1.10 dst=172.16.1.1 sport=56382 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=56382 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 129 src=172.16.1.10 dst=172.16.1.1 sport=39672 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39672 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 11 src=172.16.1.10 dst=172.16.1.1 sport=39477 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=39477 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 5 src=172.16.1.10 dst=172.16.1.1 sport=45444 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=45444 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 4 src=172.16.1.10 dst=172.16.1.1 sport=46377 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=46377 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 19 src=172.16.1.10 dst=172.16.1.1 sport=42812 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=42812 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 12 src=172.16.1.10 dst=172.16.1.1 sport=37140 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=37140 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 20 src=172.16.1.10 dst=172.16.1.1 sport=49773 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=49773 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 10 src=172.16.1.10 dst=172.16.1.1 sport=48705 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=48705 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 20 src=172.16.1.10 dst=172.16.1.1 sport=50078 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=50078 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 47 src=172.16.1.10 dst=172.16.1.1 sport=35921 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=35921 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 0 src=172.16.1.10 dst=172.16.1.1 sport=41776 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=41776 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 23 src=172.16.1.10 dst=172.16.1.1 sport=54299 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=54299 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 6 src=172.16.1.10 dst=172.16.1.1 sport=49211 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=49211 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 138 src=172.16.1.10 dst=172.16.1.1 sport=34846 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34846 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 13 src=172.16.1.10 dst=172.16.1.1 sport=34363 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=34363 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 tcp      6 431999 ESTABLISHED src=172.16.1.11 dst=172.16.1.10 sport=48636 dport=2380 src=172.16.1.10 dst=172.16.1.11 sport=2380 dport=48636 [ASSURED] mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 18 src=172.16.1.10 dst=172.16.1.1 sport=33911 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=33911 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 12 src=172.16.1.10 dst=172.16.1.1 sport=36389 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=36389 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 15 src=172.16.1.10 dst=172.16.1.1 sport=51668 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=51668 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2
+ipv4     2 udp      17 16 src=172.16.1.10 dst=172.16.1.1 sport=54640 dport=53 src=172.16.1.1 dst=172.16.1.10 sport=53 dport=54640 mark=0 secctx=system_u:object_r:unlabeled_t:s0 zone=0 use=2

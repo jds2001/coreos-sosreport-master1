@@ -1,0 +1,10 @@
+The result of SIOCGIFFLAGS on lo is 49.
+The result of SIOCGIFADDR is 7f.00.00.01.
+The result of SIOCGIFHWADDR is type 772  00:00:00:00:00:00.
+The result of SIOCGIFMETRIC is 0
+The result of SIOCGIFMTU is 65536
+The result of SIOCGIFFLAGS on eth0 is 1043.
+The result of SIOCGIFADDR is ffffffac.10.01.0a.
+The result of SIOCGIFHWADDR is type 1  00:15:5d:b7:25:12.
+The result of SIOCGIFMETRIC is 0
+The result of SIOCGIFMTU is 1500

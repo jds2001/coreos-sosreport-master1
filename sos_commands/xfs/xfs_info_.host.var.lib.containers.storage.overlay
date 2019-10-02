@@ -1,0 +1,2 @@
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+/host/var/lib/containers/storage/overlay: No such file or directory

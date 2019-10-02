@@ -1,0 +1,4 @@
+1: lo    inet 127.0.0.1/8 scope host lo\       valid_lft forever preferred_lft forever
+1: lo    inet6 ::1/128 scope host \       valid_lft forever preferred_lft forever
+2: eth0    inet 172.16.1.10/24 brd 172.16.1.255 scope global dynamic noprefixroute eth0\       valid_lft 41097sec preferred_lft 41097sec
+2: eth0    inet6 fe80::6f03:6200:832a:7582/64 scope link noprefixroute \       valid_lft forever preferred_lft forever

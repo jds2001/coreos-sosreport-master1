@@ -1,0 +1,4 @@
+Version:  0.1.0
+RuntimeName:  cri-o
+RuntimeVersion:  1.14.10-0.21.dev.rhaos4.2.git0d4a906.el8
+RuntimeApiVersion:  v1alpha1

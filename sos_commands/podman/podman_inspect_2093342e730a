@@ -1,0 +1,131 @@
+[
+    {
+        "Id": "2093342e730a275369037d03d68013f21281e5ba23cde43a22a147c191e74c5d",
+        "Digest": "sha256:e459e09bf49c929dfc111854b6ffd7b3c619938318e1e5c7a6e66352de5e0aa1",
+        "RepoTags": [
+            "quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:e459e09bf49c929dfc111854b6ffd7b3c619938318e1e5c7a6e66352de5e0aa1"
+        ],
+        "RepoDigests": [
+            "quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:e459e09bf49c929dfc111854b6ffd7b3c619938318e1e5c7a6e66352de5e0aa1"
+        ],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2019-09-22T19:02:20.906190045Z",
+        "Config": {
+            "User": "0",
+            "Env": [
+                "SOURCE_GIT_COMMIT=1be922de56a99f4e254eb9c2fc42d30e5596cf77",
+                "SOURCE_DATE_EPOCH=1565637584",
+                "BUILD_VERSION=v4.2.0",
+                "SOURCE_GIT_URL=https://github.com/openshift/images",
+                "SOURCE_GIT_TAG=1be922d",
+                "BUILD_RELEASE=201909221318",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "container=oci"
+            ],
+            "Entrypoint": [
+                "/usr/bin/pod"
+            ],
+            "Labels": {
+                "License": "GPLv2+",
+                "architecture": "x86_64",
+                "authoritative-source-url": "registry.access.redhat.com",
+                "build-date": "2019-09-22T19:02:04.699024",
+                "com.redhat.build-host": "cpt-1001.osbs.prod.upshift.rdu2.redhat.com",
+                "com.redhat.component": "openshift-enterprise-pod-container",
+                "com.redhat.license_terms": "https://www.redhat.com/en/about/red-hat-end-user-license-agreements",
+                "description": "This is a component of OpenShift Container Platform and holds on to the shared Linux namespaces within a Pod.",
+                "distribution-scope": "public",
+                "io.k8s.description": "This is a component of OpenShift Container Platform and holds on to the shared Linux namespaces within a Pod.",
+                "io.k8s.display-name": "OpenShift Container Platform Pod Infrastructure",
+                "io.openshift.build.commit.id": "1be922de56a99f4e254eb9c2fc42d30e5596cf77",
+                "io.openshift.build.commit.url": "https://github.com/openshift/images/commit/1be922de56a99f4e254eb9c2fc42d30e5596cf77",
+                "io.openshift.build.source-location": "https://github.com/openshift/images",
+                "io.openshift.tags": "openshift,pod",
+                "maintainer": "Red Hat, Inc.",
+                "name": "openshift/ose-pod",
+                "release": "201909221318",
+                "summary": "Provides the latest release of the Red Hat Universal Base Image 7.",
+                "url": "https://access.redhat.com/containers/#/registry.access.redhat.com/openshift/ose-pod/images/v4.2.0-201909221318",
+                "vcs-ref": "0f7f85dbdb04e0891950c1cafdc11a2da06a8205",
+                "vcs-type": "git",
+                "vendor": "Red Hat, Inc.",
+                "version": "v4.2.0"
+            }
+        },
+        "Version": "1.13.1",
+        "Author": "",
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 250732094,
+        "VirtualSize": 250732094,
+        "GraphDriver": {
+            "Name": "overlay",
+            "Data": {
+                "LowerDir": "/var/lib/containers/storage/overlay/09d283a6fb8a3e1c9c8dde10b73988d890c55e2d6319872c3acc2d36d7e55295/diff:/var/lib/containers/storage/overlay/291ae62b8a11d68b0c092b6edaabdd5d2c02a055565fae5a7cbb561a3bea1b40/diff:/var/lib/containers/storage/overlay/15f6f472dfc8d1a417cbd0a14d3135444933ca20a1c526618e3fcfb9addcdfab/diff:/var/lib/containers/storage/overlay/4468e6d912c76d5b127f3554c3cd83b7dc07cce6107c6b916299ba76fa7d15ac/diff",
+                "MergedDir": "/var/lib/containers/storage/overlay/a986c7ebe5bc8dd67774a24bd1d897cca376f6e5f4d30378ec74a8c7ba139378/merged",
+                "UpperDir": "/var/lib/containers/storage/overlay/a986c7ebe5bc8dd67774a24bd1d897cca376f6e5f4d30378ec74a8c7ba139378/diff",
+                "WorkDir": "/var/lib/containers/storage/overlay/a986c7ebe5bc8dd67774a24bd1d897cca376f6e5f4d30378ec74a8c7ba139378/work"
+            }
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:4468e6d912c76d5b127f3554c3cd83b7dc07cce6107c6b916299ba76fa7d15ac",
+                "sha256:ecb0311889b3478bc9b62660fa9391d5ebf8da4c6ae143cb33434873668f9e36",
+                "sha256:1ba506a045fad2c9a07ccab396faa469d37e20a558facb901cc2310921d4e3e4",
+                "sha256:fb71772dc27a40cae91e9ca1039e7f6e0d17ebac1468983a3bd24e41f3d8b3f3",
+                "sha256:53a8b658a705d5676a675c9eb8fed7b8487a65e020bb73e8b917c4d5ad38f4c2"
+            ]
+        },
+        "Labels": {
+            "License": "GPLv2+",
+            "architecture": "x86_64",
+            "authoritative-source-url": "registry.access.redhat.com",
+            "build-date": "2019-09-22T19:02:04.699024",
+            "com.redhat.build-host": "cpt-1001.osbs.prod.upshift.rdu2.redhat.com",
+            "com.redhat.component": "openshift-enterprise-pod-container",
+            "com.redhat.license_terms": "https://www.redhat.com/en/about/red-hat-end-user-license-agreements",
+            "description": "This is a component of OpenShift Container Platform and holds on to the shared Linux namespaces within a Pod.",
+            "distribution-scope": "public",
+            "io.k8s.description": "This is a component of OpenShift Container Platform and holds on to the shared Linux namespaces within a Pod.",
+            "io.k8s.display-name": "OpenShift Container Platform Pod Infrastructure",
+            "io.openshift.build.commit.id": "1be922de56a99f4e254eb9c2fc42d30e5596cf77",
+            "io.openshift.build.commit.url": "https://github.com/openshift/images/commit/1be922de56a99f4e254eb9c2fc42d30e5596cf77",
+            "io.openshift.build.source-location": "https://github.com/openshift/images",
+            "io.openshift.tags": "openshift,pod",
+            "maintainer": "Red Hat, Inc.",
+            "name": "openshift/ose-pod",
+            "release": "201909221318",
+            "summary": "Provides the latest release of the Red Hat Universal Base Image 7.",
+            "url": "https://access.redhat.com/containers/#/registry.access.redhat.com/openshift/ose-pod/images/v4.2.0-201909221318",
+            "vcs-ref": "0f7f85dbdb04e0891950c1cafdc11a2da06a8205",
+            "vcs-type": "git",
+            "vendor": "Red Hat, Inc.",
+            "version": "v4.2.0"
+        },
+        "Annotations": {},
+        "ManifestType": "application/vnd.docker.distribution.manifest.v2+json",
+        "User": "0",
+        "History": [
+            {
+                "created": "2019-09-02T12:56:36.440695936Z",
+                "comment": "Imported from -"
+            },
+            {
+                "created": "2019-09-02T12:56:43.939095Z"
+            },
+            {
+                "created": "2019-09-22T06:44:27.806751Z"
+            },
+            {
+                "created": "2019-09-22T18:29:20.371135921Z",
+                "created_by": "sleep 86400"
+            },
+            {
+                "created": "2019-09-22T19:02:20.906190045Z",
+                "created_by": "sleep 86400"
+            }
+        ]
+    }
+]

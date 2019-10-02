@@ -1,0 +1,9 @@
+-- Logs begin at Wed 2019-10-02 02:18:24 UTC, end at Wed 2019-10-02 02:54:31 UTC. --
+Oct 02 02:18:57 master1.openshift4poc.example.local systemd[1]: Starting Open Container Initiative Daemon...
+Oct 02 02:18:57 master1.openshift4poc.example.local systemd[1]: Started Open Container Initiative Daemon.
+Oct 02 02:19:17 master1.openshift4poc.example.local systemd[1]: Stopping Open Container Initiative Daemon...
+Oct 02 02:19:18 master1.openshift4poc.example.local systemd[1]: Stopped Open Container Initiative Daemon.
+Oct 02 02:19:18 master1.openshift4poc.example.local systemd[1]: crio.service: Consumed 257ms CPU time
+-- Reboot --
+Oct 02 02:19:30 localhost.localdomain systemd[1]: Starting Open Container Initiative Daemon...
+Oct 02 02:19:30 localhost.localdomain systemd[1]: Started Open Container Initiative Daemon.

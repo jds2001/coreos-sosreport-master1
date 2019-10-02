@@ -1,0 +1,4 @@
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+/host: No such file or directory
+
+fatal error -- couldn't initialize XFS library

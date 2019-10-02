@@ -1,0 +1,11 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root      3233  3221  0 02:53 pts/0    00:00:00 /usr/bin/bash
+root      3255  3233  9 02:53 pts/0    00:00:03 /usr/libexec/platform-python -s /usr/sbin/sosreport
+root      3686  3255  0 02:54 pts/0    00:00:00 timeout 300s chronyc activity
+root      3688  3686  0 02:54 pts/0    00:00:00 chronyc activity
+root      4230  3255  0 02:54 pts/0    00:00:00 timeout 300s hostnamectl status
+root      4234  4230  0 02:54 pts/0    00:00:00 hostnamectl status
+root      6172  3255  0 02:54 pts/0    00:00:00 timeout 300s podman inspect dc24c7b8dba0
+root      6174  6172  0 02:54 pts/0    00:00:00 podman inspect dc24c7b8dba0
+root      6190  3255  0 02:54 pts/0    00:00:00 timeout 300s runc ps 009ed41b946511f53b0face7d64f252b394bc971f0808b498ea588959f1e626f
+root      6192  6190  0 02:54 pts/0    00:00:00 runc ps 009ed41b946511f53b0face7d64f252b394bc971f0808b498ea588959f1e626f

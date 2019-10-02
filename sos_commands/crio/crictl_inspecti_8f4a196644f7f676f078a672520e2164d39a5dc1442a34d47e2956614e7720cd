@@ -1,0 +1,14 @@
+{
+  "status": {
+    "id": "8f4a196644f7f676f078a672520e2164d39a5dc1442a34d47e2956614e7720cd",
+    "repoTags": [],
+    "repoDigests": [
+      "quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:f94afe7d7dcbb1fd574c483d1d839f47b643f5c133ced7de6eeb8c4be0e2ba88"
+    ],
+    "size": "405487309",
+    "uid": {
+      "value": "0"
+    },
+    "username": ""
+  }
+}

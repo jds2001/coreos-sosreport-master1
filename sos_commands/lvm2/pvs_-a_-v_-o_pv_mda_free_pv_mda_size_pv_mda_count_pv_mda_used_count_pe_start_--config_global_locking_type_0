@@ -1,0 +1,8 @@
+    Reloading config files
+  WARNING: locking_type (0) is deprecated, using --nolocking.
+  WARNING: File locking is disabled.
+  PV         VG Fmt Attr PSize PFree DevSize  PV UUID                                PMdaFree  PMdaSize  #PMda #PMdaUse 1st PE 
+  /dev/sda1         ---     0     0    94.00m                                               0         0      0        0      0 
+  /dev/sda2         ---     0     0     1.00g                                               0         0      0        0      0 
+  /dev/sda3         ---     0     0  <125.91g                                               0         0      0        0      0 
+    Reloading config files

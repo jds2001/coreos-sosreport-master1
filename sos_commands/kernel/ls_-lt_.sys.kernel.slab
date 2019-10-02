@@ -1,0 +1,325 @@
+total 0
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000240
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000448
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :A-0000128
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 btree_node -> :0000128
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 dma-kmalloc-128 -> :d-0000128
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 dmaengine-unmap-16 -> :0000192
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 kernfs_node_cache
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 t10_alua_lu_gp_cache -> :0000192
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000128
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000216
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000224
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000640
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0004096
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :A-0000232
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :A-0001088
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :A-0001152
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :A-0001472
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :A-0006592
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :a-0000256
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :d-0000128
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :d-0000192
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :d-0000512
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 Acpi-Operand -> :0000072
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 Acpi-ParseExt -> :0000080
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 Acpi-State -> :0000080
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 UDPv6 -> :A-0001472
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 avc_xperms_decision_node -> :0000048
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 bio_integrity_payload -> :0000256
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 blkdev_ioc -> :0000144
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 cred_jar -> :A-0000192
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 dma-kmalloc-2048 -> :d-0002048
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 dma-kmalloc-32 -> :d-0000032
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 ext4_allocation_context -> :a-0000128
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 fanotify_event_info -> :0000056
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 file_lock_ctx -> :0000056
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 hashtab_node -> :0000024
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 iint_cache
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 jbd2_revoke_record_s -> :a-0000032
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 jbd2_revoke_table_s -> :a-0000016
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 kioctx -> :0000704
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 kmalloc-4096
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 lio_dr_cache -> :0000064
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 lio_ooo_cache -> :0000064
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 lio_r2t_cache -> :0000064
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 mnt_cache -> :0000384
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 net_namespace -> :A-0006592
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 numa_policy -> :0000264
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 pid -> :A-0000064
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 pool_workqueue -> :0000256
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 proc_dir_entry
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 sgpool-8 -> :0000256
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 signal_cache -> :A-0001088
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 sigqueue -> :0000160
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 task_group -> :0000896
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 tcp_bind_bucket -> :0000064
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 trace_event_file -> :0000088
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 user_namespace -> :0000632
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 userfaultfd_ctx_cache
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 xfrm_dst_cache -> :0000448
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 xfs_btree_cur -> :0000224
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 xfs_bui_item -> :0000216
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 xfs_cui_item -> :0000440
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 xfs_dquot -> :0000504
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 xfs_efi_item -> :0000440
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 xfs_rud_item -> :0000176
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000040
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000248
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000256
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000264
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000320
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000632
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000896
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0001088
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0002112
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0002432
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :A-0000040
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :A-0000256
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :d-0004096
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 PING -> :A-0001152
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 PINGv6 -> :A-0001344
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 UDPLITEv6 -> :A-0001472
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 UNIX -> :A-0001152
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 bdev_cache
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 bfq_io_cq -> :0000160
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 bio-0 -> :0000256
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 biovec-16 -> :0000256
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 biovec-64 -> :0001024
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 dio -> :0000640
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 dma-kmalloc-16 -> :d-0000016
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 dma-kmalloc-256 -> :d-0000256
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 dma-kmalloc-64 -> :d-0000064
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 dma-kmalloc-8192 -> :d-0008192
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 dmaengine-unmap-2 -> :0000064
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 dnotify_struct -> :0000032
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 ext4_groupinfo_4k -> :a-0000144
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 filp -> :A-0000256
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 fsnotify_mark -> :0000072
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 fsnotify_mark_connector -> :0000024
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 ip6-frags -> :0000224
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 ip_fib_trie -> :0000048
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 jbd2_journal_handle -> :a-0000048
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 jbd2_transaction_s -> :a-0000256
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 kcopyd_job -> :0003312
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 kmalloc-8
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 ksm_rmap_item -> :0000064
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 mqueue_inode_cache
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 seq_file -> :A-0000128
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 sighand_cache
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 t10_alua_lba_map_mem_cache -> :0000024
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 task_struct
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 taskstats -> :0000328
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 tw_sock_TCP
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 xfs_bmap_free_item -> :0000064
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 xfs_buf -> :0000448
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 xfs_cud_item -> :0000176
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 xfs_efd_item -> :0000440
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 xfs_ili -> :0000192
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 xfs_log_ticket -> :0000184
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000024
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000032
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000080
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0002048
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :A-0000072
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :A-0000704
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :A-0001280
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :d-0000032
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :d-0000256
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :d-0002048
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 TCP
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 UDP-Lite -> :A-0001280
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 anon_vma_chain -> :A-0000064
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 avc_node -> :0000072
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 bfq_queue -> :0000464
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 bio-2 -> :0000384
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 biovec-128 -> :0002048
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 dm_uevent -> :0002632
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 dma-kmalloc-96 -> :d-0000096
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 dmaengine-unmap-128 -> :0001088
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 dquot -> :a-0000256
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 eventpoll_pwq -> :A-0000072
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 ext4_free_data -> :a-0000056
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 files_cache -> :A-0000704
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 fs_cache -> :A-0000064
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 inet_peer_cache -> :0000192
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 inode_cache
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 inotify_inode_mark -> :0000080
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 ip6_dst_cache -> :0000320
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 ip6_mrt_cache -> :0000192
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 iser_descriptors -> :0000832
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 kmalloc-128
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 kmalloc-192
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 kmalloc-2048
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 kmalloc-32
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 kmalloc-512
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 ksm_mm_slot -> :0000048
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 ksm_stable_node -> :0000064
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 names_cache
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 pid_2 -> :0000128
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 qla4xxx_srbs -> :0000128
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 request_queue -> :0002432
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 request_sock_TCP
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 request_sock_TCPv6
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 scsi_data_buffer -> :0000024
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 se_sess_cache -> :0000192
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 selinux_file_security -> :0000016
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 sgpool-16 -> :0000512
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 sgpool-32 -> :0001024
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 shmem_inode_cache
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 skbuff_head_cache
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 t10_pr_reg_cache -> :0000704
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 tw_sock_TCPv6
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 uhci_urb_priv -> :0000056
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 vm_area_struct -> :A-0000232
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 xfs_bud_item -> :0000176
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 xfs_trans -> :0000232
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000016
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000056
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000064
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000072
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000328
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000384
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000704
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0008192
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :A-0000064
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :a-0000104
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :d-0000016
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 Acpi-Namespace -> :0000040
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 Acpi-Parse -> :0000056
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 RAW
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 anon_vma
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 avtab_extended_perms -> :0000040
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 avtab_node -> :0000024
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 dax_cache
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 dentry
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 dm_rq_target_io -> :0000120
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 dma-kmalloc-1024 -> :d-0001024
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 dma-kmalloc-8 -> :d-0000008
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 ebitmap_node -> :0000064
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 eventpoll_epi -> :A-0000128
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 ext4_prealloc_space -> :a-0000104
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 ext4_system_zone -> :0000040
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 fib6_nodes -> :0000064
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 file_lock_cache -> :0000216
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 ftrace_event_field -> :0000048
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 io -> :0000064
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 key_jar -> :0000256
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 khugepaged_mm_slot -> :0000040
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 kmalloc-16
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 kmalloc-64
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 kmalloc-8192
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 kmem_cache
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 mbcache -> :a-0000056
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 mm_struct
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 nf_conntrack_expect -> :0000248
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 posix_timers_cache -> :0000256
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 proc_inode_cache
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 radix_tree_node
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 rpc_tasks -> :0000256
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 sd_ext_cdb -> :0000032
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 sgpool-128 -> :0004096
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 sgpool-64 -> :0002048
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 uid_cache -> :0000192
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 uts_namespace
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 xfrm_state -> :0000896
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 xfs_da_state -> :0000480
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 xfs_dqtrx -> :0000528
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 xfs_icr -> :0000184
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 zswap_entry -> :0000056
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000048
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000088
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000144
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000160
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000192
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000464
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0000512
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :0001024
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :A-0000192
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :A-0001344
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :d-0000008
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :d-0000064
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :d-0000096
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :d-0008192
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 UDP -> :A-0001280
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 aio_kiocb -> :0000192
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 audit_buffer -> :0000024
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 avc_xperms_node -> :0000056
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 bio-1 -> :0000256
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 biovec-max -> :0008192
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 buffer_head -> :a-0000104
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 dm_old_clone_request -> :0000296
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 dma-kmalloc-192 -> :d-0000192
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 dma-kmalloc-4096 -> :d-0004096
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 dma-kmalloc-512 -> :d-0000512
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 dmaengine-unmap-256 -> :0002112
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 dnotify_mark -> :0000080
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 ext4_extent_status -> :a-0000040
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 ext4_io_end -> :a-0000064
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 fanotify_perm_event_info -> :0000064
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 fasync_cache -> :0000048
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 hugetlbfs_inode_cache
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 ip4-frags -> :0000240
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 ip_dst_cache -> :0000256
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 ip_fib_alias -> :0000056
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 ip_mrt_cache -> :0000192
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 jbd2_inode -> :0000048
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 kmalloc-1024
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 kmalloc-256
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 kmalloc-96
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 kmem_cache_node
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 lio_qr_cache -> :0000032
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 nsproxy -> :0000056
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 pde_opener -> :A-0000040
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 pid_namespace -> :0000248
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 rpc_buffers -> :0002048
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 selinux_inode_security -> :0000040
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 shared_policy_node -> :0000048
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 skbuff_fclone_cache -> :0000512
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 sock_inode_cache
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 t10_alua_lba_map_cache -> :0000048
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 t10_alua_lu_gp_mem_cache -> :0000048
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 t10_alua_tg_pt_gp_cache -> :0000280
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 xfs_buf_item -> :0000272
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 xfs_ifork -> :0000032
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 xfs_rui_item -> :0000696
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 :d-0001024
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 RAWv6
+drwxr-xr-x. 2 root root 0 Oct  2 02:54 TCPv6
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 avc_xperms_data -> :0000032
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 configfs_dir_cache -> :0000088
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 se_ua_cache -> :0000024
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 secpath_cache -> :0000128
+lrwxrwxrwx. 1 root root 0 Oct  2 02:54 task_delay_info -> :A-0000064
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 nf_conntrack
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 ovl_inode
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 rpc_inode_cache
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 :0000832
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 :0000280
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 fat_inode_cache
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 fat_cache
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 :a-0000144
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 ext4_inode_cache
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 :a-0000064
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 :a-0000128
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 :a-0000040
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 :a-0000016
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 :a-0000032
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 :a-0000056
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 :a-0000048
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 jbd2_journal_head
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 :0000176
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 :0000504
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 :0000528
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 :0000696
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 :0000184
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 :0000232
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 :0000272
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 :0000440
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 :0000480
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 xfs_inode
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 scsi_sense_cache
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 :0003312
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 :0000120
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 :0000296
+drwxr-xr-x. 2 root root 0 Oct  2 02:19 :0002632

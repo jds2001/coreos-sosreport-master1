@@ -1,0 +1,131 @@
+[
+    {
+        "Id": "9186cbcdb7f1ef35d7be51d92e4c3dc5fa52237c649f98c893dd22b8293e57f8",
+        "Digest": "sha256:b83087564c4e331a89eb9e8babdece68f82cf8537808ec300a690bcb0b499757",
+        "RepoTags": [
+            "quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:b83087564c4e331a89eb9e8babdece68f82cf8537808ec300a690bcb0b499757"
+        ],
+        "RepoDigests": [
+            "quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:b83087564c4e331a89eb9e8babdece68f82cf8537808ec300a690bcb0b499757"
+        ],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2019-09-22T19:02:52.63836121Z",
+        "Config": {
+            "User": "0",
+            "Env": [
+                "SOURCE_GIT_COMMIT=3ebe3d9fa2302e5ae4712781caac61fc12d5f7f9",
+                "SOURCE_DATE_EPOCH=1567124289",
+                "BUILD_VERSION=v4.2.0",
+                "SOURCE_GIT_URL=https://github.com/openshift/etcd",
+                "SOURCE_GIT_TAG=v3.3.10-14-g3ebe3d9",
+                "BUILD_RELEASE=201909221318",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "container=oci"
+            ],
+            "Entrypoint": [
+                "/usr/bin/etcd"
+            ],
+            "Labels": {
+                "License": "Apache 2.0",
+                "architecture": "x86_64",
+                "authoritative-source-url": "registry.access.redhat.com",
+                "build-date": "2019-09-22T19:01:57.028154",
+                "com.redhat.build-host": "cpt-1008.osbs.prod.upshift.rdu2.redhat.com",
+                "com.redhat.component": "ose-etcd-container",
+                "com.redhat.license_terms": "https://www.redhat.com/en/about/red-hat-end-user-license-agreements",
+                "description": "etcd is distributed key-value store which stores the persistent master state for Kubernetes and OpenShift.",
+                "distribution-scope": "public",
+                "io.k8s.description": "etcd is distributed key-value store which stores the persistent master state for Kubernetes and OpenShift.",
+                "io.k8s.display-name": "etcd server",
+                "io.openshift.build.commit.id": "3ebe3d9fa2302e5ae4712781caac61fc12d5f7f9",
+                "io.openshift.build.commit.url": "https://github.com/openshift/etcd/commit/3ebe3d9fa2302e5ae4712781caac61fc12d5f7f9",
+                "io.openshift.build.source-location": "https://github.com/openshift/etcd",
+                "io.openshift.tags": "etcd",
+                "maintainer": "Sam Batschelet \u003csbatsche@redhat.com\u003e",
+                "name": "openshift/ose-etcd",
+                "release": "201909221318",
+                "summary": "Provides the latest release of the Red Hat Universal Base Image 7.",
+                "url": "https://access.redhat.com/containers/#/registry.access.redhat.com/openshift/ose-etcd/images/v4.2.0-201909221318",
+                "vcs-ref": "0942d93247e2e67e333b7aceb639aeb54caaaa1d",
+                "vcs-type": "git",
+                "vendor": "Red Hat, Inc.",
+                "version": "v4.2.0"
+            }
+        },
+        "Version": "1.13.1",
+        "Author": "",
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 303859755,
+        "VirtualSize": 303859755,
+        "GraphDriver": {
+            "Name": "overlay",
+            "Data": {
+                "LowerDir": "/var/lib/containers/storage/overlay/09d283a6fb8a3e1c9c8dde10b73988d890c55e2d6319872c3acc2d36d7e55295/diff:/var/lib/containers/storage/overlay/291ae62b8a11d68b0c092b6edaabdd5d2c02a055565fae5a7cbb561a3bea1b40/diff:/var/lib/containers/storage/overlay/15f6f472dfc8d1a417cbd0a14d3135444933ca20a1c526618e3fcfb9addcdfab/diff:/var/lib/containers/storage/overlay/4468e6d912c76d5b127f3554c3cd83b7dc07cce6107c6b916299ba76fa7d15ac/diff",
+                "MergedDir": "/var/lib/containers/storage/overlay/47a73ce2eec1de8ec61853e63f08dccbffab255c882336f3353e5c9af1e694ca/merged",
+                "UpperDir": "/var/lib/containers/storage/overlay/47a73ce2eec1de8ec61853e63f08dccbffab255c882336f3353e5c9af1e694ca/diff",
+                "WorkDir": "/var/lib/containers/storage/overlay/47a73ce2eec1de8ec61853e63f08dccbffab255c882336f3353e5c9af1e694ca/work"
+            }
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:4468e6d912c76d5b127f3554c3cd83b7dc07cce6107c6b916299ba76fa7d15ac",
+                "sha256:ecb0311889b3478bc9b62660fa9391d5ebf8da4c6ae143cb33434873668f9e36",
+                "sha256:1ba506a045fad2c9a07ccab396faa469d37e20a558facb901cc2310921d4e3e4",
+                "sha256:fb71772dc27a40cae91e9ca1039e7f6e0d17ebac1468983a3bd24e41f3d8b3f3",
+                "sha256:91ea630a3df22152d651f20d03fb2b526398564b1c37c102e316fd2228cd0912"
+            ]
+        },
+        "Labels": {
+            "License": "Apache 2.0",
+            "architecture": "x86_64",
+            "authoritative-source-url": "registry.access.redhat.com",
+            "build-date": "2019-09-22T19:01:57.028154",
+            "com.redhat.build-host": "cpt-1008.osbs.prod.upshift.rdu2.redhat.com",
+            "com.redhat.component": "ose-etcd-container",
+            "com.redhat.license_terms": "https://www.redhat.com/en/about/red-hat-end-user-license-agreements",
+            "description": "etcd is distributed key-value store which stores the persistent master state for Kubernetes and OpenShift.",
+            "distribution-scope": "public",
+            "io.k8s.description": "etcd is distributed key-value store which stores the persistent master state for Kubernetes and OpenShift.",
+            "io.k8s.display-name": "etcd server",
+            "io.openshift.build.commit.id": "3ebe3d9fa2302e5ae4712781caac61fc12d5f7f9",
+            "io.openshift.build.commit.url": "https://github.com/openshift/etcd/commit/3ebe3d9fa2302e5ae4712781caac61fc12d5f7f9",
+            "io.openshift.build.source-location": "https://github.com/openshift/etcd",
+            "io.openshift.tags": "etcd",
+            "maintainer": "Sam Batschelet \u003csbatsche@redhat.com\u003e",
+            "name": "openshift/ose-etcd",
+            "release": "201909221318",
+            "summary": "Provides the latest release of the Red Hat Universal Base Image 7.",
+            "url": "https://access.redhat.com/containers/#/registry.access.redhat.com/openshift/ose-etcd/images/v4.2.0-201909221318",
+            "vcs-ref": "0942d93247e2e67e333b7aceb639aeb54caaaa1d",
+            "vcs-type": "git",
+            "vendor": "Red Hat, Inc.",
+            "version": "v4.2.0"
+        },
+        "Annotations": {},
+        "ManifestType": "application/vnd.docker.distribution.manifest.v2+json",
+        "User": "0",
+        "History": [
+            {
+                "created": "2019-09-02T12:56:36.440695936Z",
+                "comment": "Imported from -"
+            },
+            {
+                "created": "2019-09-02T12:56:43.939095Z"
+            },
+            {
+                "created": "2019-09-22T06:44:27.806751Z"
+            },
+            {
+                "created": "2019-09-22T18:29:20.371135921Z",
+                "created_by": "sleep 86400"
+            },
+            {
+                "created": "2019-09-22T19:02:52.63836121Z",
+                "created_by": "sleep 86400"
+            }
+        ]
+    }
+]

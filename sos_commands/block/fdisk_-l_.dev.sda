@@ -1,0 +1,11 @@
+Disk /dev/sda: 127 GiB, 136365211648 bytes, 266338304 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+Disklabel type: gpt
+Disk identifier: ECD724C2-5D0C-41AF-9382-6D09FCC55786
+
+Device       Start       End   Sectors   Size Type
+/dev/sda1     2048    194559    192512    94M EFI System
+/dev/sda2   194560   2291711   2097152     1G Linux filesystem
+/dev/sda3  2291712 266338270 264046559 125.9G Linux filesystem

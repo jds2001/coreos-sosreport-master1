@@ -1,0 +1,72 @@
+WARNING: logrotate in debug mode does nothing except printing debug messages!  Consider using verbose mode (-v) instead if this is not what you want.
+
+reading config file /etc/logrotate.conf
+including /etc/logrotate.d
+reading config file btmp
+reading config file chrony
+reading config file glusterfs
+reading config file iscsiuiolog
+reading config file samba
+olddir is now /var/log/samba/old
+reading config file sssd
+reading config file wtmp
+Reading state from file: /var/lib/logrotate/logrotate.status
+Allocating hash table for state file, size 64 entries
+
+Handling 9 logs
+
+rotating pattern: /var/log/btmp  monthly (1 rotations)
+empty log files are rotated, old logs are removed
+considering log /var/log/btmp
+Creating new state
+  Now: 2019-10-02 02:54
+  Last rotated at 2019-10-02 02:00
+  log does not need rotating (log has been already rotated)
+
+rotating pattern: /var/log/chrony/*.log  weekly (4 rotations)
+empty log files are rotated, old logs are removed
+considering log /var/log/chrony/*.log
+  log /var/log/chrony/*.log does not exist -- skipping
+Creating new state
+not running postrotate script, since no logs were rotated
+
+rotating pattern: /var/log/glusterfs/*.log  weekly (26 rotations)
+empty log files are not rotated, only log files >= 102400 bytes are rotated, log files >= 10485760 are rotated earlier, old logs are removed
+considering log /var/log/glusterfs/*.log
+  log /var/log/glusterfs/*.log does not exist -- skipping
+Creating new state
+not running postrotate script, since no logs were rotated
+
+rotating pattern: /var/log/glusterfs/bricks/*.log  weekly (26 rotations)
+empty log files are not rotated, only log files >= 102400 bytes are rotated, log files >= 10485760 are rotated earlier, old logs are removed
+No logs found. Rotation not needed.
+
+rotating pattern: /var/log/glusterfs/samples/*.samp  after 1 days (3 rotations)
+empty log files are rotated, old logs are removed
+No logs found. Rotation not needed.
+
+rotating pattern: /var/log/iscsiuio.log  weekly (4 rotations)
+empty log files are not rotated, old logs are removed
+considering log /var/log/iscsiuio.log
+  log /var/log/iscsiuio.log does not exist -- skipping
+Creating new state
+not running postrotate script, since no logs were rotated
+
+rotating pattern: /var/log/samba/*  weekly (4 rotations)
+olddir is /var/log/samba/old, empty log files are not rotated, old logs are removed
+No logs found. Rotation not needed.
+
+rotating pattern: /var/log/sssd/*.log  weekly (2 rotations)
+empty log files are not rotated, old logs are removed
+considering log /var/log/sssd/*.log
+  log /var/log/sssd/*.log does not exist -- skipping
+Creating new state
+not running postrotate script, since no logs were rotated
+
+rotating pattern: /var/log/wtmp  monthly (1 rotations)
+empty log files are rotated, only log files >= 1048576 bytes are rotated, old logs are removed
+considering log /var/log/wtmp
+Creating new state
+  Now: 2019-10-02 02:54
+  Last rotated at 2019-10-02 02:00
+  log does not need rotating (log has been already rotated)

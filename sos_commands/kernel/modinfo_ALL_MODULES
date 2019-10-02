@@ -1,0 +1,3400 @@
+modinfo: ERROR: Module thermal not found.
+modinfo: ERROR: Module efi_pstore not found.
+modinfo: ERROR: Module cpuidle not found.
+modinfo: ERROR: Module cryptomgr not found.
+modinfo: ERROR: Module tpm_tis not found.
+modinfo: ERROR: Module spurious not found.
+modinfo: ERROR: Module edac_core not found.
+modinfo: ERROR: Module battery not found.
+modinfo: ERROR: Module kgdbts not found.
+modinfo: ERROR: Module vt not found.
+modinfo: ERROR: Module efivars not found.
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/net/ethernet/chelsio/libcxgb/libcxgb.ko.xz
+license:        Dual BSD/GPL
+version:        1.0.0-ko
+description:    Chelsio common library
+author:         Chelsio Communications
+rhelversion:    8.0
+srcversion:     FA58D538ADDE095D57D8C63
+depends:        
+intree:         Y
+name:           libcxgb
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      62:C3:5C:5B:A1:B9:70:28:DD:21:69:A2:0F:C5:B8:4A:50:0A:CC:A2:
+		36:23:A5:2E:31:E7:EA:AE:DB:A3:C9:5B:53:AE:F1:0E:FC:31:5D:0E:
+		0B:FF:43:77:8E:98:F8:D8:AD:85:78:EE:D8:88:B3:22:BC:A9:22:66:
+		97:82:44:AE:27:6F:AE:48:98:53:7D:11:61:CD:FF:65:8A:A2:29:E0:
+		05:A6:85:A4:F2:F6:71:A2:0F:78:B4:F8:77:AE:24:8F:F3:35:5A:D6:
+		6E:CE:95:55:33:18:4F:FC:3E:74:10:D5:41:D3:6F:3D:B8:23:97:87:
+		7A:D7:8A:02:2B:40:16:9A:BC:FB:E3:4D:48:4E:78:9C:25:6C:46:E1:
+		3E:00:11:6A:34:E5:C5:D6:92:30:B9:13:FA:D8:EB:0E:9B:DE:09:3C:
+		5E:80:1A:9A:FA:65:2E:A0:AA:B3:43:F4:AD:40:EC:5C:DD:4E:85:7E:
+		2D:AF:87:5D:BF:B6:1F:85:42:10:36:EC:8B:B0:F5:55:3D:A2:B4:DD:
+		5C:18:0A:FD:6B:94:F4:03:4D:95:1B:DD:CF:5D:89:76:73:B5:A8:15:
+		64:C4:2C:44:55:90:36:61:64:86:E7:CC:82:15:1B:A3:00:75:48:F6:
+		F2:9E:20:2F:A0:30:22:81:5A:5F:8B:BF:07:B8:F1:66:3D:96:C7:53:
+		4C:42:4B:36:80:38:8B:3D:5F:6D:71:5A:27:DC:10:0C:15:1D:60:E4:
+		DF:4B:52:47:2C:75:C4:EF:79:90:26:F6:70:5D:D7:B9:F7:C6:F2:78:
+		25:E7:EE:19:27:1A:AC:DD:4C:79:26:F9:62:D6:E5:18:4B:8C:AD:6A:
+		D1:EF:6E:4F:90:A7:B8:15:87:13:1A:61:65:6C:46:EF:94:E5:4F:56:
+		80:85:CE:56:70:91:C1:39:3B:44:C7:1A:E9:1F:E9:24:76:8B:3A:E9:
+		FD:E3:99:26:6C:ED:D3:00:D0:19:FA:AF:0A:D0:A8:56:54:A9:BB:2C:
+		1F:8B:96:01
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/infiniband/core/rdma_cm.ko.xz
+alias:          rdma-netlink-subsys-1
+license:        Dual BSD/GPL
+description:    Generic RDMA CM Agent
+author:         Sean Hefty
+rhelversion:    8.0
+srcversion:     0EB9F3EB474E5A842A918B1
+depends:        ib_core,ib_cm,iw_cm
+intree:         Y
+name:           rdma_cm
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      20:27:71:26:91:42:AD:16:61:CC:F0:9C:41:76:29:55:71:7F:17:99:
+		65:EB:B7:E5:A5:FD:60:F8:82:F8:49:31:C2:0D:D9:9D:64:93:C3:3C:
+		92:A5:E1:CA:68:0C:A1:BD:B1:F8:6F:43:28:CA:F2:7F:86:C4:31:82:
+		74:EF:3C:A1:7C:B3:3D:C4:1C:05:94:11:A0:1E:37:E1:AE:36:0A:51:
+		F7:CB:B3:6C:A4:4F:48:03:8E:63:4E:33:3A:EA:88:D5:35:85:2E:3D:
+		7E:D6:DB:B1:84:33:8D:24:D9:61:8A:E7:3B:9F:A4:BF:C2:33:3F:FB:
+		3D:09:B1:19:D6:BE:D4:EA:51:61:4F:EC:E4:B7:B1:52:6D:CD:AD:52:
+		FE:86:8D:FD:3B:00:E6:D8:AC:42:EC:77:A0:FB:60:32:21:FB:EF:D6:
+		6C:4E:BD:B7:43:6F:A1:40:8B:E6:7E:AA:B6:F6:E7:C7:09:41:C8:E1:
+		41:39:C2:A5:96:A1:D6:E1:78:A1:C6:81:52:70:1E:E2:1D:23:EB:67:
+		B4:05:50:E3:85:D6:3F:C8:8C:C2:EF:59:9A:44:29:A9:FE:56:E3:85:
+		87:35:45:28:75:D5:81:89:4A:97:BD:B8:C4:9B:B1:06:54:0B:16:46:
+		98:E0:E0:07:8B:2B:BB:D0:B2:4C:C0:8C:30:99:2D:77:C9:59:9B:8B:
+		14:8B:A8:7A:0D:6B:C4:1B:16:B5:46:62:C6:DA:9F:08:13:9D:B4:54:
+		12:FC:84:3F:3C:86:AF:80:E7:86:9C:22:D2:E3:86:33:F6:3E:6E:D9:
+		70:A7:A5:1D:FC:98:F2:6E:A4:88:17:7D:51:72:A1:7E:7F:EC:A1:A3:
+		18:5E:1C:51:BB:7C:20:C8:AB:CC:7C:1F:0D:BE:A5:E9:B5:A0:72:2F:
+		64:82:5F:FD:F5:96:A5:34:E3:51:9A:F7:EA:F2:0A:E3:32:E9:CC:E9:
+		C5:76:43:C8:7C:DD:74:05:06:6E:CE:20:BE:91:48:B3:BE:89:85:72:
+		A1:DA:BD:4E
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/net/netfilter/nf_conntrack.ko.xz
+license:        GPL
+rhelversion:    8.0
+srcversion:     A809D13A81176E0A0F23361
+depends:        libcrc32c
+intree:         Y
+name:           nf_conntrack
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signingmodinfo: ERROR: Module tcp_cubic not found.
+ key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      6E:BF:E4:3B:21:5D:D2:7A:82:D4:95:EB:DA:D0:A1:9B:E8:72:E9:A6:
+		88:A6:CF:ED:0A:6C:2F:3E:49:92:84:CF:4C:E5:EB:9B:E2:28:30:67:
+		E7:41:F3:71:B6:C4:62:8C:4A:75:A7:8B:02:FE:CF:BA:47:ED:D2:34:
+		D6:F5:EF:74:5A:3A:AE:91:2E:44:97:BF:46:56:5D:73:75:EE:A1:98:
+		4A:13:E4:41:AC:18:49:06:4C:DA:FA:7B:76:DE:58:70:AB:B4:80:CE:
+		9E:6D:AC:E7:91:6F:88:6B:EC:88:AB:C7:9F:0E:69:2F:AE:4D:86:51:
+		0B:1B:67:45:F0:61:47:20:BA:ED:BE:DF:C0:2E:FC:89:1D:B7:C3:86:
+		A1:95:D0:4B:AC:B5:F7:B7:C8:37:6B:03:1D:10:75:4A:8E:59:02:65:
+		3C:E5:BF:C4:97:3C:99:FD:4E:B3:1F:A7:7E:67:00:1A:44:28:40:7C:
+		E4:1E:D7:C6:3B:C5:35:44:F8:6E:9C:BC:6A:F5:4C:E4:A3:BA:D8:02:
+		72:36:C9:78:A1:9A:72:CE:C1:48:99:AF:26:C1:F7:90:06:41:FB:09:
+		FA:76:8E:EF:09:EE:34:08:BB:9D:E8:42:AF:1C:AE:38:C8:E0:DD:F5:
+		4C:98:81:3F:3A:00:1B:DB:F9:6A:A8:B8:A1:AA:AB:26:AB:37:51:58:
+		07:ED:46:0A:A6:C7:03:D2:03:A2:5D:52:29:1A:09:9A:BC:32:69:D2:
+		41:D0:84:EA:1D:56:26:27:4C:C6:A9:91:7F:D4:79:86:DD:AF:95:39:
+		12:AC:DE:B4:EC:97:B6:90:2F:DC:B1:49:A9:65:60:18:78:D9:1B:23:
+		72:F0:D7:A5:01:B1:DC:CE:70:D0:D2:9C:39:EF:B6:62:37:93:B1:91:
+		02:AD:FD:52:8B:1B:6D:3B:D1:73:41:67:47:F4:D0:3E:1F:D4:2C:E0:
+		E0:B5:79:39:42:88:1D:91:FD:0D:0B:F8:77:8B:FD:38:66:EA:47:D7:
+		70:6A:ED:2E
+parm:           tstamp:Enable connection tracking flow timestamping. (bool)
+parm:           acct:Enable connection tracking flow accounting. (bool)
+parm:           nf_conntrack_helper:Enable automatic conntrack helper assignment (default 0) (bool)
+parm:           expect_hashsize:uint
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/hv/hv_balloon.ko.xz
+license:        GPL
+description:    Hyper-V Balloon
+rhelversion:    8.0
+srcversion:     92F5D323CC7FEA8244C8407
+alias:          vmbus:dc7450528589e2468057a307dc18a502
+depends:        hv_vmbus
+intree:         Y
+name:           hv_balloon
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      6A:6C:B1:F9:94:F3:F0:61:93:CD:D4:85:1C:2D:F7:1B:C2:1F:2E:D1:
+		24:AB:25:0A:A2:D0:44:9C:FE:00:A3:44:EA:D2:0A:80:CB:35:20:F7:
+		B5:F9:16:11:62:B8:63:2A:6C:E2:FD:B7:9F:0E:99:DF:71:6C:E8:1D:
+		89:3E:A2:43:13:3F:61:71:85:B2:B2:78:ED:51:28:D7:12:5A:C9:92:
+		14:5F:97:6E:0A:7E:85:1C:DB:DB:33:9F:22:6E:67:87:E6:61:65:60:
+		F6:6F:6E:D3:98:35:39:2C:C9:C3:23:E4:46:71:55:7B:33:07:1E:81:
+		5D:E4:B2:66:11:5D:5F:F5:2F:55:7C:6F:58:31:A0:98:84:D7:1E:89:
+		FC:A2:C7:5C:5B:21:23:2A:DF:16:C3:19:02:A6:32:6F:8F:31:D6:05:
+		2F:C9:DE:69:A0:E1:12:C7:2D:7E:57:5C:2D:DC:0F:78:32:48:50:DF:
+		C5:89:23:63:68:B5:62:E5:ED:6E:98:97:D0:C8:A3:51:59:F1:9A:FA:
+		6C:32:70:7D:97:5E:7F:E7:48:F1:D6:40:05:B9:96:DA:49:CD:05:52:
+		27:E9:0A:76:8F:95:8D:5F:EB:2F:75:7A:F4:CB:31:0F:FA:17:74:B9:
+		CF:47:C0:6E:44:B8:55:F8:2E:01:78:52:6F:B5:11:05:D1:AC:26:AD:
+		21:CB:A2:1F:8A:12:09:48:50:29:20:8B:DE:72:4D:69:29:7F:2B:9A:
+		E1:A8:CB:AF:DC:50:5F:8D:7A:78:61:D6:E7:02:07:5B:87:D7:6B:00:
+		69:E7:BE:81:0D:F1:FE:C6:0A:A1:ED:4F:94:09:4A:C6:D7:FE:88:25:
+		D0:B3:0C:D5:9F:40:8D:82:AA:0D:03:23:44:AA:F3:2F:BC:A1:28:8B:
+		D6:01:23:E0:60:A4:BA:22:FE:D3:46:68:99:51:70:D2:35:33:55:F8:
+		77:4F:DA:66:DB:5B:CB:73:E0:F0:19:3C:82:4C:43:6C:B7:65:70:0E:
+		11:76:27:D7
+parm:           hot_add:If set attempt memory hot_add (bool)
+parm:           pressure_report_delay:Delay in secs in reporting pressure (uint)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/infiniband/ulp/ipoib/ib_ipoib.ko.xz
+license:        Dual BSD/GPL
+description:    IP-over-InfiniBand net driver
+author:         Roland Dreier
+alias:          rtnl-link-ipoib
+rhelversion:    8.0
+srcversion:     4197447F297E5C83C365003
+depends:        ib_core,ib_cm
+intree:         Y
+name:           ib_ipoib
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      46:F8:91:2E:D6:42:C5:05:16:6D:6A:76:01:77:FC:54:7E:28:45:58:
+		C0:BF:7F:A8:F4:12:B0:B3:92:52:21:52:A4:89:45:43:23:CD:1B:18:
+		CD:2A:D8:30:01:03:1B:F7:26:8D:C8:75:BC:FA:20:6A:C6:8F:ED:CE:
+		C3:12:F9:8C:32:76:C7:26:34:90:68:D1:FB:B5:0F:D9:8C:A4:29:24:
+		9F:EC:20:EF:75:7C:D9:75:4D:68:9E:B9:13:8F:E8:67:8D:38:38:BD:
+		5A:4B:E5:BE:92:E3:A6:E4:F0:59:AB:04:94:CD:45:0C:69:03:DC:04:
+		A2:E8:70:F4:A7:4A:D8:B9:FF:E2:E4:C3:C4:F7:AE:99:C1:0E:47:EC:
+		8A:3A:D2:8D:90:DC:6A:78:E5:DF:CE:52:94:FF:56:9D:49:17:7C:0F:
+		57:9F:C7:B3:76:26:B8:02:F2:33:61:F6:31:47:3E:A3:43:4A:3A:55:
+		DE:7C:DE:C1:74:25:AA:03:31:28:20:4F:CE:40:D0:37:83:85:2E:64:
+		00:97:5C:8C:5A:04:E4:B6:40:CB:1A:9B:19:57:B2:61:D3:6B:9B:CB:
+		F1:84:B3:24:1E:27:8A:2F:F2:30:1B:C8:60:F7:86:C5:90:EF:0A:A1:
+		5D:D9:6F:4D:77:C6:E0:8D:E9:5E:29:6C:26:6C:85:BF:A2:0B:59:F1:
+		19:F3:55:C2:C9:67:CE:97:91:25:96:D1:2A:8C:58:98:DD:5A:22:55:
+		57:53:25:7E:3E:6C:0C:5C:DB:C8:49:E5:38:7B:D3:3A:38:04:F6:78:
+		4B:27:15:B8:0D:1A:E2:E0:58:46:E1:26:F8:EB:40:F9:2C:21:91:F3:
+		A3:9F:89:BE:83:05:E6:81:75:7D:2A:95:A2:14:CE:CD:8D:04:8B:47:
+		49:50:C5:B4:BC:07:CB:B8:D2:E0:22:B9:FB:0D:33:64:9D:7A:FD:1E:
+		0C:F2:6D:95:7C:94:31:AE:A1:3A:A5:C2:23:19:36:BC:82:3B:AC:22:
+		C6:87:45:24
+parm:           max_nonsrq_conn_qp:Max number of connected-mode QPs per interface (applied only if shared receive queue is not available) (int)
+parm:           mcast_debug_level:Enable multicast debug tracing if > 0 (int)
+parm:           send_queue_size:Number of descriptors in send queue (int)
+parm:           recv_queue_size:Number of descriptors in receive queue (int)
+parm:           debug_level:Enable debug tracing if > 0 (int)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/net/ethernet/chelsio/cxgb4/cxgb4.ko.xz
+firmware:       cxgb4/t6fw.bin
+firmware:       cxgb4/t5fw.bin
+firmware:       cxgb4/t4fw.bin
+version:        2.0.0-ko
+license:        Dual BSD/GPL
+author:         Chelsio Communications
+description:    Chelsio T4/T5/T6 Network Driver
+rhelversion:    8.0
+srcversion:     3822037FAB811743DF970DB
+alias:          pci:v00001425d00006089sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006489sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006088sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006488sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006087sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006487sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006086sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006486sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006085sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006485sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006084sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006484sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006083sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006483sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006082sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006482sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006081sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006481sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006080sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006480sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006015sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006415sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006014sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006414sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006011sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006411sv*sd*bc*sc*i*
+alias:          pci:v00001425d0000600Dsv*sd*bc*sc*i*
+alias:          pci:v00001425d0000640Dsv*sd*bc*sc*i*
+alias:          pci:v00001425d00006009sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006409sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006008sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006408sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006007sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006407sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006006sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006406sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006005sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006405sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006004sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006404sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006003sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006403sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006002sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006402sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006001sv*sd*bc*sc*i*
+alias:          pci:v00001425d00006401sv*sd*bc*sc*i*
+alias:          pci:v00001425d000050ADsv*sd*bc*sc*i*
+alias:          pci:v00001425d000054ADsv*sd*bc*sc*i*
+alias:          pci:v00001425d000050ACsv*sd*bc*sc*i*
+alias:          pci:v00001425d000054ACsv*sd*bc*sc*i*
+alias:          pci:v00001425d000050ABsv*sd*bc*sc*i*
+alias:          pci:v00001425d000054ABsv*sd*bc*sc*i*
+alias:          pci:v00001425d000050AAsv*sd*bc*sc*i*
+alias:          pci:v00001425d000054AAsv*sd*bc*sc*i*
+alias:          pci:v00001425d000050A9sv*sd*bc*sc*i*
+alias:          pci:v00001425d000054A9sv*sd*bc*sc*i*
+alias:          pci:v00001425d000050A8sv*sd*bc*sc*i*
+alias:          pci:v00001425d000054A8sv*sd*bc*sc*i*
+alias:          pci:v00001425d000050A7sv*sd*bc*sc*i*
+alias:          pci:v00001425d000054A7sv*sd*bc*sc*i*
+alias:          pci:v00001425d000050A6sv*sd*bc*sc*i*
+alias:          pci:v00001425d000054A6sv*sd*bc*sc*i*
+alias:          pci:v00001425d000050A5sv*sd*bc*sc*i*
+alias:          pci:v00001425d000054A5sv*sd*bc*sc*i*
+alias:          pci:v00001425d000050A4sv*sd*bc*sc*i*
+alias:          pci:v00001425d000054A4sv*sd*bc*sc*i*
+alias:          pci:v00001425d000050A3sv*sd*bc*sc*i*
+alias:          pci:v00001425d000054A3sv*sd*bc*sc*i*
+alias:          pci:v00001425d000050A2sv*sd*bc*sc*i*
+alias:          pci:v00001425d000054A2sv*sd*bc*sc*i*
+alias:          pci:v00001425d000050A1sv*sd*bc*sc*i*
+alias:          pci:v00001425d000054A1sv*sd*bc*sc*i*
+alias:          pci:v00001425d000050A0sv*sd*bc*sc*i*
+alias:          pci:v00001425d000054A0sv*sd*bc*sc*i*
+alias:          pci:v00001425d0000509Fsv*sd*bc*sc*i*
+alias:          pci:v00001425d0000549Fsv*sd*bc*sc*i*
+alias:          pci:v00001425d0000509Esv*sd*bc*sc*i*
+alias:          pci:v00001425d0000549Esv*sd*bc*sc*i*
+alias:          pci:v00001425d0000509Dsv*sd*bc*sc*i*
+alias:          pci:v00001425d0000549Dsv*sd*bc*sc*i*
+alias:          pci:v00001425d0000509Csv*sd*bc*sc*i*
+alias:          pci:v00001425d0000549Csv*sd*bc*sc*i*
+alias:          pci:v00001425d0000509Bsv*sd*bc*sc*i*
+alias:          pci:v00001425d0000549Bsv*sd*bc*sc*i*
+alias:          pci:v00001425d0000509Asv*sd*bc*sc*i*
+alias:          pci:v00001425d0000549Asv*sd*bc*sc*i*
+alias:          pci:v00001425d00005099sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005499sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005098sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005498sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005097sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005497sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005096sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005496sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005095sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005495sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005094sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005494sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005093sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005493sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005092sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005492sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005091sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005491sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005090sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005490sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005089sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005489sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005088sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005488sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005087sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005487sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005086sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005486sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005085sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005485sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005084sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005484sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005083sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005483sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005082sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005482sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005081sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005481sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005080sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005480sv*sd*bc*sc*i*
+alias:          pci:v00001425d0000501Bsv*sd*bc*sc*i*
+alias:          pci:v00001425d0000541Bsv*sd*bc*sc*i*
+alias:          pci:v00001425d0000501Asv*sd*bc*sc*i*
+alias:          pci:v00001425d0000541Asv*sd*bc*sc*i*
+alias:          pci:v00001425d00005019sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005419sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005018sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005418sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005017sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005417sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005016sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005416sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005015sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005415sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005014sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005414sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005013sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005413sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005012sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005412sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005011sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005411sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005010sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005410sv*sd*bc*sc*i*
+alias:          pci:v00001425d0000500Esv*sd*bc*sc*i*
+alias:          pci:v00001425d0000540Esv*sd*bc*sc*i*
+alias:          pci:v00001425d0000500Dsv*sd*bc*sc*i*
+alias:          pci:v00001425d0000540Dsv*sd*bc*sc*i*
+alias:          pci:v00001425d0000500Csv*sd*bc*sc*i*
+alias:          pci:v00001425d0000540Csv*sd*bc*sc*i*
+alias:          pci:v00001425d0000500Bsv*sd*bc*sc*i*
+alias:          pci:v00001425d0000540Bsv*sd*bc*sc*i*
+alias:          pci:v00001425d0000500Asv*sd*bc*sc*i*
+alias:          pci:v00001425d0000540Asv*sd*bc*sc*i*
+alias:          pci:v00001425d00005009sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005409sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005008sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005408sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005007sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005407sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005006sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005406sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005005sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005405sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005004sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005404sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005003sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005403sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005002sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005402sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005001sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005401sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005000sv*sd*bc*sc*i*
+alias:          pci:v00001425d00005400sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004088sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004488sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004087sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004487sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004086sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004486sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004085sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004485sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004084sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004484sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004083sv*sd*bc*sc*i*
+modinfo: ERROR: Module xhci_hcd not found.
+modinfo: ERROR: Module 8250 not found.
+modinfo: ERROR: Module md_mod not found.
+alias:          pci:v00001425d00004483sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004082sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004482sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004081sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004481sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004080sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004480sv*sd*bc*sc*i*
+alias:          pci:v00001425d0000400Esv*sd*bc*sc*i*
+alias:          pci:v00001425d0000440Esv*sd*bc*sc*i*
+alias:          pci:v00001425d0000400Dsv*sd*bc*sc*i*
+alias:          pci:v00001425d0000440Dsv*sd*bc*sc*i*
+alias:          pci:v00001425d0000400Csv*sd*bc*sc*i*
+alias:          pci:v00001425d0000440Csv*sd*bc*sc*i*
+alias:          pci:v00001425d0000400Bsv*sd*bc*sc*i*
+alias:          pci:v00001425d0000440Bsv*sd*bc*sc*i*
+alias:          pci:v00001425d0000400Asv*sd*bc*sc*i*
+alias:          pci:v00001425d0000440Asv*sd*bc*sc*i*
+alias:          pci:v00001425d00004009sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004409sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004008sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004408sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004007sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004407sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004006sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004406sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004005sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004405sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004004sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004404sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004003sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004403sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004002sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004402sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004001sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004401sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004000sv*sd*bc*sc*i*
+alias:          pci:v00001425d00004400sv*sd*bc*sc*i*
+depends:        
+intree:         Y
+name:           cxgb4
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      18:DA:5F:43:72:8E:6C:77:00:E3:24:79:4D:CC:83:DC:C7:A9:B7:64:
+		61:4D:00:B1:6B:03:8B:01:8D:F1:7F:60:F3:DF:FB:A1:8A:97:D6:7E:
+		35:0E:40:6D:37:7E:F1:A3:FD:D6:15:71:98:8D:08:17:92:47:4F:50:
+		5C:84:7F:9F:B2:B0:FF:B0:7C:25:8E:D9:4F:3C:6B:00:6E:AD:59:2E:
+		15:1C:89:12:56:C4:3E:F9:58:78:0D:8D:19:86:D3:D1:98:B1:AD:AB:
+		9E:D2:31:E2:7C:07:7F:E1:3C:11:2F:18:CE:B5:52:85:B6:16:F3:F2:
+		18:F3:C0:8D:50:18:57:AA:69:8A:19:E2:95:3F:BF:9B:57:01:AD:D9:
+		BA:E4:CF:EB:02:90:9F:F0:7E:35:09:A7:5C:B8:DA:A4:95:BF:62:00:
+		D8:0F:2A:EE:E4:72:52:80:2C:73:00:48:EB:AC:9D:0A:C9:C6:5C:01:
+		8D:9E:20:D5:A5:80:98:70:9F:BD:DA:1D:F3:A5:BE:9E:D5:8C:09:2F:
+		2D:C2:D4:D2:8C:7C:FB:97:F1:9B:9B:54:FB:16:E5:3D:6E:AE:DE:26:
+		4D:16:FA:95:8F:C0:51:4C:15:3A:54:FD:FB:80:E2:B2:F2:0E:67:91:
+		C9:07:EF:4D:1C:EA:2C:75:F9:3C:9F:79:DD:B3:5B:8D:21:A2:B5:1B:
+		56:83:E9:9C:E1:C1:31:AE:61:51:9A:A5:57:EB:C6:8D:7F:19:D4:DF:
+		C0:16:58:E3:FD:34:B6:8F:E4:16:27:08:AE:23:69:9C:76:8B:7B:0D:
+		7A:66:7A:F9:E3:F8:48:D6:AE:52:AB:82:A2:11:0A:77:A1:E2:B9:65:
+		C6:67:D9:44:DD:10:3A:06:51:0C:ED:2C:17:7D:D5:DB:20:B6:5B:84:
+		E3:AD:FD:9C:6E:9F:F4:CD:7E:BC:80:25:FA:94:30:8C:91:DD:EC:57:
+		10:E6:8E:CD:3F:DE:15:99:9B:18:98:ED:6F:E9:2A:68:48:6A:35:AA:
+		E5:2A:BE:BD
+parm:           msi:whether to use INTx (0), MSI (1) or MSI-X (2) (int)
+parm:           select_queue:Select between kernel provided method of selecting or driver method of selecting TX queue. Default is kernel method. (int)
+parm:           dbfifo_int_thresh:doorbell fifo interrupt threshold (int)
+parm:           dbfifo_drain_delay:usecs to sleep while draining the dbfifo (int)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/hv/hv_utils.ko.xz
+license:        GPL
+description:    Hyper-V Utilities
+rhelversion:    8.0
+srcversion:     6308027DBB03332622BAE03
+alias:         modinfo: ERROR: Module shpchp not found.
+modinfo: ERROR: Module kgdboc not found.
+modinfo: ERROR: Module srcutree not found.
+modinfo: ERROR: Module rcupdate not found.
+modinfo: ERROR: Module random not found.
+modinfo: ERROR: Module rtc_cmos not found.
+ vmbus:e34bd134e4dec8419ae76b174977c192
+alias:          vmbus:292efa3523ea364296ae3a6ebacba440
+alias:          vmbus:e7f4a0a9455a964db8278a841e8c03e6
+alias:          vmbus:394f16571591784eab55382f3bd5422d
+alias:          vmbus:30e62795aed07b49adcee80ab0175caf
+alias:          vmbus:31600b0e13523449818b38d90ced39db
+depends:        hv_vmbus
+intree:         Y
+name:           hv_utils
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      BE:C7:27:CA:8C:B8:A3:B1:CF:AC:45:55:09:F3:AE:DD:E0:CB:8B:16:
+		3F:CE:AE:2C:F8:14:E7:38:93:1B:D2:DA:EA:79:37:EA:32:F5:94:F6:
+		D0:98:C1:6C:98:9F:B8:EA:D5:2E:14:35:56:A4:66:C7:11:8C:49:17:
+		6A:DC:30:2D:82:BD:B5:F7:20:6B:9C:B4:ED:DB:4A:45:01:C5:A8:C5:
+		6E:CB:16:F4:5A:D2:DC:96:37:90:A1:35:30:18:56:EA:8C:5E:F4:94:
+		55:B0:00:FF:3B:33:01:07:D9:BB:EE:E0:FE:B7:DA:1E:E4:C9:BC:62:
+		1F:BA:55:F4:32:BD:0F:07:32:E1:89:64:42:6E:92:D0:DA:F3:13:11:
+		16:E5:65:28:A2:98:2D:7B:A3:31:D4:E7:75:A8:B9:D3:80:3B:E4:99:
+		3F:3F:AC:D7:E5:78:14:C1:03:E3:2A:DA:07:B4:08:9B:47:26:70:00:
+		D7:93:F5:61:13:65:B8:B2:CF:47:E0:21:43:6D:C5:67:F6:80:FB:80:
+		2B:D6:E9:E8:DC:D3:A9:C0:43:40:21:16:F7:E7:BB:ED:7E:3F:BF:01:
+		93:3A:C9:D2:EF:24:F4:E0:21:9C:D5:30:E6:BE:36:2F:0D:7E:19:E3:
+		94:C1:D1:6A:90:77:42:35:0B:09:34:38:71:5E:65:C0:A7:89:5E:34:
+		9B:C3:6E:10:44:22:C2:E0:3C:AB:77:8A:74:16:84:49:13:C0:FC:78:
+		1D:E9:09:D3:4E:98:70:50:AF:97:91:A0:08:84:FD:36:18:98:53:5B:
+		E3:B7:2C:25:7D:E6:85:7D:AB:CC:01:24:05:79:72:D4:3A:2A:10:F6:
+		9C:FC:81:E5:10:58:E7:AA:6D:A6:BC:AB:EF:56:3D:3C:D7:A8:C0:55:
+		E3:DD:B9:EB:12:82:F7:77:5F:72:08:F7:D5:66:63:CF:5C:5B:36:4A:
+		52:F7:64:C4:F6:3B:00:84:F9:1E:AD:05:DD:01:68:EC:D4:86:06:A7:
+		69:9A:D1:98
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/net/netfilter/nfnetlink.ko.xz
+alias:          net-pf-16-proto-12
+author:         Harald Welte <laforge@netfilter.org>
+license:        GPL
+rhelversion:    8.0
+srcversion:     76802853815C779087243E1
+depends:        
+intree:         Y
+name:           nfnetlink
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      B8:1D:68:E5:DD:E1:BB:E0:E1:57:A5:E0:98:A2:ED:CE:18:D1:6D:A0:
+		BB:D7:58:41:22:B1:A3:70:A4:70:14:C1:64:B9:18:4C:71:00:43:0A:
+		6A:C7:A3:21:94:B6:A7:19:DB:21:CA:96:F3:5E:73:52:47:65:D3:61:
+		02:A5:17:3E:62:B9:82:A7:29:23:6A:CD:84:30:61:F6:D0:6D:E5:C4:
+		4B:C5:FB:2B:EE:BA:88:6F:19:A2:34:30:4C:1C:B5:5C:F2:1A:92:91:
+		45:F6:CA:BF:5D:4C:7D:E0:C3:22:82:67:97:2A:5A:17:77:88:E3:B0:
+		66:0D:58:D5:26:50:7F:9D:15:5F:BF:4C:8A:50:E4:68:39:50:E3:29:
+		93:7C:EA:93:28:35:7D:2B:25:33:8D:54:1B:19:9B:E2:C9:E2:73:F4:
+		FD:67:58:FF:11:CF:1B:94:8E:05:DE:7C:46:52:7F:82:40:5C:E2:90:
+		4F:F9:BC:86:A0:C5:57:43:11:6C:37:20:4A:63:95:E7:0B:68:BF:B1:
+		46:92:E0:F6:2E:A9:ED:04:71:2D:37:E7:2E:05:A8:E4:7E:02:DA:38:
+		F8:58:F1:BC:0D:E2:DE:CD:3F:D0:56:A7:41:C9:EB:74:7B:7A:DC:86:
+		99:DF:43:CF:3E:AE:25:E1:6E:47:86:39:91:2B:F5:76:44:BF:A8:7B:
+		8D:D3:8C:39:5F:18:64:14:92:9D:55:88:AA:3B:AB:19:A0:3C:2C:F5:
+		26:24:46:43:EE:AE:01:25:E1:AD:F2:4E:64:03:3B:F9:B1:4D:65:C1:
+		CC:AF:AA:1E:AF:DB:45:99:D6:23:AD:07:34:12:97:E1:3B:D2:7B:E1:
+		50:C5:45:35:9F:53:D7:E2:23:7D:BB:AF:E2:B7:E9:F2:F1:97:45:6E:
+		A7:B9:57:00:5F:BE:35:73:E8:AE:79:36:08:3B:DD:DC:C8:F2:2E:6E:
+		50:D2:56:95:7E:8B:F4:FF:C5:9E:F2:BF:C2:0C:59:3B:5C:CE:86:17:
+		A3:4E:6D:C3
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/net/hyperv/hv_netvsc.ko.xz
+description:    Microsoft Hyper-V network driver
+license:        GPL
+rhelversion:    8.0
+srcversion:     26DF4C6D4B579129FC200C7
+alias:          vmbus:635161f83edfc546913ff2d2f965ed0e
+depends:        hv_vmbus
+intree:         Y
+name:           hv_netvsc
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      C2:BB:DE:95:7A:30:BB:9A:22:E4:16:99:85:A3:E7:EB:A0:CF:73:D2:
+		2E:C4:B4:DD:06:76:3C:07:5F:7B:59:8F:37:DF:DE:E1:51:82:FE:41:
+		17:E2:68:10:F7:95:89:FD:8C:2F:2A:CC:0B:DA:81:C0:BB:40:87:E7:
+		17:36:CD:32:CE:6F:15:3B:D2:52:EB:A8:8B:2B:BD:AD:1D:21:E0:AA:
+		2D:BD:32:75:07:2F:5B:38:52:99:2F:F1:8B:CC:BA:11:E0:28:8E:06:
+		07:D2:7D:F4:CD:13:08:9C:1B:A5:70:B4:AF:00:FE:BA:45:D8:D3:64:
+		80:5B:41:E8:35:C5:32:40:E1:F7:E3:FD:E5:96:69:E6:62:DE:59:46:
+		AF:03:14:7B:29:77:8E:35:5E:58:7C:98:97:5F:96:A9:52:BE:34:7C:
+		D1:BA:0D:FF:82:EC:82:36:6A:98:F0:00:C1:9A:17:7C:24:E4:CA:F0:
+		31:BA:AD:67:C6:BC:2D:77:BB:DF:1D:21:75:87:E5:30:A8:3D:26:A4:
+		F7:ED:BE:01:75:7A:C8:76:75:98:60:0F:6B:A4:8E:95:90:DF:D0:C1:
+		86:67:F6:83:8A:74:A6:61:A5:EC:7A:94:51:B0:A5:62:AC:09:10:D2:
+		C2:AB:5D:9A:D6:B9:D0:8B:19:0A:E5:BD:0F:8E:D4:9B:2E:72:53:8F:
+		E0:BE:11:8D:DB:41:F3:06:C5:3C:9A:C2:F6:91:53:74:72:8A:73:FC:
+		30:96:84:79:5D:21:A3:27:35:4A:35:57:09:1B:11:3A:83:15:43:46:
+		CD:41:14:89:6D:19:5F:6C:E9:E6:B9:72:D0:C7:85:20:B8:B2:D0:A2:
+		5C:AA:7A:9A:10:E5:75:1F:D1:F7:34:FB:52:F2:C3:8D:1F:46:50:87:
+		5F:26:14:1B:77:25:40:40:B6:3A:AB:9B:B0:75:89:53:E5:90:CC:7D:
+		EA:49:C6:36:8A:9F:2C:C0:13:5D:09:BA:95:04:AC:05:C8:08:48:66:
+		68:FB:EF:44
+parm:           ring_size:Ring buffer size (# of pages) (uint)
+parm:           debug:Debug level (0=none,...,16=all) (int)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/net/ipv4/netfilter/nf_conntrack_ipv4.ko.xz
+license:        GPL
+alias:          ip_conntrack
+alias:          nf_conntrack-2
+rhelversion:    8.0
+srcversion:     5D672DBAF45DBE01840F8AD
+depends:        nf_conntrack,nf_defrag_ipv4
+intree:         Y
+name:           nf_conntrack_ipv4
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      14:98:9F:8C:D4:E4:19:20:24:25:AC:C2:95:9F:F9:52:1E:29:45:0C:
+		85:35:D9:EE:60:6F:A1:80:B5:BB:96:E0:37:86:DC:CF:A7:B5:AC:27:
+		59:CE:C6:64:F8:B2:D4:1F:21:08:C1:BE:82:10:42:66:38:C5:DE:A3:
+		D1:4B:FF:B1:EF:75:4C:E5:07:B8:7F:78:CF:BB:E0:58:C5:68:37:A9:
+		2E:B3:01:47:B0:39:E6:1C:12:B9:CC:54:45:DD:BE:71:EE:FA:34:FD:
+		B0:EA:62:92:39:F4:2A:02:52:95:AB:96:6F:62:01:16:87:85:04:56:
+		2D:FC:56:1B:85:7F:9B:A7:AC:67:A8:4A:0B:1A:19:76:28:D3:D5:79:
+		E0:90:D4:5A:98:02:66:58:9E:2F:AF:0D:A6:27:8C:45:5A:E7:E8:A3:
+		F4:F3:16:D4:51:FD:40:40:9E:FB:8B:0C:8D:2C:07:CF:D9:D6:54:E0:
+		AC:E2:24:4A:65:51:01:BE:C2:14:B6:27:1F:58:06:FA:59:DB:64:56:
+		8E:57:C5:A7:FF:50:1A:4E:81:0D:0D:C9:FC:ED:1B:6D:7A:DD:1F:D0:
+		67:D8:5E:21:7B:6E:F1:B3:FD:24:4B:5B:CF:D5:EF:AA:87:F8:BF:51:
+		AA:AE:EC:2D:FC:B3:B3:51:DD:01:F0:8C:36:F6:91:E6:29:1C:D0:7D:
+		BE:AF:AB:D5:96:4B:94:0B:1C:6F:10:C8:36:F3:5D:BA:F0:98:48:B4:
+		7F:B7:7F:4F:C0:7C:9B:1E:4B:B1:DD:D8:CB:4F:BE:AE:EE:27:DD:05:
+		35:AF:1A:C3:23:86:15:D6:AD:99:5F:BD:A3:5C:22:A2:68:59:9E:E6:
+		3A:E0:FA:46:ED:D0:1A:34:B0:6B:DA:A2:30:4B:2E:57:65:1A:B4:47:
+		37:66:B4:05:D9:9F:82:E7:D5:70:72:95:B1:A4:D6:B6:3C:6E:07:A5:
+		DD:EF:1A:89:BA:2A:4B:A7:0F:24:01:B2:AD:78:C3:BF:8A:28:09:A4:
+		6B:4C:D7:59
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/scsi/be2iscsi/be2iscsi.ko.xz
+license:        GPL
+author:         Emulex Corporation
+version:        11.4.0.1
+description:    Emulex OneConnectOpen-iSCSI Driver version11.4.0.1 Driver 11.4.0.1
+rhelversion:    8.0
+srcversion:     BAA4FBE8A05ACB9A83BD1DC
+alias:          pci:v000010DFd00000722sv*sd*bc*sc*i*
+alias:          pci:v000019A2d00000712sv*sd*bc*sc*i*
+alias:          pci:v000019A2d00000703sv*sd*bc*sc*i*
+alias:          pci:v000019A2d00000702sv*sd*bc*sc*i*
+alias:          pci:v000019A2d00000222sv*sd*bc*sc*i*
+alias:          pci:v000019A2d00000212sv*sd*bc*sc*i*
+depends:        libiscsi,iscsi_boot_sysfs,scsi_transport_iscsi
+intree:         Y
+name:           be2iscsi
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      01:92:B6:18:AB:70:E3:75:53:3D:57:FF:82:80:64:5B:5E:69:5F:B7:
+		40:8D:90:9E:16:82:2C:A6:19:8F:4B:69:73:DA:65:C3:7C:A3:6C:75:
+		88:9C:25:1C:80:FA:97:26:4D:65:EB:CC:24:08:A4:DB:C1:CA:21:9B:
+		7A:05:C2:FE:8F:22:BA:9A:50:FA:94:6D:CB:2B:16:44:27:21:88:7D:
+		18:03:99:1A:A5:C0:16:71:78:98:EB:8F:77:56:93:03:86:DB:0A:16:
+		07:FF:0A:10:8A:A8:AC:63:E3:C4:7E:19:21:47:49:98:D3:10:AC:EC:
+		35:47:27:38:71:03:2B:B2:4A:E9:04:26:58:28:E4:03:7C:4A:80:58:
+		BD:AE:2B:28:26:26:14:0A:DA:5C:0D:49:BE:62:74:92:88:2C:30:E5:
+		33:7C:A5:CE:B4:83:C8:F8:3A:51:9D:3A:88:EF:69:62:1C:F7:4B:C7:
+		8D:85:52:37:EA:1B:16:C4:BF:87:14:9A:3C:4A:F5:69:73:46:33:D8:
+		7C:FB:F3:2B:4E:C6:98:75:D1:8D:F1:33:AD:14:DD:7B:7F:88:90:EE:
+		96:4C:B8:F3:D6:0D:9F:41:03:57:7B:50:C4:8F:77:1C:EC:02:E1:18:
+		6A:19:21:BC:BE:2B:A4:44:5E:A9:58:63:80:09:D0:DF:DC:F9:A7:5C:
+		C3:0B:78:76:D6:DF:EB:97:63:17:B7:0F:97:A5:27:CE:65:3B:5D:20:
+		4A:41:14:3D:AA:DB:E2:D8:6A:21:1F:2F:70:A0:10:DA:3A:02:2A:D1:
+		A1:D2:EE:FE:28:47:13:A0:D3:B9:65:72:53:03:5F:B3:BC:55:7A:DD:
+		36:43:DD:E4:97:05:22:FB:F4:78:44:1B:9A:5A:A5:F1:01:50:FE:A9:
+		1E:CF:0D:9E:36:23:B1:1F:92:84:93:ED:5A:1B:D2:36:F6:81:EB:B4:
+		CF:34:D1:F8:9C:31:29:2E:C7:35:C3:D4:2D:82:09:2F:99:20:61:8F:
+		63:C6:2F:E4
+parm:           be_iopoll_budget:int
+parm:           enable_msix:int
+parm:           be_max_phys_size:Maximum Size (In Kilobytes) of physically contiguous memory that can be allocated. Range is 16 - 128 (uint)
+parm:           beiscsi_log_enable:Enable logging Bit Mask
+				Initialization Events	: 0x01
+				Mailbox Events		: 0x02
+				Miscellaneous Events	: 0x04
+				Error Handling		: 0x08
+				IO Path Events		: 0x10
+				Configuration Path	: 0x20
+				iSCSI Protocol		: 0x40
+ (uint)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/net/netfilter/nf_nat.ko.xz
+license:        GPL
+rhelversion:    8.0
+srcversion:     5C22E80FF3E03B2D1CF98CE
+depends:        nf_conntrack,libcrc32c
+intree:         Y
+name:           nf_nat
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      68:87:86:0B:7A:FD:D6:74:D8:E3:06:8E:F6:6E:38:99:21:89:A4:AD:
+		E5:DF:B0:08:FB:6D:42:1E:8F:38:7E:78:04:43:59:CA:5F:56:72:4F:
+		DD:9A:79:44:74:F0:AE:8C:BC:50:C0:4B:15:C5:9F:C1:F2:14:A1:64:
+		68:3B:B9:AD:9C:02:BE:0A:1E:7D:40:CC:91:97:FF:F2:5C:BE:73:C2:
+		9F:F8:AF:74:8E:E9:A9:E0:58:CB:B2:97:7C:6E:B6:1A:C8:60:59:BA:
+		1D:C2:B3:A6:59:B1:3D:0A:60:7C:08:36:72:C9:6F:25:9A:72:25:9B:
+		E2:E3:BE:43:2F:E3:5C:B9:F0:93:A7:ED:26:AB:3F:7A:5A:8B:B8:D2:
+		31:5F:CA:F1:29:38:D5:D4:E0:0D:96:A6:DD:A3:39:25:8D:05:58:78:
+		3A:5E:05:50:24:A0:F2:7D:15:62:91:7B:95:23:34:D5:4F:B5:C2:8B:
+		DD:E1:B3:37:22:34:DD:46:20:2B:F6:5F:D7:AC:F1:B5:93:B9:24:D9:
+		C3:98:26:68:16:FF:B8:32:A6:8F:BC:4D:93:0B:5C:14:5C:3D:42:AE:
+		7B:3E:D7:BF:58:B3:9E:C1:A5:80:CB:B4:EC:29:E9:AD:CA:E6:DB:B1:
+		B1:D9:0D:8E:05:5D:18:E7:C3:68:86:31:F3:E3:05:17:14:CA:7B:7E:
+		5B:49:41:5F:85:73:71:FB:34:CD:56:6A:E5:38:47:CF:FF:8D:19:DD:
+		18:3B:47:36:ED:A3:84:E9:A2:59:26:EE:B0:22:BC:89:DC:2C:EB:E5:
+		39:2D:2F:20:45:76:43:F4:E8:81:06:A6:65:B6:26:4E:50:99:AA:BA:
+		C3:1A:22:85:60:13:04:10:2B:B4:9C:BB:4C:C3:2C:10:C4:A0:BB:D7:
+		EF:DD:93:43:BE:C3:15:B3:30:39:D9:A0:50:25:0B:1E:D9:D7:D8:4F:
+		27:8F:80:21:A6:2F:8B:27:BD:3E:95:16:74:39:FF:2A:08:AD:FB:42:
+		F0:AB:5E:F4
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/infiniband/hw/cxgb4/iw_cxgb4.ko.xz
+license:        Dual BSD/GPL
+description:    Chelsio T4/T5 RDMA Driver
+author:         Steve Wise
+rhelversion:    8.0
+srcversion:     A574E4D0EDF815BF189733D
+depends:        cxgb4,ib_core,libcxgb,rdma_cm
+intree:         Y
+name:           iw_cxgb4
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      53:8E:F2:FA:10:C8:06:56:10:C4:BB:76:C1:2F:A2:4D:5D:A3:37:18:
+		8B:DD:82:79:6F:F0:A5:9E:91:13:42:91:3E:B6:26:37:9A:B3:3E:8A:
+		CA:38:5F:F8:3F:32:E7:D8:48:D4:50:1A:11:2B:F4:58:CC:0B:C5:1D:
+		C1:E0:5E:10:16:87:40:F0:72:10:6D:E0:B9:94:8C:58:22:7E:ED:D8:
+		18:59:73:65:3A:C6:B9:B3:10:CB:B3:31:D0:92:C4:CB:EB:D9:9D:1B:
+		A5:2C:D8:3A:90:C5:7A:C1:31:1B:E9:98:5A:4E:BC:B2:8E:07:99:8F:
+		63:CA:9F:7F:56:84:55:76:AE:EA:74:89:16:37:96:D0:D8:C3:95:72:
+		73:C2:52:94:4C:9D:CF:79:0D:D8:58:8F:8A:AA:16:7C:FF:D5:1B:AA:
+		20:D9:85:5F:EA:3C:BA:36:1F:6D:29:A6:34:40:44:B2:1F:BD:2F:7D:
+		BB:6D:99:0A:7E:A3:63:25:E3:C6:AF:08:98:F1:0A:6C:C3:D7:E0:16:
+		7B:0D:E5:CE:74:F3:DD:E8:45:1F:A1:5B:30:80:96:08:7F:6F:28:F1:
+		60:41:39:32:81:38:2E:81:07:3A:21:D4:34:06:8E:09:F5:63:E2:17:
+		63:4A:DA:C2:D5:35:26:47:BF:97:CC:6D:CA:BC:F9:6F:D6:5B:E2:6D:
+		B5:C0:87:DA:A7:3C:49:92:8A:45:7D:8A:CE:F0:DB:29:9D:09:9E:71:
+		32:BD:30:59:00:EB:AA:5C:A8:FE:D1:1A:A6:E9:9C:C0:6F:49:E8:D4:
+		92:FF:3A:2C:09:FA:59:08:10:82:6E:99:E6:01:C6:72:91:C9:9F:2F:
+		A5:72:ED:1E:7C:61:BB:2F:22:1D:CB:7D:EA:87:7D:29:49:AF:35:40:
+		5B:99:C7:95:FE:EC:A7:84:79:5F:30:E2:CA:1A:0D:31:96:AF:02:04:
+		4F:8F:DC:F3:50:05:39:FF:E5:2B:45:25:AF:D5:C4:02:C3:AF:39:9F:
+		00:F0:6C:BD
+parm:           db_delay_usecs:Usecs to delay awaiting db fifo to drain (int)
+parm:           ocqp_support:Support on-chip SQs (default=1) (int)
+parm:           db_fc_threshold:QP count/threshold that triggers automatic db flow control mode (default = 1000) (int)
+parm:           db_coalescing_threshold:QP count/threshold that triggers disabling db coalescing (default = 0) (int)
+parm:           max_fr_immd:fastreg threshold for using DSGL instead of immedate (int)
+parm:           use_dsgl:Use DSGL for PBL/FastReg (default=1) (DEPRECATED) (int)
+parm:           inline_threshold:inline vs dsgl threshold (default=128) (int)
+parm:           fastreg_support:Advertise fastreg support (default=1) (int)
+parm:           nocong:Turn of congestion control (default=0) (int)
+parm:           enable_ecn:Enable ECN (default=0/disabled) (int)
+parm:           dack_mode:Delayed ack mode (default=1) (int)
+parm:           c4iw_max_read_depth:Per-connection max ORD/IRD (default=32) (int)
+parm:           enable_tcp_timestamps:Enable tcp timestamps (default=0) (int)
+parm:           enable_tcp_sack:Enable tcp SACK (default=0) (int)
+parm:           enable_tcp_window_scaling:Enable tcp window scaling (default=1) (int)
+parm:           peer2peer:Support peer2peer ULPs (default=1) (int)
+parm:           p2p_type:RDMAP opcode to use for the RTR message: 1=RDMA_READ 0=RDMA_WRITE (default 1) (int)
+parm:           ep_timeout_secs:CM Endpoint operation timeout in seconds (default=60) (int)
+parm:           mpa_rev:MPA Revision, 0 supports amso1100, 1 is RFC5044 spec compliant, 2 is IETF MPA Peer Connect Draft compliant (default=2) (int)
+parm:           markers_enabled:Enable MPA MARKERS (default(0)=disabled) (int)
+parm:           crc_enabled:Enable MPA CRC (default(1)=enabled) (int)
+parm:           rcv_win:TCP receive window in bytes (default=256KB) (int)
+parm:           snd_win:TCP send window in bytes (default=128KB) (int)
+parm:           allow_db_fc_on_t5:Allow DB Flow Control on T5 (default = 0) (int)
+parm:           allow_db_coalescing_on_t5:Allow DB Coalescing on T5 (default = 0) (int)
+parm:           c4iw_wr_log:Enables logging of work request timing data. (int)
+parm:           c4iw_wr_log_size_order:Number of entries (log2) in the work request timing log. (int)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/net/netfilter/nft_compat.ko.xz
+alias:          nft-expr-target
+alias:          nft-expr-match
+author:         Pablo Neira Ayuso <pablo@netfilter.org>
+license:        GPL
+alias:          nfnetlink-subsys-11
+rhelversion:    8.0
+srcversion:     53EAB253E5B743B3B68488F
+depends:        nfnetlink,nf_tables
+intree:         Y
+name:           nftmodinfo: ERROR: Module pstore not found.
+modinfo: ERROR: Module sysrq not found.
+_compat
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      A4:FF:AE:85:4A:F5:BA:30:9F:48:71:49:4D:49:B3:7B:02:11:29:1B:
+		E0:6F:A2:1E:FD:2B:4C:4E:FA:DB:F2:32:2A:37:89:0D:86:33:B3:FE:
+		1C:7A:D6:2A:04:AD:47:6D:11:96:04:CD:FD:21:7F:7C:31:6B:48:CE:
+		01:CF:81:BA:68:B2:B2:E5:8C:15:44:64:69:0F:95:C7:A8:A9:47:16:
+		5D:03:C4:14:89:95:63:92:7D:2B:F8:4C:72:DB:3C:5A:38:31:9E:77:
+		2C:81:84:D4:17:F5:85:BD:32:46:9C:37:BF:01:FE:45:10:40:75:87:
+		D0:12:02:69:B8:5D:0E:F0:94:9D:63:A6:8F:29:06:E2:7C:A8:AC:11:
+		B7:19:78:8F:EA:38:77:81:3E:E4:85:3A:3E:2F:C2:F8:2E:2B:BA:73:
+		F2:C2:AA:4B:52:06:EA:FB:CB:3B:70:F8:33:C9:93:CF:69:F8:47:55:
+		CF:67:2D:9D:16:BC:A8:93:2D:2F:05:F5:9B:91:92:B8:84:EE:20:CD:
+		C8:2E:8B:F7:B2:C8:9B:AF:AB:83:DB:C0:A8:1D:0E:B6:C0:05:0C:AE:
+		A7:B0:D4:50:0A:D8:E2:51:96:C0:E9:73:C9:E0:D2:A1:F3:3D:52:E1:
+		DB:01:75:67:88:78:7A:4A:97:45:15:A0:D8:DA:FE:5B:28:29:D1:F7:
+		D9:02:C6:0E:94:BC:7D:B0:76:4E:D5:8E:57:C9:2B:36:DD:06:E2:B6:
+		B9:D1:D6:66:E7:B4:EC:67:60:6C:8C:9D:9E:70:27:F7:26:92:B3:AA:
+		B3:7D:EF:85:53:E3:71:B3:82:CD:53:9B:60:87:A0:39:14:15:6B:B8:
+		D1:5B:FD:11:3C:7C:72:A9:AC:96:2F:0F:0A:0D:F6:74:8B:56:BB:34:
+		29:E3:7F:2D:7E:09:35:F2:E5:8B:EA:91:0F:42:C9:A2:48:52:2D:3D:
+		6D:7B:5E:E8:38:C4:3B:7B:04:39:EB:58:26:D6:79:6F:48:A9:20:9B:
+		3F:D2:A2:5C
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/hid/hid-hyperv.ko.xz
+license:        GPL
+rhelversion:    8.0
+srcversion:     B45A16FDC2929879C8DC154
+alias:          vmbus:9eb6a8cf4a5bc04cb98b8ba1a1f3f95a
+depends:        hv_vmbus
+intree:         Y
+name:           hid_hyperv
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      16:68:23:D4:10:FF:4F:3E:B5:93:97:43:10:0A:55:06:B5:B8:50:81:
+		22:B7:26:A0:C4:2C:B1:63:1E:A8:E7:50:A4:C3:32:1E:08:40:EE:F7:
+		54:DA:36:D5:8A:97:D2:2B:97:AC:50:63:D0:91:BF:5F:5D:C5:02:B4:
+		C1:24:1E:72:32:25:62:B0:AE:8C:73:9F:06:34:B7:3A:11:3E:03:05:
+		F0:C6:F2:3E:27:B8:B3:1A:2D:35:FC:83:F9:42:A1:A8:D1:B8:39:49:
+		6A:D1:C3:B0:AB:E9:CB:BD:43:58:8E:D5:09:68:87:7C:FF:0B:7D:E3:
+		03:EF:64:0C:A3:C9:78:B1:31:21:93:9B:0A:1E:9F:5E:44:19:B2:A6:
+		7B:09:D3:4D:AE:C6:91:A6:3B:F5:72:24:B4:83:6D:6E:1B:13:76:43:
+		E7:AB:27:F0:2A:7A:8F:FA:26:98:31:40:5B:0D:DA:09:A3:7B:E6:02:
+		75:92:FA:64:C8:71:A7:7D:1D:48:1E:46:AC:BC:7E:BE:C9:C8:D1:C9:
+		2F:D0:3B:2D:B0:90:01:5E:64:3C:16:A1:66:45:37:97:AA:2F:05:84:
+		68:E6:82:F4:5F:EA:78:35:53:8B:6D:08:3B:2A:08:9D:9F:A0:9F:50:
+		70:0C:B3:89:3B:BE:19:82:E8:FA:35:66:AE:0D:10:6E:67:88:DB:81:
+		A9:56:6F:9B:A7:60:50:ED:12:2B:C1:30:2B:BF:9E:DA:31:A9:BB:45:
+		70:A0:EA:48:3E:26:4A:D3:9B:15:DF:40:99:8B:DA:EC:D0:B8:84:5A:
+		74:22:9D:CB:58:C2:53:85:D0:84:85:F0:12:3F:EE:99:23:95:14:8D:
+		58:17:58:C5:9D:7E:51:42:8F:F7:D1:6C:9F:36:37:B1:0B:2A:F6:B0:
+		BE:D6:B3:94:D8:25:E5:38:B6:C2:3E:9A:08:54:84:C0:D3:E8:B6:79:
+		2B:6F:12:C9:56:3F:FF:50:77:5C:09:24:6D:27:34:41:CC:1A:B5:DD:
+		B0:CE:51:60
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/cdrom/cdrom.ko.xz
+license:        GPL
+rhelversion:    8.0
+srcversion:     E5A2049F635B552113240F5
+depends:        
+intree:         Y
+name:           cdrom
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      3B:58:40:3F:B8:F0:63:6A:61:C1:0A:DB:2A:C0:35:8B:10:05:35:A0:
+		EA:C8:B5:25:8B:83:94:BC:52:24:FB:5F:C3:DF:96:BA:C9:2C:4C:8E:
+		5D:72:71:F3:CA:88:B2:25:34:1F:60:44:A6:3E:0C:8A:4F:DB:F5:CD:
+		64:01:69:E7:CE:16:55:21:05:34:81:72:4F:5E:3F:3E:CC:1A:FA:92:
+		BE:1C:A4:4E:18:CF:C8:9B:7A:DB:A8:FA:C3:6B:0C:D2:5B:50:61:FE:
+		1A:A3:CD:80:0E:F9:D4modinfo: ERROR: Module processor not found.
+modinfo: ERROR: Module scsi_mod not found.
+modinfo: ERROR: Module kernel not found.
+:15:10:59:16:F0:81:84:A1:FB:DA:02:23:5D:
+		F8:BF:D1:C2:6E:42:FB:F2:5C:55:FC:4C:3B:F7:DD:70:CB:D5:2A:C5:
+		A7:8C:95:6B:6A:C0:CF:81:48:B2:85:CE:67:9F:EB:62:91:BC:B5:FE:
+		30:1B:FF:15:81:15:9A:C2:39:BD:F3:07:D8:29:F1:45:E2:6E:B9:30:
+		D9:2B:CF:F7:A0:52:82:97:60:5B:AE:0A:AA:96:91:6D:9F:D9:32:41:
+		6F:1F:46:9B:38:8A:43:A2:A9:E9:C5:2D:86:2A:70:24:30:96:C7:D3:
+		60:38:64:1F:D7:A4:DC:A1:CC:B5:CF:2E:32:AF:0F:4F:23:8F:4C:D9:
+		66:91:66:A3:73:E2:9D:5D:A1:B9:28:32:68:39:CB:2D:45:FB:08:22:
+		BA:BE:DC:D5:F6:36:B0:55:0D:AA:F5:37:49:4D:44:28:B4:F1:F5:55:
+		B5:0C:95:6D:CE:41:76:36:D7:88:62:DD:36:7D:EF:C6:59:22:B4:E3:
+		75:1A:62:CF:F1:17:C4:BD:48:EB:A0:D4:AB:0C:90:99:9C:CC:33:65:
+		B3:00:2F:92:C5:0E:A9:34:A0:1E:E7:74:4B:CF:99:8A:36:5B:81:71:
+		60:D9:5F:13:5F:19:E1:A6:6D:E7:06:80:C8:DB:16:1F:D6:8C:4B:BA:
+		26:65:83:55:94:E1:E2:21:43:C0:02:7F:F6:6D:36:5D:37:C6:CC:45:
+		6D:24:00:BA
+parm:           debug:bool
+parm:           autoclose:bool
+parm:           autoeject:bool
+parm:           lockdoor:bool
+parm:           check_media_type:bool
+parm:           mrw_format_restart:bool
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/fs/overlayfs/overlay.ko.xz
+alias:          fs-overlay
+license:        GPL
+description:    Overlay filesystem
+author:         Miklos Szeredi <miklos@szeredi.hu>
+rhelversion:    8.0
+srcversion:     1C28507C1E1BB9694299ECE
+depends:        
+intree:         Y
+name:           overlay
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      9E:71:B2:FD:D9:C6:D2:CE:81:83:6C:8B:55:B5:E2:6F:7D:31:EE:B1:
+		B1:96:89:11:F9:26:83:C4:B8:C3:0F:A8:C2:E5:C0:F8:31:4F:9D:24:
+		07:66:C1:60:1C:85:97:F3:F2:BE:87:66:25:4B:16:C5:0C:B9:21:07:
+		0D:FD:14:72:18:50:F6:C0:27:6E:B4:14:C3:B1:9F:71:18:EF:4A:82:
+		B9:0D:13:65:15:2F:45:BF:66:3C:43:1B:E7:04:0A:1F:7E:60:33:DF:
+		2A:C4:40:6F:C8:49:4E:7C:DB:94:0A:61:E0:77:13:C9:98:36:0F:E4:
+		4C:D5:31:24:E9:22:C9:D6:A7:6C:F8:F4:C1:89:B9:B1:3B:E8:35:36:
+		C2:7F:0D:21:28:46:E6:99:76:1E:8B:42:F0:C9:2A:3B:1E:1E:93:20:
+		DC:AD:32:7C:C0:C2:C0:9F:DE:77:DB:F4:C4:2E:32:3F:21:FC:46:46:
+		9B:08:B8:71:C9:01:89:B1:E4:08:0D:F7:30:C1:79:8D:C7:D3:3A:F3:
+		2F:A6:56:37:E0:15:B8:5F:93:11:C0:3B:F0:FB:FA:E1:DE:07:A4:A9:
+		C0:D5:E9:8A:BB:12:AF:20:4C:7A:26:5C:92:E0:89:F6:EB:A5:5B:AA:
+		9C:08:BB:F3:65:11:37:FC:02:20:9B:9A:9F:46:EC:39:96:8F:28:8B:
+		97:56:FF:F2:19:A9:C9:42:38:37:54:05:6F:DD:94:31:C4:DD:A2:14:
+		9E:98:1A:5D:ED:62:57:68:10:F9:59:2E:EE:37:84:62:30:5E:67:0E:
+		A7:DB:F1:F5:25:DC:3F:73:33:6B:34:28:9F:CB:9C:F7:79:88:34:0E:
+		2A:F2:8C:E3:39:7B:6A:C6:45:8D:8F:16:A5:D4:8D:70:E8:40:90:56:
+		6A:84:4B:C5:6A:C3:F6:CD:D8:CC:61:75:25:44:64:33:59:71:51:E5:
+		50:DF:03:39:4E:68:67:72:5A:D2:75:53:88:18:8F:D1:D4:23:03:3C:
+		CC:3E:72:86
+parm:           ovl_check_copy_up:Obsolete; does nothing
+parm:           redirect_max:ushort
+parm:           ovl_redirect_max:Maximum length of absolute redirect xattr value
+parm:           redirect_dir:bool
+parm:           ovl_redirect_dir_def:Default to on or off for the redirect_dir feature
+parm:           redirect_always_follow:bool
+parm:           ovl_redirect_always_follow:Follow redirects even if redirect_dir feature is turned off
+parm:           index:bool
+parm:           ovl_index_def:Default to on or off for the inodes index feature
+parm:           nfs_export:bool
+parm:           ovl_nfs_export_def:Default to on or off for the NFS export feature
+parm:           xino_auto:bool
+parm:           ovl_xino_auto_def:Auto enable xino feature
+parm:           metacopy:bool
+parm:           ovl_metacopy_def:Default to on or off for the metadata only copy up feature
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/scsi/libiscsi_tcp.ko.xz
+license:        GPL
+description:    iSCSI/TCP data-path
+author:         Mike Christie <michaelc@cs.wisc.edu>, Dmitry Yusupov <dmitry_yus@yahoo.com>, Alex Aizman <itn780@yahoo.com>
+rhelversion:    8.0
+srcversion:     FDAF2FB5CF0FA9Amodinfo: ERROR: Module pcmcia_core not found.
+E900B10C
+depends:        libiscsi
+intree:         Y
+name:           libiscsi_tcp
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      AB:BD:FC:C9:84:77:D3:66:50:7F:6D:58:FE:21:7A:C3:05:24:86:DE:
+		7A:4E:65:B4:A0:E1:A1:59:F6:8B:EC:3D:4A:48:B6:E7:CF:BE:11:EE:
+		86:85:8D:86:3C:D4:55:3C:A3:65:3E:AB:4F:AD:ED:A2:D9:CC:85:0E:
+		2C:5C:03:B5:25:A1:CB:A6:46:1A:7A:E3:8B:AF:66:BE:E8:8E:F5:87:
+		B7:A2:C5:33:96:18:4B:FE:74:16:F2:7C:CE:29:C1:49:82:3F:5E:55:
+		7E:93:18:07:AE:4F:E8:85:4F:0C:2E:DB:0B:37:4C:CA:19:26:97:A5:
+		6F:45:79:4A:CF:C0:2B:5D:05:EE:7A:ED:B5:C4:BC:D0:3A:55:52:6F:
+		45:BC:5B:4C:43:32:04:85:25:09:29:2B:31:91:01:1B:5C:D3:5B:F9:
+		58:F3:63:C7:3E:CA:91:05:4A:E2:3B:18:D9:C8:11:20:A6:DD:28:44:
+		20:9E:5F:6A:65:BE:2A:4F:57:08:E1:BF:2D:24:34:FA:E4:5C:62:AA:
+		B3:E9:0C:EF:E6:F3:B7:A6:DB:43:1D:78:0A:12:5D:D9:AC:06:02:DC:
+		75:3D:00:0A:D7:00:35:11:25:34:4B:61:18:E5:1A:E2:D5:8E:4C:19:
+		9D:86:5B:0A:E7:C7:28:C7:3A:5C:70:9E:FF:53:C1:09:86:60:90:A3:
+		71:9C:63:5D:9F:91:EF:F8:08:52:23:CD:11:0C:EF:31:EB:70:E8:9A:
+		2A:C9:B5:3D:2B:F2:EB:05:64:6B:A7:2B:93:6F:04:A6:50:D1:07:F4:
+		1F:08:F6:36:49:43:EE:81:D8:40:DE:C7:6E:DB:B1:E3:82:F5:D1:03:
+		9D:C2:C6:58:4E:F2:3F:DD:19:39:83:6B:04:22:17:FC:01:7C:7D:B4:
+		22:82:B9:A9:B3:E1:FA:7B:02:C2:B1:CF:04:4E:CD:A2:24:B2:99:09:
+		6E:C4:2D:F4:A7:83:B8:70:AC:32:83:B3:33:3D:B3:E3:FB:05:49:E0:
+		01:A1:08:80
+parm:           debug_libiscsi_tcp:Turn on debugging for libiscsi_tcp module. Set to 1 to turn on, and zero to turn off. Default is off. (int)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/fs/mbcache.ko.xz
+license:        GPL
+description:    Meta block cache (for extended attributes)
+author:         Jan Kara <jack@suse.cz>
+rhelversion:    8.0
+srcversion:     E02D120F45B8E110D0A393B
+depends:        
+intree:         Y
+name:           mbcache
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      91:6B:32:63:33:2C:3F:0A:79:83:B9:99:F3:A0:3F:AB:75:70:62:EB:
+		D8:FB:28:D5:E6:03:6A:84:AD:4C:2F:83:74:05:13:09:2B:1D:A3:89:
+		4C:1F:8A:64:AB:A1:A0:41:BD:68:94:A3:E9:EE:5E:69:E3:E9:09:42:
+		5A:4A:8C:77:1F:06:2D:2F:DA:0F:D9:AD:CA:2A:5D:45:C0:98:AE:4D:
+		A5:FD:50:DA:C7:43:ED:65:43:03:CF:D1:D3:98:EB:23:1D:14:17:89:
+		D0:18:EB:48:F8:C6:74:6F:D2:2C:6F:F4:43:16:5A:AE:D7:81:A2:FD:
+		7A:06:59:09:FA:6B:4B:5D:7A:F1:E0:1F:FE:7F:1F:74:D7:6F:57:77:
+		D9:2D:5E:6C:76:78:E9:C0:B2:10:C5:57:23:18:A1:D3:DD:7D:A0:10:
+		01:B1:6C:6C:39:6D:28:0F:44:28:DB:84:24:97:53:EF:A0:0F:AD:71:
+		E3:E8:DA:F3:22:34:B5:40:2A:2A:83:AA:71:B8:06:69:73:91:57:FF:
+		EC:43:54:5A:55:4D:1F:92:7C:35:0B:D8:EE:15:2A:7A:74:88:BB:EC:
+		57:6D:DB:59:08:87:21:F6:E9:95:11:BD:9A:26:FA:1B:CC:4C:7E:1F:
+		9E:A8:13:57:2C:A7:71:B3:93:2C:D1:6D:35:6A:8F:1B:A8:23:58:3D:
+		9A:7B:96:5A:34:23:80:BC:C7:DD:84:A9:55:27:E1:94:E0:6D:57:63:
+		D0:8C:AE:0B:A8:E0:91:96:33:CC:10:4F:52:42:77:4A:75:AF:78:AF:
+		94:7E:91:D6:9A:BF:4B:35:3A:EF:E9:AD:2A:71:09:74:27:84:D7:01:
+		02:B3:D2:9E:26:FA:35:6E:02:33:B6:84:E6:F8:5B:8D:F9:19:9A:6C:
+		E7:C8:F4:08:89:81:D9:DF:7D:2D:52:E1:8E:A0:ED:FD:25:15:22:FB:
+		96:1A:5F:4C:AC:D2:F7:41:00:E0:7B:C9:4B:CA:94:94:A0:26:66:F9:
+		93:0F:2D:51
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/target/iscsi/iscsi_target_mod.ko.xz
+license:        GPL
+author:         nab@Linux-iSCSI.org
+version:        4.1.x
+description:    iSCSI-Target Driver for mainline target infrastructure
+rhelversion:    8.0
+srcversion:     D402ECE09DFB60D21E21C73
+depends:        target_core_mod
+intree:         Y
+name:           iscsi_target_mod
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:modinfo: ERROR: Module mousedev not found.
+64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      0C:A0:01:8B:D5:49:D7:AD:3F:AE:CA:27:14:B6:50:04:93:E0:77:25:
+		6F:9F:44:9B:0B:78:26:60:86:79:24:A4:78:5E:45:F8:BD:F4:8E:E8:
+		C1:04:5A:4B:AF:AD:19:F8:9A:45:69:B7:74:A1:12:CE:5F:95:43:2D:
+		7C:03:83:F2:23:49:78:C6:56:1F:29:BE:18:0E:D1:AF:C7:B0:92:0D:
+		6B:C3:5B:2B:BB:93:98:A2:35:DB:81:BF:52:34:98:A3:EA:FC:25:4F:
+		12:AE:4D:EC:CC:63:C3:A1:4F:E2:4B:27:22:60:61:BE:B8:D7:4D:DD:
+		E7:3C:8D:45:52:16:0E:5A:97:DF:EF:5F:AB:ED:EB:25:98:2A:E1:39:
+		03:15:9A:3E:95:A5:A0:AC:71:EF:48:F6:5A:15:75:13:F1:48:41:F7:
+		8A:41:47:B2:AB:53:B3:B0:00:C0:4D:BE:04:B8:DA:C2:A9:C1:D3:02:
+		BB:98:DE:37:D5:11:80:02:77:C0:D5:60:DF:F8:59:90:57:3E:BD:17:
+		1C:37:A5:44:71:BC:C9:96:1F:9F:10:3D:60:E7:4B:B8:5F:F4:A3:22:
+		D0:18:CF:97:7F:FF:06:F8:B9:E6:FA:A0:A2:57:71:48:D8:FE:28:55:
+		89:14:15:7D:13:7C:2A:C4:88:2A:BD:E9:C8:85:34:E8:EC:5D:60:7E:
+		C4:4A:BE:2A:67:AA:27:F7:5A:C6:F1:69:B0:CD:B4:96:40:6D:32:5F:
+		37:41:EF:F7:65:39:5D:48:3B:69:4C:BE:EC:95:92:56:34:B9:33:28:
+		5C:59:A9:EE:D4:64:F4:DB:18:BF:3D:EE:52:FB:A4:6E:16:E1:34:38:
+		E0:D8:09:8C:D9:91:5B:2F:4B:87:2B:64:4B:4C:23:05:46:57:DE:ED:
+		6A:D1:D3:0B:7F:E6:B5:D7:12:CC:1F:4F:A9:7F:BA:89:6B:B3:6F:78:
+		28:A9:0A:68:D6:23:29:EF:92:A0:92:3C:FD:78:C1:99:79:B1:C6:32:
+		9E:15:85:50
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/net/sunrpc/xprtrdma/rpcrdma.ko.xz
+alias:          xprtrdma
+alias:          svcrdma
+license:        Dual BSD/GPL
+description:    RPC/RDMA Transport
+author:         Open Grid Computing and Network Appliance, Inc.
+rhelversion:    8.0
+srcversion:     939548023FF23C203478A2A
+depends:        ib_core,sunrpc,rdma_cm
+intree:         Y
+name:           rpcrdma
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      8C:08:5C:3B:3D:3C:1D:F4:9A:76:07:70:41:EA:C5:05:70:BF:86:C0:
+		9F:3A:65:4A:5E:2C:40:70:34:A8:E7:13:A6:54:52:23:80:19:2E:2C:
+		A3:6E:4A:BE:E5:EF:37:EB:96:8A:DF:4E:FE:84:DA:6D:C6:7C:63:1F:
+		BF:13:EE:55:33:4E:33:F9:77:28:26:B2:42:47:C6:06:E3:50:6C:A3:
+		7D:D6:8D:F1:82:DE:A4:CA:9E:21:21:1E:4C:8E:39:C0:01:0C:BE:D5:
+		73:65:A5:3B:81:A9:FC:BE:F3:EC:FB:0A:07:5E:A0:9D:93:65:A4:1A:
+		90:C8:FE:F4:E2:2A:E0:60:2C:79:C6:C7:2C:FC:76:3D:44:50:18:0E:
+		0F:7E:07:58:A4:17:4E:6B:D7:DF:F5:88:5B:AD:B0:CF:DC:25:3F:31:
+		2F:87:59:58:66:61:27:05:CF:2E:D1:2C:B4:EA:C2:02:B5:F5:E0:01:
+		50:26:99:FF:C6:9C:2E:B0:A4:CE:EB:93:94:02:F8:DA:A8:33:E3:59:
+		3C:46:92:43:FB:3F:DE:E5:92:06:29:43:6D:F9:DD:DB:6E:CE:72:53:
+		46:3B:83:29:68:9E:7B:C8:84:B7:FA:7E:76:43:6C:40:E7:B1:C9:A2:
+		21:B9:B2:32:E7:07:23:AA:41:91:E7:49:88:21:24:AC:7E:CB:04:A4:
+		7F:E7:01:2F:7B:C7:7B:02:88:BE:D8:24:3A:D3:22:79:38:06:6F:E8:
+		B8:F0:13:93:82:9D:77:71:B0:10:27:80:61:A0:ED:76:7F:2F:20:28:
+		5B:5D:FF:64:FE:D4:E2:83:FC:19:88:8E:A2:F9:EC:8B:ED:A0:AC:DC:
+		F5:62:40:33:F2:1F:58:2B:AA:44:CF:C5:73:2B:32:59:D5:C4:54:38:
+		44:F3:9B:B4:17:95:85:7A:5D:9C:89:AA:E8:68:3D:24:6B:40:61:CC:
+		3F:3B:96:E6:7E:83:EC:BE:FB:D4:2A:9F:70:B5:AF:18:77:B5:35:ED:
+		51:E9:A5:7B
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/arch/x86/events/intel/intel-rapl-perf.ko.xz
+license:        GPL
+rhelversion:    8.0
+srcversion:     30173814F641CD16742B99C
+alias:          cpu:type:x86,ven0000fam0006mod007A:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod005F:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod005C:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod0066:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod009E:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod008E:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod0055:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod005E:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod004E:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod0085:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod0057:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod0056:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod004F:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod0047:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod003D:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod0046:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod0045:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod003F:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod003C:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod003E:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod003A:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod002D:feature:*
+alias:          cpu:type:x86,ven0000fam0006mod002A:feature:*
+depends:        
+intree:         Y
+name:           intel_rapl_perf
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      A9:2D:02:CC:AD:06:70:0F:37:13:6E:D1:A0:8A:D0:3B:FD:5C:CA:16:
+		65:9F:1E:7F:6C:53:AE:59:55:4E:15:F2:C0:FA:DB:EC:FF:84:20:99:
+		A2:01:FA:72:91:63:24:58:A1:B9:D5:50:27:74:EA:D5:D9:49:00:8D:
+		C9:2A:27:DE:22:12:63:C5:FB:F2:04:5E:92:E5:06:A3:CD:2A:04:B3:
+		54:72:9A:4B:21:E3:93:50:A3:0B:05:33:2C:C9:4F:7D:10:00:56:CE:
+		17:A5:3D:D6:68:BC:7A:14:A4:CA:E2:EA:D2:EE:AC:79:D3:1A:DA:6B:
+		B1:D1:34:4B:54:2F:FC:B7:38:16:96:8B:F1:28:DC:99:26:C5:CF:42:
+		9D:BC:0E:A8:1E:E6:53:01:B8:89:3F:AF:62:7F:21:C3:A5:3B:E1:0D:
+		B2:62:C8:CF:7B:09:C9:72:B3:99:F4:3F:FC:E1:92:5A:D4:B7:D9:6E:
+		C9:36:FB:3C:51:38:AE:DB:A5:3B:E5:EF:8D:56:07:20:AA:83:B0:DA:
+		A4:E5:BD:76:49:B9:26:EB:86:70:8F:4B:67:7D:64:1A:2F:3C:58:66:
+		0C:69:6D:C4:E8:0E:B6:E4:0F:57:90:64:FA:5F:3E:8F:ED:20:BD:BB:
+		63:C8:7A:5D:11:37:DB:AC:DB:C9:82:52:7D:46:C3:ED:41:19:1B:5D:
+		24:F2:61:1B:D7:10:A1:63:5D:01:2E:96:60:D6:9B:CF:1F:20:6B:C8:
+		F6:96:6A:E4:77:14:BF:26:4A:F4:A6:BE:46:04:7B:A8:6C:A5:92:7F:
+		B8:EF:2B:D0:B8:77:37:94:A7:87:D9:58:97:33:2D:6D:DB:AE:ED:D6:
+		1E:D9:CC:5E:40:40:0E:EC:36:4C:5E:D9:44:C2:94:19:E0:12:D1:2D:
+		F7:F6:02:6C:5D:89:EF:1B:8B:E8:AC:A7:93:03:75:B1:28:F3:24:1B:
+		64:8E:FA:75:AC:D5:10:AB:A4:06:ED:21:5F:7B:A2:DC:40:AB:02:C8:
+		8A:46:60:71
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/scsi/bnx2i/bnx2i.ko.xz
+version:        2.7.10.1
+license:        GPL
+description:    QLogic NetXtreme II BCM5706/5708/5709/57710/57711/57712/57800/57810/57840 iSCSI Driver
+author:         Anil Veerabhadrappa <anilgv@broadcom.com> and Eddie Wai <eddie.wai@broadcom.com>
+rhelversion:    8.0
+srcversion:     88563D26A3BCC226A40A967
+depends:        scsi_transport_iscsi,libiscsi,cnic
+intree:         Y
+name:           bnx2i
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      04:EE:1B:04:DF:AD:B4:AF:C0:11:6D:DC:7D:4F:AF:FB:1B:05:F5:D9:
+		68:B5:65:91:57:DC:99:C7:C3:E2:B1:B0:FA:58:0D:F1:16:7C:91:77:
+		E0:56:19:C9:63:2E:D0:B2:74:AF:0C:4B:C6:B8:28:27:D1:4C:04:DD:
+		91:7E:17:5A:B0:D1:C7:5F:57:AD:75:C6:AC:D1:FB:EB:6D:A1:67:1B:
+		C7:C6:68:52:43:F2:03:15:08:3C:42:1A:B9:F8:5B:C1:5B:34:FE:6E:
+		90:29:E2:E0:45:4D:08:49:E0:79:89:B0:E7:6F:35:34:05:5B:FB:32:
+		FA:B0:83:E7:92:4C:6B:5C:F0:A5:32:D5:87:08:14:CE:74:B1:E6:2E:
+		EA:08:F7:0D:75:29:8E:0B:91:B3:A5:D2:17:5C:58:B1:71:51:50:9F:
+		1C:85:EA:53:70:CA:4F:44:1C:0F:E7:EC:4D:82:76:81:10:96:6D:00:
+		EB:0A:AB:44:90:9C:4B:A0:9C:77:E9:94:B4:6E:42:1F:FA:6A:C2:FE:
+		4A:34:D4:0C:3F:4B:42:A4:E3:D3:E1:C5:2F:B1:26:5C:99:70:F7:15:
+		97:9C:9F:AB:7B:25:1A:55:B3:7A:BD:11:A4:53:B5:3F:83:6B:78:2D:
+		DB:C8:63:7A:F5:77:6F:04:A2:08:52:7E:B5:F9:C1:C8:73:EF:06:1A:
+		FF:38:E3:FC:2E:55:7A:58:9F:CC:3A:ED:82:DB:3B:3C:11:BC:C0:F4:
+		1B:7D:40:A2:8A:C2:E2:3C:D8:BA:A2:81:FE:6B:8F:2B:89:86:5C:01:
+		06:2A:BB:3D:3D:74:4B:4B:35:DA:3A:E7:5E:0B:66:20:ED:9F:BB:66:
+		09:81:F9:91:08:DD:0E:A7:82:52:E3:4F:F6:0B:7E:F4:EE:A6:10:BF:
+		44:C1:20:21:23:90:B3:3D:C2:DD:BD:CC:C2:C4:6Fmodinfo: ERROR: Module usbhid not found.
+modinfo: ERROR: Module pciehp not found.
+modinfo: ERROR: Module pci_hotplug not found.
+:15:5D:97:F9:E4:
+		5B:B9:01:8D:F4:B2:E8:CB:4D:BA:1F:35:A7:2A:15:68:4F:A8:09:7D:
+		69:4B:50:D7
+parm:           event_coal_min:Event Coalescing Minimum Commands (int)
+parm:           event_coal_div:Event Coalescing Divide Factor (int)
+parm:           en_tcp_dack:Enable TCP Delayed ACK (int)
+parm:           error_mask1:Config FW iSCSI Error Mask #1 (uint)
+parm:           error_mask2:Config FW iSCSI Error Mask #2 (uint)
+parm:           sq_size:Configure SQ size (int)
+parm:           rq_size:Configure RQ size (int)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/hv/hv_vmbus.ko.xz
+license:        GPL
+rhelversion:    8.0
+srcversion:     E606D6B4F34E8A10B233B94
+alias:          acpi*:VMBus:*
+alias:          acpi*:VMBUS:*
+depends:        
+intree:         Y
+name:           hv_vmbus
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      07:A5:91:7E:66:2B:A0:ED:0D:14:2D:A0:35:10:0C:3F:62:29:AE:78:
+		FB:B9:63:35:FB:9A:D0:07:E5:3A:2C:33:5E:FB:11:8F:4F:02:38:6B:
+		C6:0D:BB:FB:1F:2E:71:F0:FE:67:6E:E8:B1:99:B2:56:87:E4:9F:38:
+		BC:6B:0C:7E:E6:3A:81:40:E9:A7:84:A7:38:F0:90:8E:C3:8B:E2:90:
+		F3:54:6B:5E:13:CC:09:E1:88:7A:32:A7:26:9C:A3:BE:9A:16:91:9D:
+		C3:36:DA:83:88:FC:E7:AB:16:86:E9:CA:7F:6D:19:6A:39:09:A6:FC:
+		E1:10:5D:19:F7:5E:1D:36:E6:7E:9D:7B:B2:C0:3D:AD:2C:92:4B:1E:
+		4E:54:19:09:3E:FD:D5:C5:87:5B:E5:46:B8:6A:7C:96:1B:E4:F6:4F:
+		59:80:BF:8F:B4:51:6B:5F:AD:52:DE:8C:70:A3:B2:52:90:09:B8:57:
+		FF:9E:9A:39:25:4E:27:55:AA:0B:06:1E:DC:79:B2:55:3F:86:98:4C:
+		76:E2:60:7B:FF:E2:EA:34:39:65:62:4F:1C:5B:85:B2:BF:9E:6D:8F:
+		53:62:BC:EF:D3:1D:A5:88:22:A9:B3:2A:D3:13:BA:40:5A:2D:91:F2:
+		F5:78:B6:F1:EB:B2:06:15:AE:61:68:48:DA:09:07:5E:46:59:F8:87:
+		0E:C0:C9:20:20:F6:E1:25:A6:F0:6C:C9:EE:E1:25:0F:D9:54:CB:4A:
+		60:E2:9C:AD:0F:18:CB:5B:51:F8:91:5D:7F:AD:DB:C4:DB:3C:3D:CB:
+		0C:97:8A:56:01:F7:7E:CA:4F:7D:52:34:10:C4:22:22:94:08:92:3A:
+		78:43:0D:9D:68:4A:A2:1E:CD:D9:B8:1F:C6:6F:52:14:A9:E9:B0:F1:
+		4C:6B:A9:C0:A7:0C:79:01:A8:18:93:20:A1:C0:07:FD:71:A6:6B:CA:
+		28:17:4A:60:B9:F7:08:00:A6:D2:FE:2A:64:61:59:43:A7:09:1A:9B:
+		DF:25:58:FA
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/uio/uio.ko.xz
+license:        GPL v2
+rhelversion:    8.0
+srcversion:     158A22F68D147144AB6CB40
+depends:        
+intree:         Y
+name:           uio
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      12:BE:93:3B:3D:B5:01:4D:C6:16:BA:D8:B0:FE:87:9F:45:AA:F6:B0:
+		90:35:0D:2E:4C:77:63:8F:1C:60:B6:72:6C:D6:38:A6:D3:CD:BC:7A:
+		B9:6F:7C:44:D1:15:AF:73:A4:F3:E5:45:70:4E:8C:DC:AA:70:4B:6B:
+		06:1A:DC:9E:37:FB:AF:CA:71:1E:AE:E1:55:3D:CE:4E:B8:E2:A9:33:
+		46:90:F9:C7:07:D7:8F:23:F3:F5:F6:DB:0F:33:52:6C:0F:FF:CA:A2:
+		18:44:08:A3:5A:55:DA:EF:00:E1:1C:8F:7D:6F:38:9B:A2:86:23:B1:
+		20:F2:FF:F2:02:C5:D7:00:BF:60:7B:03:34:F3:8D:1A:6F:68:50:54:
+		C8:FA:EF:0A:0D:40:9D:42:5B:4D:1F:90:86:61:F0:10:8F:82:78:AE:
+		8C:6D:02:A0:33:C9:63:B2:7A:DD:1D:9C:C5:77:95:71:F8:DF:61:33:
+		25:39:0B:E6:E2:38:84:0C:BB:A2:98:18:65:D9:E0:57:3C:DF:4F:3B:
+		D8:D7:68:21:66:23:49:5C:41:29:7A:8F:56:5C:F2:5C:61:4B:41:D3:
+		FA:93:51:59:2E:1C:D9:E0:54:DB:2A:69:07:18:18:D7:92:9E:E9:E2:
+		95:EA:A9:3F:92:A9:35:F8:1D:DF:C3:14:02:6E:F1:BB:B9:B7:C5:9B:
+		A9:44:1A:A1:3F:B3:7D:61:88:31:91:FD:5F:E3:21:5C:B2:08:37:AE:
+		D3:9F:81:FC:2C:55:60:79:F0:26:19:8A:5F:D4:2C:88:4D:62:5B:37:
+		90:55:43:C8:A5:12:6D:8B:61:0B:AA:BE:72:2D:B2:67:82:D7:A4:63:
+		4E:80:F0:CC:0C:9D:8E:B2:11:7D:60:9A:9A:01:BB:D7:EB:CB:86:6B:
+		29:A2:39:E0:33:23:F3:F1:BF:BF:E6:AD:4E:7A:6D:F1:82:71:B9:74:
+		9A:41:90:78:C8:53:56:C7:DF:D2:62:AA:36:94:B4:0A:41:10:B9:B2:
+		C7:81:F3:E6
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/md/dm-region-hash.ko.xz
+license:        GPL
+author:         Joe Thornber/Heinz Mauelshagen <dm-devel@redhat.com>
+description:    device-mapper region hash
+rhelversion:    8.0
+srcversion:     FBCFC38143BA80DCA2D8285
+depends:        dm-log
+intree:         Y
+name:           dm_region_hash
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      2B:CE:D9:59:EE:2F:5A:1C:8E:2C:6F:7B:14:A0:0C:90:D6:5B:03:13:
+		53:BA:FA:90:5A:EA:67:B0:D5:82:FD:3E:74:0E:74:FB:D2:0B:0D:59:
+		18:1C:C9:BB:D4:35:66:5D:AA:07:A4:0D:38:BA:AE:51:CD:FD:67:E8:
+		9E:EA:44:5A:0A:75:26:0A:8A:65:E8:7A:32:C9:E7:43:0A:43:59:60:
+		27:CE:B9:21:CF:CB:AB:2E:A0:2F:5E:CC:71:FC:33:F3:F3:C9:33:D3:
+		68:41:AB:51:20:FD:4D:30:FF:3F:E9:72:74:EF:49:39:C3:E6:8D:60:
+		82:35:E8:01:B7:12:2E:FB:2F:B0:2D:4F:05:B7:4E:C1:C7:28:E7:6F:
+		F7:CF:2B:9A:83:DC:60:BC:A4:14:2E:94:3B:96:FB:89:7C:73:FE:72:
+		7A:85:94:36:69:17:99:AD:D3:01:F3:2A:CA:0A:FE:CE:25:21:FC:E1:
+		F6:A7:61:74:13:54:68:E5:49:65:B6:14:7D:37:C0:71:D6:0E:F1:80:
+		45:1E:30:BF:99:A0:14:74:8C:51:5D:EC:A1:7B:28:A3:1D:AE:50:62:
+		25:CF:2F:DA:A2:41:09:27:6A:AA:1A:C2:9E:7F:CB:EB:AE:23:F1:05:
+		D1:F0:0D:0D:58:8F:E5:87:D0:D7:62:B4:88:37:3B:DC:2C:CD:34:48:
+		EB:32:AE:85:1E:6F:6B:96:ED:95:7B:2A:EB:88:AE:FE:FA:86:08:3C:
+		55:AA:86:E3:D5:38:8C:58:F2:D7:75:93:9A:DF:CE:34:C5:84:7D:2E:
+		F8:EE:DA:05:9D:1E:4B:0E:83:07:53:43:F8:DB:E8:F3:F4:9B:8A:D7:
+		33:9A:56:49:EE:67:95:AB:4F:C3:3C:F7:71:1E:9D:84:28:1C:79:26:
+		CF:E2:6A:DB:F4:D8:BD:23:3E:07:ED:A3:E7:D0:31:39:E1:E0:0D:A0:
+		60:F6:20:79:BA:43:7B:04:0F:0C:17:70:DC:7C:98:37:9E:C2:21:F8:
+		A3:63:03:F1
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/scsi/sd_mod.ko.xz
+alias:          scsi:t-0x14*
+alias:          scsi:t-0x0e*
+alias:          scsi:t-0x07*
+alias:          scsi:t-0x00*
+alias:          block-major-135-*
+alias:          block-major-134-*
+alias:          block-major-133-*
+alias:          block-major-132-*
+alias:          block-major-131-*
+alias:          block-major-130-*
+alias:          block-major-129-*
+alias:          block-major-128-*
+alias:          block-major-71-*
+alias:          block-major-70-*
+alias:          block-major-69-*
+alias:          block-major-68-*
+alias:          block-major-67-*
+alias:          block-major-66-*
+alias:          block-major-65-*
+alias:          block-major-8-*
+license:        GPL
+description:    SCSI disk (sd) driver
+author:         Eric Youngdale
+rhelversion:    8.0
+srcversion:     F3DA7B43036315489BCB89C
+depends:        
+intree:         Y
+name:           sd_mod
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      A4:85:8E:72:BE:60:F5:5F:39:F3:AB:56:AD:8A:0A:D3:9B:6A:FB:51:
+		97:8E:FD:6C:71:B3:E7:1A:63:2D:9C:FB:54:6F:E5:0B:40:2D:56:37:
+		9D:C1:AB:95:1C:98:DB:D8:79:32:05:C5:93:38:4B:36:E6:50:50:78:
+		5B:4D:E2:CB:3B:EF:96:92:B6:1B:C4:08:4F:22:58:A1:70:67:E8:94:
+		FB:1A:85:FF:95:C9:84:F7:19:35:B5:F5:0A:17:B4:69:87:CB:D2:E8:
+		06:65:50:F3:C5:A1:80:D6:91:4F:37:DC:8D:61:5C:83:FB:F5:AA:1F:
+		27:12:2B:03:7C:36:DA:F1:2B:68:63:67:BA:C8:3B:9E:26:35:71:E0:
+		AF:DF:C7:BA:74:4E:02:08:49:AA:F4:ED:5E:BE:6F:B3:52:BA:71:00:
+		7B:1D:A4:9C:3B:E7:A3:5B:49:8D:D6:D7:93:72:08:D0:5B:D3:87:A3:
+		4D:81:4F:BE:7B:08:3D:4D:C5:3F:82:66:B3:78:9B:38:F5:88:11:FB:
+		7A:94:AD:A5:F6:D0:D9:17:1D:A4:23:50:D5:0B:3E:AC:B3:E5:B0:DA:
+		27:1A:79:EC:E3:46:86:8C:98:AF:9D:6E:F6:A7:6E:0C:30:19:F4:F5:
+		81:9B:6E:E7:C9:5C:37:20:FC:F5:FB:2D:27:78:84:03:36:FA:D2:66:
+		7B:9F:D9:4D:29:B9:55:77:BC:CB:72:7E:B1:FB:DA:CB:51:B8:39:2D:
+		20:D8:01:80:FC:70:AF:77:E4:24:4F:75:04:BC:75:63:EE:41:E0:0F:
+		5A:88:7E:7D:20:5A:AD:ED:0F:BB:0F:FE:3D:4B:04:49:89:D1:35:60:
+		FE:B1:DF:B7:4F:3E:39:DE:82:66:61:56:42:53:F9:FB:D4:F1:2A:69:
+		60:7F:6C:AE:F9:65:3F:21:3E:92:B7:FC:00:58:52:0F:EF:9D:61:A8:
+		FA:67:88:A3:A3:5F:F7:68:14:7C:1D:02:9F:E6:0D:C0:C0:0B:05:36:
+		80:F5:C9:84
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/net/ipv4/netfilter/ipt_MASQUERADE.ko.xz
+description:    Xtables: automatic-address SNAT
+author:         Netfilter Core Team <coreteam@netfilter.org>
+license:        GPL
+rhelversion:    8.0
+srcversion:     B97D40476A64149344DEFD1
+depends:        nf_nat_ipv4,nf_conntrack
+intree:         Y
+name:           ipt_MASQUERADE
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      00:D2:6D:7A:77:46:88:EF:66:98:2A:90:11:41:18:A9:EA:F0:1D:A2:
+		78:4E:4D:C3:AE:07:7C:D7:EC:86:92:C7:40:52:32:7E:48:C2:70:12:
+		4D:6A:D1:F2:F0:CB:B2:5D:DE:A2:4B:62:F1:CF:E5:47:C9:2A:B7:6D:
+		3D:5B:00:BC:AB:0E:87:5D:0B:12:29:9B:8D:AE:44:FC:E7:5B:35:F7:
+		EE:68:58:9B:35:BA:59:86:53:9C:43:19:A5:FF:59:73:40:FB:09:25:
+		00:07:FB:95:EF:B9:F3:C1:A3:27:93:7F:53:6D:01:60:B2:5E:53:C5:
+		97:37:BE:DD:7F:32:E2:FD:DE:82:38:1B:2C:6B:FA:11:E9:C6:CC:BE:
+		5A:F3:13:45:36:70:F0:72:C8:EC:28:C9:BA:4A:DB:8F:CC:86:45:08:
+		BE:3F:ED:AA:8C:40:E1:14:E9:52:4B:81:67:4C:9C:24:3A:47:4B:9E:
+		3F:9D:0F:1D:C9:43:9A:07:4D:49:6E:07:74:EA:D4:2C:98:4D:5A:6A:
+		A6:A3:3D:2A:16:F0:27:AC:B1:5A:5B:C0:29:6D:88:7E:AB:B4:F9:CF:
+		47:CF:D7:D0:2B:FA:25:ED:29:06:0B:03:A6:BE:56:1D:AC:7A:DA:86:
+		E9:A4:AB:57:C3:6B:76:B2:2F:DA:43:95:1B:0F:4A:6F:6A:4F:76:9C:
+		45:2D:C4:F5:8B:C9:DF:4E:D1:7B:5C:26:C6:43:76:53:B5:E2:46:45:
+		DA:99:48:2C:5E:24:C5:5F:8B:00:5F:83:C4:57:E2:64:2D:73:0B:B1:
+		5D:69:89:F6:7D:49:20:C5:CB:E8:89:D1:42:F6:48:5F:AC:11:CF:0C:
+		D5:5A:0E:D4:88:24:72:A3:2F:04:DA:7E:A6:44:E1:26:28:DD:B2:10:
+		B3:17:ED:21:6C:DB:32:0A:23:A6:92:D3:A1:6F:F7:08:D6:EB:8A:F4:
+		4D:A3:9C:D3:94:B9:5C:59:E9:B1:E2:87:24:6F:6C:AA:1D:E6:BE:58:
+		D9:19:3B:07
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/infiniband/ulp/srpt/ib_srpt.ko.xz
+license:        Dual BSD/GPL
+description:    InfiniBand SCSI RDMA Protocol target v2.0.0 (2011-02-14)
+author:         Vu Pham and Bart Van Assche
+rhelversion:    8.0
+srcversion:     0A1292E8ECD657C8A6C6AEE
+depends:        ib_core,target_core_mod,ib_cm,rdma_cm
+intree:         Y
+name:           ib_srpt
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      42:11:12:2B:4E:03:7E:A2:45:C8:09:23:A7:6E:FA:02:ED:EE:5A:A1:
+		C0:56:9D:8E:F6:54:6F:C9:99:FE:47:36:19:C3:D7:61:77:86:1A:F0:
+		D0:A6:AE:A1:DD:F1:78:4E:1A:4E:CB:95:97:D7:48:A1:6C:83:FE:A6:
+		77:C9:3D:49:56:5D:80:06:BB:A4:1E:BB:B8:20:00:AB:2C:E1:C8:56:
+		DE:48:76:F1:C3:6E:63:80:78:8F:30:52:6A:74:AC:A0:D2:1F:7B:F1:
+		A8:CE:49:34:BE:DE:4A:8E:B1:EF:F5:6C:1F:F0:4A:08:40:E0:43:B1:
+		4E:FD:6A:76:B7:C6:8B:E4:8A:A0:92:37:F5:7E:04:7B:BF:07:DB:B5:
+		1F:B0:25:B4:9B:B9:F9:E6:D4:74:B6:47:1F:BA:BC:7B:48:20:65:93:
+		FB:59:59:8A:E7:24:7E:57:0D:6D:EF:E6:B3:99:29:A3:85:CD:90:B3:
+		50:C6:76:02:DA:F7:75:F4:17:A6:FC:34:72:87:53:73:89:37:FD:7A:
+		ED:5B:0C:CE:AD:9F:AF:4E:5D:90:BD:51:4A:9E:2F:79:32:8D:16:D2:
+		36:87:66:5C:AA:A1:C9:30:C5:86:C5:63:29:F8:D4:B4:B8:AA:47:31:
+		08:6B:85:B5:4E:9D:BB:42:B9:DC:10:BC:33:97:69:F3:76:DF:C1:DB:
+		F6:B1:04:F9:88:DE:00:25:6E:FB:F5:0D:5B:AF:23:67:42:73:8E:CC:
+		F8:D6:5D:F1:06:80:00:2C:1B:F0:35:C0:82:54:40:A6:41:5C:0D:E2:
+		F0:E1:CB:46:BD:CF:F1:91:E7:78:5F:FE:79:E0:60:42:3F:66:81:3E:
+		26:C7:B2:45:42:E8:3C:C6:C5:D4:9E:5D:A7:57:2F:F4:0A:54:5B:17:
+		71:AA:CA:67:78:3F:1A:FB:E6:63:E4:4E:83:C2:8D:53:B1:49:4A:F9:
+		AD:2F:45:83:99:D0:39:52:16:95:90:E8:4D:F5:E4:F6:FF:D0:BB:82:
+		9D:84:19:B2
+parm:           srp_max_req_size:Maximum size of SRP request messages in bytes. (int)
+parm:           srpt_srq_size:Shared receive queue (SRQ) size. (int)
+parm:           srpt_service_guid:Using this value for ioc_guid, id_ext, and cm_listen_id instead of using the node_guid of the first HCA.
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/target/target_core_mod.ko.xz
+license:        GPL
+author:         nab@Linux-iSCSI.org
+description:    Target_Core_Mod/ConfigFS
+rhelversion:    8.0
+srcversion:     F0A0693094608091FD03A7E
+depends:        
+intree:         Y
+name:           target_core_mod
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      8D:7B:02:93:FF:DA:C0:38:58:34:43:CB:58:A3:54:2E:57:D2:FD:24:
+		59:13:72:5C:5C:7D:96:3A:53:D8:29:DD:39:A7:A7:5A:68:FE:DE:0D:
+		73:72:81:2F:2C:A0:B1:A9:38:99:47:CA:B3:97:41:03:18:84:0B:FC:
+		78:44:AC:DD:94:48:7A:27:48:05:D1:84:F0:19:AC:8E:AD:CA:EA:BB:
+		BF:00:B4:7A:44:E7:35:17:70:7E:E2:32:80:D4:5E:42:A9:57:E9:58:
+		C3:D0:D6:C1:FE:9C:72:08:4C:C7:D9:F0:81:1E:67:A8:AE:82:CD:37:
+		39:F7:6E:A8:0A:12:09:6A:0E:D1:CB:C4:8D:CF:15:ED:16:C5:C5:C1:
+		83:EB:FC:B6:01:51:CF:AB:86:E1:A5:CE:6B:21:AA:FF:28:40:8A:D9:
+		47:AA:20:79:56:E8:8D:0A:E7:C9:8E:4B:71:BB:49:DE:A0:16:B4:B6:
+		9A:C6:AB:C5:CD:08:0F:A3:AF:DE:01:73:6C:A5:EF:B8:8A:B4:FE:A8:
+		C9:63:95:C8:B1:41:DE:CE:05:30:FB:19:DC:46:9C:AE:7C:64:90:6A:
+		1C:BD:75:8D:7B:51:10:B1:D2:49:D1:4A:6B:54:D5:BF:3F:6C:D1:44:
+		C2:40:8E:AF:30:8D:A3:6C:C5:2A:14:3B:7D:82:70:80:5F:B1:7C:86:
+		DB:0F:75:A3:77:29:4C:E3:D6:CF:74:31:C4:4E:5A:3B:37:B8:1F:66:
+		2A:87:E8:7F:B4:35:C3:1C:3B:38:68:EB:64:99:62:EB:79:B2:3B:54:
+		93:95:91:FB:0D:08:A4:AC:13:7B:21:13:5B:2D:45:AC:E9:13:0A:54:
+		96:CF:D1:0A:92:28:77:4B:61:FA:0E:7B:0E:07:2E:1F:D6:06:48:0C:
+		3D:20:BE:10:68:04:4E:D7:3E:61:EE:B2:8F:D2:E9:69:E6:AC:52:E4:
+		65:56:E8:16:64:F2:BC:2C:E7:77:F0:05:A1:7B:EF:9F:1C:DE:3B:C1:
+		FD:BB:38:D0
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/md/dm-multipath.ko.xz
+license:        GPL
+author:         Sistina Software <dm-devel@redhat.com>
+description:    device-mapper multipath target
+rhelversion:    8.0
+srcversion:     114FD1887B883EF4E382E49
+depends:        dm-mod
+intree:         Y
+name:           dm_multipath
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      BB:AC:F4:B5:F1:CA:76:5D:A4:C0:AD:46:8D:F3:71:2B:40:D3:75:EC:
+		A6:18:7D:65:FA:7F:B8:D1:9C:DB:D3:F0:63:CE:1B:10:6E:60:09:65:
+		DC:78:9F:FD:16:26:D7:F5:26:D7:E3:46:E9:B9:69:CC:63:05:7E:73:
+		F3:DD:40:FF:BC:D7:4F:F7:CC:B7:F6:6F:47:BD:E8:94:4F:32:0D:71:
+		D0:0B:B4:F2:F3:0B:2D:A8:1F:9B:6B:CD:C7:FD:FB:84:89:AF:0C:E3:
+		D0:D3:23:2F:8C:5D:05:EC:D3:D3:AA:82:A5:1E:DD:18:E5:1F:2B:88:
+		E9:F1:16:EC:25:C5:1F:2E:9E:2A:3C:5B:65:69:BF:FB:74:E0:81:C4:
+		67:2F:34:04:D9:44:43:86:02:84:AB:C2:82:D2:4F:E1:58:EA:B7:E7:
+		5B:6E:9F:1D:81:FD:FC:76:9E:E1:85:BA:84:0D:CE:6B:98:48:1D:DD:
+		18:1F:1C:DD:2B:67:E7:1C:21:9D:DB:6A:2D:73:C1:37:74:94:C9:BA:
+		F7:4A:80:EC:3E:77:A2:04:4A:1D:8F:DC:31:FC:85:4A:00:48:0E:1A:
+		0F:CB:AA:1C:A0:BE:AE:03:C2:45:E5:07:77:55:33:31:5F:6A:2C:B5:
+		7D:29:F7:30:30:80:72:02:A4:B0:70:EE:96:28:79:BD:85:CB:8A:DC:
+		51:85:6F:44:9E:6E:45:EB:96:00:87:4F:CB:E3:69:1A:68:A3:B5:2C:
+		DC:96:18:F6:A2:7F:4D:B3:4C:B7:CB:87:AF:82:EF:3F:0C:A8:D6:53:
+		2C:98:9B:C7:DE:20:17:96:FC:0E:81:9E:24:09:D1:6B:BF:52:A0:AD:
+		FB:01:DE:28:7C:A4:A7:38:A9:23:F7:D2:6F:17:94:9A:5E:86:11:16:
+		29:D8:78:37:51:7B:20:D9:3A:3B:0E:9A:C0:35:41:95:E7:92:9C:95:
+		E7:D8:CA:49:19:BA:DE:D7:77:6D:A3:84:0A:38:11:78:1B:D3:39:71:
+		7F:28:D1:5F
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/infiniband/ulp/srp/ib_srp.ko.xz
+release_date:   July 26, 2015
+license:        Dual BSD/GPL
+description:    InfiniBand SCSI RDMA Protocol initiator
+author:         Roland Dreier
+rhelversion:    8.0
+srcversion:     244C88AC4DF6CFF6FB46D2B
+depends:        scsi_transport_srp,ib_core,ib_cm,rdma_cm
+intree:         Y
+name:           ib_srp
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      71:2B:2E:E3:A4:94:70:FF:48:75:86:E6:98:D9:B3:58:76:A9:24:98:
+		68:B1:59:FF:8F:F8:49:B3:05:EE:63:3B:1C:9D:1D:EB:D0:17:FE:45:
+		D9:2E:AA:38:74:51:2C:96:8D:11:AA:67:C1:00:F3:AF:34:A3:87:65:
+		79:BF:5B:52:26:0D:88:B5:78:D7:71:91:24:50:5A:1F:99:39:42:6B:
+		32:EE:DA:B9:77:2C:87:2C:F3:A1:A4:44:62:1D:04:DC:3F:0C:BB:A4:
+		F5:15:81:44:2B:36:B2:A5:7D:CA:3E:C2:AF:F7:AD:C7:9F:23:EC:7C:
+		D7:9E:7F:0E:53:A6:BF:A1:8F:82:AC:BF:62:A3:14:8A:A3:59:37:36:
+		05:60:86:08:D8:ED:90:D3:1B:8B:14:82:8D:8F:EB:64:61:96:C3:CF:
+		0F:47:2D:D9:56:AC:1E:B9:E9:D5:97:34:19:58:D6:D6:54:FC:F5:BA:
+		D7:03:D1:1E:87:DC:FD:6D:97:A3:E6:8C:93:AF:B5:B6:30:07:7E:2C:
+		D9:2D:C4:F6:DF:30:95:37:3F:BB:79:FC:D1:05:B1:B7:42:ED:30:72:
+		AC:C9:CB:50:49:89:1E:7D:85:3D:4A:64:36:C9:FB:D1:26:AE:14:34:
+		1B:7B:0A:97:AD:E1:97:FC:55:F6:A2:A6:72:FB:CB:51:06:B1:82:6D:
+		AC:93:5A:A3:6F:95:6D:DA:A1:9F:05:7A:1D:FB:3D:F2:A7:CC:08:72:
+		2E:B3:23:20:5A:4B:01:10:D9:E4:98:F3:38:27:87:AE:75:FC:82:32:
+		44:EF:9F:F1:EF:76:87:9B:FD:C4:85:5B:D7:19:E2:3B:F7:C2:59:08:
+		1B:87:5F:F8:BA:6C:DA:E5:C9:CA:50:12:A1:9E:95:6F:A3:02:CD:5C:
+		BD:D1:AE:41:88:9B:9A:04:05:66:DE:4B:36:0A:5D:5B:C4:CF:49:0D:
+		92:64:39:D1:D7:7A:3F:75:9F:52:DF:08:69:1B:60:4E:54:B3:B2:D2:
+		2A:A8:38:BF
+parm:           srp_sg_tablesize:Deprecated name for cmd_sg_entries (uint)
+parm:           cmd_sg_entries:Default number of gather/scatter entries in the SRP command (default is 12, max 255) (uint)
+parm:           indirect_sg_entries:Default max number of gather/scatter entries (default is 12, max is 2048) (uint)
+parm:           allow_ext_sg:Default behavior when there are more than cmd_sg_entries S/G entries after mapping; fails the request when false (default false) (bool)
+parm:           topspin_workarounds:Enable workarounds for Topspin/Cisco SRP target bugs if != 0 (int)
+parm:           prefer_fr:Whether to use fast registration if both FMR and fast registration are supported (bool)
+parm:           register_always:Use memory registration even for contiguous memory regions (bool)
+parm:           never_register:Never register memory (bool)
+parm:           reconnect_delay:Time between successive reconnect attempts
+parm:           fast_io_fail_tmo:Number of seconds between the observation of a transport layer error and failing all I/O. "off" means that this functionality is disabled.
+parm:           dev_loss_tmo:Maximum number of seconds that the SRP transport should insulate transport layer errors. After this time has been exceeded the SCSI host is removed. Should be between 1 and SCSI_DEVICE_BLOCK_MAX_TIMEOUT if fast_io_fail_tmo has not been set. "off" means that this functionality is disabled.
+parm:           ch_count:Number of RDMA channels to use for communication with an SRP target. Using more than one channel improves performance if the HCA supports multiple completion vectors. The default value is the minimum of four times the number of online CPU sockets and the number of completion vectors supported by the HCA. (uint)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/scsi/cxgbi/libcxgbi.ko.xz
+license:        GPL
+version:        0.9.1-ko
+description:    Chelsio iSCSI driver library
+author:         Chelsio Communications, Inc.
+rhelversion:    8.0
+srcversion:     6A6505CF8E75C567AF02A76
+depends:        libcxgb,libiscsi,libiscsi_tcp,scsi_transport_iscsi
+intree:         Y
+name:           libcxgbi
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      6A:EA:C7:E0:87:96:36:83:77:80:6C:73:54:21:33:85:55:BF:78:F2:
+		5D:46:A4:C8:60:A6:11:DB:EB:B9:F0:D9:D3:F8:83:DF:87:75:61:AB:
+		FE:53:F5:FE:A2:EE:5A:1F:A1:12:FE:04:50:BF:0D:F0:00:7A:22:01:
+		48:AF:FB:FF:96:97:0B:B5:41:C9:1B:65:52:77:B8:84:modinfo: ERROR: Module dynamic_debug not found.
+28:54:32:A1:
+		3E:E3:18:D2:85:D0:F5:42:78:B7:B8:6C:3F:11:D2:65:38:C7:4D:99:
+		EB:17:D8:CA:B7:F1:47:8B:86:B3:D6:15:74:BC:CA:CF:66:68:A6:36:
+		65:81:78:10:4B:FC:DD:0E:B9:A9:2E:14:7D:9E:AC:82:4B:8C:B3:9E:
+		9C:F5:AC:CF:A3:92:FB:28:C5:B9:71:A8:84:4E:D3:67:3F:CB:1C:9D:
+		9F:D2:F9:79:F3:7F:E6:9D:90:B7:A9:14:06:06:D9:94:2F:71:AF:DE:
+		0B:F5:EB:3E:8F:3C:49:3A:0E:A3:7C:8D:3E:3E:F6:92:1B:C4:51:D7:
+		7D:7C:89:AB:03:40:D8:AB:8A:2F:59:30:2B:1B:5D:21:AC:B7:5F:03:
+		E2:A3:50:08:CF:CF:48:32:D0:22:74:CE:D8:19:B4:1F:2F:D8:7B:6E:
+		CD:0E:C1:FF:52:D7:00:25:C2:9D:D4:D9:8A:0F:8B:F4:38:32:F0:11:
+		1B:06:79:F9:92:81:4F:44:02:33:3A:B6:97:23:B4:5B:0B:96:E8:F6:
+		7B:BE:38:0B:53:6F:4A:B1:9A:6B:25:E6:D0:01:20:0B:49:B1:3D:8A:
+		78:90:E1:85:DD:CE:E6:D7:55:10:8D:E2:1F:B2:AA:1D:4B:BE:C9:D4:
+		CC:FB:DF:D9:F7:DC:2F:21:F1:A8:39:F6:89:FE:68:0B:F3:DF:92:25:
+		64:19:3A:89:C4:68:B2:6F:FE:D3:A0:A4:8D:36:FF:0A:E4:D2:10:AD:
+		D9:71:B9:09:8D:B7:A8:79:A2:18:91:E6:BF:52:92:DC:A5:D9:B9:27:
+		82:F3:9E:D5
+parm:           dbg_level:libiscsi debug level (default=0) (uint)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/net/ipv4/netfilter/nf_defrag_ipv4.ko.xz
+license:        GPL
+rhelversion:    8.0
+srcversion:     68FCBBCE17510C70A0310A1
+depends:        
+intree:         Y
+name:           nf_defrag_ipv4
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      12:E0:35:61:2D:DB:A1:83:72:A1:D9:DD:AD:6F:45:33:54:5A:06:A4:
+		B5:A6:0A:20:36:5E:E0:8C:81:09:48:7A:09:7A:DB:8E:2A:19:D3:AC:
+		65:60:52:DF:5D:CA:12:44:C0:CD:2C:7E:2E:E0:84:5E:0A:E5:AC:B6:
+		25:B4:32:6A:6F:F4:E3:60:82:11:E5:B6:6E:B7:74:B2:D9:18:18:31:
+		F2:46:A3:80:31:B5:90:14:B9:EA:69:08:60:DC:92:CF:C9:C0:CC:06:
+		BD:BA:7F:13:AC:37:10:3F:D4:E2:ED:13:94:38:3D:AB:2B:3F:F0:AC:
+		D1:3C:F8:D4:A5:70:1D:CC:05:29:3D:54:90:9A:5A:B6:CD:C4:9B:C6:
+		67:15:91:9F:D9:0D:69:A0:4A:27:56:5A:7F:26:A1:2F:68:3D:88:6E:
+		BD:A0:10:B1:3C:6E:33:DB:B2:9F:F4:C8:B3:F5:00:3B:6A:7F:DF:1D:
+		2E:12:B3:27:E0:EC:32:68:E0:83:D0:E4:FC:B6:5A:59:95:72:5D:FD:
+		13:01:C8:C7:AB:53:DE:F9:C8:44:D5:3E:33:E2:4C:F0:45:19:4E:6B:
+		D7:5A:78:AD:24:FF:64:6A:FD:AB:32:E7:29:84:5D:38:F1:25:21:B6:
+		43:44:C5:F9:00:E1:9C:15:B7:C3:B2:4C:37:F1:2E:DD:9C:A8:31:B6:
+		E1:CB:3C:F2:9B:50:D4:CF:E0:72:C4:29:FB:C2:23:A5:C4:83:7F:E7:
+		2E:43:29:2A:57:71:99:03:DA:49:32:54:FD:DC:41:48:A7:19:30:DA:
+		28:FE:F9:E5:05:18:31:D2:82:47:97:5B:6C:17:E5:88:43:3F:1F:9E:
+		5D:8D:15:FF:50:96:56:70:C8:FD:CF:44:96:12:C5:6E:6E:4A:92:31:
+		AF:FE:8E:A6:14:3C:47:F8:8B:28:BA:0D:18:CD:48:4D:E9:CB:54:80:
+		77:7E:43:FC:E9:CE:AE:C4:E4:A4:09:BB:AC:C5:38:44:AC:6E:ED:3E:
+		67:53:02:4F
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/net/ipv4/netfilter/nft_chain_nat_ipv4.ko.xz
+alias:          nft-chain-2-nat
+author:         Patrick McHardy <kaber@trash.net>
+license:        GPL
+rhelversion:    8.0
+srcversion:     8A5432AEE9DF47049BE02D5
+depends:        nf_tables,nf_nat_ipv4
+intree:         Y
+name:           nft_chain_nat_ipv4
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      03:A9:BD:6B:32:10:50:C1:5B:47:6F:CC:AE:41:DB:60:90:0A:EA:5E:
+		76:A2:4A:30:85:1A:15:53:02:3B:BB:66:D1:0A:D0:6B:B6:3B:3C:A6:
+		9E:8F:E2:63:F4:7A:52:F2:AF:1F:91:61:43:95:A8:07:F3:1B:3C:DC:
+		3B:C1:18:FA:2A:5F:44:2C:F1:75:01:31:A0:DF:5A:19:2D:EE:A9:0C:
+		5A:C4:8C:A5:51:D8:9A:C2:D6:B5:DB:81:DB:D5:6E:75:8F:73:4A:E6:
+		9D:BA:84:07:D3:FB:1A:45:7B:AC:85:B3:74:4F:9C:FE:7D:06:39:AE:
+		5F:20:94:2F:DD:5B:79:FC:02:84:1B:48:58:48:04:7C:E6:FF:B0:24:
+		7A:72:C6:A5:5E:36:D9:13:AA:70:B5:51:F7:6A:AA:E6:BC:3E:53:C5:
+		1B:FB:E6:8D:95:CB:63:68:AE:D9:2E:0F:26:69:E4:9E:3F:11:0C:4D:
+		DA:0D:9A:24:1A:5C:0E:15:E3:EB:16:62:D4:4A:8F:66:5C:2E:77:E1:
+		4C:4D:57:E8:78:4E:51:84:E9:EE:6E:F0:08:E3:07:D7:2D:43:C4:DC:
+		3D:EEmodinfo: ERROR: Module intel_idle not found.
+:C1:43:56:EA:2B:CB:45:51:12:9D:76:4B:15:75:F1:3E:98:69:
+		D8:98:3F:09:BF:A5:35:A7:53:83:24:24:49:36:F0:44:4A:28:67:B8:
+		EB:00:34:5A:FA:63:87:06:24:7E:4C:B8:4D:AA:F0:A0:41:E7:48:CB:
+		67:6F:AA:F1:07:ED:02:FE:57:A1:44:BC:3C:96:C9:A6:58:F0:5C:9B:
+		09:FA:38:28:2B:E9:9C:D7:07:93:BE:6E:78:A9:BB:AA:57:FE:D4:5C:
+		CA:DA:BF:0E:07:E3:78:82:75:A2:04:CC:F9:13:BE:F2:91:6D:1D:51:
+		5E:B4:A6:D0:69:2D:F4:7D:02:8D:42:64:6F:5D:B5:65:73:97:7B:9E:
+		E6:9E:B5:86:4C:04:86:6D:F2:E3:70:34:79:60:5C:BE:2E:8A:41:7D:
+		45:C0:4C:5B
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/lib/libcrc32c.ko.xz
+softdep:        pre: crc32c
+license:        GPL
+description:    CRC32c (Castagnoli) calculations
+author:         Clay Haapala <chaapala@cisco.com>
+rhelversion:    8.0
+srcversion:     4E7C158520DE1BC05387694
+depends:        
+intree:         Y
+name:           libcrc32c
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      24:1B:65:52:B7:83:33:6F:6F:91:F0:70:F5:53:73:73:79:56:4F:50:
+		88:AE:E0:F4:B3:BC:B9:EE:8C:7A:A3:D7:B4:40:92:49:44:E5:CD:22:
+		58:D7:7F:A3:BE:5D:7F:87:FF:D1:7D:C3:D7:70:DD:B1:C2:81:DE:EB:
+		4C:0F:CA:5F:F5:E3:D7:5C:AF:1A:B5:08:02:B5:B2:09:F6:F2:6A:B7:
+		CD:04:FB:FB:89:91:9E:0B:3D:60:0F:D0:DA:68:53:4A:3F:23:CB:86:
+		7A:84:AD:B1:9C:DD:B0:60:77:3F:85:FF:2E:8A:71:2E:3C:3E:B4:CC:
+		BD:85:A4:6B:A2:4C:74:77:7C:32:11:33:EE:4B:DA:23:F5:4E:46:52:
+		86:8A:09:9F:F3:0D:99:CC:08:57:6D:CD:C5:CC:61:E8:0B:3C:A4:D6:
+		8B:CE:DF:4E:EA:A2:BD:6A:00:27:BE:54:54:DC:BC:AF:73:52:CB:10:
+		D3:07:95:28:1D:23:34:DA:54:A4:2D:F3:DD:DA:AF:B6:3B:D9:B8:FC:
+		5A:4A:24:25:B4:CC:53:24:D0:2D:97:04:B8:00:E4:DD:2B:08:F6:10:
+		73:DE:E8:5A:61:8E:18:0E:1A:F4:CD:89:42:AC:34:AB:B4:E8:C9:47:
+		F8:0C:48:41:39:68:FB:DB:89:0A:F0:4F:2F:9C:38:F5:13:F5:11:9B:
+		B3:8F:76:DF:98:44:3A:6B:C6:E7:90:EC:D1:F4:C3:FE:B5:DA:F9:5E:
+		A7:22:42:22:8B:0E:BC:38:83:9D:8A:D0:74:11:9A:44:B0:66:F7:B6:
+		3A:E2:D2:DF:0F:FF:26:3E:E5:53:D3:3A:FA:6E:0A:EC:A3:54:0E:65:
+		65:7E:DC:71:47:84:DB:5A:1F:88:20:04:2B:12:B5:9F:6D:E4:23:5C:
+		FF:F0:81:BE:84:27:F6:00:C6:90:A1:F1:EE:63:9D:3C:D2:B5:A7:E9:
+		69:7D:4C:F0:36:C8:FD:F5:6D:D3:D4:4B:38:C9:A9:18:9B:3E:84:E8:
+		05:43:B0:20
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/scsi/hv_storvsc.ko.xz
+description:    Microsoft Hyper-V virtual storage driver
+license:        GPL
+rhelversion:    8.0
+srcversion:     1C6EAE9894CC05C42C34810
+alias:          vmbus:4acc9b2f6900f34ab76b6fd0be528cda
+alias:          vmbus:32264132cb86a2449b5c50d1417354f5
+alias:          vmbus:d96361baa104294db60572e2ffb1dc7f
+depends:        hv_vmbus,scsi_transport_fc
+intree:         Y
+name:           hv_storvsc
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      CD:DC:AB:2E:1C:7C:2D:CB:17:5D:6A:0D:C2:CC:A4:50:0F:9D:71:BD:
+		2A:36:6C:79:E8:7A:00:02:CC:07:7A:C6:96:8C:07:EF:DC:F0:F3:0D:
+		58:BA:22:D0:35:BA:D4:CE:43:D1:75:16:9D:CF:9A:68:38:27:1D:95:
+		6F:D2:34:FA:75:AF:C1:92:FE:F6:CA:C9:BC:0D:6B:DE:BA:31:AB:0D:
+		0A:24:EC:F1:29:CA:57:8F:E8:3A:DD:75:A7:F3:C9:C1:6A:5A:03:20:
+		EC:8A:5F:33:EF:F0:9D:B0:A8:95:55:9F:33:59:C9:B9:DF:2B:EC:5E:
+		1B:B3:FF:6F:C3:C4:5E:AC:AB:19:BE:0C:4D:17:7C:C0:CC:35:08:30:
+		95:CF:A2:42:2F:A2:C6:27:DF:36:9A:18:7B:9F:D0:D7:D2:F5:A9:89:
+		9B:83:1A:10:57:6D:94:57:1F:78:DE:4C:3F:20:3C:BC:E6:B3:E0:FD:
+		6F:C1:86:C1:6E:6B:A6:B3:A9:74:63:10:F3:03:92:65:33:3E:A4:14:
+		27:C0:D1:74:D2:32:49:14:FF:83:01:FD:27:C2:BE:1F:FB:9A:AD:CF:
+		A5:96:70:A6:D9:5E:82:45:06:50:A3:88:6B:48:B7:84:EC:67:32:49:
+		67:14:99:B3:9B:25:98:A8:BA:82:00:E0:77:4D:1D:82:97:B3:26:5A:
+		40:00:70:B3:DA:C4:96:14:8E:C1:C0:D3:58:78:67:53:0C:C7:F7:B0:
+		FD:13:B0:1B:67:1D:A0:90:00:1F:AC:B0:7D:2D:37:57:B9:E7:59:9C:
+		7E:9C:7B:74:50:94:A6:70:F5:06:13:9B:D5:6D:DF:CB:12:8A:Emodinfo: ERROR: Module keyboard not found.
+modinfo: ERROR: Module zswap not found.
+D:D8:
+		A0:83:45:18:1A:46:E3:97:C5:42:23:D2:E6:AA:EB:8E:11:95:9D:78:
+		44:1D:CE:28:BD:07:B1:23:B0:98:D2:40:3B:AA:FC:73:FF:62:55:EC:
+		62:4E:D4:86:3C:7C:A4:0A:50:57:73:A5:88:E9:5C:D4:64:64:2A:E3:
+		93:E7:9C:42
+parm:           logging_level:Logging level, 0 - None, 1 - Error (default), 2 - Warning. (int)
+parm:           storvsc_ringbuffer_size:Ring buffer size (bytes) (int)
+parm:           storvsc_vcpus_per_sub_channel:Ratio of VCPUs to subchannels (int)
+parm:           ring_avail_percent_lowater:Select a channel if available ring size > this in percent (int)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/net/ipv4/netfilter/nf_nat_ipv4.ko.xz
+alias:          nf-nat-2
+license:        GPL
+rhelversion:    8.0
+srcversion:     BAC35D65EF13D879A6D2285
+depends:        nf_nat,nf_conntrack
+intree:         Y
+name:           nf_nat_ipv4
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      CE:F7:81:01:B7:09:E6:DF:37:00:9C:F7:55:7F:A6:E9:26:B5:41:B8:
+		85:83:F4:AE:F2:E7:28:81:E0:EA:20:6B:0A:15:41:B1:ED:FB:A5:AE:
+		AD:B4:E7:25:1C:B5:E4:E3:5F:16:C7:BB:2F:46:33:16:2D:4C:4D:34:
+		83:FA:A5:5E:48:38:74:0F:3A:73:37:C1:90:5D:A0:5C:62:B3:37:15:
+		BB:4B:13:42:BC:49:04:5B:71:C9:63:8D:28:6E:30:C6:64:8E:9C:75:
+		00:C3:79:AA:F9:9C:3D:00:C1:97:23:F5:A0:6A:48:D7:5B:4C:64:F1:
+		AE:E1:C7:79:73:E8:7A:0C:DE:92:1F:2D:DE:33:A3:77:4C:DD:F5:03:
+		A2:30:8E:F7:99:5F:63:1D:48:A6:DB:9E:31:B3:FA:F0:BF:AA:19:78:
+		10:3C:3E:99:29:23:82:6B:93:1B:0F:20:A5:93:20:47:DC:F0:80:F2:
+		04:EB:27:9C:7A:BD:3C:18:1B:93:A5:85:8A:4F:97:D1:C1:96:68:6A:
+		E0:0E:51:18:BF:B5:D4:3B:72:7B:00:75:28:61:E0:C6:47:1B:DC:A9:
+		82:5B:9B:16:8E:16:44:BD:36:BA:AF:D9:3B:BE:74:BB:D3:6F:83:7C:
+		6F:3E:EF:39:6C:43:2C:D4:0D:33:C7:9B:24:73:A7:75:D0:0A:37:A4:
+		62:B3:BD:CA:A3:61:64:1D:32:E2:D4:81:B5:8F:A7:22:90:64:C2:5D:
+		E6:AF:50:58:D9:21:05:9C:60:A9:FB:9A:F3:0D:8E:43:26:F8:D4:C3:
+		C9:83:CB:3E:AB:AA:3D:B8:27:49:F9:49:4F:70:B8:F4:31:A7:79:3A:
+		B0:6D:12:C4:AC:41:95:7C:4F:BE:F9:E7:83:B6:F5:27:CF:3E:B5:3B:
+		47:87:C2:A4:1E:4C:DD:39:87:72:27:83:59:B0:4E:3D:98:59:F6:AB:
+		4A:C5:8C:92:E6:2B:7A:B5:63:50:23:67:7E:33:10:B0:F7:B8:D7:08:
+		79:3C:6C:7C
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/scsi/scsi_transport_iscsi.ko.xz
+alias:          net-pf-16-proto-8
+version:        2.0-870
+license:        GPL
+description:    iSCSI Transport Interface
+author:         Mike Christie <michaelc@cs.wisc.edu>, Dmitry Yusupov <dmitry_yus@yahoo.com>, Alex Aizman <itn780@yahoo.com>
+rhelversion:    8.0
+srcversion:     CD29D580F43BF964161995D
+depends:        
+intree:         Y
+name:           scsi_transport_iscsi
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      51:45:ED:E5:4D:15:6D:9B:4D:59:5F:54:B1:37:9C:C1:46:7A:92:87:
+		AC:A7:EA:F0:DF:2A:D5:3A:69:EF:0F:F9:F1:BE:A6:4C:43:A4:3C:99:
+		62:34:75:DC:56:A7:A7:9E:44:F2:89:2E:FE:43:73:AB:C4:B8:B1:EA:
+		50:13:53:6F:47:B6:89:E1:CA:9C:76:7C:22:4D:C3:77:B1:CC:D4:8C:
+		4B:BD:5D:E5:C5:FC:FC:14:F1:DF:D1:94:93:9C:41:A0:97:3A:4F:4C:
+		78:99:5A:BA:7F:2B:9E:9E:2B:88:5A:69:03:FA:5E:40:FE:6A:4F:EB:
+		44:3D:52:A0:61:13:C6:7E:3E:FB:D1:E6:BF:E2:46:D2:E3:0E:46:96:
+		86:56:8E:B5:A0:B6:DC:C3:DC:94:0F:E2:2D:6B:25:10:10:B4:90:67:
+		93:30:16:BB:2C:96:62:E4:D9:41:82:4D:59:4F:99:12:C5:5B:4A:08:
+		41:2B:A5:2B:68:F3:4A:87:27:94:C2:03:71:85:F4:8A:FB:B0:DA:69:
+		3D:29:63:D7:EB:22:52:59:64:06:D2:82:B6:56:75:28:88:DB:DF:53:
+		67:B8:73:E7:6B:16:05:26:4A:5B:C8:00:A2:DE:48:F5:F4:90:B1:43:
+		3C:3E:19:C1:1E:66:35:A7:8E:0B:D1:A9:78:2F:ED:42:0E:57:EF:40:
+		3A:82:D0:53:F8:E3:46:AA:C2:2B:74:64:7F:89:DA:34:87:A3:9A:51:
+		D3:E6:11:44:74:44:34:8F:84:42:C6:19:31:53:41:11:A1:02:1C:2D:
+		18:7E:D3:18:CC:D1:CE:81:47:E3:E5:93:E7:BD:3B:AC:C0:AC:88:3E:
+		C0:93:Amodinfo: ERROR: Module scsi_dh_alua not found.
+modinfo: ERROR: Module tpm_crb not found.
+4:00:52:A3:2D:D4:87:D5:D7:12:A9:ED:29:4B:4F:27:CC:68:
+		75:C0:CA:9B:D8:74:B8:12:D8:B8:21:A5:93:2F:57:14:96:F7:92:91:
+		76:0F:DB:DB:BE:90:22:B1:62:09:D5:DD:5F:F3:8B:27:9B:69:80:47:
+		15:55:35:7D
+parm:           debug_session:Turn on debugging for sessions in scsi_transport_iscsi module. Set to 1 to turn on, and zero to turn off. Default is off. (int)
+parm:           debug_conn:Turn on debugging for connections in scsi_transport_iscsi module. Set to 1 to turn on, and zero to turn off. Default is off. (int)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/input/serio/hyperv-keyboard.ko.xz
+license:        GPL
+rhelversion:    8.0
+srcversion:     5CB1B0BAAE8F3D07158A7F5
+alias:          vmbus:6dad12f9172bea48bd65f927a61c7684
+depends:        hv_vmbus
+intree:         Y
+name:           hyperv_keyboard
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      3D:63:32:34:D4:9C:39:05:6E:B4:12:D5:84:EB:6E:67:EF:E5:B1:EA:
+		92:2F:00:E8:9B:A9:10:A1:F3:B7:98:E7:16:99:4E:BF:1E:2F:AD:CA:
+		B8:61:26:16:44:D4:9E:51:EC:49:03:B7:EA:31:AE:3F:B1:E2:BA:5E:
+		0B:D1:70:D3:0C:0D:63:62:CB:40:30:25:6B:BF:9B:6B:9A:56:7C:17:
+		99:74:9A:A3:7E:A2:24:AF:A8:26:96:62:7A:44:28:4B:E5:5A:66:E8:
+		1A:6D:C5:4C:4A:5D:5A:3C:C7:BB:7D:34:F4:49:97:AC:57:6B:83:E2:
+		8B:B3:91:C2:13:E4:2F:01:65:86:A5:75:90:B5:61:F6:8D:20:EF:02:
+		CE:6C:B7:AE:33:18:93:51:69:75:DD:E4:BD:71:99:4E:7F:F1:44:2C:
+		AE:72:5B:A8:2D:2E:9F:2F:85:6C:04:C6:ED:60:49:2C:69:5A:CA:CF:
+		AA:B2:22:9B:C7:A0:AF:B4:1E:64:73:FB:71:3F:4A:08:D4:65:6C:9E:
+		06:71:01:3C:56:41:BB:29:75:88:1B:7C:6A:53:2C:A1:33:9A:ED:76:
+		3B:BE:FE:65:4F:58:46:9C:EC:12:21:CC:33:F4:FF:89:73:6E:76:DF:
+		5F:D9:2A:EE:88:E2:6B:51:09:45:03:D4:C2:D2:E1:D1:C6:6C:F7:44:
+		3B:06:58:D7:89:9D:33:40:93:28:B8:5C:B4:DC:7D:40:1E:A7:B8:3E:
+		6A:F2:BC:B7:EA:6A:B4:97:60:EC:2E:42:51:26:B8:00:DA:54:9C:4E:
+		FD:E7:42:C2:CF:D9:EB:63:1F:FB:CF:F6:BD:A4:64:76:8C:9F:5A:E3:
+		C7:D1:79:69:E0:29:82:E5:51:F5:3C:FB:F1:16:2D:68:07:8E:B5:5B:
+		0A:4C:5E:D0:2A:88:12:03:9C:55:F0:0D:AD:AF:3F:E5:3C:6A:89:DD:
+		8F:97:A8:30:5A:DB:56:35:09:77:FE:C2:3B:4B:A1:DA:DA:FA:3C:AA:
+		DC:D7:40:9D
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/net/netfilter/xt_comment.ko.xz
+alias:          ip6t_comment
+alias:          ipt_comment
+license:        GPL
+description:    Xtables: No-op match which can be tagged with a comment
+author:         Brad Fisher <brad@info-link.net>
+rhelversion:    8.0
+srcversion:     1C1F222B1457D595A8B9D98
+depends:        
+intree:         Y
+name:           xt_comment
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      A1:B4:05:0A:AB:BA:F9:C7:0B:E7:51:EF:C6:A0:12:88:A1:39:FB:A3:
+		91:B2:10:79:57:3C:8B:75:DB:94:A6:4A:95:16:36:C5:43:AA:4F:39:
+		9F:80:59:68:5F:20:98:95:9B:8E:AA:D5:C8:C2:8B:FA:B6:59:91:E2:
+		25:58:2B:02:EE:BA:89:FC:C3:DC:BE:6B:44:E9:B6:9D:96:73:1C:81:
+		E8:6A:8C:DE:CB:7A:A5:42:53:3E:96:3E:E3:AF:13:6E:37:9B:D7:9B:
+		22:09:1A:8A:51:5F:92:F6:2E:D4:BA:CA:7B:9F:4D:8B:F6:E6:C3:2F:
+		A9:0E:19:57:96:42:0C:67:3C:96:3E:11:01:03:31:8B:8F:5F:88:DE:
+		42:28:1B:99:13:5A:C2:C1:25:A6:16:4D:06:C3:76:8E:97:DB:F6:E4:
+		AC:04:D8:C6:D3:70:40:8C:B1:7D:2B:57:1C:ED:BE:2E:BB:8B:B1:D7:
+		FB:14:41:C6:B1:DB:6C:4F:E6:CB:8C:DD:72:6F:95:EA:87:5E:E3:27:
+		EE:44:40:5D:B0:4F:8D:FB:AD:23:47:13:60:46:20:D8:F3:ED:87:76:
+		AF:31:88:E8:2D:FC:C3:6C:19:21:58:D6:3E:42:48:AC:36:8C:4C:01:
+		DA:F5:39:FA:8D:A6:D1:8C:B5:7C:9C:1D:F2:67:62:F0:14:61:73:1C:
+		15:04:85:4A:08:14:4C:AB:AD:AF:7E:E1:7D:24:33:1C:08:1A:2D:23:
+		7E:3F:11:20:ED:18:39:34:4D:AC:C2:7C:5E:F9:C0:BE:74:DE:D9:2F:
+		0C:16:B5:F6:1E:DC:FC:C0:9B:B3:CA:67:98:9D:91:58:9C:02:82:54:
+		D6:44:0D:5A:0F:26:89:24:47:2C:2E:9B:32:9E:84:EC:2F:B7:19:C1:
+		67:32:91:7E:79:78:F7:FF:38:17:53:DA:67:74:D0:73:84:59:55:F9:
+		07:85:1F:A0:19:51:BF:5A:2F:EC:2D:E1:0E:83:0E:B1:E9:4C:DC:F0:
+		92:2A:53:C6
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/md/dm-log.ko.xz
+license:        GPL
+author:         Joe Thornber, Heinz Mauelshagen <dm-devel@redhat.com>
+description:    device-mapper dirty region log
+rhelversion:    8.0
+srcversion:     4C3C188A854285CDBE23BA6
+depends:        dm-mod
+intree:         Y
+name:           dm_log
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      2C:05:D1:50:D2:02:9D:CD:55:CE:27:97:5E:CA:F5:36:57:8A:D1:CB:
+		3F:81:63:43:50:DB:7E:14:10:C5:1B:81:B4:25:2A:C7:48:E4:EB:81:
+		D9:95:7B:E4:95:A6:C6:E2:0A:1A:F9:03:EA:3C:9B:8A:27:0E:C2:6F:
+		BB:66:06:64:98:93:A4:07:39:27:EB:AD:BF:0A:BD:AD:50:98:00:66:
+		4B:09:7C:45:5E:B7:88:0F:BD:4E:89:28:FB:2D:0E:70:73:09:95:1C:
+		D8:92:6C:78:98:70:18:B5:B0:FF:C8:B3:4F:2C:49:02:11:B4:5A:1F:
+		ED:CC:33:43:E5:F3:B2:1B:67:85:BB:D4:77:76:C1:03:26:12:1A:0C:
+		CE:64:99:1A:4B:83:E9:D1:75:A2:F8:C1:63:F5:B6:D1:DE:D6:30:F1:
+		FB:95:65:CF:3A:CE:5B:9E:F8:A1:ED:43:CC:5F:DD:DE:D4:FD:16:2D:
+		05:F9:30:2E:8F:6A:39:D0:D0:81:84:E0:D6:BD:C1:44:BE:AF:E8:23:
+		7A:33:4F:27:84:E1:32:BB:9A:AF:DC:4C:0E:05:64:C3:E4:96:8F:91:
+		FC:CE:E7:CF:5F:0E:61:E7:67:A7:8F:2F:41:BC:95:1A:9A:40:0D:0A:
+		18:BA:5B:50:80:F0:84:99:3B:44:66:5E:26:47:39:5B:D0:3D:4A:B5:
+		B1:B3:8D:72:1B:CB:F7:8A:DE:6B:D4:BA:0E:1C:3A:48:2B:15:84:BA:
+		3D:2F:8F:37:C3:F4:09:B7:2C:9A:F0:84:DF:97:0E:CA:02:CF:6E:1D:
+		D5:8E:68:7B:1C:05:7F:1E:7D:D5:FA:23:0C:ED:66:A1:E0:2C:D7:18:
+		17:41:D9:7F:EA:88:94:8D:BD:23:5D:A9:61:07:3E:55:35:58:8F:B2:
+		D4:09:EC:55:39:88:EA:0E:87:7F:21:3D:53:41:4A:3C:68:C6:CC:F1:
+		48:0B:06:47:D4:A8:95:44:CD:34:12:A5:D8:1D:BF:3D:74:1F:C6:FB:
+		7F:AD:CC:58
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/input/serio/serio_raw.ko.xz
+license:        GPL
+description:    Raw serio driver
+author:         Dmitry Torokhov <dtor@mail.ru>
+rhelversion:    8.0
+srcversion:     02A37488E1A00B37159CBA8
+alias:          serio:ty06pr*id*ex*
+alias:          serio:ty01pr*id*ex*
+depends:        
+intree:         Y
+name:           serio_raw
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      C9:0D:B2:C3:FB:4B:44:E3:98:16:57:13:CF:E6:23:20:AC:DC:E3:46:
+		90:64:D3:31:ED:44:42:E2:E7:BD:2F:C4:DD:09:4C:C9:37:61:5A:1C:
+		98:29:C1:BF:F0:CF:B5:3D:CF:FB:A8:27:F9:CC:9C:DB:1E:30:19:07:
+		93:B3:AB:DB:8F:6D:59:74:2B:E8:6D:D7:BB:26:B0:B0:98:AE:7B:10:
+		58:3C:6C:50:42:BF:D3:4D:86:F2:09:B3:D9:4C:36:43:42:C9:A9:B3:
+		C4:11:42:1B:C3:65:53:D6:8B:9C:84:EC:9E:79:1A:17:10:CA:9D:00:
+		EF:DC:9E:4A:02:34:DE:40:2B:E3:3F:5B:DB:2D:0D:1A:8C:E5:88:0C:
+		FD:6D:B0:9F:24:59:5F:03:0D:DA:92:EC:C0:50:B3:68:EE:8A:D0:66:
+		0B:32:65:92:89:55:25:F9:4C:A6:EA:EB:D2:54:83:DC:CE:91:55:B1:
+		F2:AB:53:13:AC:17:62:52:05:E1:0C:7D:10:31:C9:4B:93:20:1A:46:
+		0A:79:51:45:6E:CD:71:19:87:F9:48:2B:D9:98:3A:E6:C9:C1:2F:6F:
+		F2:EC:65:3B:BF:27:82:B2:66:D8:FC:0F:38:19:76:08:DB:1D:76:AD:
+		E9:CE:EA:FC:C9:79:16:55:7D:CA:32:C5:5A:B3:A3:2D:4F:6C:4F:3B:
+		E1:A5:2D:F5:4A:A2:54:CD:E6:D2:90:A6:6F:5D:25:6D:21:8B:54:4C:
+		2F:F3:28:F9:44:3C:7D:E1:30:95:44:36:B3:AF:C7:F0:13:AC:3C:96:
+		0A:70:6B:7E:D1:B6:E8:1F:5F:9F:15:3E:F3:80:E5:C9:CE:BE:25:1C:
+		41:D3:44:5D:A7:AF:AE:4F:C5:64:D8:01:26:DB:75:81:C3:5A:36:20:
+		78:09:08:27:6E:21:9D:A0:AC:68:BA:EB:AA:E4:AA:40:76:FA:4A:DE:
+		B7:68:D4:37:1E:01:A5:41:E0:31:92:0A:42:EF:A5:50:CE:C4:91:76:
+		36:B6:11:22
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/scsi/scsi_transport_fc.ko.xz
+license:        GPL
+description:    FC Transport Attributes
+author:         James Smart
+rhelversion:    8.0
+srcversion:     614EE076F692DBA39928C78
+depends:        
+intree:         Y
+name:    modinfo: ERROR: Module fb not found.
+modinfo: ERROR: Module hid not found.
+modinfo: ERROR: Module netpoll not found.
+modinfo: ERROR: Module usbcore not found.
+       scsi_transport_fc
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      34:85:7C:37:73:31:B5:C3:2B:B4:9D:3F:B3:D4:46:3D:F8:C0:F2:30:
+		72:23:A2:B6:2A:62:91:3C:87:E0:4B:BA:81:1F:FA:7D:FE:92:B1:4E:
+		42:3B:F5:FB:75:A0:24:82:72:9C:08:F4:D6:C8:0E:94:9C:C7:0B:AA:
+		35:E2:7D:9C:66:B1:0A:20:86:6B:60:0F:B8:6A:11:AD:3E:BF:EB:7B:
+		B2:F7:2B:F9:3D:58:8E:A7:B3:CE:27:5E:0C:67:83:5D:10:07:D0:30:
+		5F:9A:8D:3A:13:09:58:4B:DC:8A:02:51:5D:4C:66:57:6B:0D:72:25:
+		FF:70:C9:74:0C:B8:7B:FF:E7:C2:D3:52:86:B8:A2:DC:AD:A8:9F:0C:
+		BA:BD:B0:5C:1F:F5:61:2E:DC:71:01:5C:76:73:C2:A0:DF:80:14:57:
+		4B:0E:52:7A:C3:CB:F7:25:19:CC:2E:A6:92:A6:00:83:CC:D4:91:4D:
+		33:95:F3:70:96:D3:09:93:28:83:4A:63:B9:A7:E5:7B:0A:85:AD:1D:
+		EE:62:F7:AF:2B:0A:07:54:78:15:49:BE:3B:C5:04:56:42:B6:E8:BC:
+		E4:5C:AB:A7:FF:F2:6E:76:C1:96:EA:00:2F:86:19:60:22:0F:A6:C2:
+		59:23:0B:1C:3B:F9:CC:ED:01:2A:66:3F:B3:E2:2F:71:3F:B9:BE:62:
+		6A:3D:E8:F8:40:A5:25:98:FA:27:37:E6:82:37:D3:E7:BB:87:A9:6C:
+		79:26:73:D9:05:3D:DC:90:28:3C:0E:CC:68:EB:63:59:6C:29:12:D0:
+		46:4F:1B:D6:0F:EE:F9:62:D9:7B:AD:91:18:4F:D0:2B:F1:31:3B:1C:
+		7E:A9:8F:F5:7F:F0:CD:13:6C:7B:39:E9:CF:9F:45:6A:79:4C:02:92:
+		F9:3D:7B:DA:66:3A:AA:3C:82:3C:81:B7:4C:FA:8E:44:4E:01:06:A8:
+		4D:0C:AE:5D:FB:3D:C5:5D:B7:AD:A2:79:73:67:EB:27:6F:7A:FB:CD:
+		88:BE:6A:33
+parm:           dev_loss_tmo:Maximum number of seconds that the FC transport should insulate the loss of a remote port. Once this value is exceeded, the scsi target is removed. Value should be between 1 and SCSI_DEVICE_BLOCK_MAX_TIMEOUT if fast_io_fail_tmo is not set. (uint)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/infiniband/core/iw_cm.ko.xz
+alias:          rdma-netlink-subsys-2
+license:        Dual BSD/GPL
+description:    iWARP CM
+author:         Tom Tucker
+rhelversion:    8.0
+srcversion:     138DD5FB3876EB7EA2B465D
+depends:        ib_core
+intree:         Y
+name:           iw_cm
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      94:EF:61:8A:7F:C6:7D:E1:E3:AF:5F:34:D7:26:55:19:66:50:B2:F1:
+		E2:F1:74:E2:2F:82:4B:47:14:03:71:FE:20:FA:20:7F:0A:BC:E2:53:
+		CB:57:AD:85:F6:B5:9B:58:2A:1A:D0:F3:AB:48:FF:D8:07:DB:78:45:
+		4F:0C:F7:F1:58:6E:9E:1D:E1:25:75:F2:3D:C9:6F:84:D4:C1:0E:D5:
+		03:0C:D4:A1:6D:5A:CA:F9:DB:37:D1:B4:01:BB:27:E4:61:95:9D:1C:
+		7C:E5:9D:BD:FB:BF:CC:35:DF:FA:91:0E:8E:2E:CB:73:80:A9:AC:96:
+		EC:76:23:71:8D:CE:53:A2:43:7A:6E:17:58:BF:56:1A:B3:E2:69:A8:
+		E6:E9:7D:BA:32:8D:BD:75:35:45:DE:6A:DB:6E:C8:8A:43:F8:9A:96:
+		78:C3:1A:05:42:28:0A:53:D4:E5:C1:3D:AF:D1:C6:81:DA:CF:89:28:
+		1C:15:F2:94:59:EC:6B:BF:C5:8F:57:5D:9A:69:8B:0E:AB:25:A8:67:
+		E0:19:FA:6B:BF:AC:CE:BE:61:9B:01:C5:BB:1E:87:61:61:02:76:5C:
+		48:7A:85:2B:79:C2:F0:DF:88:54:EB:A8:B6:9D:7E:4A:62:B2:7C:BE:
+		93:74:6F:CE:88:B5:D2:4D:F5:B3:8C:12:FE:C0:32:DF:C7:A3:3D:03:
+		AD:51:92:0E:D9:96:BC:CD:75:C5:CF:75:11:55:E8:71:5D:D2:A3:9E:
+		40:B0:9E:FF:5E:23:B1:36:0E:A5:4B:73:F9:3E:46:25:07:CF:6E:73:
+		44:9B:52:9F:2A:60:61:6C:E2:D4:5F:BE:E8:B4:BB:B4:18:32:26:F2:
+		FB:9D:BB:D2:51:26:B7:5E:E9:AA:9F:F2:79:71:55:5B:3C:B3:FE:E6:
+		76:EA:B5:03:FE:89:9A:AD:2F:04:02:56:50:D4:D9:E1:C3:33:40:E8:
+		29:84:75:26:FF:BA:B1:E6:DA:A9:2D:25:81:23:73:09:81:05:D4:2C:
+		4B:D3:7F:0C
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/arch/x86/crypto/ghash-clmulni-intel.ko.xz
+alias:          crypto-ghash
+alias:          ghash
+description:    GHASH Message Digest Algorithm, accelerated by PCLMULQDQ-NI
+license:        GPL
+rhelversion:    8.0
+srcversion:     A63457B79ACF8779AEE2ED3
+alias:          cpu:type:x86,ven*fam*mod*:feature:*0081*
+depends:        
+intree:         Y
+name:           ghash_clmulni_intel
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_umodinfo: ERROR: Module blk_cgroup not found.
+modinfo: ERROR: Module pcie_aspm not found.
+nload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      4F:55:58:0D:4D:FF:DB:D7:F1:E7:CA:E1:9C:93:81:B5:03:39:0E:35:
+		E7:ED:F1:CB:D6:C2:41:C6:AF:E6:AC:3D:D6:AE:F9:A1:AC:5A:5D:F7:
+		56:08:E2:EF:0F:E1:B7:75:DB:5A:5E:97:A3:98:8F:E0:AC:71:71:60:
+		C6:A7:11:DE:6D:3F:C6:C7:F5:6D:97:C8:DA:80:CA:D6:2E:91:09:E8:
+		BF:ED:32:90:77:B0:DF:91:79:CE:FE:10:66:7D:08:7C:10:65:D3:B6:
+		3E:CF:5C:F6:B7:F2:CD:B6:1E:B8:20:37:64:D8:3F:05:50:5D:FC:4C:
+		33:CA:13:C6:7C:80:AE:9D:8C:25:30:53:1F:A8:34:23:B7:70:E9:71:
+		D4:C3:4F:3C:B6:B9:63:30:D0:05:4F:4C:7B:2B:AF:07:DF:7F:F9:E3:
+		B5:EA:88:BA:ED:0A:9F:78:A0:C0:FE:6C:8C:22:5E:5C:53:A7:E1:44:
+		E3:37:00:24:A8:4E:DA:45:D3:8C:9F:31:AB:8F:A7:13:20:9B:33:BD:
+		13:5A:88:8B:20:27:23:0F:27:EA:15:B9:3D:9A:6F:D6:2C:9F:BA:BB:
+		7D:98:E5:24:3C:C7:E6:F0:B6:89:78:F5:A8:57:F8:4B:6E:59:69:D2:
+		44:DB:A7:53:C7:83:BD:69:97:46:9B:3B:EC:3B:7B:47:2C:BC:46:80:
+		D5:47:99:E5:C8:21:6E:6F:1A:5E:06:A2:FB:27:68:65:6E:43:FA:66:
+		C5:A1:F5:62:18:5E:A5:44:A6:15:5A:87:D6:84:4D:EC:D4:79:48:E2:
+		B7:B0:89:5B:0B:CC:E9:AC:7E:01:A2:A7:C1:85:84:94:E6:C4:E9:6D:
+		41:67:B6:F0:B6:98:23:4D:4D:22:85:5D:F6:50:BC:5C:0D:1E:06:BD:
+		4C:0C:AD:3A:9D:5C:F7:0B:BB:5F:C7:99:79:3F:64:45:A3:99:F3:91:
+		66:68:8F:70:BA:3E:86:FD:F0:A0:F0:16:FF:F3:8A:0B:7F:4F:47:C3:
+		C8:E6:95:9A
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/nvdimm/libnvdimm.ko.xz
+author:         Intel Corporation
+license:        GPL v2
+alias:          nd:t1*
+alias:          nd:t3*
+alias:          nd:t2*
+rhelversion:    8.0
+srcversion:     4B2529B57628A32514ED204
+depends:        
+intree:         Y
+name:           libnvdimm
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      16:34:B5:7A:FB:A5:54:47:21:78:E8:74:32:EC:C6:8E:FB:B1:D7:64:
+		53:69:08:E7:FD:F5:90:06:1E:BD:DD:E1:BC:F3:8B:4D:C7:8F:52:6F:
+		D7:37:55:D6:F1:29:AE:54:BC:A3:FA:5B:30:C8:99:14:08:F1:A6:05:
+		60:E7:FF:22:B3:39:6A:04:F4:21:E5:9F:A1:E6:AD:C9:DD:A7:38:92:
+		A2:F1:BF:B5:C5:28:03:C7:86:EF:D2:FB:B8:E9:81:C9:CD:69:40:3D:
+		C6:A2:BB:4D:A8:92:FC:7D:A9:F5:EA:F3:6C:B9:3E:FD:81:79:42:35:
+		0B:3F:A9:B3:54:CE:7E:2E:B5:2D:B1:57:66:73:2A:38:EF:23:DD:25:
+		35:1F:92:89:40:C5:BC:6A:58:7D:47:BD:61:8B:1C:7C:A0:8A:7B:AE:
+		CD:97:5F:12:93:3C:7A:B4:91:31:83:85:A0:B6:C7:9D:69:F7:A8:29:
+		8F:A9:59:4C:76:2B:24:2A:A0:32:5B:29:D1:C2:60:A1:77:D8:83:A0:
+		E4:53:BB:7F:65:0B:45:F1:4A:EB:72:4D:4F:99:82:7E:E3:F0:63:95:
+		37:CB:B7:33:39:4B:A2:31:98:AF:B8:7E:5F:F5:0F:17:F6:48:8C:A4:
+		E3:BE:59:EF:D5:E6:07:D7:BA:FA:54:8A:EE:47:EB:E2:6D:37:21:FF:
+		B8:4B:9C:E3:75:6E:DC:C4:92:64:C5:BB:49:7C:D8:E9:FF:C4:D4:3C:
+		E9:AF:26:BB:8C:62:4E:5F:3A:EE:01:A3:B3:F5:2D:52:EB:20:92:E4:
+		04:7F:52:A6:12:01:05:03:B7:75:FA:22:AA:CB:3F:ED:0C:4B:36:2C:
+		22:B6:97:85:F7:C6:00:A7:7B:88:1E:F3:57:A5:78:5C:EC:A7:30:67:
+		CC:83:02:A5:C3:76:F6:EF:8D:9F:8E:8D:D4:34:32:2F:67:A3:08:70:
+		BE:47:53:60:6E:2E:FD:CC:78:17:56:54:2B:91:09:ED:5D:90:D9:B0:
+		BC:BC:75:80
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/input/joydev.ko.xz
+license:        GPL
+description:    Joystick device interfaces
+author:         Vojtech Pavlik <vojtech@ucw.cz>
+rhelversion:    8.0
+srcversion:     DE1472AA05D7205AC865D44
+alias:          input:b*v*p*e*-e*1,*k*2C0,*r*a*m*l*s*f*w*
+alias:          input:b*v*p*e*-e*1,*k*130,*r*a*m*l*s*f*w*
+alias:          input:b*v*p*e*-e*1,*k*120,*r*a*m*l*s*f*w*
+alias:          input:b*v*p*e*-e*3,*k*r*a*6,*m*l*s*f*w*
+alias:          input:b*v*p*e*-e*3,*k*r*a*8,*m*l*s*f*w*
+alias:          input:b*v*p*e*-e*3,*k*r*a*2,*m*l*s*f*w*
+alias:          input:b*v*p*e*-e*3,*k*r*a*0,*m*l*s*f*w*
+depends:        
+intree:         Y
+name:           joydev
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Lmodinfo: ERROR: Module cpufreq not found.
+modinfo: ERROR: Module ehci_hcd not found.
+modinfo: ERROR: Module ipv6 not found.
+modinfo: ERROR: Module slab_common not found.
+modinfo: ERROR: Module suspend not found.
+inux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      9C:87:AD:6C:EF:3E:76:D5:5D:FD:34:D2:2E:72:6D:FC:F3:94:D3:C4:
+		A6:B3:10:84:F2:96:36:1E:71:FE:DB:DF:B1:9F:83:A9:46:7A:A9:C1:
+		E8:CC:6A:45:1F:45:26:CF:A6:AC:A1:82:C5:C8:DF:4F:B0:D2:D1:A1:
+		C5:65:F6:8E:78:AA:C6:AA:24:33:3D:D1:73:BB:2A:E7:42:56:08:44:
+		FE:BA:25:4A:67:0B:C0:02:96:80:0D:AF:9E:7F:38:7C:69:04:17:A1:
+		D4:13:6D:EF:03:36:F2:E3:56:F9:CB:12:CB:28:0C:79:7F:41:36:FB:
+		00:D3:98:70:03:F5:F8:10:B4:23:99:79:49:EA:AD:FF:FA:77:FF:C1:
+		B5:80:DF:22:D2:D4:92:EB:36:70:92:EB:11:FA:AF:D2:ED:BB:7D:22:
+		FB:CE:69:DE:BE:50:C7:C0:1F:A5:FF:07:66:98:5F:CE:F6:B1:43:07:
+		86:00:91:08:82:12:05:B7:C8:64:C7:20:B5:79:A6:BB:5D:98:61:FA:
+		D5:3D:91:0B:A0:5F:42:C6:39:06:6E:34:05:9C:44:A8:E0:18:57:B0:
+		B5:C2:29:83:7F:5C:5D:76:7D:51:DA:8A:51:74:50:4B:EA:1B:02:9F:
+		B2:04:C0:8E:F9:B5:11:97:D8:32:7C:C4:A9:F8:D9:44:E2:01:D5:F8:
+		58:1D:1C:44:31:6C:6C:BB:9D:CD:88:AC:15:B8:F2:8E:69:DB:B6:4C:
+		DF:75:EF:85:C4:73:58:24:8A:92:7C:AB:26:31:E0:A7:2B:AA:67:B9:
+		2F:54:2F:08:2E:49:94:8C:8B:22:CF:1E:34:00:D0:3B:3D:F9:50:0C:
+		17:57:1A:A2:9D:AF:9F:C9:4B:62:92:8A:A5:C1:65:9A:E6:A3:54:76:
+		DD:50:6B:53:32:46:C2:24:4B:D0:E2:69:4D:6E:90:A1:4B:B2:91:E2:
+		88:75:92:A3:79:C2:18:B2:F6:3E:1D:22:ED:B9:E0:01:EA:E2:B9:64:
+		91:C0:39:20
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/net/sunrpc/sunrpc.ko.xz
+license:        GPL
+alias:          rpc_pipefs
+alias:          fs-rpc_pipefs
+rhelversion:    8.0
+srcversion:     2F59B5F38889787DEF81C51
+depends:        
+intree:         Y
+name:           sunrpc
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      C4:D5:3E:E2:5C:69:A9:14:CE:52:ED:60:A6:2F:BD:91:81:CE:54:EA:
+		D6:C8:E3:98:87:49:19:D4:77:D8:3D:FA:68:5A:9C:20:7B:01:EB:28:
+		FC:B6:7C:E7:FA:9C:36:7D:FA:0B:02:FB:AF:E0:65:65:1B:E4:49:BA:
+		05:E6:5D:8A:F2:CE:6D:D4:04:D4:84:C2:3D:9C:80:B6:EF:D8:5F:4B:
+		82:50:A0:6A:BE:E2:AA:CA:D0:4D:77:3E:47:48:0D:DA:46:71:94:32:
+		36:0C:C5:A1:D4:EE:A9:F8:69:91:8F:8F:8C:9F:74:C3:D2:38:C8:F7:
+		CA:9E:0C:AF:C2:9A:14:66:16:6C:C8:6F:A8:1C:FE:36:E8:72:92:42:
+		AD:53:02:F0:FE:BE:EF:23:06:7B:54:AA:25:8A:D2:E5:DD:FB:4C:DD:
+		FE:FC:D2:07:A7:7C:86:C4:0A:5D:72:84:B8:F9:43:C3:B2:D2:77:7C:
+		E2:DD:B1:DC:CC:30:A8:69:63:16:42:7E:A8:97:46:F2:E9:E8:03:D7:
+		AE:11:E2:B5:48:49:B1:B5:67:36:BC:81:78:27:7A:46:EA:EE:04:E4:
+		D1:34:3F:67:74:63:91:43:88:A5:4D:B8:0A:3C:B5:FA:3D:B6:07:4E:
+		23:30:58:AB:EF:93:47:B6:38:9A:AA:37:14:49:CC:1F:59:DF:09:EA:
+		B9:68:C1:53:1D:B7:96:1A:B3:B8:D7:A6:F6:DB:6A:35:EB:23:72:AE:
+		A8:97:7B:8F:C7:9F:3E:FA:7E:52:61:AF:88:47:15:2A:A7:F3:D1:C1:
+		E7:47:F3:71:11:F5:0D:20:AD:F2:FD:43:FF:8E:67:C8:89:ED:36:7E:
+		55:A5:61:61:74:F2:7F:34:B4:7F:D5:76:25:0E:E8:4D:6F:78:D5:AD:
+		B3:B4:E5:E1:E6:18:A2:10:C7:1C:14:FD:88:11:08:10:17:56:C7:45:
+		0B:AB:42:5B:F4:B0:85:F8:07:96:1F:76:15:42:75:87:79:45:E5:75:
+		F9:FA:3F:83
+parm:           svc_rpc_per_connection_limit:uint
+parm:           auth_hashtable_size:RPC credential cache hashtable size (hashtbl_sz)
+parm:           auth_max_cred_cachesize:RPC credential maximum total cache size (ulong)
+parm:           min_resvport:portnr
+parm:           max_resvport:portnr
+parm:           tcp_slot_table_entries:slot_table_size
+parm:           tcp_max_slot_table_entries:max_slot_table_size
+parm:           udp_slot_table_entries:slot_table_size
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/scsi/iscsi_tcp.ko.xz
+license:        GPL
+description:    iSCSI/TCP data-path
+author:         Mike Christie <michaelc@cs.wisc.edu>, Dmitry Yusupov <dmitry_yus@yahoo.com>, Alex Aizman <itn780@yahoo.com>
+rhelversion:    8.0
+srcversion:     53890CB088EADDCE71881BD
+depends:        libiscsi,libiscsi_tcp,scsi_transport_iscsi
+intree:         Y
+name:           iscsi_tcp
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:   modinfo: ERROR: Module acpiphp not found.
+modinfo: ERROR: Module configfs not found.
+      PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      2D:1A:76:DE:3E:55:8F:C9:08:8A:80:B3:D0:8B:23:30:EF:6F:CA:01:
+		94:FB:76:71:8D:21:45:0C:DA:47:B2:B8:B3:5A:91:29:30:F3:E2:A0:
+		1E:ED:30:9A:ED:9A:31:28:97:76:41:24:F6:A4:FB:8E:29:F3:7E:31:
+		CA:81:C6:D0:DA:8F:11:A8:8E:81:C8:0C:42:4C:BE:AA:DF:8B:30:A5:
+		6F:D1:3B:46:EC:59:E8:35:98:5D:A0:F9:53:53:8C:2A:C2:0F:2D:89:
+		AD:45:67:4E:DA:53:49:81:02:6C:9B:CB:D4:B5:19:1E:F6:52:20:9E:
+		54:A0:B9:7E:63:48:49:2F:89:36:0A:BA:51:61:68:B4:28:98:AD:CD:
+		5E:21:41:47:6F:04:E0:1F:69:C3:6D:08:F0:40:81:91:3B:24:B2:53:
+		A0:95:15:D0:9A:42:61:49:30:FF:BB:C2:78:EB:33:57:01:F0:1C:E8:
+		68:B9:3E:81:4E:F2:D3:C7:34:CD:33:60:C9:31:89:0B:9F:3C:65:E4:
+		04:72:46:2B:2C:94:76:6A:35:99:CE:FD:0D:4D:65:07:05:73:02:21:
+		4E:ED:05:89:CE:32:A4:41:02:22:14:57:3F:06:13:BC:D7:9D:16:72:
+		E8:D0:40:4A:EC:FD:18:11:A3:C5:CC:D1:4D:C6:BB:E4:EB:5C:E9:86:
+		72:48:A9:12:30:32:D6:44:65:68:A6:51:39:15:7A:FB:D5:86:41:75:
+		57:47:D3:91:73:3A:92:22:C8:65:D7:DA:75:88:D5:B5:0E:27:19:D3:
+		44:AD:0A:16:E2:D8:E3:F6:C3:8B:D4:E0:04:4D:A2:72:78:F8:C3:B3:
+		26:75:97:F7:78:87:0A:14:6D:C6:E9:83:EE:30:A4:B8:49:04:91:25:
+		9C:86:D0:E0:46:4B:16:E7:21:18:7E:7D:0E:27:98:60:E8:6B:9D:1E:
+		C2:C5:4A:90:EB:75:82:A5:5E:53:FD:EC:A6:A1:C2:B6:DD:DA:AA:D5:
+		B8:4E:F7:F3
+parm:           max_lun:uint
+parm:           debug_iscsi_tcp:Turn on debugging for iscsi_tcp module Set to 1 to turn on, and zero to turn off. Default is off. (int)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/net/netfilter/nf_tables.ko.xz
+alias:          nfnetlink-subsys-10
+author:         Patrick McHardy <kaber@trash.net>
+license:        GPL
+rhelversion:    8.0
+srcversion:     B1B766E41F203B060A65DFF
+depends:        nfnetlink
+intree:         Y
+name:           nf_tables
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      5F:97:4A:C0:EB:CD:BF:8E:EE:2B:CB:80:40:C9:4F:FF:1E:32:06:22:
+		61:85:1E:3D:53:DF:B4:A2:D2:29:ED:0C:8E:34:57:65:C8:5D:4B:C8:
+		0C:D6:B9:14:D1:44:47:3E:8D:5E:8A:0C:A0:FA:A2:B4:B0:CA:28:1D:
+		0A:DF:CC:81:46:74:CB:DE:F4:97:FB:A7:B9:89:48:BE:DB:30:1C:28:
+		3B:E0:87:F0:9F:09:BE:3A:6B:E8:5E:22:9C:7F:0B:8A:B9:E1:2C:B8:
+		BF:33:BA:A1:F9:B2:08:03:EC:C6:51:A3:AC:17:E3:73:4F:83:DF:0D:
+		AF:10:32:DC:E6:CD:0F:4A:80:C1:97:60:0B:B6:A1:92:F6:6F:0D:16:
+		C0:FA:C8:88:07:48:47:8F:C9:D7:A4:71:76:D8:84:4F:51:73:E1:F3:
+		2A:35:F2:37:63:41:45:74:2F:78:1C:C9:DE:78:65:6F:13:B1:C0:4A:
+		A4:4C:A6:08:09:96:15:51:B7:00:FA:25:D4:6B:BC:BE:C0:AD:62:38:
+		A6:3D:17:5D:85:5A:96:23:6F:D7:92:53:AD:90:D1:74:39:C6:CE:17:
+		73:FB:25:E9:C5:00:84:86:9A:05:9E:7F:D1:D2:31:41:23:5C:A7:FC:
+		4F:DE:04:1B:9B:22:6A:DB:F2:1F:3C:20:FA:81:75:96:EF:FC:A4:94:
+		10:31:78:C9:1F:38:4E:CA:52:3B:2D:25:AD:A9:95:EE:DB:08:A7:4C:
+		A8:3A:DB:B6:2A:F2:8F:FC:0C:B5:FA:18:3C:86:66:09:08:60:F4:9B:
+		96:1C:2E:FE:41:56:8E:BD:8B:80:A2:D1:B0:C5:43:64:8F:33:8E:CF:
+		7D:A2:94:94:70:E1:F9:F2:C8:03:3C:90:2C:D9:F2:DB:67:E6:CD:ED:
+		EF:3F:01:92:4A:85:53:4C:48:78:4C:7F:A3:4C:9F:CC:B3:6F:26:A2:
+		33:F8:A5:70:76:13:F2:A3:A7:C8:76:21:53:7A:FF:C0:33:A6:59:67:
+		F4:7C:F9:D1
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/infiniband/ulp/iser/ib_iser.ko.xz
+author:         Alex Nezhinsky, Dan Bar Dov, Or Gerlitz
+license:        Dual BSD/GPL
+description:    iSER (iSCSI Extensions for RDMA) Datamover
+rhelversion:    8.0
+srcversion:     AC36F928B551D5E77253EA6
+depends:        libiscsi,ib_core,rdma_cm,scsi_transport_iscsi
+intree:         Y
+name:           ib_iser
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      4B:FA:5D:A0:D0:A2:71:C8:1A:74:3F:86:82:02modinfo: ERROR: Module tpm_tis_core not found.
+modinfo: ERROR: Module hid_ntrig not found.
+modinfo: ERROR: Module rcutree not found.
+modinfo: ERROR: Module uv_nmi not found.
+:DB:B9:91:60:C9:12:
+		B3:D8:5E:97:19:CD:D3:31:62:BC:1C:EB:B6:28:86:B7:AB:0E:82:EE:
+		68:76:B9:25:13:73:4E:10:1E:AB:90:AE:A7:DD:F0:77:66:93:C2:E3:
+		57:04:A3:89:4B:69:D4:E7:62:02:0F:79:44:40:09:38:E0:B9:38:6F:
+		DD:5D:74:CC:FB:11:0F:52:B2:E8:D0:5F:5D:D2:B4:FF:61:33:76:12:
+		D9:55:2E:A7:F9:12:40:31:6E:97:18:C2:32:53:03:38:15:A7:4C:93:
+		ED:9B:81:12:77:F0:4D:70:2D:E0:51:03:F1:11:35:BF:11:7C:F5:B3:
+		F2:6F:DB:65:E1:4A:CD:B6:92:67:6A:32:D1:6F:99:39:DA:36:1F:B7:
+		52:B7:68:3F:EC:6D:A1:9F:FE:0D:D6:35:9D:CD:85:6B:2C:1B:F8:BA:
+		1B:73:BD:B8:5D:B4:B8:88:99:11:1F:21:D2:9C:E1:49:FF:DB:11:B6:
+		6C:03:C6:67:52:59:35:37:1C:F7:37:35:45:76:92:9F:3C:90:57:51:
+		4B:D9:1D:D4:81:05:63:A0:A0:A4:80:59:61:63:E5:A4:EC:8E:B8:C5:
+		43:AF:BC:02:67:B1:FE:2A:A6:F8:C2:EF:DE:5A:9F:24:37:A0:61:0E:
+		A4:BE:69:ED:C0:83:A7:86:61:E4:D6:13:C7:11:56:CD:91:78:86:24:
+		19:58:CB:17:AC:E7:9B:EE:35:DE:0B:AB:78:9D:68:67:F4:51:BA:ED:
+		D4:AF:37:59:4A:CD:D9:6E:14:20:ED:46:FE:83:02:19:9D:BA:A0:9E:
+		5C:BB:E4:1E:65:00:21:0C:71:D4:26:18:28:C7:33:63:A0:FA:10:4F:
+		74:59:3A:41:DD:50:1A:18:8F:DE:E0:7C:82:E9:6F:92:9D:8B:97:DF:
+		26:34:72:1B:1D:B2:D5:89:93:D6:2A:91:84:53:91:60:1F:51:ED:FF:
+		C2:47:8F:9F
+parm:           debug_level:Enable debug tracing if > 0 (default:disabled) (int)
+parm:           max_lun:Max LUNs to allow per session (default:512 (uint)
+parm:           max_sectors:Max number of sectors in a single scsi command (default:1024 (uint)
+parm:           always_register:Always register memory, even for continuous memory regions (default:true) (bool)
+parm:           pi_enable:Enable T10-PI offload support (default:disabled) (bool)
+parm:           pi_guard:T10-PI guard_type [deprecated] (int)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/fs/ext4/ext4.ko.xz
+softdep:        pre: crc32c
+license:        GPL
+description:    Fourth Extended Filesystem
+author:         Remy Card, Stephen Tweedie, Andrew Morton, Andreas Dilger, Theodore Ts'o and others
+alias:          fs-ext4
+alias:          ext3
+alias:          fs-ext3
+alias:          ext2
+alias:          fs-ext2
+rhelversion:    8.0
+srcversion:     6BA0923D86BCCA5D7A8EE4C
+depends:        mbcache,jbd2
+intree:         Y
+name:           ext4
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      BC:BC:EE:EF:88:4E:FF:F6:BC:CE:61:0B:31:17:12:85:F8:6F:19:1D:
+		CA:B7:25:55:3E:98:69:A3:28:73:4C:6D:E7:60:E4:76:08:DF:78:9A:
+		59:5A:18:1C:3A:99:5D:1B:6A:8E:97:A6:74:65:07:D9:81:A3:19:AE:
+		77:0B:F4:0A:D7:AB:76:57:8E:A9:5B:E5:81:C7:EE:86:52:75:92:BA:
+		7C:B6:9B:F1:60:CA:CE:B9:76:23:BF:F0:5B:78:46:BA:DB:75:3E:CC:
+		5F:17:78:11:24:E5:D1:08:4D:71:25:BF:A0:FF:7C:86:B0:E5:0C:5A:
+		CA:DE:98:62:D6:DB:E0:32:EA:10:68:A1:D7:B4:61:C1:6B:F2:16:7F:
+		47:4E:8A:77:04:E0:BC:4B:54:4E:04:D2:E1:0C:91:C5:04:4E:FC:7C:
+		D9:03:F6:8A:9A:F9:73:F1:1A:BF:D5:CA:A8:49:22:FD:2D:B5:2B:A4:
+		6D:E3:51:CA:01:9D:4F:5D:B7:63:21:30:FA:64:A9:AE:18:6B:0E:36:
+		4C:E9:A1:3C:FC:6C:70:6D:85:57:61:24:E7:3A:B2:DA:FB:3D:AC:0E:
+		C3:A5:F8:6D:9A:CF:BB:1D:6F:2F:53:7E:07:64:EA:BD:F8:6F:1C:8C:
+		C3:B2:5E:36:46:51:FB:E0:D0:D8:BE:33:C0:A1:93:D8:AA:F1:68:3B:
+		1E:28:D1:4C:86:61:B5:55:F5:4D:A3:9F:58:E6:01:82:BE:44:82:B2:
+		B3:56:20:08:B4:40:8F:2E:D8:8A:3A:D2:51:F5:D8:83:30:B4:50:FD:
+		E2:91:A2:D3:83:F9:17:35:7D:7F:35:E6:D4:43:67:0D:63:34:D6:0A:
+		2E:F0:C4:7F:61:C2:08:5C:36:9E:47:2E:F5:67:1A:8B:15:5E:B4:F7:
+		F3:74:67:76:C2:30:E5:A3:5D:1F:33:F9:67:D8:42:0F:F8:95:00:83:
+		FB:05:4F:95:48:CA:77:86:22:0B:14:D2:D0:B0:90:68:A6:DE:4F:45:
+		37:A9:29:C9
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/acpi/nfit/nfit.ko.xz
+author:         Intel Corporation
+license:        GPL v2
+rhelversion:    8.0
+srcversion:     0AB0E624630D7F0AC03D9B1
+alias:          acpi*:ACPI0012:*
+depends:        libnvdimm
+intree:         Y
+name:           nfit
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      B8:8D:65:10:E0:43:F8:F4:65:4D:FF:EF:10:F9:7A:0E:47:2A:AD:8F:
+		DC:70:CB:C3:2E:1D:F3:22:77:9B:A5:71:ED:7D:E9:71:63:20:B0:32:
+		F8:1F:82:42:E3:64:54:FA:F9:F1:7D:A4:DC:AB:23:5E:23:30:36:43:
+		E8:46:8A:7E:AE:3F:3B:B5:0D:0D:35:A9:89:B0:11:E8:89:69:71:69:
+		55:87:C0:FC:AA:F5:17:04:BB:CE:98:AB:69:19:F8:F4:58:6E:79:73:
+		80:50:42:EA:4B:AE:F1:05:D1:44:0C:61:45:F3:F8:AE:03:0D:73:E6:
+		A5:D7:DA:D0:13:A4:14:92:B9:92:A6:4D:5E:74:B9:1C:B5:7C:92:F7:
+		65:A6:D4:A7:E1:2E:C6:E0:21:4D:B3:99:83:3A:94:7D:32:9B:20:C6:
+		FD:AF:76:98:4B:92:84:90:09:B5:06:98:2D:3A:93:2E:14:C5:F7:99:
+		7B:BF:F5:F0:38:2E:B4:08:30:19:CE:0D:98:C3:65:EB:B3:88:A4:2F:
+		70:9E:D3:64:9D:E2:75:F6:1A:A4:32:78:F7:AB:D7:FE:2B:CB:C8:D3:
+		4A:7F:FD:30:BA:86:13:95:45:35:C4:DA:89:83:1D:96:F6:05:6A:89:
+		D7:56:58:45:C2:75:26:46:84:6A:A7:44:48:6F:C7:F8:B0:5B:A0:57:
+		DF:73:60:BD:E3:7F:0D:0F:70:E3:6B:E0:85:6A:70:B5:52:0E:C2:9C:
+		8A:4E:0B:7E:72:B9:09:B4:5C:C0:AB:8C:5F:E1:2A:91:C6:B0:6D:95:
+		96:28:7A:48:98:EA:79:A5:8D:C4:27:40:2A:CE:43:3E:9A:3A:20:10:
+		19:93:FF:9C:F0:BE:6B:8C:30:D1:AA:19:9E:2C:B1:E7:6F:7D:38:4D:
+		AE:84:75:0C:57:DB:49:53:A8:3C:6D:F2:1B:D3:6E:CD:DD:34:1D:51:
+		FB:B0:EF:38:0F:1B:5A:86:25:1D:1F:00:FF:95:7C:77:52:DB:BE:67:
+		B5:71:AA:D9
+parm:           force_enable_dimms:Ignore _STA (ACPI DIMM device) status (bool)
+parm:           disable_vendor_specific:Limit commands to the publicly specified set (bool)
+parm:           override_dsm_mask:Bitmask of allowed NVDIMM DSM functions (ulong)
+parm:           default_dsm_family:Try this DSM type first when identifying NVDIMM family (int)
+parm:           no_init_ars:Skip ARS run at nfit init time (bool)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/fs/xfs/xfs.ko.xz
+license:        GPL
+description:    SGI XFS with ACLs, security attributes, no debug enabled
+author:         Silicon Graphics, Inc.
+alias:          fs-xfs
+rhelversion:    8.0
+srcversion:     13469E84457BD3D7F85AD9A
+depends:        libcrc32c
+intree:         Y
+name:           xfs
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      2F:62:18:C9:C8:A1:41:55:CA:97:B0:5C:11:54:77:B9:F1:71:16:80:
+		AE:F3:43:DA:16:B1:82:45:65:45:92:70:3E:E0:DF:F7:0B:81:BE:46:
+		3C:BE:27:2E:9A:0F:73:32:51:20:BF:3A:3D:2E:B3:32:D1:28:F8:E8:
+		57:5D:34:35:C7:7C:06:C9:B6:E8:6F:68:BD:A1:7E:7A:F0:A7:33:E9:
+		95:CE:6C:A7:BF:A6:F1:68:B8:0B:E6:FB:33:AF:2B:1C:F9:F7:87:7F:
+		EC:A6:9B:DD:1B:48:74:E3:23:30:0B:BE:90:02:D6:95:FC:A5:C7:B9:
+		15:05:15:36:55:4F:69:59:08:69:7C:AB:F1:7D:09:4D:32:3A:DC:FE:
+		03:A6:C4:01:FC:2A:87:AD:23:9D:61:43:CE:A4:19:70:D0:3D:24:9B:
+		C9:A5:0B:18:FA:80:24:7A:B8:F2:1A:BA:B7:B2:30:F9:8E:B7:CE:DF:
+		00:4B:38:7D:D8:CB:A3:42:04:BA:EB:82:EE:5D:0C:80:2D:53:4A:47:
+		3C:AF:7E:A8:8F:C3:BA:10:5F:F8:03:D4:2E:4C:A7:6C:CB:2A:98:5D:
+		DB:40:C2:74:FC:DA:42:FC:B9:FC:4C:9C:01:28:09:FD:F3:BB:F8:C0:
+		CA:B9:47:AA:97:B4:1A:4F:98:7C:12:75:46:EE:D1:4A:A3:DB:B3:20:
+		81:7D:F8:8E:82:66:9E:CB:F2:6E:70:66:0A:F4:1A:0C:41:99:19:22:
+		3A:FE:A5:EF:F2:C2:26:98:C8:A5:CD:CC:06:E0:87:99:D9:71:A7:F7:
+		DD:7A:91:5F:60:2E:C4:B8:87:3A:D6:61:61:E4:CC:55:64:93:3D:16:
+		D2:40:73:F1:13:24:17:E7:DA:33:13:41:AD:19:0E:89:4C:AD:1C:8B:
+		69:C8:56:88:98:97:46:37:10:26:69:1D:A4:53:04:F9:77:F7:F4:91:
+		F4:1B:90:8C:2D:7F:0C:93:4D:C3:D3:B1:B6:F4:5F:2C:F6:70:FB:F8:
+		19:E3:9C:E0
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/net/netfilter/nft_counter.ko.xz
+alias:          nft-obj-1
+alias:          nft-expr-counter
+author:         Patrick McHardy <kaber@trash.net>
+license:        GPL
+rhelversion:    8.0
+srcversion:     6B17C407C25F9B74D9B9840
+depends:        nf_tables
+intree:         Y
+name:           nft_counter
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Entmodinfo: ERROR: Module button not found.
+modinfo: ERROR: Module ima not found.
+erprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      2A:A1:BB:3A:E1:A8:7A:2A:77:59:42:44:3B:E5:AE:6F:ED:C4:43:96:
+		74:9D:FE:E9:7B:46:68:F3:A4:38:A8:AD:7B:0C:05:4D:3C:0D:3B:41:
+		C1:BA:68:67:EE:8F:72:17:E0:58:49:4E:FA:4A:0A:B9:45:A4:6A:99:
+		AD:FE:B2:1F:86:5B:6B:4A:EB:BF:43:F8:41:97:EF:69:03:FF:45:FF:
+		18:1D:D7:7B:C8:6C:25:5B:55:6B:CC:66:3A:4F:EE:80:A9:4E:44:64:
+		2E:65:B6:53:6F:00:61:F8:43:63:65:BE:8E:E4:7A:89:43:EA:BF:9A:
+		D0:29:0F:DD:35:C2:99:BB:DA:D5:8E:92:C2:27:29:EB:FB:8F:5F:E8:
+		85:CE:6D:17:77:B7:02:72:D0:40:B8:ED:ED:51:4A:95:A4:57:0B:D2:
+		E0:4D:CA:A8:C5:D8:7E:D3:BF:B5:D6:EA:AD:0E:09:94:8C:DE:B5:33:
+		FF:46:93:51:8D:6C:F4:59:07:A2:F4:78:E7:4A:02:E4:D6:91:C9:90:
+		D9:06:F2:32:AE:BC:87:80:0B:57:7A:11:88:77:F5:4D:2E:87:1B:A6:
+		92:72:2E:2E:47:C0:12:40:FA:5E:C8:61:C4:A9:B8:22:AB:C2:9C:10:
+		34:05:23:3F:7E:8C:F4:CE:BE:F1:E8:4C:60:E6:74:C3:67:16:7F:3A:
+		A3:2C:6D:D3:D2:9C:0B:B7:B4:0F:02:F7:CA:DF:84:6A:8B:15:EE:0C:
+		DD:21:CA:49:F1:7A:F5:CA:85:9F:5A:70:BE:B8:9D:9D:64:30:3C:3B:
+		8F:66:38:CB:AB:CD:F2:D2:0A:EE:E7:50:9D:E9:06:82:72:C9:8B:77:
+		59:F3:09:84:32:1B:94:22:29:E6:10:15:70:1B:00:7D:22:45:6D:8F:
+		CE:18:6E:A6:4B:26:ED:A5:13:A1:90:A4:FA:D6:DA:19:74:08:0E:7C:
+		D9:D5:49:9C:CA:9C:B7:6A:81:36:B7:85:B9:5A:3E:82:BF:26:BE:4C:
+		0A:34:79:FD
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/infiniband/core/ib_umad.ko.xz
+license:        Dual BSD/GPL
+description:    InfiniBand userspace MAD packet access
+author:         Roland Dreier
+rhelversion:    8.0
+srcversion:     94B4D3528A339554ABA1F60
+depends:        ib_core
+intree:         Y
+name:           ib_umad
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      76:A9:7F:DE:9C:2E:37:8F:35:A6:DB:3A:53:D4:FA:49:40:ED:69:69:
+		0A:F9:CE:2B:79:BF:C6:F9:61:E1:EF:FE:31:61:30:D6:C5:F1:00:77:
+		33:2B:58:84:18:31:B0:BB:80:AC:2B:7B:BA:0E:E3:6D:8B:80:7B:8E:
+		73:DE:71:45:8F:D8:C8:86:9A:02:41:3F:0B:84:C1:A5:4B:50:9E:E3:
+		43:24:6B:B8:77:D4:9D:71:6A:13:16:D1:89:3F:1E:F3:ED:16:E5:32:
+		73:B8:CD:3F:B5:FD:E8:54:1A:65:42:CD:81:A1:D2:27:DF:5E:90:ED:
+		01:AC:F6:A7:4A:AC:6A:97:33:61:6C:44:0D:82:23:CB:4B:E6:85:59:
+		2C:BE:2B:EA:02:CD:F1:00:02:BD:E8:72:72:E2:66:23:5B:2B:28:BB:
+		A7:43:DF:A4:35:97:5D:E5:FB:31:83:69:13:1A:46:93:ED:D9:60:04:
+		59:DB:77:A5:44:8C:73:C2:EE:67:4D:27:B4:F5:1E:42:3C:93:49:1B:
+		B1:A8:F9:34:34:FE:85:3B:07:9B:04:2D:E7:F6:5F:27:B1:09:01:B1:
+		E7:3E:EC:78:83:7F:20:4C:C8:B3:23:6E:FD:BD:FD:32:C5:D2:C9:5F:
+		FF:A5:F2:1E:19:87:28:0D:1A:3B:F1:AD:0E:F9:09:52:2B:6F:CF:01:
+		AC:AB:53:22:E4:3A:97:34:6A:EA:0A:9C:5C:27:DB:32:29:36:F8:10:
+		25:B1:36:CB:33:F7:5A:9E:9E:2A:5A:4B:E2:34:C1:00:E7:46:2E:F8:
+		EC:73:2D:38:86:07:AD:E7:FC:6F:64:CA:45:5D:A9:7C:AE:FD:13:C2:
+		45:3E:98:25:47:B8:8B:B8:7B:1D:A4:A3:86:91:B2:50:C6:FC:AB:57:
+		45:E2:D0:C3:44:AE:89:0C:57:1F:0D:95:13:A8:ED:04:7E:07:36:3B:
+		24:87:F6:93:71:F7:E4:F6:E1:0C:8E:FD:89:8E:25:C7:C2:56:1C:37:
+		ED:A4:EF:72
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/scsi/qla4xxx/qla4xxx.ko.xz
+version:        5.04.00-k6
+license:        GPL
+description:    QLogic iSCSI HBA Driver
+author:         QLogic Corporation
+rhelversion:    8.0
+srcversion:     7D4C3F4B6BAC3EF6D6B7FEE
+alias:          pci:v00001077d00008042sv*sd*bc*sc*i*
+alias:          pci:v00001077d00008032sv*sd*bc*sc*i*
+alias:          pci:v00001077d00008022sv*sd*bc*sc*i*
+alias:          pci:v00001077d00004032sv*sd*bc*sc*i*
+alias:          pci:v00001077d00004022sv*sd*bc*sc*i*
+alias:          pci:v00001077d00004010sv*sd*bc*sc*i*
+depends:        scsi_transport_iscsi,iscsi_boot_sysfs,libiscsi
+intree:         Y
+name:           qla4xxx
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      00:19:97:1C:42:55:96:A0:E1:A3:85:4A:E2:CE:8C:11:6F:07:87:52:
+		B0:DB:7E:AC:61:2F:20:FA:0B:EF:C0:32:0A:3F:BF:CE:DC:01:FD:1E:
+		2C:E6:CD:2B:26:AC:9B:6E:44:1A:5F:9F:C0:D8:2C:41:31:24:B8:A7:
+		81:38:B4:7F:F0:50:96:F9:2D:80:4E:36:17:D1:71:7E:08:EA:31:E9:
+		4D:79:1E:1E:66:9A:91:37:2F:14:82:53:56:EB:C5:69:CD:A2:08:63:
+		07:A1:04:B6:20:C7:1A:B7:46:15:FA:B5:D6:BD:B7:6D:7D:C6:43:85:
+		A3:B5:0B:0B:42:66:87:2E:D5:36:DE:4D:05:4D:F3:4E:A5:DE:EC:33:
+		CC:AB:87:38:90:BD:B2:76:F8:D7:86:3C:BA:C2:D2:33:33:59:29:28:
+		D8:5D:95:D8:15:4F:38:A7:8E:53:73:7A:A1:85:71:B6:12:8A:04:5D:
+		2D:6E:C8:76:71:C2:DE:D0:19:6A:69:53:D4:C4:10:3E:D7:03:30:C0:
+		9B:B8:D5:90:E9:8C:15:CD:86:30:3C:9F:66:9B:DC:4D:F8:1A:3E:02:
+		F4:84:45:CA:00:6E:F8:30:52:AC:FE:AB:32:6C:73:B2:C1:73:11:B3:
+		9A:E8:5B:D5:17:AC:EC:0B:2C:27:40:A5:F8:58:44:D1:F5:8C:1B:86:
+		0F:B6:3D:9D:FE:80:FF:3F:9D:7A:A5:43:02:BD:6D:D6:69:5A:73:0A:
+		BB:94:F5:77:C9:AC:45:4A:3E:40:D4:C7:7E:E7:2C:E7:DC:36:F9:F1:
+		BE:4F:BF:60:C4:C0:BC:29:83:79:41:9B:94:0D:90:53:5F:B7:06:B4:
+		EE:88:22:43:7D:AB:54:77:6A:71:2E:A5:95:9D:EF:9D:DF:5F:EF:8D:
+		F2:2D:B5:6B:B3:DB:BC:BC:F1:9C:10:43:74:12:48:3B:6A:13:18:47:
+		42:95:F5:07:02:B2:AC:1A:39:21:9B:04:87:07:80:72:20:D5:A2:C2:
+		69:13:2D:20
+parm:           ql4xdisablesysfsboot: Set to disable exporting boot targets to sysfs.
+		  0 - Export boot targets
+		  1 - Do not export boot targets (Default) (int)
+parm:           ql4xdontresethba: Don't reset the HBA for driver recovery.
+		  0 - It will reset HBA (Default)
+		  1 - It will NOT reset HBA (int)
+parm:           ql4xextended_error_logging: Option to enable extended error logging.
+		  0 - no logging (Default)
+		  2 - debug logging (int)
+parm:           ql4xenablemsix: Set to enable MSI or MSI-X interrupt mechanism.
+		  0 = enable INTx interrupt mechanism.
+		  1 = enable MSI-X interrupt mechanism (Default).
+		  2 = enable MSI interrupt mechanism. (int)
+parm:           ql4xmaxqdepth: Maximum queue depth to report for target devices.
+		  Default: 32. (int)
+parm:           ql4xqfulltracking: Enable or disable dynamic tracking and adjustment of
+		 scsi device queue depth.
+		  0 - Disable.
+		  1 - Enable. (Default) (int)
+parm:           ql4xsess_recovery_tmo: Target Session Recovery Timeout.
+		  Default: 120 sec. (int)
+parm:           ql4xmdcapmask: Set the Minidump driver capture mask level.
+		  Default is 0 (firmware default capture mask)
+		  Can be set to 0x3, 0x7, 0xF, 0x1F, 0x3F, 0x7F, 0xFF (int)
+parm:           ql4xenablemd: Set to enable minidump.
+		  0 - disable minidump
+		  1 - enable minidump (Default) (int)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/scsi/cxgbi/cxgb4i/cxgb4i.ko.xz
+license:        GPL
+version:        0.9.5-ko
+description:    Chelsio T4-T6 iSCSI Driver
+author:         Chelsio Communications, Inc.
+rhelversion:    8.0
+srcversion:     EF102083E73FDE7522F9658
+depends:        libiscsi,libcxgbi,libiscsi_tcp,cxgb4
+intree:         Y
+name:           cxgb4i
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      26:FA:7F:3A:19:73:4C:8A:58:1A:09:78:46:05:91:47:47:34:34:F4:
+		DC:52:AF:54:5E:9B:80:6B:60:85:8E:D4:34:8B:92:39:F4:02:33:AC:
+		51:C9:CF:C1:D2:F4:CE:B4:AC:BB:B7:1E:07:1E:67:77:5B:E9:AB:F1:
+		3C:AE:96:39:BC:5E:53:E5:AB:7E:5E:63:FE:DD:68:88:4E:42:27:A7:
+		49:FD:5F:51:39:C6:C9:C3:5C:F4:E1:62:E8:BD:58:20:21:8A:10:C2:
+		ED:EE:8D:5A:EF:81:2A:E9:02:26:AB:C4:81:37:95:D2:59:B3:AF:FC:
+		B5:CB:1D:6B:DB:BD:E1:F4:EF:F0:11:7C:02:E0:83:5C:AA:9F:8B:67:
+		4D:CB:9F:8D:4F:63:1C:1C:59:02:14:A5:EC:1F:B5:EC:A3:71:C2:60:
+		42:7B:B9:B6:2F:D6:0C:3B:42:22:13:F6:C0:07:A5:0F:3C:B9:A4:38:
+		F1:48:03:84:8D:59:B4:9B:D7:17:BD:1F:7F:E4:CE:09:EF:CB:24:B9:
+		90:4D:57:3A:A3:71:76:C3:57:CC:F2:FB:8B:4B:C7:20:E0:1E:00:66:
+		61:B9:F9:D9:79:B1:91:0D:4F:E1:3B:ED:5F:36:2C:F4:64:AA:BE:7F:
+		67:A7:5C:6C:6D:47:A0:47:41:C4:4C:CB:29:CC:32:64:BC:F7:16:38:
+		14:82modinfo: ERROR: Module block not found.
+:15:6D:94:22:E6:DF:C8:4D:6D:A4:4D:70:A8:37:56:01:88:7C:
+		86:5D:76:FC:CC:A3:CF:7C:0E:23:E5:C7:FB:F6:BC:DC:A0:6E:41:3E:
+		13:27:AC:C5:E2:FC:FD:06:11:75:28:D1:42:2A:95:2D:04:08:B6:A7:
+		E6:B3:B2:96:0E:37:FE:1C:B9:10:AC:E6:44:16:47:BB:FA:60:BA:F8:
+		31:D1:4A:C4:9A:2E:B2:F4:87:1B:3C:49:47:BA:97:41:C4:FB:C5:12:
+		7E:98:6B:63:81:44:1C:01:AA:36:1D:A3:DA:42:71:BC:A6:B1:CF:2E:
+		71:DF:1A:46
+parm:           dbg_level:Debug flag (default=0) (uint)
+parm:           cxgb4i_rcv_win:TCP reveive window in bytes (int)
+parm:           cxgb4i_snd_win:TCP send window in bytes (int)
+parm:           cxgb4i_rx_credit_thres:RX credits return threshold in bytes (default=10KB) (int)
+parm:           cxgb4i_max_connect:Maximum number of connections (uint)
+parm:           cxgb4i_sport_base:Starting port number (default 20000) (ushort)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/arch/x86/crypto/crct10dif-pclmul.ko.xz
+alias:          crypto-crct10dif-pclmul
+alias:          crct10dif-pclmul
+alias:          crypto-crct10dif
+alias:          crct10dif
+license:        GPL
+description:    T10 DIF CRC calculation accelerated with PCLMULQDQ.
+author:         Tim Chen <tim.c.chen@linux.intel.com>
+rhelversion:    8.0
+srcversion:     2F53B514D1B001A8706B470
+alias:          cpu:type:x86,ven*fam*mod*:feature:*0081*
+depends:        
+intree:         Y
+name:           crct10dif_pclmul
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      91:CB:9C:85:F7:56:6B:B4:73:AF:E2:F6:A2:E8:D8:FF:7F:FF:28:1A:
+		4F:85:26:D5:2C:48:4A:3D:80:02:DB:D4:A3:AE:33:A1:86:9A:C8:40:
+		86:40:88:8E:0C:58:01:C5:FC:FC:C5:2A:AF:6D:8B:0C:82:D6:C0:86:
+		E2:DE:40:E2:E4:D2:1F:07:6F:7A:B0:B8:61:97:77:0E:20:3D:59:CA:
+		EC:43:3F:FE:6F:DF:CE:70:4D:BE:7F:FD:9D:F0:34:37:FD:14:E8:6B:
+		BA:29:F0:15:CE:FD:87:AC:6C:20:3E:F2:D1:65:A4:8D:01:51:CD:1D:
+		94:A4:90:2D:1C:30:5D:78:D9:66:87:8A:92:7B:7B:85:74:0D:33:64:
+		68:14:3D:D3:7D:CB:F5:E3:CB:72:74:9E:42:E2:2B:DD:C0:C7:18:98:
+		FB:EB:76:E3:3C:43:B9:7B:33:37:BC:DD:97:71:9C:94:15:B6:54:A9:
+		04:AA:99:6B:84:39:22:1E:A2:4D:54:6F:2E:F4:BF:0F:67:77:81:60:
+		BE:3E:34:4D:8C:AC:E6:1D:DD:A6:C8:6E:B2:7F:57:8D:4A:BD:36:E6:
+		5B:88:A1:32:1D:42:78:62:4B:66:88:74:BB:6A:7C:3C:18:E4:87:B5:
+		35:47:F1:3D:36:5F:29:6D:EC:31:6F:2C:97:ED:48:0F:E4:5E:B4:08:
+		AF:2D:8C:FE:A5:B9:93:FE:FF:8A:5F:38:C6:48:01:29:DB:D6:D1:19:
+		00:57:ED:63:3F:0F:8F:D8:C8:31:57:77:26:B0:A7:0A:CC:82:96:09:
+		BA:27:DE:04:53:A8:BB:9E:35:4D:81:09:80:54:13:90:56:CC:A5:79:
+		FF:48:52:69:C1:45:91:DD:DD:4A:82:DB:74:25:D0:14:4C:F0:E3:C7:
+		C6:E7:28:3A:C5:47:F3:BB:A5:8C:6E:D9:D7:93:9B:3B:BB:F1:1F:F7:
+		F9:3E:E3:DE:7B:94:D9:E0:37:7D:20:94:6C:84:A0:71:63:94:36:27:
+		4E:56:44:2B
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/scsi/iscsi_boot_sysfs.ko.xz
+license:        GPL
+description:    sysfs interface and helpers to export iSCSI boot information
+author:         Mike Christie <michaelc@cs.wisc.edu>
+rhelversion:    8.0
+srcversion:     7CD418496EF7A607DC0B768
+depends:        
+intree:         Y
+name:           iscsi_boot_sysfs
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      CC:77:08:55:DB:2D:7E:66:89:F8:02:B4:98:53:DA:0F:73:9C:52:B3:
+		97:F1:8F:59:F5:5D:6B:98:7F:05:69:FF:29:5E:66:FD:6C:49:D9:B5:
+		C7:95:F7:8B:11:56:F3:97:17:43:A2:CF:FD:4F:EB:F3:0B:F0:35:BB:
+		E5:58:62:AD:50:56:CE:B4:59:9C:4F:D2:29:72:54:EA:66:DF:82:38:
+		DC:16:EF:CA:01:2D:A3:E3:F3:95:CB:F6:77:E5:EA:68:80:11:DE:E2:
+		53:A3:41:31:F7:14:8B:1F:6A:8D:4E:D3:BB:2D:41:91:80:C8:BA:25:
+		3C:8E:EC:86:97:48:47:1C:15:FE:3C:B3:DE:92:E8:8E:A3:5E:8A:29:
+		45:06:97:3D:12:7D:AA:10:A0:7F:F8:CF:64:F0:37:15:F4:42:DA:54:
+		DF:36:2A:32:7B:E4:00:4C:E4:72:F6:F8:6D:E0:F5:37:25:5B:71:F9:
+		68:BE:EE:B5:CC:27:79:A7modinfo: ERROR: Module xz_dec not found.
+:3A:E9:41:C6:6A:20:8A:42:6D:75:87:F4:
+		A0:B0:03:C2:7D:14:84:E2:5E:4F:28:1D:02:96:46:38:BB:22:F3:47:
+		E3:42:1B:C8:29:C7:AC:B2:E6:64:53:67:C7:E5:BA:30:04:59:46:5F:
+		CF:78:A5:E3:F2:2E:9A:48:6F:18:AE:4C:F5:0A:7D:E4:0A:F0:71:FB:
+		51:63:D0:0B:EC:76:98:97:F6:2D:36:81:9B:C3:15:C7:5E:1E:FA:84:
+		31:DA:E4:74:08:D1:E4:8C:38:96:49:2F:2F:4C:DB:C2:7B:57:EC:73:
+		A9:46:55:64:5F:C3:C8:EA:DD:A2:3F:E3:0D:6E:06:FD:3D:B8:84:84:
+		86:3A:7A:45:C0:4C:50:86:7A:1D:2C:AA:B6:88:D4:2E:0A:24:60:C5:
+		8C:53:97:57:2F:71:20:C0:F4:9B:06:5F:A7:0F:49:CA:F8:BF:B2:2C:
+		F0:CE:5C:A2:53:C6:00:01:2D:4C:2A:A7:39:D7:2A:8A:AD:62:BC:5F:
+		0B:AE:DC:93
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/infiniband/ulp/isert/ib_isert.ko.xz
+license:        GPL
+author:         nab@Linux-iSCSI.org
+description:    iSER-Target for mainline target infrastructure
+rhelversion:    8.0
+srcversion:     B29540FC7EC247A667C1DC2
+depends:        iscsi_target_mod,rdma_cm,ib_core,target_core_mod
+intree:         Y
+name:           ib_isert
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      20:AA:4F:A2:A4:3C:3A:03:1F:A7:A0:FE:54:E6:D5:F9:50:98:85:96:
+		78:97:79:F3:F7:0B:9F:B3:94:84:C5:40:5A:D6:76:39:22:E7:C0:AB:
+		11:BB:B4:8C:50:B2:DA:C6:1C:DA:C1:1A:34:1B:43:E4:98:48:0F:6C:
+		7E:06:F4:91:38:3E:5A:83:7D:14:B8:E7:41:6D:C4:C3:DF:C1:AE:75:
+		73:DC:A6:99:6F:87:12:43:4D:8B:B9:BA:F8:6D:1C:C8:6F:CD:D5:06:
+		AD:0A:B6:70:DD:AB:EA:92:53:28:E3:FB:35:02:AC:2B:12:0F:CB:A4:
+		5D:3B:87:86:F3:F0:45:A7:BE:EF:A0:C4:AD:54:42:29:8B:D4:90:78:
+		F9:DC:41:48:A8:A1:14:D8:EC:7F:D4:D6:63:5D:53:C0:BF:2D:43:83:
+		E0:5A:50:40:47:D7:7E:A1:CE:74:5B:F2:84:D8:BF:2D:31:27:70:CD:
+		33:2D:2E:5C:40:33:9A:27:3E:DE:5A:0C:D1:EC:43:38:30:D8:8F:89:
+		C5:C9:F6:99:74:1B:F6:47:1C:C2:9F:65:8F:A3:4C:F4:0B:F7:A7:45:
+		2F:86:E0:F4:43:29:CB:BB:11:17:6D:D1:5F:45:50:1C:EA:FA:7A:AD:
+		E8:98:DF:F9:2F:F5:02:0E:BD:DC:2B:5D:56:D2:64:5E:38:88:DA:93:
+		E7:D0:46:FF:76:32:27:8E:C0:66:A6:0F:8C:A0:33:9F:3E:31:A6:92:
+		2C:A1:35:1B:E5:CB:10:D1:E6:99:62:53:20:74:38:BC:18:D7:94:94:
+		D7:16:77:45:69:FE:FE:2F:1A:35:63:8B:74:95:61:13:84:02:89:CD:
+		BD:AC:78:E3:53:1C:CB:4A:5B:73:3D:34:7A:6E:9D:35:75:C1:2B:84:
+		03:7A:E9:30:7F:52:68:F8:DF:7D:11:82:8F:BA:A4:0B:1E:A9:16:63:
+		74:02:F7:F5:6F:00:26:5C:1C:89:F2:A6:98:35:A4:5E:94:79:C5:D1:
+		FB:57:7F:B0
+parm:           debug_level:Enable debug tracing if > 0 (default:0) (int)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/scsi/libiscsi.ko.xz
+license:        GPL
+description:    iSCSI library functions
+author:         Mike Christie
+rhelversion:    8.0
+srcversion:     E590141CF1C62D868123E36
+depends:        scsi_transport_iscsi
+intree:         Y
+name:           libiscsi
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      38:37:BB:BF:95:57:56:9D:A5:53:3B:4B:10:75:2F:CB:72:17:6B:A3:
+		69:2C:35:C5:83:51:AB:C1:C3:42:66:6F:A7:04:55:94:20:2D:44:14:
+		E4:DE:CA:7E:0F:60:BE:13:C7:D8:D2:1B:79:C4:87:1A:B5:5E:3F:1A:
+		92:01:A5:C0:72:FA:DF:4E:DF:0C:92:AF:22:31:FB:31:6F:89:22:0B:
+		FE:C4:CD:99:70:B0:F8:1C:AF:DF:D3:36:A3:03:CE:39:17:50:6F:C6:
+		0F:B6:18:EA:5B:11:44:46:AD:2D:A5:84:C9:1B:B1:78:3A:D7:43:9D:
+		07:66:76:9D:5B:0C:F5:D4:80:44:A4:C0:07:57:B8:0E:B4:B1:60:F5:
+		BC:DC:A4:56:61:2D:F6:38:DF:A4:24:A9:C8:4D:2B:AF:F8:20:80:C9:
+		8B:06:3E:B9:D2:EB:38:54:53:F3:74:92:95:BA:5C:19:94:60:F9:27:
+		9F:AF:74:DB:F0:B3:C7:86:FD:AE:CD:AB:A6:89:22:05:8E:4F:96:54:
+		47:47:DE:65:E2:FA:3F:46:0E:B4:D2:66:E3:EA:09:C2:1F:F4:43:59:
+		75:6C:38:C3:27:27:73:A6:6E:B8:72:C4:D1:3F:AA:12:DD:6D:F8:D3:
+		F6:8B:E4:46:7C:0B:BC:31:49:91:B6:FC:A5:B4:D1:95:79:CF:6B:51:
+		3A:E8:71:DF:F4:14:67:84:EA:3D:BF:34:3D:6D:85:C7:BD:E5:BC:F9:
+		00:2E:1C:2D:4A:F7:56:E5:43:24:9D:43:32:F4:A0:FC:F6:7B:5modinfo: ERROR: Module virtio_pci not found.
+modinfo: ERROR: Module kdb not found.
+C:72:
+		A4:F8:A8:54:84:B7:78:57:56:4D:E2:DF:30:1D:90:40:AF:58:A6:FD:
+		04:B2:53:60:2B:72:C4:69:38:8F:A9:2E:63:B8:AE:FB:29:B9:12:C3:
+		5B:63:31:7B:20:5A:73:7E:14:E2:87:F7:9C:CF:02:96:EA:76:A2:52:
+		80:96:22:D3:9E:3B:1F:BC:3B:5A:FA:64:4E:B4:BE:28:74:A6:20:83:
+		97:EC:1A:A2
+parm:           debug_libiscsi_conn:Turn on debugging for connections in libiscsi module. Set to 1 to turn on, and zero to turn off. Default is off. (int)
+parm:           debug_libiscsi_session:Turn on debugging for sessions in libiscsi module. Set to 1 to turn on, and zero to turn off. Default is off. (int)
+parm:           debug_libiscsi_eh:Turn on debugging for error handling in libiscsi module. Set to 1 to turn on, and zero to turn off. Default is off. (int)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/md/dm-mod.ko.xz
+license:        GPL
+author:         Joe Thornber <dm-devel@redhat.com>
+description:    device-mapper driver
+alias:          devname:mapper/control
+alias:          char-major-10-236
+rhelversion:    8.0
+srcversion:     2BE6D7121815F0736B234E9
+depends:        
+intree:         Y
+name:           dm_mod
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      3B:5C:04:C5:F6:40:02:21:8A:1D:ED:42:09:5B:41:2A:8F:F8:1B:5D:
+		BB:63:5B:7C:65:88:DD:2D:A5:1D:6C:5B:DB:BB:FF:65:C7:E9:B3:C8:
+		F3:7E:24:70:D3:D3:C6:EB:D8:1C:C6:7C:61:B8:BF:FB:3A:4D:EE:93:
+		66:91:7E:E4:28:72:9F:B4:B5:80:02:94:56:C9:3C:27:1F:B0:D5:F8:
+		BD:1C:44:A4:29:A8:42:94:2B:06:E2:B4:BE:44:4F:18:D8:A5:20:C7:
+		AF:9B:F1:CB:2F:50:D0:BA:4B:B5:51:A9:C2:F0:D1:B3:7B:84:FE:65:
+		DF:0A:71:C0:A8:B7:F5:2F:6F:B5:18:71:00:B7:51:BF:8B:E7:9B:FB:
+		FB:1B:E6:AE:88:C8:F0:E7:72:9B:6F:0B:38:F9:C3:94:56:D4:3E:79:
+		10:46:C9:EE:46:82:36:A2:BB:1E:90:87:49:19:92:EA:90:60:A2:11:
+		33:10:C5:0B:46:78:51:E9:FE:85:33:74:EC:21:16:53:0B:45:63:A4:
+		69:CE:F7:64:99:BF:4F:2E:EA:4A:4B:F3:D4:60:C9:88:1E:C8:4C:EC:
+		F5:DA:66:C4:4E:02:6F:C0:0F:88:82:B1:C5:F1:B4:A0:70:89:9F:70:
+		05:9C:DD:16:08:36:70:6E:1B:A3:8B:D0:62:1F:04:91:7E:46:A7:BF:
+		CD:08:B5:28:B3:58:EF:43:28:95:8C:95:21:40:4F:B4:FA:FA:B3:6B:
+		1D:05:E7:04:C9:24:34:3A:D9:65:7D:8D:65:5F:3C:2E:D4:D8:CA:EE:
+		48:ED:BA:34:3B:19:AD:D6:83:07:79:56:C1:32:D4:C7:11:5E:27:BE:
+		97:B5:89:66:31:4A:78:60:47:13:20:88:AB:A8:77:57:B8:64:D3:37:
+		52:6D:7A:1A:43:2B:C4:40:62:C8:7D:66:FD:E1:DC:0E:8C:BF:61:52:
+		24:11:B7:3D:78:42:AA:5F:D3:79:11:78:88:30:65:A8:2B:ED:B7:E8:
+		12:D2:60:D6
+parm:           reserved_rq_based_ios:Reserved IOs in request-based mempools (uint)
+parm:           use_blk_mq:Use block multiqueue for request-based DM devices (bool)
+parm:           dm_mq_nr_hw_queues:Number of hardware queues for request-based dm-mq devices (uint)
+parm:           dm_mq_queue_depth:Queue depth for request-based dm-mq devices (uint)
+parm:           stats_current_allocated_bytes:Memory currently used by statistics (ulong)
+parm:           major:The major number of the device mapper (uint)
+parm:           reserved_bio_based_ios:Reserved IOs in bio-based mempools (uint)
+parm:           dm_numa_node:NUMA node for DM device memory allocations (int)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/arch/x86/crypto/crc32c-intel.ko.xz
+alias:          crypto-crc32c-intel
+alias:          crc32c-intel
+alias:          crypto-crc32c
+alias:          crc32c
+license:        GPL
+description:    CRC32c (Castagnoli) optimization using Intel Hardware.
+author:         Austin Zhang <austin.zhang@intel.com>, Kent Liu <kent.liu@intel.com>
+rhelversion:    8.0
+srcversion:     EC0840AA00373119028C3CE
+alias:          cpu:type:x86,ven*fam*mod*:feature:*0094*
+depends:        
+intree:         Y
+name:           crc32c_intel
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   shmodinfo: ERROR: Module psmouse not found.
+modinfo: ERROR: Module scsi_dh_rdac not found.
+modinfo: ERROR: Module i8042 not found.
+modinfo: ERROR: Module module not found.
+a256
+signature:      28:EE:4E:00:DB:12:E1:A8:8C:E0:3A:7F:B0:C5:70:77:FF:F4:B0:3D:
+		D9:D9:23:2A:B3:E6:40:02:29:37:23:79:C3:3B:4E:96:1B:31:E3:E5:
+		78:DD:C2:2F:6D:D5:72:93:1E:1C:D7:BA:30:E6:E1:3D:75:71:BA:83:
+		21:54:EA:85:76:81:2E:73:97:09:B9:7C:48:A1:87:B5:6A:0C:E4:00:
+		53:74:CA:70:1F:DC:5F:9D:01:BA:94:AB:F7:4D:1C:B8:B7:F4:5B:AB:
+		07:6B:F1:10:36:36:2D:CA:EA:74:69:2B:CB:BA:8A:83:A0:72:5D:76:
+		6F:A6:4B:E3:FC:61:CF:BC:F9:9C:8F:DD:F8:3F:7D:6B:B7:37:21:9F:
+		F4:3D:AB:ED:1F:E6:7D:C0:1B:7E:F0:6B:C5:CB:BB:75:7F:F2:EF:57:
+		A6:73:30:58:E3:DF:1A:41:58:75:80:1A:B6:B2:93:42:47:A3:39:B4:
+		36:E7:CC:20:FA:8B:1B:7A:52:0D:D1:41:8F:36:A3:07:5D:DF:8F:41:
+		62:B9:33:30:1F:B5:99:40:F8:26:F6:F7:06:B5:9E:8A:F6:C2:6F:70:
+		65:B8:8D:E7:0D:39:E3:67:54:98:BD:B7:F3:C7:78:4A:AD:17:4A:4B:
+		D6:4D:C5:B6:AF:40:E2:E7:FE:37:76:12:1C:74:8E:1E:2E:74:0F:D9:
+		95:D0:4F:89:2A:1A:D2:54:FD:F2:79:D6:A1:F0:D6:1B:2E:E7:48:80:
+		70:52:CA:3E:64:90:45:E3:EE:63:FF:EF:70:F6:0D:8A:FE:D1:CA:68:
+		A3:02:07:A6:53:35:9C:A9:E4:28:13:49:74:C9:6E:CC:2C:0E:93:E0:
+		D6:90:A9:F5:54:F1:79:02:CE:54:4D:B1:CA:04:A2:44:17:F4:60:A6:
+		21:1F:26:0B:44:AD:58:41:68:1E:9F:42:69:09:E4:42:24:F8:8E:B3:
+		C3:3A:4F:56:81:CB:4A:F3:D5:8D:27:C0:7F:FB:11:54:61:A4:7E:D7:
+		84:98:32:26
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/scsi/sg.ko.xz
+alias:          char-major-21-*
+version:        3.5.36
+license:        GPL
+description:    SCSI generic (sg) driver
+author:         Douglas Gilbert
+rhelversion:    8.0
+srcversion:     9C3D8B627B76274100CE693
+depends:        
+intree:         Y
+name:           sg
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      94:85:5E:75:A1:AA:7F:12:87:A3:B3:6B:B5:5D:75:CA:19:2B:9C:06:
+		68:93:D7:9B:26:D0:44:B9:28:DB:BB:76:AA:3B:20:58:CF:18:03:89:
+		2F:6A:26:E6:BC:53:B1:0D:FB:5C:3B:75:DA:99:EC:E4:1D:7A:F7:60:
+		A7:0F:CE:5F:84:D1:39:CC:58:0B:86:14:D5:4C:7D:AE:EE:E5:25:42:
+		C0:62:F8:CA:06:F9:95:7B:8D:16:44:39:D1:C6:E9:71:FC:C6:07:52:
+		73:CA:0B:41:EC:B6:99:51:2F:71:27:B8:CB:91:04:7F:A2:6A:4F:18:
+		E2:A6:D5:53:49:A8:97:25:42:AA:B8:C2:83:46:AF:38:46:BA:44:CC:
+		D4:7A:AB:1C:43:16:CB:25:10:17:C2:A4:32:2D:B4:B5:F1:86:20:05:
+		05:69:51:74:D0:F7:6B:AF:16:E3:24:B6:4C:BB:9F:7B:30:3A:E6:98:
+		E6:D6:A0:D2:86:46:9E:30:4A:09:E1:B2:2D:6F:26:B8:CA:32:EA:88:
+		74:BC:FD:F0:51:73:88:ED:3A:8C:3A:22:DA:2E:A8:92:E3:26:65:7B:
+		6C:48:88:B8:01:DA:5C:3F:50:C2:5F:93:85:CD:27:78:12:41:2E:5F:
+		9A:B3:55:6B:2E:4D:D6:5D:EA:E7:C8:FC:49:14:91:69:BA:3B:59:A8:
+		99:4F:3A:CF:C3:9E:F3:52:CF:2A:2D:97:78:40:91:D9:0F:81:B0:A1:
+		4F:07:B1:D5:2D:C2:CB:A8:62:01:EA:49:5C:1B:A3:2A:D9:1A:B1:71:
+		CF:21:69:1D:5C:4A:07:77:C0:A1:99:B1:64:71:A8:9F:CD:02:00:36:
+		53:5D:7C:5B:09:DF:74:EB:DE:57:04:17:B8:7E:33:1A:6B:A6:80:68:
+		40:F9:BC:01:F0:69:9B:C2:AC:45:46:33:E1:DF:2B:01:E8:B6:EE:F2:
+		D5:79:34:6F:59:5A:16:F2:8B:90:7D:DF:70:63:17:80:64:34:12:10:
+		9A:50:64:D1
+parm:           scatter_elem_sz:scatter gather element size (default: max(SG_SCATTER_SZ, PAGE_SIZE)) (int)
+parm:           def_reserved_size:size of buffer reserved for each fd (int)
+parm:           allow_dio:allow direct I/O (default: 0 (disallow)) (int)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/md/dm-mirror.ko.xz
+license:        GPL
+author:         Joe Thornber
+description:    device-mapper mirror target
+rhelversion:    8.0
+srcversion:     7010594D812D81999F6DCA3
+depends:        dm-region-hash,dm-mod,dm-log
+intree:         Y
+name:           dm_mirror
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      4E:77:94:80:33:ED:3F:DD:F3:EA:27:64:0C:03:1B:43:9F:CC:40:D9:
+		31:41:41:26:70:B3:13:F8:1D:D4:13:03:1E:F0:71:2E:BF:0B:B2:91:
+		3F:77:95:ED:CC:8C:E8:F0:01:94:C1:4C:D7:EC:A2:37:17:30:modinfo: ERROR: Module firmware_class not found.
+CD:97:
+		8A:18:04:72:3E:C6:AC:FD:76:65:5F:4B:1E:36:5C:3A:7B:E4:A3:1E:
+		FF:D0:63:F5:54:B4:D1:93:5E:3A:12:4A:8A:97:D7:5C:7F:0A:88:1D:
+		C9:76:9C:25:9E:9E:7C:13:61:33:21:2C:EF:62:B9:CD:A6:B6:6D:4F:
+		9C:47:6C:BD:6B:60:5D:74:1D:64:0F:B5:3E:8C:7C:B3:C2:BB:2F:35:
+		46:B0:D9:1E:EC:63:EF:79:9C:41:25:FF:ED:57:B5:ED:CF:9F:DF:9E:
+		CE:34:AF:AD:C9:A4:03:E3:2F:2C:C9:82:6D:50:21:C4:DD:4E:FD:9C:
+		4C:91:92:30:73:F2:01:77:DB:F6:3F:DF:86:4A:7E:C4:5F:4D:89:7D:
+		C3:AC:0C:F8:65:23:97:2B:65:97:3D:AE:2F:77:AA:43:55:6E:E0:1C:
+		3C:CE:C5:6B:80:BE:05:F8:2F:C8:32:1F:EF:34:AE:CC:AF:68:A4:AC:
+		EF:A3:83:21:40:1C:80:07:36:56:DA:3E:1E:0F:9C:B7:8E:69:B8:DD:
+		53:04:03:03:D8:0E:1E:EC:59:CC:47:F3:6E:96:31:46:6D:23:15:E9:
+		5C:91:CC:C6:9C:7E:D0:FF:75:D1:B4:71:CE:95:1E:4A:8E:2F:65:12:
+		D9:84:14:1E:35:42:54:73:E6:E9:E5:48:22:14:15:E9:3A:CF:E2:48:
+		80:BC:FC:44:EC:4E:AF:82:D5:A4:F1:73:BF:04:93:28:AA:11:45:E6:
+		54:0B:C8:BA:A2:AD:71:C2:12:77:11:87:67:10:BA:C4:3B:FC:32:F1:
+		6F:49:0B:EF:5C:11:55:0F:1D:C1:1D:7F:CE:C1:1B:CE:D4:C2:BF:B3:
+		DA:7D:E2:02
+parm:           raid1_resync_throttle:A percentage of time allocated for raid resynchronization (uint)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/cpufreq/acpi-cpufreq.ko.xz
+alias:          acpi
+license:        GPL
+description:    ACPI Processor P-States Driver
+author:         Paul Diefenbaugh, Dominik Brodowski
+rhelversion:    8.0
+srcversion:     D67D230162F5D8D2A35F1E4
+alias:          cpu:type:x86,ven*fam*mod*:feature:*00E8*
+alias:          cpu:type:x86,ven*fam*mod*:feature:*0016*
+alias:          acpi*:ACPI0007:*
+alias:          acpi*:LNXCPU:*
+depends:        
+intree:         Y
+name:           acpi_cpufreq
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      2B:1F:99:30:1F:95:E1:BF:EE:B7:A2:A2:A0:36:07:F7:C2:93:2B:D1:
+		AA:3B:46:F3:64:CF:16:B6:39:21:2C:9F:E9:47:11:28:DB:D7:49:CF:
+		66:61:94:05:A3:61:FF:7D:CB:36:EF:2F:16:A1:FC:15:6D:F7:15:6E:
+		AB:CB:CD:D2:5E:20:02:E6:7C:99:F6:B4:C7:6B:C2:D6:1A:1D:C7:85:
+		7B:6F:57:25:C6:17:FF:DF:2B:D6:E8:C1:7E:D0:39:D7:B5:43:F5:47:
+		04:BA:A8:A5:02:02:B6:B3:59:AB:77:5B:F7:3F:55:8E:A7:B3:F9:41:
+		A3:72:9B:1A:01:06:C9:A9:D9:35:54:45:17:06:73:76:01:DA:25:B7:
+		F6:27:F8:3F:AF:B4:2F:6F:D0:0B:F2:63:7A:E6:EC:C7:6E:94:42:9E:
+		25:75:70:8F:5E:2D:DD:BD:30:A0:10:8B:F2:5E:51:55:8E:0F:BE:5B:
+		2D:79:2F:4B:9B:E2:8C:D6:C2:4F:C0:E2:28:FE:80:B7:4E:7A:4A:57:
+		5F:04:3C:3A:B4:6C:75:97:AC:91:50:23:1B:54:61:BF:C1:F1:3C:13:
+		07:35:2C:E3:C6:50:58:95:5B:7A:B5:48:5F:2E:39:AA:8A:B7:3B:64:
+		31:77:70:57:22:E2:FF:FA:25:39:6B:44:51:F4:FA:34:D5:97:AC:6D:
+		17:75:1D:1A:E7:FD:ED:29:F6:DA:E2:80:BB:DC:4A:1F:8A:3A:89:F6:
+		FE:97:AD:69:99:4D:C0:65:D3:49:DE:53:DD:93:2B:BB:D6:BB:13:CB:
+		38:B0:D2:1D:8C:32:1A:8B:17:9E:9E:C7:6E:2F:72:77:4D:9C:AF:83:
+		90:C1:EC:BF:8D:2E:78:21:C0:55:A3:D3:CB:97:DD:6F:21:21:04:E0:
+		E1:77:86:D1:E9:E3:2A:5E:16:EE:79:9E:D2:AC:0E:57:8E:CF:C7:D3:
+		2F:9C:E4:38:94:4A:61:76:D6:AF:FD:3F:9D:00:72:F0:2B:10:43:09:
+		DA:AB:FA:69
+parm:           acpi_pstate_strict:value 0 or non-zero. non-zero -> strict ACPI checks are performed during frequency changes. (uint)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/video/fbdev/hyperv_fb.ko.xz
+description:    Microsoft Hyper-V Synthetic Video Frame Buffer Driver
+license:        GPL
+rhelversion:    8.0
+srcversion:     8985F1BE52A6F37C4D38D6B
+alias:          pci:v00001414d00005353sv00000000sd00000000bc*sc*i*
+alias:          vmbus:02780ada77e3ac4a8e770558eb1073f8
+depends:        hv_vmbus
+intree:         Y
+name:           hyperv_fb
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      65:D3:CF:63:7A:54:D7:81:32:03:AC:D4:E5:F3:7E:7B:68:E5:F8:C6:
+		A9:10:8F:0C:E3:B8:B9:60:AE:21:99:AA:modinfo: ERROR: Module rng_core not found.
+modinfo: ERROR: Module uhci_hcd not found.
+FC:70:24:7A:D3:A6:FA:1B:
+		8F:EA:05:59:03:3D:EB:B2:8C:73:7F:06:F0:AD:59:44:65:48:F3:87:
+		93:60:83:58:C9:A5:91:42:33:1C:92:53:2F:46:5F:04:BE:AD:72:67:
+		EA:CA:D7:BE:FE:31:38:63:36:D0:08:04:99:FE:BA:35:7A:32:58:3C:
+		71:47:4C:CB:E3:16:64:BB:B9:09:73:C6:68:C7:4E:6E:07:23:EC:25:
+		B4:F7:81:8F:80:49:42:E2:7A:23:49:F2:00:13:FD:EF:82:12:10:7E:
+		49:4A:1D:2C:CE:E5:BE:71:4D:FB:E0:EA:5A:6B:6B:EB:83:E5:38:94:
+		CF:F8:33:CB:DB:AD:12:BD:78:A9:72:DA:35:DD:46:0A:A7:CF:95:21:
+		B8:A1:7D:47:61:BF:3F:93:8A:EE:74:69:05:92:56:13:96:CB:FC:51:
+		3F:7C:07:2F:FE:96:5D:2F:78:E6:B1:6A:FE:C8:60:39:93:8D:8F:08:
+		C5:8C:16:2A:65:54:71:1A:DE:29:56:92:B0:1F:6F:DF:AE:20:EA:3E:
+		D5:FD:5E:06:AA:20:30:D0:DB:2C:F6:A8:F0:E7:54:4B:C7:FF:27:C6:
+		0C:DD:ED:6C:80:14:6C:13:A1:1E:8A:0E:6D:83:A0:50:4A:37:1A:3D:
+		A9:6E:A1:E1:1B:06:8C:B6:FA:1A:1B:79:DD:34:0C:D5:CE:1D:F7:DD:
+		E5:02:5C:A3:C7:28:AA:E0:E5:A2:9C:53:AE:74:00:F8:FA:41:80:8C:
+		E6:9A:07:F9:F8:86:7D:09:A5:77:53:4E:49:B3:D5:D2:49:6B:51:E6:
+		B9:4F:87:6B:48:1F:89:49:3F:E7:71:EB:1A:83:43:8C:D8:10:97:39:
+		4A:5C:F1:EB:C0:C0:A9:5E:FC:80:15:2A:04:9E:AD:43:4C:6E:9D:2B:
+		4A:74:D3:B7
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/arch/x86/crypto/crc32-pclmul.ko.xz
+alias:          crypto-crc32-pclmul
+alias:          crc32-pclmul
+alias:          crypto-crc32
+alias:          crc32
+license:        GPL
+author:         Alexander Boyko <alexander_boyko@xyratex.com>
+rhelversion:    8.0
+srcversion:     9B50B6C8D281F399CE2347B
+alias:          cpu:type:x86,ven*fam*mod*:feature:*0081*
+depends:        
+intree:         Y
+name:           crc32_pclmul
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      6C:1B:43:2C:CC:F3:85:11:40:E7:D6:2F:B5:60:08:01:C8:8F:18:BB:
+		92:BA:56:F2:44:5C:86:C4:BF:36:43:24:91:60:63:2E:5E:7A:5B:BC:
+		1F:D1:0A:30:58:F6:21:5A:E5:94:16:53:39:A8:97:1F:F6:B5:F8:D6:
+		1A:67:F6:70:EE:58:68:5F:39:92:C0:24:26:71:5E:F8:37:EF:9C:B3:
+		A4:71:0F:3A:31:CF:B2:4E:AB:87:41:6B:1D:43:4A:09:97:6B:D4:B0:
+		F8:69:D3:69:54:52:33:0A:63:5A:27:51:14:2F:E5:74:38:29:D1:14:
+		2B:21:A9:EA:F3:DD:7F:3A:B0:D7:53:42:79:6B:15:12:55:81:A2:AB:
+		52:D4:F1:1A:39:2F:14:39:45:8B:F0:31:18:1F:0E:D1:0D:C5:41:DF:
+		81:AB:BF:46:D7:5A:20:99:7C:4D:32:FB:18:A1:C1:17:7F:F9:AD:DD:
+		44:B4:3C:AE:D0:4D:EC:D4:7F:61:30:FB:E0:04:5C:6A:2C:A5:6E:C7:
+		A8:63:CC:62:D9:BD:4C:8C:1A:B1:24:7C:72:95:D2:CC:A6:89:98:43:
+		19:50:4F:12:AD:8D:40:D3:EC:FC:5A:7F:B7:4F:0A:E3:0A:9D:5E:C4:
+		DB:0F:24:B9:2C:BB:C8:A9:68:0F:5A:D8:D9:8C:8B:D4:2C:A7:FB:92:
+		A4:B5:9F:90:63:6B:F3:5B:73:C9:4F:00:A1:9C:3E:C6:FC:73:10:B0:
+		35:49:B9:9B:80:DA:67:50:2C:FF:1C:98:D3:36:9F:4E:3D:48:31:9E:
+		83:D2:A4:B3:FA:11:21:FC:1A:47:7F:74:6B:FB:61:34:F5:9F:FC:AA:
+		E3:1D:D0:16:46:D8:E7:BB:5B:91:24:32:66:80:A1:CE:6F:8A:31:48:
+		B0:D6:0B:C0:54:E7:E1:16:B8:B1:5E:8E:CB:FB:46:51:B3:02:95:50:
+		C6:F7:D7:C6:15:0A:C6:9C:7C:6F:A7:9C:B6:9A:D6:24:8F:11:F3:F8:
+		FD:33:92:F3
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/scsi/scsi_transport_srp.ko.xz
+license:        GPL
+description:    SRP Transport Attributes
+author:         FUJITA Tomonori
+rhelversion:    8.0
+srcversion:     6034313F942A2C2F0CCB48C
+depends:        
+intree:         Y
+name:           scsi_transport_srp
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      2C:F2:1B:F6:94:4F:18:00:A7:78:F4:03:0A:16:B2:AB:FD:68:0A:99:
+		2E:38:70:BF:45:60:0B:D9:F4:09:AF:40:A6:10:65:26:C6:73:31:B5:
+		4B:D1:82:0A:8E:EB:CB:B8:70:EE:86:4B:B8:E4:00:D4:B9:83:0D:18:
+		6E:6C:5A:3C:FC:D8:B1:A8:EA:55:7E:38:7B:78:32:0F:3E:05:5D:37:
+		D9:5F:7D:29:4C:7F:09:3D:C4:C9:1F:AD:B7:A8:29:B9:4C:5B:45:1F:
+		32:2F:88:64:70:D2:2C:84:5D:26:EB:6F:DB:47:43:56:19:CB:A9:65:
+		A7:8C:D0:EC:B4:27:7F:A2:00:84:D6:8D:86:C4:F9:86:9E:4A:86modinfo: ERROR: Module printk not found.
+:93:
+		F6:01:08:EA:94:51:58:EE:7F:56:84:2A:9F:2A:31:AB:70:B2:3E:FB:
+		30:FF:D5:48:9E:14:8D:98:B2:80:25:31:8F:13:60:B1:C3:1F:EB:AF:
+		3C:5B:6E:9B:91:89:D7:40:B8:78:30:67:AF:CD:EF:00:30:5D:0E:75:
+		21:F6:A5:EA:61:80:23:93:BA:DB:F7:C9:60:91:87:FC:FF:5D:5C:A7:
+		83:DB:B3:37:AD:5C:31:50:A9:A0:18:4F:DD:C1:CE:A2:7A:55:07:3E:
+		6E:E8:4F:74:DD:20:6B:0F:8C:12:D3:DD:E5:F5:E2:01:4C:DC:CB:38:
+		05:4E:22:A2:A9:47:C3:D5:6A:94:5A:D3:5B:A1:F0:33:E4:A7:3E:22:
+		90:55:58:FD:14:60:DC:55:6D:81:2F:9B:69:79:97:FF:1F:7C:D5:C3:
+		EB:C3:B1:A7:94:EF:28:34:7A:01:EF:CD:9B:93:3D:EA:3E:06:93:C0:
+		63:A2:05:0F:14:9C:9D:6B:C7:75:DC:A6:11:57:BE:DE:6E:8E:73:CF:
+		08:43:AB:69:D2:92:3D:63:30:BF:E4:0D:53:C1:42:A0:29:9A:B0:67:
+		99:1C:76:BC:DC:1D:46:BD:A3:40:54:91:E2:D2:D0:BA:BD:EE:82:3B:
+		7A:F2:E4:4E
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/input/misc/pcspkr.ko.xz
+alias:          platform:pcspkr
+license:        GPL
+description:    PC Speaker beeper driver
+author:         Vojtech Pavlik <vojtech@ucw.cz>
+rhelversion:    8.0
+srcversion:     47378600A7940EA58CFF06C
+depends:        
+intree:         Y
+name:           pcspkr
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      72:91:44:A3:EF:91:2A:47:EA:CD:D5:50:C1:18:F4:FD:57:0F:1D:06:
+		81:F6:DE:2B:D9:33:7D:11:6E:AB:C8:98:F4:4F:5E:E1:5E:54:2A:D6:
+		67:46:60:C7:29:98:3A:56:1B:C0:81:CC:C8:8F:9A:DE:B0:BC:30:DA:
+		42:49:1B:9E:C3:04:18:95:F6:8B:34:C2:CA:14:31:65:47:D5:35:CD:
+		90:6F:FF:EF:DB:9D:57:10:C2:9E:07:98:08:1A:E2:91:C3:3C:B7:A1:
+		72:D0:16:CF:03:FF:EE:B1:97:B3:6D:F2:DE:B6:47:4C:CB:CC:6D:4E:
+		82:E4:39:D8:51:59:CB:0D:C1:EB:4C:DE:91:58:B2:D8:3D:D2:49:90:
+		6E:35:12:34:CB:33:32:C6:C9:38:8F:B7:E6:78:8E:8A:F0:01:1D:D0:
+		D8:C7:EE:DB:58:2F:46:90:8D:CA:B5:0D:8B:1A:59:7A:75:CE:D6:67:
+		CA:F2:8A:BC:8C:26:E3:E2:AA:CC:D9:11:22:92:1F:D7:CC:6C:06:39:
+		3C:09:8D:5F:AF:1B:89:E1:67:E9:9A:C8:F5:BF:C8:B6:0B:81:20:CF:
+		9E:DF:AD:44:8E:F4:C7:8F:DD:15:C0:35:4E:1E:B4:BA:93:17:D0:36:
+		30:F2:42:F3:5F:A9:38:66:65:AB:BB:67:44:8B:77:73:12:D1:4C:AE:
+		6A:03:38:55:88:51:E5:5C:42:89:63:76:10:28:F3:F4:3B:CD:CF:B0:
+		34:A6:D6:61:1F:5E:35:5C:77:98:62:D2:64:FC:8C:5B:59:89:84:36:
+		85:C8:41:52:7C:7B:0E:AD:5A:7B:F3:2F:1A:25:EA:C5:AA:C9:16:D2:
+		B6:36:58:9A:8E:1D:A1:CB:B3:18:62:15:DA:F6:BC:8C:22:A3:23:DC:
+		97:B5:EB:EC:BD:0F:81:D5:7A:A2:CB:9C:79:D5:E5:28:2C:49:7D:E0:
+		E4:4A:9F:A9:86:D9:7C:41:74:9A:6B:FE:F4:E7:10:1F:E9:5A:84:65:
+		EC:31:0C:C7
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/net/ethernet/broadcom/cnic.ko.xz
+version:        2.5.22
+license:        GPL
+description:    QLogic cnic Driver
+author:         Michael Chan <mchan@broadcom.com> and John(Zongxi) Chen (zongxi@broadcom.com
+rhelversion:    8.0
+srcversion:     13E0DA36AE546F47D86CA9B
+depends:        uio
+intree:         Y
+name:           cnic
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      BB:E1:A5:C7:D1:8D:C0:85:9D:C6:4D:E4:9D:27:FB:1C:D4:B1:0A:E8:
+		17:FF:AF:C5:D4:96:9B:F5:09:1B:4A:F6:63:CA:D4:BF:F1:F4:5B:A0:
+		F2:DC:C4:4A:EB:05:06:A0:93:1B:EB:F8:E2:01:89:8B:1F:14:C5:4B:
+		5C:F1:DD:70:C5:FA:4D:CB:3C:78:4B:F9:8B:16:6E:60:A2:BD:B9:E3:
+		39:0C:5A:18:00:C9:32:D9:14:18:67:FA:93:9D:27:2D:20:7C:23:E6:
+		D1:14:9C:0B:9D:21:24:9E:7F:48:F5:D1:29:85:C1:7D:82:11:D7:BB:
+		85:90:0F:91:02:E4:AE:71:F7:D7:71:AF:6D:3B:67:70:26:14:7E:B3:
+		17:C1:04:6A:D6:C6:82:0C:31:09:8A:44:08:7B:A0:43:4D:05:C4:28:
+		FC:B4:A7:D9:B3:DE:B3:83:75:95:8D:50:31:7B:B2:A1:53:B0:E4:C9:
+		9A:61:79:75:B4:76:36:8D:82:23:6F:08:C6:8B:90:46:74:A3:48:86:
+		02:27:6E:8F:5A:55:F4:65:79:BE:DE:64:8E:AD:ED:62:EC:F2:55:21:
+		C8:34:90:AD:89:45:57:2A:84:F1:EE:CF:97:52:AE:28:F5:B2:80:00:
+		21:5B:03:C1:1B:F7:1F:15:3B:52:3D:82:93:F7:ED:67:88:E7:C3:0D:
+		48:89:76:7A:16:26:46:FA:E1:7F:4C:33:AD:A8:65:F9:B4:06:C0:91:
+		DB:D0:FE:99:F9:F5:54:FC:93:39:B4:0D:2A:0D:37:3D:BA:DD:EF:A2:
+		82:B5:46:79:7A:8E:7D:A8:C5:5A:36:15:CE:2A:48:A8:C1:0D:B9:1F:
+		8F:78:DC:88:F7:CA:5D:3C:4F:80:E9:59:BF:23:BD:F1:1A:FE:04:E5:
+		98:8F:35:5F:24:4E:1A:91:35:7E:09:23:B0:B9:CA:06:F4:87:5B:4A:
+		AA:8D:52:9A:62:9A:EA:99:0C:A5:CF:CE:57:3A:1D:C4:AF:14:99:FA:
+		62:1D:70:74
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/infiniband/core/ib_core.ko.xz
+alias:          rdma-netlink-subsys-4
+license:        Dual BSD/GPL
+description:    core kernel InfiniBand API
+author:         Roland Dreier
+alias:          net-pf-16-proto-20
+alias:          rdma-netlink-subsys-5
+rhelversion:    8.0
+srcversion:     252837C5E9BEAAC51682D3A
+depends:        
+intree:         Y
+name:           ib_core
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      1D:AA:D6:EB:F8:A5:21:CA:D5:E8:5B:25:9B:14:FC:AF:C6:EC:E5:FA:
+		1C:F0:F9:A3:A9:47:23:92:07:E7:19:C3:4E:80:67:57:86:10:1D:F3:
+		36:9D:6C:D3:FA:45:D0:B5:9E:DC:9F:64:7E:CC:F1:50:DF:13:52:85:
+		AE:30:EF:98:C1:AF:F8:0A:84:93:A1:EC:A6:AD:78:3C:FA:2A:82:39:
+		20:31:19:4C:1C:11:02:9B:F3:34:3F:BF:B7:99:D1:4F:5E:EF:8D:EA:
+		0E:A8:36:9B:38:E6:10:C7:38:1C:CA:7A:43:4C:7D:1F:9F:2E:7D:DC:
+		49:F0:27:89:B5:C3:71:90:9D:53:AF:58:AD:B0:1A:FA:4C:69:A2:F4:
+		FF:1A:0C:0E:DF:03:2B:50:DD:42:8A:5A:2F:04:7F:6D:C1:C5:E3:AB:
+		C7:DB:E2:97:C8:4B:B9:2B:6D:DC:03:57:54:FD:A3:D5:B9:F1:29:1D:
+		DC:E1:02:86:66:9A:50:87:1F:00:23:68:40:86:18:67:45:F2:29:30:
+		A6:52:DF:98:CA:7D:15:69:FB:49:1E:12:20:7A:21:52:AB:57:02:EA:
+		BA:29:48:5B:2C:D8:81:D0:42:D5:A4:C1:E6:02:DF:E8:FD:A2:4C:1E:
+		C8:18:77:96:2D:53:61:1E:A7:14:7A:4B:3A:95:2F:A2:82:72:39:C8:
+		76:44:EA:DE:3D:E2:79:5E:EA:B5:26:5F:A2:25:C5:68:05:DA:17:60:
+		91:06:A8:05:35:6E:85:47:3F:03:D4:8E:08:D3:5D:26:94:7F:EE:BE:
+		38:18:B8:A0:A4:A6:00:29:89:25:63:A3:12:5E:0B:97:77:7B:8C:6F:
+		FC:60:FD:E0:14:C5:D7:73:04:AC:15:DC:E4:D4:BB:09:58:7D:BD:97:
+		D5:A5:5D:A9:C3:8E:4A:91:8D:F1:81:FB:29:DD:95:C5:15:04:18:B5:
+		52:CF:0B:10:38:96:CB:36:CF:EE:6E:19:76:16:B0:E6:02:11:21:E1:
+		63:06:82:DE
+parm:           send_queue_size:Size of send queue in number of work requests (int)
+parm:           recv_queue_size:Size of receive queue in number of work requests (int)
+parm:           force_mr:Force usage of MRs for RDMA READ/WRITE operations (bool)
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/infiniband/core/rdma_ucm.ko.xz
+license:        Dual BSD/GPL
+description:    RDMA Userspace Connection Manager Access
+author:         Sean Hefty
+rhelversion:    8.0
+srcversion:     1B20F7BE0600C745678487B
+depends:        rdma_cm,ib_uverbs,ib_core
+intree:         Y
+name:           rdma_ucm
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      82:75:CC:6A:A3:65:CD:88:11:22:D4:94:03:73:50:AF:A8:2A:16:01:
+		1C:AB:37:00:EC:9C:4A:81:6A:E3:7B:46:88:2F:16:F3:AD:E7:D2:D7:
+		C9:32:7C:C9:3B:35:4F:0E:CA:62:3B:62:06:AA:55:8F:9D:30:1A:3C:
+		67:C1:44:0A:94:40:F7:27:15:81:CD:A9:5E:76:CF:9E:E6:2C:D4:EB:
+		42:FD:BD:41:F0:CD:48:A0:FB:21:0C:E9:5C:A2:B4:A1:0F:B2:33:1A:
+		B5:7A:D4:5C:7F:35:EE:C2:A5:F2:85:A2:BB:99:F2:D3:5D:AD:79:8E:
+		8C:0F:AF:8B:74:0B:41:7A:72:EA:64:07:46:54:22:AC:1C:3D:46:82:
+		AC:85:77:83:3C:4E:53:0A:27:70:AB:C8:9C:D6:F9:F2:F5:61:F5:63:
+		3C:87:39:57:3E:F6:C6:80:14:48:EB:97:00:00:42:6D:C2:45:16:F4:
+		D7:4D:00:2C:A9:26:35:63:D8:EC:99:BD:A7:F0:9C:F0:47:C5:39:72:
+		28:BF:CD:96:36:34:41:DD:35:43:33:EA:E4:DE:0E:15:73:B8:25:9F:
+		A5:E2:90:45:EB:C9:8D:81:B6:3E:76:28:1B:93:A7:0E:4C:E6:5D:62:
+		B2:F2:FD:EB:4D:71:84:5E:EA:C1:7F:2C:B4:23:42:3F:C1:13:A8:FC:
+		80:18:57:A9:35:BB:29:9E:5A:7B:7F:00:F9:18:DF:4A:A5:6F:F0:8C:
+		02:2D:92:CD:B2:81:52:04:C9:B5:modinfo: ERROR: Module vmd not found.
+modinfo: ERROR: Module watchdog not found.
+modinfo: ERROR: Module debug_core not found.
+EC:63:F2:8D:94:2F:21:25:EA:7D:
+		15:29:A9:F1:06:B7:1A:CE:F2:EF:81:5C:5A:67:76:2F:08:75:5E:F0:
+		8B:A9:DE:84:89:FC:F1:73:D7:87:06:43:B3:41:6E:BF:3C:46:9D:A7:
+		33:6E:37:76:9C:14:3F:02:3E:BC:2C:35:A8:53:A9:B1:46:0B:CD:D2:
+		4E:C7:12:A3:30:5C:A8:8C:C8:4B:32:2C:9C:2E:8D:35:F0:A8:A0:00:
+		6F:A2:CA:B4
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/fs/fat/vfat.ko.xz
+author:         Gordon Chaffee
+description:    VFAT filesystem support
+license:        GPL
+alias:          fs-vfat
+rhelversion:    8.0
+srcversion:     B3C4EEB45B76B57156F5651
+depends:        fat
+intree:         Y
+name:           vfat
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      78:9B:17:80:42:5F:9C:B9:D6:80:A5:16:13:5C:46:33:59:1B:FE:8F:
+		B6:93:56:4A:15:72:42:93:CB:47:F1:C9:82:CB:6E:22:DB:7B:16:FA:
+		AA:C7:AF:88:3C:9D:87:DA:EF:CB:89:D9:52:81:BB:76:7B:3E:E6:99:
+		6C:D8:91:A6:79:FA:0E:A5:09:B7:2A:F2:3B:E8:7F:7B:FC:02:27:CF:
+		59:5D:F0:C7:55:AD:30:4A:DD:03:F2:5A:CA:6A:95:F1:38:0B:CE:13:
+		9C:5B:54:FA:C8:CF:4A:A3:39:1C:0F:6A:5F:80:66:FD:DB:03:06:F7:
+		D4:C9:CA:BD:75:71:9F:BB:E7:4E:A8:53:67:7E:7F:D7:47:CE:F1:59:
+		8E:C3:4A:A0:B7:B1:64:27:2A:AF:E9:26:F0:10:E0:E3:EB:FA:10:62:
+		F4:1E:2D:B5:D7:1F:B4:99:16:88:47:6F:82:C0:4A:61:4E:31:49:F1:
+		CC:27:81:ED:15:E1:BA:31:D9:34:27:A0:48:2F:6F:E9:38:CB:81:2E:
+		FD:57:21:24:5E:3E:08:90:92:1E:D6:DD:85:6E:BF:39:EB:9F:7E:F4:
+		E9:CF:4F:29:06:FC:7F:D7:2C:0C:89:9E:66:C5:53:09:E4:D7:58:9B:
+		D6:17:D0:16:DA:DF:69:23:86:0D:F3:1D:F8:88:16:10:68:A0:07:EC:
+		08:77:0E:CA:E0:3A:0F:5F:17:5B:28:21:E4:D8:C1:80:24:7D:77:02:
+		0F:3E:A4:10:00:88:AD:15:BD:AD:38:31:85:7A:A0:DC:3E:85:64:61:
+		61:A1:91:53:B6:87:41:11:3E:B0:22:4A:DE:37:12:80:EA:A7:B0:40:
+		BB:3C:97:1F:23:E5:15:33:04:8A:47:C5:98:2D:B1:A0:54:66:07:0D:
+		5E:2C:9C:7D:B2:F5:1F:30:31:72:B9:2B:E1:00:F8:72:4C:EB:9C:B7:
+		6E:55:0B:CD:9B:56:02:6D:1B:F8:89:7F:EF:92:3A:72:7E:54:06:4B:
+		C5:20:ED:D9
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/infiniband/core/ib_uverbs.ko.xz
+license:        Dual BSD/GPL
+description:    InfiniBand userspace verbs access
+author:         Roland Dreier
+rhelversion:    8.0
+srcversion:     CE1AA545E0201DCA3601B1D
+depends:        ib_core
+intree:         Y
+name:           ib_uverbs
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      B5:E3:5F:24:EE:F0:D4:3B:D1:2C:5E:3C:B2:72:F9:BE:69:61:D6:A0:
+		72:0C:17:13:2C:28:40:15:3C:09:79:75:40:CE:91:77:CA:C2:84:0E:
+		03:72:44:6F:38:30:9E:EB:74:CF:8D:60:F4:F0:BA:25:30:8A:C2:A6:
+		D1:C8:D8:DE:0D:3B:38:8C:D4:05:6F:A8:C1:A2:5C:2C:B1:55:53:3F:
+		AE:49:35:27:A4:60:83:DC:BE:3E:AF:42:3C:C1:96:82:E8:BD:57:0B:
+		2E:07:34:5F:C5:02:07:62:8A:93:37:08:1A:6F:F8:6D:B7:58:B2:96:
+		30:92:DF:03:BE:9C:E0:F9:1E:4C:84:84:D7:3A:64:86:D8:44:63:E2:
+		D3:13:09:D4:B4:02:10:B1:92:C0:32:59:37:21:A3:41:B7:5C:64:8B:
+		9D:CD:B2:FC:A4:12:D9:78:FD:66:C1:E0:27:8A:2F:70:5B:C9:19:27:
+		76:69:B9:36:1C:DF:EB:FE:D7:F9:12:48:64:A2:68:11:50:BF:4C:54:
+		AE:97:A5:9B:FB:86:79:96:52:9B:05:26:F7:74:F3:66:93:F4:F6:E0:
+		26:95:6A:92:9B:9D:F1:77:FD:84:2B:B0:7F:1F:32:84:E0:F6:E7:18:
+		97:2F:4D:72:D7:54:0B:85:11:21:65:EA:B8:FF:22:1E:7B:79:ED:39:
+		92:71:F4:24:32:6A:CF:02:34:F6:E6:3A:07:A3:7D:99:E3:E8:19:F9:
+		E5:38:2B:C8:25:A3:EF:2E:B7:A3:82:8F:87:3A:35:51:34:60:44:2C:
+		C5:25:54:AB:8F:01:23:B8:8C:CD:32:EA:CF:B7:4C:44:D6:85:07:EE:
+		B2:7E:97:E1:F1:B7:4E:47:9C:0D:9F:1E:B3:A1:AC:7E:E3:2F:11:3B:
+		D9:31:3E:04:DF:EB:A3:05:65:C1:7C:E0:DA:D6:3A:A7:2C:3F:90:4A:
+		7E:8D:6F:2D:12:F8:4D:37:0E:C7:CA:BB:5D:0E:49:5D:BE:52:8F:F0:
+		8B:BF:04:26
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/infiniband/core/ib_cm.ko.xz
+license:        Dual BSD/GPL
+description:    InfiniBand CM
+author:         Sean Heftmodinfo: ERROR: Module workqueue not found.
+modinfo: ERROR: Module tpm not found.
+y
+rhelversion:    8.0
+srcversion:     F003487A5F0B69D66F09772
+depends:        ib_core
+intree:         Y
+name:           ib_cm
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      C3:1A:2B:19:E0:EA:80:6B:7E:6F:BC:A1:87:B9:C9:FC:54:24:02:C4:
+		37:FE:4A:1F:18:81:B2:09:C8:DF:B3:77:2B:0B:97:3A:63:51:6D:F1:
+		53:64:E3:2D:83:7A:B2:E3:BE:55:A7:94:8B:D8:CB:5B:6C:C0:10:42:
+		06:10:4B:86:BE:DC:78:B6:F5:57:7D:56:21:6D:E5:D4:75:89:06:D0:
+		3B:66:25:8C:23:FB:9E:D2:FF:13:A5:79:3C:30:89:4D:14:64:C2:7C:
+		8A:58:FB:42:12:40:29:6C:6D:99:A0:AE:74:CD:EB:6C:20:EE:26:C1:
+		19:F2:FD:2B:59:2B:3F:7E:4E:0D:13:F3:F1:95:12:C6:16:AB:EF:99:
+		70:B5:BB:29:92:C2:8E:65:23:57:7D:BC:D3:85:13:B2:21:F8:E4:E5:
+		B9:EB:CC:11:44:EB:2D:00:E8:F9:2A:22:EE:09:40:0D:52:25:1D:02:
+		93:D2:84:D9:EE:41:82:83:56:C1:49:FE:9B:E4:6E:B5:93:D0:7A:A7:
+		53:31:42:CB:DA:9C:7E:BF:1D:36:D4:3F:75:D8:20:8C:BD:05:CF:E9:
+		48:29:22:4A:C5:5A:DC:19:39:B6:F2:32:5E:D7:2B:6D:23:F6:FC:3C:
+		43:D5:43:FB:B8:92:1A:AF:AE:C1:84:3E:ED:05:67:CC:56:90:66:B5:
+		4D:DD:6F:F9:46:00:5C:4C:F4:B3:58:67:73:90:57:01:56:7C:F5:8A:
+		D4:FD:FA:E5:D6:D6:89:32:42:E7:D1:4F:A0:6E:33:84:84:B0:D2:01:
+		FE:33:4B:73:D4:C3:60:B0:FB:0E:74:BF:B6:61:FE:32:DC:A7:C7:73:
+		56:DA:57:99:EF:05:00:22:73:D4:90:50:90:99:BA:30:C8:B1:83:6F:
+		78:38:76:35:7C:4B:DC:53:EF:B5:A2:02:F0:68:20:3C:9D:83:CF:71:
+		88:98:00:8F:E2:97:6C:65:C2:5C:6D:58:B7:E7:A4:40:08:F2:22:38:
+		EA:76:95:99
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/net/netfilter/xt_mark.ko.xz
+alias:          arpt_MARK
+alias:          ip6t_MARK
+alias:          ipt_MARK
+alias:          ip6t_mark
+alias:          ipt_mark
+description:    Xtables: packet mark operations
+author:         Marc Boucher <marc@mbsi.ca>
+license:        GPL
+rhelversion:    8.0
+srcversion:     3EC1CC89406791AEE952154
+depends:        
+intree:         Y
+name:           xt_mark
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      D2:CF:8F:74:C6:CC:4D:F1:CE:41:52:1D:5D:E9:10:45:08:85:4C:77:
+		E1:2A:33:F9:8E:B8:EF:E5:FA:FE:96:77:62:0F:FE:0B:C8:70:3D:8C:
+		A6:54:05:94:D8:BE:A8:FA:78:CD:4F:33:89:51:67:D5:03:4E:37:79:
+		6B:25:25:24:29:E1:5E:0E:16:43:10:0A:42:4F:E9:1D:BC:F0:C7:E9:
+		1C:82:B5:D0:BB:97:DD:CC:C0:61:E7:9E:21:29:FE:B3:F8:F8:16:8F:
+		D4:65:67:D3:92:14:E7:B5:C8:1E:9F:D1:CB:41:93:DB:D3:53:9C:15:
+		CD:29:AA:11:CA:39:CC:F4:C0:5B:80:61:13:62:BE:A9:13:81:BA:3E:
+		59:29:C2:E2:4A:66:28:E9:99:CB:A2:47:56:CD:B3:E5:CE:81:3D:AE:
+		99:96:BA:4D:38:8E:AC:9F:DC:62:15:A5:22:90:24:2F:B4:30:BD:1A:
+		F2:D6:1E:AC:80:89:EE:28:31:29:EA:A6:23:9F:8A:CD:35:6F:48:B3:
+		CF:F9:19:EE:C3:09:44:95:02:0F:B5:6F:02:7A:14:55:7C:39:AC:90:
+		7B:6D:A4:CA:4D:5A:D6:0B:19:FE:87:4D:59:BC:04:BF:31:D9:D1:94:
+		49:07:0F:03:8C:28:53:67:E5:1D:A5:D0:2E:E0:0B:94:0E:D8:3A:7D:
+		8F:00:C0:04:61:B9:86:98:B5:F7:3A:0E:57:FB:D3:E7:89:CE:B2:40:
+		75:60:E8:1D:67:21:A9:F9:53:41:F0:46:44:B3:03:99:5E:94:87:89:
+		D1:B0:58:F8:01:A6:D3:C4:9D:7F:22:F9:8B:99:B3:DF:23:3D:60:C7:
+		24:29:74:54:BB:FC:48:17:09:1C:0B:A9:92:33:C4:0E:10:DD:EB:6E:
+		E0:93:88:7E:3A:AA:1F:16:51:9F:06:85:EC:72:81:84:ED:8B:79:0D:
+		0D:19:95:C9:10:5E:E6:AA:80:EC:D0:54:1E:E9:1A:C5:EE:5C:4A:A5:
+		F4:1C:62:11
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/drivers/scsi/sr_mod.ko.xz
+license:        GPL
+alias:          scsi:t-0x04*
+alias:          scsi:t-0x05*
+alias:          block-major-11-*
+license:        GPL
+description:    SCSI cdrom (sr) driver
+rhelversion:    8.0
+srcversion:     9B3F00F6E83056C25E477F5
+depends:        cdrom
+intree:         Y
+name:           sr_mod
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      68:6C:56:4F:4E:75:1F:B1:01:52:15:F3:B8:E1:D1:F7:0A:04:A1:AE:
+		08:EE:C8:72:3B:8C:94:98:3A:22:7E:E2:F4:33:E1:95:F8:35:EB:8F:
+		36:0F:1F:EB:3B:05:30:EC:07:F5:4B:DF:C7:05:D9:0B:69:5C:75:4D:
+		E8:B6:39:9D:9C:1C:8D:ED:56:E5:63:B3:A5:2C:8A:37:3A:FB:DE:28:
+		BB:29:87:27:BA:D6:1A:7A:13:09:7E:DC:41:35:28:E8:73:58:39:F3:
+		B3:CB:5E:B2:F3:CA:5F:D4:83:56:21:FD:92:2C:34:CE:36:97:EC:FB:
+		19:63:17:AD:DB:18:1B:EE:8E:57:1C:AE:02:45:44:F8:F3:A6:D7:6A:
+		FE:8E:2B:E7:E8:87:C7:97:26:EF:03:42:C6:34:AB:8B:E6:4C:7A:EF:
+		57:08:34:09:BD:2B:35:7F:FA:A3:40:59:8C:D6:2B:7A:78:F9:20:63:
+		27:2F:22:A7:4F:B7:11:76:07:3C:E1:17:76:01:4E:DB:EC:FA:FA:A5:
+		F9:29:B7:BC:85:43:70:08:19:70:A3:DB:D9:50:EE:DA:C4:AC:99:5C:
+		E5:19:95:C6:A1:1A:E7:28:0B:8E:1C:5F:A1:CA:36:85:43:82:F4:D3:
+		6F:07:CC:29:EE:28:D4:D1:CA:72:9F:BA:31:F3:29:AD:5E:7E:84:B9:
+		A4:38:A1:51:6F:99:8D:C2:68:7C:26:D6:B4:9B:3D:58:FF:31:57:B1:
+		78:B7:3B:74:3A:9D:55:78:32:AA:8B:34:B8:74:72:D1:65:41:2B:3E:
+		69:F5:09:81:98:B7:1D:81:B6:46:87:FF:72:70:89:22:4D:E2:2F:91:
+		07:2B:29:C5:E1:7D:DD:F2:03:F1:55:04:BA:88:4E:39:4F:43:07:56:
+		B1:C4:A3:CD:44:B2:20:6D:E9:70:5A:7B:11:2D:18:D5:0E:77:82:B6:
+		D7:12:B2:DF:2A:A0:87:E3:FA:A2:AC:E8:CF:CA:A0:26:D0:E6:5F:19:
+		A0:4F:19:85
+parm:           xa_test:int
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/fs/fat/fat.ko.xz
+license:        GPL
+rhelversion:    8.0
+srcversion:     F32A706870CDADB3263F71B
+depends:        
+intree:         Y
+name:           fat
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      91:46:41:B1:E4:58:C0:D8:7B:9E:A6:E1:C5:1F:C6:9A:67:BE:06:06:
+		3C:19:A2:3E:32:E9:7C:7C:D4:83:B5:58:C5:14:8A:8F:5F:01:71:D2:
+		86:7B:3D:7F:50:2D:35:EA:84:E0:D1:31:99:2C:FD:0F:4B:CC:65:A7:
+		A9:CB:50:08:BA:CC:18:83:B5:80:A0:28:81:30:7F:F9:F7:E6:89:80:
+		FD:58:48:63:1D:2D:F0:D8:77:4C:D5:53:29:11:CC:E2:C3:2D:21:07:
+		AD:8D:E2:9D:FE:A8:40:AB:98:FA:94:4B:B1:4D:22:7D:6A:4B:F2:EC:
+		C5:86:72:17:B3:06:4B:6B:16:CE:FA:52:8B:7B:B9:23:15:F1:71:BD:
+		87:0C:C5:3B:87:2E:3E:A4:B2:5A:71:9C:6E:92:3C:84:70:CB:95:C0:
+		86:BA:B2:18:D3:04:A4:EF:77:5E:87:F0:4E:B5:49:FD:89:A5:73:17:
+		53:20:76:14:FD:6F:70:4C:B4:5B:B6:59:91:C6:31:B2:E1:78:A1:80:
+		FE:4C:0D:9F:E3:FE:BD:5A:7E:8C:C5:CE:59:95:6D:24:95:46:C4:32:
+		2B:36:15:D7:FF:4D:6C:95:99:72:99:E4:8A:31:90:42:60:22:F4:00:
+		45:F4:D5:31:97:17:26:C0:A2:99:56:61:02:11:B4:FA:79:3E:EA:4A:
+		93:34:9D:EE:7F:8D:9A:D0:6E:22:6A:8F:46:67:01:B2:52:BD:6A:05:
+		E3:EE:16:AE:77:30:82:95:3E:49:C8:70:7F:0D:07:B4:4F:FF:62:E1:
+		5B:57:3D:2A:26:17:2A:D2:7A:EE:49:50:EC:C4:06:86:C8:7A:E6:51:
+		02:AA:A0:6C:88:5E:7A:1C:BD:3A:CA:C7:D1:69:51:48:47:41:B0:35:
+		87:A5:61:F9:CE:83:06:5D:E0:DE:B5:E3:EC:78:57:AF:5F:96:8C:99:
+		06:25:F2:16:98:A5:8C:D4:B6:89:FE:64:FF:8F:3D:80:C3:D4:86:A6:
+		9A:3B:4A:2B
+filename:       /lib/modules/4.18.0-80.11.2.el8_0.x86_64/kernel/fs/jbd2/jbd2.ko.xz
+license:        GPL
+rhelversion:    8.0
+srcversion:     98E477DC54C089BC71733C5
+depends:        
+intree:         Y
+name:           jbd2
+vermagic:       4.18.0-80.11.2.el8_0.x86_64 SMP mod_unload modversions 
+sig_id:         PKCS#7
+signer:         Red Hat Enterprise Linux kernel signing key
+sig_key:        6C:00:87:3A:73:2F:FF:74:64:61:16:CA:4A:BD:52:2B:E7:54:72:A6
+sig_hashalgo:   sha256
+signature:      BF:18:C0:A4:3A:35:0F:95:18:B7:6B:B9:B2:46:AF:5B:4C:02:8F:E2:
+		49:73:E0:14:37:4D:87:37:34:63:09:0A:B7:D2:3D:CF:0F:9C:81:A8:
+		21:8E:FA:8A:EF:14:6A:52:DC:0B:B6:0B:82:86:FA:DF:21:CA:85:B6:
+		87:2F:9F:1E:37:9A:D5:AE:B5:75:9F:72:94:2A:0C:C4:1A:3E:2E:36:
+		4A:64:18:16:22:C5:03:C0:6B:7C:D6:43:94:D0:C6:AB:35:CB:6D:81:
+		23:A7:FB:E0:85:6E:66:B3:7F:7E:72:49:52:44:E0:EF:22:18:11:81:
+		09:28:A4:3A:2A:B2:1D:82:B3:0C:49:DF:0E:D8:3D:DA:89:7B:93:74:
+		C8:DE:8E:34:F3:C8:71:58:14:6D:75:91:E9:E5:7E:F7:45:BF:B0:37:
+		18:0C:52:03:DB:57:1B:EA:FE:55:F4:FC:DB:0A:29:F6:EB:B2:F5:BB:
+		63:30:15:83:47:5modinfo: ERROR: Module hid_magicmouse not found.
+0:B9:B1:FD:DE:D5:CE:82:28:18:E2:28:13:B5:5A:
+		38:0E:1A:CA:54:70:09:EC:36:56:99:00:49:D6:E2:65:3E:3F:B7:38:
+		48:D3:01:4C:61:2A:EE:14:BB:39:9A:90:C5:CD:06:0F:A8:C3:DD:9C:
+		40:EB:6A:61:55:15:34:A8:8D:8F:9F:4A:D5:4C:00:E0:DC:97:CF:BE:
+		21:4D:2B:33:0F:B7:B2:B5:C6:31:2E:70:87:FD:33:C4:93:F3:2C:34:
+		C8:43:F9:51:A1:D5:15:88:5E:76:7A:EF:35:F2:33:6E:32:1C:11:57:
+		AE:36:C6:48:A6:4F:81:4A:C1:03:5E:0E:95:1E:EB:35:D9:AA:C9:D1:
+		F1:69:2A:24:DF:27:C9:D4:54:1D:52:6F:5D:33:D4:A1:91:A7:16:B2:
+		91:88:CC:FC:C0:67:7B:04:66:4E:E1:39:8C:D8:5D:90:9E:C1:28:15:
+		D8:C9:0F:07:EA:73:E7:BB:BD:03:1B:64:62:CC:A1:D0:7A:BE:AF:E5:
+		72:37:D0:F7

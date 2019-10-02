@@ -1,0 +1,4 @@
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+pushd: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+chdir: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+ root=UUID=9213770d-ddd3-40f9-aeba-d6e8c6fec4c8 rootfstype=xfs rootflags=rw,relatime,seclabel,attr2,inode64,prjquota

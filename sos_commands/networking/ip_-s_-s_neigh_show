@@ -1,0 +1,5 @@
+172.16.1.20 dev eth0 lladdr 00:15:5d:b7:25:11 used 48/43/2 probes 1 STALE
+172.16.1.13 dev eth0 lladdr 00:15:5d:b7:25:14 ref 1 used 0/42/2 probes 1 DELAY
+172.16.1.2 dev eth0 lladdr 00:15:5d:b7:25:08 ref 1 used 2097/0/2097 probes 0 REACHABLE
+172.16.1.1 dev eth0 lladdr 00:15:5d:b7:25:05 ref 1 used 136/0/136 probes 1 REACHABLE
+172.16.1.11 dev eth0 lladdr 00:15:5d:b7:25:13 ref 1 used 1257/0/1257 probes 6 REACHABLE

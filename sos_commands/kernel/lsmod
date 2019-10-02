@@ -1,0 +1,82 @@
+Module                  Size  Used by
+ipt_MASQUERADE         16384  1
+xt_comment             16384  1
+nft_counter            16384  7
+xt_mark                16384  2
+nft_compat             20480  8
+nft_chain_nat_ipv4     16384  4
+nf_conntrack_ipv4      16384  2
+nf_defrag_ipv4         16384  1 nf_conntrack_ipv4
+nf_nat_ipv4            16384  2 ipt_MASQUERADE,nft_chain_nat_ipv4
+nf_nat                 36864  1 nf_nat_ipv4
+nf_conntrack          155648  4 nf_conntrack_ipv4,nf_nat,ipt_MASQUERADE,nf_nat_ipv4
+nf_tables             147456  7 nft_compat,nft_chain_nat_ipv4,nft_counter
+nfnetlink              16384  2 nft_compat,nf_tables
+overlay               126976  6
+rpcrdma               262144  0
+sunrpc                434176  1 rpcrdma
+ib_isert               57344  0
+iscsi_target_mod      356352  1 ib_isert
+ib_iser                61440  0
+ib_srpt                65536  0
+target_core_mod       417792  3 iscsi_target_mod,ib_srpt,ib_isert
+ib_srp                 57344  0
+scsi_transport_srp     20480  1 ib_srp
+ib_ipoib              139264  0
+rdma_ucm               32768  0
+ib_uverbs             110592  1 rdma_ucm
+ib_umad                28672  0
+vfat                   24576  1
+fat                    81920  1 vfat
+ext4                  733184  1
+iw_cxgb4              237568  0
+rdma_cm                69632  7 iw_cxgb4,rpcrdma,ib_srpt,ib_srp,ib_iser,ib_isert,rdma_ucm
+iw_cm                  53248  1 rdma_cm
+ib_cm                  57344  4 rdma_cm,ib_ipoib,ib_srpt,ib_srp
+mbcache                16384  1 ext4
+ib_core               282624  13 rdma_cm,ib_ipoib,iw_cxgb4,rpcrdma,ib_srpt,ib_srp,iw_cm,ib_iser,ib_umad,ib_isert,rdma_ucm,ib_uverbs,ib_cm
+jbd2                  122880  1 ext4
+nfit                   61440  0
+libnvdimm             172032  1 nfit
+intel_rapl_perf        16384  0
+pcspkr                 16384  0
+sg                     40960  0
+hyperv_fb              20480  1
+joydev                 24576  0
+hv_balloon             24576  0
+hv_utils               32768  0
+xfs                  1474560  1
+libcrc32c              16384  3 nf_conntrack,nf_nat,xfs
+sr_mod                 28672  0
+sd_mod                 49152  4
+cdrom                  69632  1 sr_mod
+hv_storvsc             20480  3
+serio_raw              16384  0
+hv_netvsc              81920  0
+scsi_transport_fc      69632  1 hv_storvsc
+hyperv_keyboard        16384  0
+hid_hyperv             16384  0
+crct10dif_pclmul       16384  0
+crc32_pclmul           16384  0
+crc32c_intel           24576  3
+hv_vmbus              106496  7 hv_balloon,hv_utils,hv_netvsc,hid_hyperv,hv_storvsc,hyperv_keyboard,hyperv_fb
+ghash_clmulni_intel    16384  0
+dm_multipath           32768  0
+dm_mirror              28672  0
+dm_region_hash         20480  1 dm_mirror
+dm_log                 20480  2 dm_region_hash,dm_mirror
+dm_mod                151552  3 dm_multipath,dm_log,dm_mirror
+be2iscsi              126976  0
+bnx2i                  57344  0
+cnic                   73728  1 bnx2i
+uio                    20480  1 cnic
+cxgb4i                 49152  0
+cxgb4                 413696  2 iw_cxgb4,cxgb4i
+libcxgbi               65536  1 cxgb4i
+libcxgb                20480  2 iw_cxgb4,libcxgbi
+qla4xxx               307200  0
+iscsi_boot_sysfs       16384  2 be2iscsi,qla4xxx
+iscsi_tcp              20480  0
+libiscsi_tcp           24576  3 libcxgbi,iscsi_tcp,cxgb4i
+libiscsi               61440  8 be2iscsi,libiscsi_tcp,bnx2i,libcxgbi,iscsi_tcp,ib_iser,qla4xxx,cxgb4i
+scsi_transport_iscsi   106496  7 be2iscsi,bnx2i,libcxgbi,iscsi_tcp,ib_iser,qla4xxx,libiscsi

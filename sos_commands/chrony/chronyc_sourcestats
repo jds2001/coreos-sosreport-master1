@@ -1,0 +1,11 @@
+210 Number of sources = 8
+Name/IP Address            NP  NR  Span  Frequency  Freq Skew  Offset  Std Dev
+==============================================================================
+time.nullroutenetworks.c>   0   0     0     +0.000   2000.000     +0ns  4000ms
+6.ntp1.pl                   0   0     0     +0.000   2000.000     +0ns  4000ms
+ts1.sct.de                  0   0     0     +0.000   2000.000     +0ns  4000ms
+eliza.kashra.com            0   0     0     +0.000   2000.000     +0ns  4000ms
+144.172.126.201             0   0     0     +0.000   2000.000     +0ns  4000ms
+eterna.binary.net           0   0     0     +0.000   2000.000     +0ns  4000ms
+i.will.not.be.extorted.o>   0   0     0     +0.000   2000.000     +0ns  4000ms
+44.190.6.254                0   0     0     +0.000   2000.000     +0ns  4000ms

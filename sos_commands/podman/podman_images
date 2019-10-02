@@ -1,0 +1,6 @@
+REPOSITORY                                       TAG                                                                       IMAGE ID       CREATED       SIZE
+quay.io/openshift-release-dev/ocp-v4.0-art-dev   sha256:f94afe7d7dcbb1fd574c483d1d839f47b643f5c133ced7de6eeb8c4be0e2ba88   8f4a196644f7   9 days ago    405 MB
+quay.io/openshift-release-dev/ocp-v4.0-art-dev   sha256:78508fa6bb58fd17bcd57ecde154d296fcb521c815c60da9c384133d945b612e   dc24c7b8dba0   9 days ago    277 MB
+quay.io/openshift-release-dev/ocp-v4.0-art-dev   sha256:b83087564c4e331a89eb9e8babdece68f82cf8537808ec300a690bcb0b499757   9186cbcdb7f1   9 days ago    304 MB
+quay.io/openshift-release-dev/ocp-v4.0-art-dev   sha256:e459e09bf49c929dfc111854b6ffd7b3c619938318e1e5c7a6e66352de5e0aa1   2093342e730a   9 days ago    251 MB
+registry.local:5000/rhel8/support-tools          latest                                                                    30e261462851   2 weeks ago   248 MB

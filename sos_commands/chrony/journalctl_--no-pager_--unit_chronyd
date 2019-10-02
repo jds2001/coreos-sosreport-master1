@@ -1,0 +1,15 @@
+-- Logs begin at Wed 2019-10-02 02:18:24 UTC, end at Wed 2019-10-02 02:55:20 UTC. --
+Oct 02 02:18:56 master1.openshift4poc.example.local systemd[1]: Starting NTP client/server...
+Oct 02 02:18:56 master1.openshift4poc.example.local chronyd[1187]: chronyd version 3.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +SECHASH +IPV6 +DEBUG)
+Oct 02 02:18:56 master1.openshift4poc.example.local chronyd[1187]: Using right/UTC timezone to obtain leap second data
+Oct 02 02:18:56 master1.openshift4poc.example.local systemd[1]: Started NTP client/server.
+Oct 02 02:19:17 master1.openshift4poc.example.local systemd[1]: Stopping NTP client/server...
+Oct 02 02:19:18 master1.openshift4poc.example.local systemd[1]: Stopped NTP client/server.
+Oct 02 02:19:18 master1.openshift4poc.example.local systemd[1]: chronyd.service: Consumed 17ms CPU time
+-- Reboot --
+Oct 02 02:19:30 localhost systemd[1]: Starting NTP client/server...
+Oct 02 02:19:30 localhost chronyd[974]: chronyd version 3.3 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +SECHASH +IPV6 +DEBUG)
+Oct 02 02:19:30 localhost chronyd[974]: Frequency 0.000 +/- 1000000.000 ppm read from /var/lib/chrony/drift
+Oct 02 02:19:30 localhost chronyd[974]: Using right/UTC timezone to obtain leap second data
+Oct 02 02:19:30 localhost systemd[1]: Started NTP client/server.
+Oct 02 02:50:06 localhost.localdomain chronyd[974]: Source 2a01:4f8:171:1e68::2 replaced with 2001:67c:24c:1::20

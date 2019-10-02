@@ -1,0 +1,23 @@
+    Reloading config files
+      Loading config file: /etc/lvm/lvm.conf
+  WARNING: locking_type (0) is deprecated, using --nolocking.
+  WARNING: File locking is disabled.
+      /dev/sda: size is 266338304 sectors
+      /dev/sda1: size is 192512 sectors
+      /dev/sda2: size is 2097152 sectors
+      /dev/sda3: size is 264046559 sectors
+      /dev/sda: using cached size 266338304 sectors
+      /dev/sda: Not processing filtered
+      /dev/sda1: using cached size 192512 sectors
+      /dev/sda1: using cached size 192512 sectors
+      /dev/sda1: No lvm label detected
+      /dev/sda2: using cached size 2097152 sectors
+      /dev/sda2: using cached size 2097152 sectors
+      /dev/sda2: No lvm label detected
+      /dev/sda3: using cached size 264046559 sectors
+      /dev/sda3: using cached size 264046559 sectors
+      /dev/sda3: No lvm label detected
+      Obtaining the complete list of VGs to process
+    No volume groups found.
+    Reloading config files
+      Loading config file: /etc/lvm/lvm.conf

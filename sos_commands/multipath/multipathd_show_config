@@ -1,0 +1,4 @@
+Oct 02 02:54:34 | /etc/multipath.conf does not exist, blacklisting all devices.
+Oct 02 02:54:34 | You can run "/sbin/mpathconf --enable" to create
+Oct 02 02:54:34 | /etc/multipath.conf. See man mpathconf(8) for more details
+cannot send packet

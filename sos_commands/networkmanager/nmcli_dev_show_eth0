@@ -1,0 +1,17 @@
+GENERAL.DEVICE:                         eth0
+GENERAL.TYPE:                           ethernet
+GENERAL.HWADDR:                         00:15:5D:B7:25:12
+GENERAL.MTU:                            1500
+GENERAL.STATE:                          100 (connected)
+GENERAL.CONNECTION:                     Wired connection 1
+GENERAL.CON-PATH:                       /org/freedesktop/NetworkManager/ActiveConnection/1
+WIRED-PROPERTIES.CARRIER:               on
+IP4.ADDRESS[1]:                         172.16.1.10/24
+IP4.GATEWAY:                            --
+IP4.ROUTE[1]:                           dst = 172.16.1.0/24, nh = 0.0.0.0, mt = 100
+IP4.DNS[1]:                             172.16.1.1
+IP4.DOMAIN[1]:                          openshift4poc.example.local
+IP6.ADDRESS[1]:                         fe80::6f03:6200:832a:7582/64
+IP6.GATEWAY:                            --
+IP6.ROUTE[1]:                           dst = fe80::/64, nh = ::, mt = 100
+IP6.ROUTE[2]:                           dst = ff00::/8, nh = ::, mt = 256, table=255

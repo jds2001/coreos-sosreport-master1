@@ -1,0 +1,9 @@
+BootCurrent: 0004
+Timeout: 0 seconds
+BootOrder: 0004,0001,0000,0002
+Boot0000* EFI Network	AcpiEx(VMBus,,)/VenHw(9b17e5a2-0891-42dd-b653-80b5c22809ba,635161f83edfc546913ff2d2f965ed0e26f51fd2a3bc2848bb2207322cfd6f93)/MAC(000000000000,0)/IPv4(0.0.0.00.0.0.0,0,0)
+Boot0001* EFI SCSI Device	AcpiEx(VMBus,,)/VenHw(9b17e5a2-0891-42dd-b653-80b5c22809ba,d96361baa104294db60572e2ffb1dc7fc9825e33d67e1047b93f3a32144c025c)/SCSI(0,0)
+Boot0002* EFI SCSI Device	AcpiEx(VMBus,,)/VenHw(9b17e5a2-0891-42dd-b653-80b5c22809ba,d96361baa104294db60572e2ffb1dc7fc9825e33d67e1047b93f3a32144c025c)/SCSI(0,1)
+Boot0003* Red Hat Enterprise Linux	AcpiEx(VMBus,,)/VenHw(9b17e5a2-0891-42dd-b653-80b5c22809ba,d96361baa104294db60572e2ffb1dc7fc9825e33d67e1047b93f3a32144c025c)/SCSI(0,1)/CDROM(1,0x29,0x3c0c)/File(\EFI\redhat\shimx64.efi)
+Boot0004* Red Hat Enterprise Linux	HD(1,GPT,b4622c34-475f-4f0e-9d61-921fec02cf11,0x800,0x2f000)/File(\EFI\redhat\shimx64.efi)
+Boot0005* Red Hat Enterprise Linux	AcpiEx(VMBus,,)/VenHw(9b17e5a2-0891-42dd-b653-80b5c22809ba,d96361baa104294db60572e2ffb1dc7fc9825e33d67e1047b93f3a32144c025c)/SCSI(0,1)/CDROM(1,0x29,0x3c0c)/File(\EFI\redhat\shimx64.efi)

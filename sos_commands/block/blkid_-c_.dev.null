@@ -1,0 +1,4 @@
+/dev/sr0: UUID="2019-08-28-14-05-37-00" LABEL="CDROM" TYPE="iso9660"
+/dev/sda1: SEC_TYPE="msdos" UUID="9AF0-40EA" TYPE="vfat" PARTLABEL="EFI System Partition" PARTUUID="b4622c34-475f-4f0e-9d61-921fec02cf11"
+/dev/sda2: LABEL="boot" UUID="a1850af0-318f-4c6e-92b1-72230a4427d8" TYPE="ext4" PARTUUID="198974bb-472b-4320-bac0-7bf040dbfc61"
+/dev/sda3: LABEL="root" UUID="9213770d-ddd3-40f9-aeba-d6e8c6fec4c8" TYPE="xfs" PARTUUID="008da501-3745-49f7-bc73-f83111202d02"

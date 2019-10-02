@@ -1,0 +1,7 @@
+COMMAND           PID   TYPE SIZE MODE  M START END PATH
+(undefined)        -1 OFDLCK      WRITE 0     0   0 /var/lib/containers/storage/overlay...
+rpcbind          1062  FLOCK   0B WRITE 0     0   0 /run/rpcbind/rpcbind.lock
+(undefined)        -1 OFDLCK      READ  0     0   0 
+etcd             1472  FLOCK  20K WRITE 0     0   0 /var/lib/etcd/member/snap/db
+(undefined)        -1 OFDLCK      WRITE 0     0   0 /var/lib/containers/storage/overlay...
+(undefined)        -1 OFDLCK      READ  0     0   0 

@@ -1,0 +1,2 @@
+POD ID              CREATED             STATE               NAME                                NAMESPACE           ATTEMPT
+3f2164ffc40a9       34 minutes ago      Ready               etcd-member-localhost.localdomain   openshift-etcd      0

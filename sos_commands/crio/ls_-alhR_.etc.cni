@@ -1,0 +1,13 @@
+/etc/cni:
+total 12K
+drwxr-xr-x.  3 root root   19 Oct  2 02:19 .
+drwxr-xr-x. 83 root root 8.0K Oct  2 02:19 ..
+drwxr-xr-x.  2 root root   92 Oct  2 02:19 net.d
+
+/etc/cni/net.d:
+total 12K
+drwxr-xr-x. 2 root root  92 Oct  2 02:19 .
+drwxr-xr-x. 3 root root  19 Oct  2 02:19 ..
+-rw-r--r--. 1 root root 294 Oct  2 02:19 100-crio-bridge.conf
+-rw-r--r--. 1 root root  54 Oct  2 02:19 200-loopback.conf
+-rw-r--r--. 1 root root 483 Oct  2 02:19 87-podman-bridge.conflist

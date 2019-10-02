@@ -1,0 +1,670 @@
+/lib64:
+total 156024
+drwxr-xr-x. 40 0 0    24576 Jan  1  1970 .
+drwxr-xr-x. 12 0 0      155 Jan  1  1970 ..
+-rw-r--r--.  3 0 0       65 Jan  1  1970 .libcrypt.so.1.1.0.hmac
+lrwxrwxrwx.  3 0 0       23 Aug 28 14:03 .libcrypt.so.1.hmac -> .libcrypt.so.1.1.0.hmac
+-rw-r--r--.  3 0 0       65 Jan  1  1970 .libcrypto.so.1.0.2o.hmac
+-rw-r--r--.  3 0 0       65 Jan  1  1970 .libcrypto.so.1.1.1.hmac
+lrwxrwxrwx.  3 0 0       24 Aug 28 14:03 .libcrypto.so.1.1.hmac -> .libcrypto.so.1.1.1.hmac
+lrwxrwxrwx.  3 0 0       25 Aug 28 14:03 .libcrypto.so.10.hmac -> .libcrypto.so.1.0.2o.hmac
+-rw-r--r--.  3 0 0       65 Jan  1  1970 .libgcrypt.so.20.hmac
+-rw-r--r--.  3 0 0       65 Jan  1  1970 .libgnutls.so.30.23.0.hmac
+lrwxrwxrwx.  3 0 0       26 Aug 28 14:03 .libgnutls.so.30.hmac -> .libgnutls.so.30.23.0.hmac
+-rw-r--r--.  3 0 0       65 Jan  1  1970 .libhogweed.so.4.5.hmac
+lrwxrwxrwx.  3 0 0       23 Aug 28 14:03 .libhogweed.so.4.hmac -> .libhogweed.so.4.5.hmac
+-rw-r--r--.  3 0 0       65 Jan  1  1970 .libnettle.so.6.5.hmac
+lrwxrwxrwx.  3 0 0       22 Aug 28 14:03 .libnettle.so.6.hmac -> .libnettle.so.6.5.hmac
+-rw-r--r--.  3 0 0       65 Jan  1  1970 .libssl.so.1.0.2o.hmac
+-rw-r--r--.  3 0 0       65 Jan  1  1970 .libssl.so.1.1.1.hmac
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 .libssl.so.1.1.hmac -> .libssl.so.1.1.1.hmac
+lrwxrwxrwx.  3 0 0       22 Aug 28 14:03 .libssl.so.10.hmac -> .libssl.so.1.0.2o.hmac
+drwxr-xr-x.  3 0 0       27 Jan  1  1970 NetworkManager
+drwxr-xr-x.  2 0 0        6 Jan  1  1970 X11
+drwxr-xr-x.  2 0 0       28 Jan  1  1970 audit
+drwxr-xr-x.  2 0 0      254 Jan  1  1970 bind9-export
+drwxr-xr-x.  2 0 0       49 Jan  1  1970 cifs-utils
+lrwxrwxrwx.  3 0 0       36 Aug 28 14:03 cracklib_dict.hwm -> ../../usr/share/cracklib/pw_dict.hwm
+lrwxrwxrwx.  3 0 0       36 Aug 28 14:03 cracklib_dict.pwd -> ../../usr/share/cracklib/pw_dict.pwd
+lrwxrwxrwx.  3 0 0       36 Aug 28 14:03 cracklib_dict.pwi -> ../../usr/share/cracklib/pw_dict.pwi
+drwxr-xr-x.  2 0 0      201 Jan  1  1970 device-mapper
+drwxr-xr-x.  2 0 0     4096 Jan  1  1970 elfutils
+drwxr-xr-x.  2 0 0       92 Jan  1  1970 engines-1.1
+drwxr-xr-x.  2 0 0      235 Jan  1  1970 fipscheck
+drwxr-xr-x.  2 0 0        6 Jan  1  1970 games
+drwxr-xr-x.  2 0 0      221 Jan  1  1970 gawk
+drwxr-xr-x.  2 0 0     8192 Jan  1  1970 gconv
+drwxr-xr-x.  2 0 0       92 Jan  1  1970 gettext
+drwxr-xr-x.  3 0 0       21 Jan  1  1970 gio
+drwxr-xr-x.  2 0 0      216 Jan  1  1970 girepository-1.0
+drwxr-xr-x.  3 0 0       20 Jan  1  1970 glusterfs
+drwxr-xr-x.  2 0 0       26 Jan  1  1970 gssproxy
+drwxr-xr-x.  2 0 0      119 Jan  1  1970 hmaccalc
+drwxr-xr-x.  3 0 0       21 Jan  1  1970 krb5
+-rwxr-xr-x.  3 0 0   243520 Jan  1  1970 ld-2.28.so
+lrwxrwxrwx.  3 0 0       10 Aug 28 14:03 ld-linux-x86-64.so.2 -> ld-2.28.so
+drwxr-xr-x.  3 0 0       48 Jan  1  1970 ldb
+-rwxr-xr-x.  3 0 0     9616 Jan  1  1970 libBrokenLocale-2.28.so
+lrwxrwxrwx.  3 0 0       23 Aug 28 14:03 libBrokenLocale.so.1 -> libBrokenLocale-2.28.so
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libDeployPkg.so.0 -> libDeployPkg.so.0.0.0
+-rwxr-xr-x.  3 0 0    44192 Jan  1  1970 libDeployPkg.so.0.0.0
+-rwxr-xr-x.  3 0 0    23424 Jan  1  1970 libSegFault.so
+lrwxrwxrwx.  3 0 0       18 Aug 28 14:03 libacl.so.1 -> libacl.so.1.1.2253
+-rwxr-xr-x.  3 0 0    54816 Jan  1  1970 libacl.so.1.1.2253
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 libaio.so.1 -> libaio.so.1.0.1
+-rwxr-xr-x.  3 0 0    16120 Jan  1  1970 libaio.so.1.0.0
+-rwxr-xr-x.  3 0 0    16120 Jan  1  1970 libaio.so.1.0.1
+-rwxr-xr-x.  3 0 0    25136 Jan  1  1970 libanl-2.28.so
+lrwxrwxrwx.  3 0 0       14 Aug 28 14:03 libanl.so.1 -> libanl-2.28.so
+lrwxrwxrwx.  3 0 0       20 Aug 28 14:03 libarchive.so.13 -> libarchive.so.13.3.2
+-rwxr-xr-x.  3 0 0   810736 Jan  1  1970 libarchive.so.13.3.2
+-rwxr-xr-x.  3 0 0    47104 Jan  1  1970 libasm-0.174.so
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 libasm.so.1 -> libasm-0.174.so
+lrwxrwxrwx.  3 0 0       20 Aug 28 14:03 libasprintf.so.0 -> libasprintf.so.0.0.0
+-rwxr-xr-x.  3 0 0    12784 Jan  1  1970 libasprintf.so.0.0.0
+lrwxrwxrwx.  3 0 0       18 Aug 28 14:03 libassuan.so.0 -> libassuan.so.0.8.1
+-rwxr-xr-x.  3 0 0    90736 Jan  1  1970 libassuan.so.0.8.1
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 libattr.so.1 -> libattr.so.1.1.2448
+-rwxr-xr-x.  3 0 0    26192 Jan  1  1970 libattr.so.1.1.2448
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libaudit.so.1 -> libaudit.so.1.0.0
+-rwxr-xr-x.  3 0 0   133872 Jan  1  1970 libaudit.so.1.0.0
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 libauparse.so.0 -> libauparse.so.0.0.0
+-rwxr-xr-x.  3 0 0   137416 Jan  1  1970 libauparse.so.0.0.0
+lrwxrwxrwx.  3 0 0       24 Aug 28 14:03 libavahi-client.so.3 -> libavahi-client.so.3.2.9
+-rwxr-xr-x.  3 0 0    77016 Jan  1  1970 libavahi-client.so.3.2.9
+lrwxrwxrwx.  3 0 0       24 Aug 28 14:03 libavahi-common.so.3 -> libavahi-common.so.3.5.3
+-rwxr-xr-x.  3 0 0    58536 Jan  1  1970 libavahi-common.so.3.5.3
+lrwxrwxrwx.  3 0 0       24 Aug 28 14:03 libbasicobjects.so.0 -> libbasicobjects.so.0.1.0
+-rwxr-xr-x.  3 0 0    11848 Jan  1  1970 libbasicobjects.so.0.1.0
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 libbind9.so.160 -> libbind9.so.160.0.8
+-rwxr-xr-x.  3 0 0    74536 Jan  1  1970 libbind9.so.160.0.8
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libblkid.so.1 -> libblkid.so.1.1.0
+-rwxr-xr-x.  3 0 0   391104 Jan  1  1970 libblkid.so.1.1.0
+lrwxrwxrwx.  3 0 0       24 Aug 28 14:03 libbrotlicommon.so.1 -> libbrotlicommon.so.1.0.6
+-rwxr-xr-x.  3 0 0   131400 Jan  1  1970 libbrotlicommon.so.1.0.6
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libbrotlidec.so.1 -> libbrotlidec.so.1.0.6
+-rwxr-xr-x.  3 0 0    50456 Jan  1  1970 libbrotlidec.so.1.0.6
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libbrotlienc.so.1 -> libbrotlienc.so.1.0.6
+-rwxr-xr-x.  3 0 0   581928 Jan  1  1970 libbrotlienc.so.1.0.6
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 libbz2.so.1 -> libbz2.so.1.0.6
+-rwxr-xr-x.  3 0 0    74744 Jan  1  1970 libbz2.so.1.0.6
+-rwxr-xr-x.  3 0 0  3201344 Jan  1  1970 libc-2.28.so
+lrwxrwxrwx.  3 0 0       12 Aug 28 14:03 libc.so.6 -> libc-2.28.so
+lrwxrwxrwx.  3 0 0       18 Aug 28 14:03 libcap-ng.so.0 -> libcap-ng.so.0.0.0
+-rwxr-xr-x.  3 0 0    25192 Jan  1  1970 libcap-ng.so.0.0.0
+lrwxrwxrwx.  3 0 0       14 Aug 28 14:03 libcap.so.2 -> libcap.so.2.25
+-rwxr-xr-x.  3 0 0    22240 Jan  1  1970 libcap.so.2.25
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libcares.so.2 -> libcares.so.2.2.0
+-rwxr-xr-x.  3 0 0    94472 Jan  1  1970 libcares.so.2.2.0
+lrwxrwxrwx.  3 0 0       22 Aug 28 14:03 libcollection.so.4 -> libcollection.so.4.1.1
+-rwxr-xr-x.  3 0 0    55560 Jan  1  1970 libcollection.so.4.1.1
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libcom_err.so.2 -> libcom_err.so.2.1
+-rwxr-xr-x.  3 0 0    18616 Jan  1  1970 libcom_err.so.2.1
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libcrack.so.2 -> libcrack.so.2.9.0
+-rwxr-xr-x.  3 0 0    46232 Jan  1  1970 libcrack.so.2.9.0
+lrwxrwxrwx.  3 0 0       14 Aug 28 14:03 libcriu.so.1 -> libcriu.so.1.0
+-rwxr-xr-x.  3 0 0    70504 Jan  1  1970 libcriu.so.1.0
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libcroco-0.6.so.3 -> libcroco-0.6.so.3.0.1
+-rwxr-xr-x.  3 0 0   256280 Jan  1  1970 libcroco-0.6.so.3.0.1
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libcrypt.so.1 -> libcrypt.so.1.1.0
+-rwxr-xr-x.  3 0 0   142712 Jan  1  1970 libcrypt.so.1.1.0
+-rwxr-xr-x.  3 0 0  2728800 Jan  1  1970 libcrypto.so.1.0.2o
+lrwxrwxrwx.  3 0 0       18 Aug 28 14:03 libcrypto.so.1.1 -> libcrypto.so.1.1.1
+-rwxr-xr-x.  3 0 0  3290384 Jan  1  1970 libcrypto.so.1.1.1
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 libcrypto.so.10 -> libcrypto.so.1.0.2o
+lrwxrwxrwx.  3 0 0       23 Aug 28 14:03 libcryptsetup.so.12 -> libcryptsetup.so.12.3.0
+-rwxr-xr-x.  3 0 0   394264 Jan  1  1970 libcryptsetup.so.12.3.0
+-rwxr-xr-x.  3 0 0   650560 Jan  1  1970 libcups.so.2
+-rwxr-xr-x.  3 0 0    69088 Jan  1  1970 libcupscgi.so.1
+-rwxr-xr-x.  3 0 0    41584 Jan  1  1970 libcupsimage.so.2
+-rwxr-xr-x.  3 0 0    29440 Jan  1  1970 libcupsmime.so.1
+-rwxr-xr-x.  3 0 0   144264 Jan  1  1970 libcupsppdc.so.1
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libcurl.so.4 -> libcurl.so.4.5.0
+-rwxr-xr-x.  3 0 0   639528 Jan  1  1970 libcurl.so.4.5.0
+-rwxr-xr-x.  3 0 0  1973848 Jan  1  1970 libdb-5.3.so
+lrwxrwxrwx.  3 0 0       12 Aug 28 14:03 libdb-5.so -> libdb-5.3.so
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 libdbus-1.so.3 -> libdbus-1.so.3.19.7
+-rwxr-xr-x.  3 0 0   370488 Jan  1  1970 libdbus-1.so.3.19.7
+lrwxrwxrwx.  3 0 0       26 Aug 28 14:03 libdcerpc-binding.so.0 -> libdcerpc-binding.so.0.0.1
+-rwxr-xr-x.  3 0 0   142048 Jan  1  1970 libdcerpc-binding.so.0.0.1
+lrwxrwxrwx.  3 0 0       18 Aug 28 14:03 libdcerpc.so.0 -> libdcerpc.so.0.0.1
+-rwxr-xr-x.  3 0 0   221240 Jan  1  1970 libdcerpc.so.0.0.1
+-r-xr-xr-x.  3 0 0    12480 Jan  1  1970 libdevmapper-event-lvm2.so.2.03
+lrwxrwxrwx.  3 0 0       46 Aug 28 14:03 libdevmapper-event-lvm2mirror.so -> device-mapper/libdevmapper-event-lvm2mirror.so
+lrwxrwxrwx.  3 0 0       44 Aug 28 14:03 libdevmapper-event-lvm2raid.so -> device-mapper/libdevmapper-event-lvm2raid.so
+lrwxrwxrwx.  3 0 0       48 Aug 28 14:03 libdevmapper-event-lvm2snapshot.so -> device-mapper/libdevmapper-event-lvm2snapshot.so
+lrwxrwxrwx.  3 0 0       44 Aug 28 14:03 libdevmapper-event-lvm2thin.so -> device-mapper/libdevmapper-event-lvm2thin.so
+lrwxrwxrwx.  3 0 0       43 Aug 28 14:03 libdevmapper-event-lvm2vdo.so -> device-mapper/libdevmapper-event-lvm2vdo.so
+-r-xr-xr-x.  3 0 0    29176 Jan  1  1970 libdevmapper-event.so.1.02
+-r-xr-xr-x.  3 0 0   376656 Jan  1  1970 libdevmapper.so.1.02
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libdhash.so.1 -> libdhash.so.1.1.0
+-rwxr-xr-x.  3 0 0    16216 Jan  1  1970 libdhash.so.1.1.0
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 libdhcpctl.so.0 -> libdhcpctl.so.0.0.0
+-rwxr-xr-x.  3 0 0    25184 Jan  1  1970 libdhcpctl.so.0.0.0
+-rwxr-xr-x.  3 0 0    28784 Jan  1  1970 libdl-2.28.so
+lrwxrwxrwx.  3 0 0       13 Aug 28 14:03 libdl.so.2 -> libdl-2.28.so
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libdnet.so.1 -> libdnet.so.1.0.1
+-rwxr-xr-x.  3 0 0    71920 Jan  1  1970 libdnet.so.1.0.1
+lrwxrwxrwx.  3 0 0       18 Aug 28 14:03 libdns.so.1102 -> libdns.so.1102.1.2
+-rwxr-xr-x.  3 0 0  2395816 Jan  1  1970 libdns.so.1102.1.2
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 libdrm.so.2 -> libdrm.so.2.4.0
+-rwxr-xr-x.  3 0 0    76808 Jan  1  1970 libdrm.so.2.4.0
+lrwxrwxrwx.  3 0 0       22 Aug 28 14:03 libdrm_amdgpu.so.1 -> libdrm_amdgpu.so.1.0.0
+-rwxr-xr-x.  3 0 0    43864 Jan  1  1970 libdrm_amdgpu.so.1.0.0
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libdrm_intel.so.1 -> libdrm_intel.so.1.0.0
+-rwxr-xr-x.  3 0 0   148344 Jan  1  1970 libdrm_intel.so.1.0.0
+lrwxrwxrwx.  3 0 0       23 Aug 28 14:03 libdrm_nouveau.so.2 -> libdrm_nouveau.so.2.0.0
+-rwxr-xr-x.  3 0 0    38336 Jan  1  1970 libdrm_nouveau.so.2.0.0
+lrwxrwxrwx.  3 0 0       22 Aug 28 14:03 libdrm_radeon.so.1 -> libdrm_radeon.so.1.0.1
+-rwxr-xr-x.  3 0 0    51552 Jan  1  1970 libdrm_radeon.so.1.0.1
+-rwxr-xr-x.  3 0 0   445416 Jan  1  1970 libdw-0.174.so
+lrwxrwxrwx.  3 0 0       14 Aug 28 14:03 libdw.so.1 -> libdw-0.174.so
+lrwxrwxrwx.  3 0 0       13 Aug 28 14:03 libe2p.so.2 -> libe2p.so.2.3
+-rwxr-xr-x.  3 0 0    48248 Jan  1  1970 libe2p.so.2.3
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libedit.so.0 -> libedit.so.0.0.56
+-rwxr-xr-x.  3 0 0   230936 Jan  1  1970 libedit.so.0.0.56
+lrwxrwxrwx.  3 0 0       18 Aug 28 14:03 libefiboot.so.1 -> libefiboot.so.1.36
+-rwxr-xr-x.  3 0 0   104392 Jan  1  1970 libefiboot.so.1.36
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libefivar.so.1 -> libefivar.so.1.36
+-rwxr-xr-x.  3 0 0   146080 Jan  1  1970 libefivar.so.1.36
+-rwxr-xr-x.  3 0 0   152768 Jan  1  1970 libelf-0.174.so
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 libelf.so.1 -> libelf-0.174.so
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libevent-2.1.so.6 -> libevent-2.1.so.6.0.2
+-rwxr-xr-x.  3 0 0   379136 Jan  1  1970 libevent-2.1.so.6.0.2
+lrwxrwxrwx.  3 0 0       26 Aug 28 14:03 libevent_core-2.1.so.6 -> libevent_core-2.1.so.6.0.2
+-rwxr-xr-x.  3 0 0   244000 Jan  1  1970 libevent_core-2.1.so.6.0.2
+lrwxrwxrwx.  3 0 0       27 Aug 28 14:03 libevent_extra-2.1.so.6 -> libevent_extra-2.1.so.6.0.2
+-rwxr-xr-x.  3 0 0   150928 Jan  1  1970 libevent_extra-2.1.so.6.0.2
+lrwxrwxrwx.  3 0 0       29 Aug 28 14:03 libevent_openssl-2.1.so.6 -> libevent_openssl-2.1.so.6.0.2
+-rwxr-xr-x.  3 0 0    28736 Jan  1  1970 libevent_openssl-2.1.so.6.0.2
+lrwxrwxrwx.  3 0 0       30 Aug 28 14:03 libevent_pthreads-2.1.so.6 -> libevent_pthreads-2.1.so.6.0.2
+-rwxr-xr-x.  3 0 0    11872 Jan  1  1970 libevent_pthreads-2.1.so.6.0.2
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libexpat.so.1 -> libexpat.so.1.6.7
+-rwxr-xr-x.  3 0 0   244736 Jan  1  1970 libexpat.so.1.6.7
+lrwxrwxrwx.  3 0 0       18 Aug 28 14:03 libexslt.so.0 -> libexslt.so.0.8.20
+-rwxr-xr-x.  3 0 0    98160 Jan  1  1970 libexslt.so.0.8.20
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libext2fs.so.2 -> libext2fs.so.2.4
+-rwxr-xr-x.  3 0 0   397728 Jan  1  1970 libext2fs.so.2.4
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libfdisk.so.1 -> libfdisk.so.1.1.0
+-rwxr-xr-x.  3 0 0   434168 Jan  1  1970 libfdisk.so.1.1.0
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 libffi.so.6 -> libffi.so.6.0.2
+-rwxr-xr-x.  3 0 0    39344 Jan  1  1970 libffi.so.6.0.2
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libfipscheck.so.1 -> libfipscheck.so.1.2.1
+-rwxr-xr-x.  3 0 0    12200 Jan  1  1970 libfipscheck.so.1.2.1
+lrwxrwxrwx.  3 0 0       14 Aug 28 14:03 libform.so.6 -> libform.so.6.1
+-rwxr-xr-x.  3 0 0    88848 Jan  1  1970 libform.so.6.1
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 libformw.so.6 -> libformw.so.6.1
+-rwxr-xr-x.  3 0 0    97152 Jan  1  1970 libformw.so.6.1
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libfreetype.so.6 -> libfreetype.so.6.16.1
+-rwxr-xr-x.  3 0 0   799944 Jan  1  1970 libfreetype.so.6.16.1
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libfuse.so.2 -> libfuse.so.2.9.7
+-rwxr-xr-x.  3 0 0   269368 Jan  1  1970 libfuse.so.2.9.7
+-rwxr-xr-x.  3 0 0   104248 Jan  1  1970 libgcc_s-8-20180905.so.1
+lrwxrwxrwx.  3 0 0       24 Aug 28 14:03 libgcc_s.so.1 -> libgcc_s-8-20180905.so.1
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 libgcrypt.so.20 -> libgcrypt.so.20.2.3
+-rwxr-xr-x.  3 0 0  1212296 Jan  1  1970 libgcrypt.so.20.2.3
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libgdbm.so.6 -> libgdbm.so.6.0.0
+-rwxr-xr-x.  3 0 0    77472 Jan  1  1970 libgdbm.so.6.0.0
+lrwxrwxrwx.  3 0 0       23 Aug 28 14:03 libgdbm_compat.so.4 -> libgdbm_compat.so.4.0.0
+-rwxr-xr-x.  3 0 0    22168 Jan  1  1970 libgdbm_compat.so.4.0.0
+-rwxr-xr-x.  3 0 0   308400 Jan  1  1970 libgettextlib-0.19.8.1.so
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libgettextpo.so.0 -> libgettextpo.so.0.5.4
+-rwxr-xr-x.  3 0 0   403616 Jan  1  1970 libgettextpo.so.0.5.4
+-rwxr-xr-x.  3 0 0   351648 Jan  1  1970 libgettextsrc-0.19.8.1.so
+lrwxrwxrwx.  3 0 0       23 Aug 28 14:03 libgfchangelog.so.0 -> libgfchangelog.so.0.0.1
+-rwxr-xr-x.  3 0 0    69720 Jan  1  1970 libgfchangelog.so.0.0.1
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libgfrpc.so.0 -> libgfrpc.so.0.0.1
+-rwxr-xr-x.  3 0 0   128840 Jan  1  1970 libgfrpc.so.0.0.1
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libgfxdr.so.0 -> libgfxdr.so.0.0.1
+-rwxr-xr-x.  3 0 0   126552 Jan  1  1970 libgfxdr.so.0.0.1
+lrwxrwxrwx.  3 0 0       22 Aug 28 14:03 libgio-2.0.so.0 -> libgio-2.0.so.0.5600.4
+-rwxr-xr-x.  3 0 0  1842264 Jan  1  1970 libgio-2.0.so.0.5600.4
+lrwxrwxrwx.  3 0 0       23 Aug 28 14:03 libglib-2.0.so.0 -> libglib-2.0.so.0.5600.4
+-rwxr-xr-x.  3 0 0  1199736 Jan  1  1970 libglib-2.0.so.0.5600.4
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libglusterfs.so.0 -> libglusterfs.so.0.0.1
+-rwxr-xr-x.  3 0 0  1073256 Jan  1  1970 libglusterfs.so.0.0.1
+lrwxrwxrwx.  3 0 0       26 Aug 28 14:03 libgmodule-2.0.so.0 -> libgmodule-2.0.so.0.5600.4
+-rwxr-xr-x.  3 0 0    16184 Jan  1  1970 libgmodule-2.0.so.0.5600.4
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libgmp.so.10 -> libgmp.so.10.3.2
+-rwxr-xr-x.  3 0 0   775616 Jan  1  1970 libgmp.so.10.3.2
+lrwxrwxrwx.  3 0 0       20 Aug 28 14:03 libgnutls.so.30 -> libgnutls.so.30.23.0
+-rwxr-xr-x.  3 0 0  1906280 Jan  1  1970 libgnutls.so.30.23.0
+lrwxrwxrwx.  3 0 0       26 Aug 28 14:03 libgobject-2.0.so.0 -> libgobject-2.0.so.0.5600.4
+-rwxr-xr-x.  3 0 0   350056 Jan  1  1970 libgobject-2.0.so.0.5600.4
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libgomp.so.1 -> libgomp.so.1.0.0
+-rwxr-xr-x.  3 0 0   201800 Jan  1  1970 libgomp.so.1.0.0
+lrwxrwxrwx.  3 0 0       22 Aug 28 14:03 libgpg-error.so.0 -> libgpg-error.so.0.24.2
+-rwxr-xr-x.  3 0 0   144392 Jan  1  1970 libgpg-error.so.0.24.2
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 libgpgme.so.11 -> libgpgme.so.11.19.0
+-rwxr-xr-x.  3 0 0   331640 Jan  1  1970 libgpgme.so.11.19.0
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libgssapi_krb5.so.2 -> libgssapi_krb5.so.2.2
+-rwxr-xr-x.  3 0 0   387664 Jan  1  1970 libgssapi_krb5.so.2.2
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libgssrpc.so.4 -> libgssrpc.so.4.2
+-rwxr-xr-x.  3 0 0   158320 Jan  1  1970 libgssrpc.so.4.2
+lrwxrwxrwx.  3 0 0       26 Aug 28 14:03 libgthread-2.0.so.0 -> libgthread-2.0.so.0.5600.4
+-rwxr-xr-x.  3 0 0     7760 Jan  1  1970 libgthread-2.0.so.0.5600.4
+lrwxrwxrwx.  3 0 0       20 Aug 28 14:03 libguestlib.so.0 -> libguestlib.so.0.0.0
+-rwxr-xr-x.  3 0 0    33544 Jan  1  1970 libguestlib.so.0.0.0
+lrwxrwxrwx.  3 0 0       18 Aug 28 14:03 libhandle.so.1 -> libhandle.so.1.0.3
+-rwxr-xr-x.  3 0 0    16752 Jan  1  1970 libhandle.so.1.0.3
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libhgfs.so.0 -> libhgfs.so.0.0.0
+-rwxr-xr-x.  3 0 0   221376 Jan  1  1970 libhgfs.so.0.0.0
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libhistory.so.7 -> libhistory.so.7.0
+-rwxr-xr-x.  3 0 0    47624 Jan  1  1970 libhistory.so.7.0
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libhogweed.so.4 -> libhogweed.so.4.5
+-rwxr-xr-x.  3 0 0   248080 Jan  1  1970 libhogweed.so.4.5
+lrwxrwxrwx.  3 0 0       18 Aug 28 14:03 libicudata.so.60 -> libicudata.so.60.2
+-rwxr-xr-x.  3 0 0 26905432 Jan  1  1970 libicudata.so.60.2
+lrwxrwxrwx.  3 0 0       18 Aug 28 14:03 libicui18n.so.60 -> libicui18n.so.60.2
+-rwxr-xr-x.  3 0 0  3162280 Jan  1  1970 libicui18n.so.60.2
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libicuio.so.60 -> libicuio.so.60.2
+-rwxr-xr-x.  3 0 0    67416 Jan  1  1970 libicuio.so.60.2
+lrwxrwxrwx.  3 0 0       18 Aug 28 14:03 libicutest.so.60 -> libicutest.so.60.2
+-rwxr-xr-x.  3 0 0    74592 Jan  1  1970 libicutest.so.60.2
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libicutu.so.60 -> libicutu.so.60.2
+-rwxr-xr-x.  3 0 0   233296 Jan  1  1970 libicutu.so.60.2
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libicuuc.so.60 -> libicuuc.so.60.2
+-rwxr-xr-x.  3 0 0  1992376 Jan  1  1970 libicuuc.so.60.2
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libidn2.so.0 -> libidn2.so.0.3.4
+-rwxr-xr-x.  3 0 0   125680 Jan  1  1970 libidn2.so.0.3.4
+lrwxrwxrwx.  3 0 0       22 Aug 28 14:03 libini_config.so.5 -> libini_config.so.5.2.1
+-rwxr-xr-x.  3 0 0   117048 Jan  1  1970 libini_config.so.5.2.1
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libip4tc.so.0 -> libip4tc.so.0.1.0
+-rwxr-xr-x.  3 0 0    33480 Jan  1  1970 libip4tc.so.0.1.0
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libip6tc.so.0 -> libip6tc.so.0.1.0
+-rwxr-xr-x.  3 0 0    33512 Jan  1  1970 libip6tc.so.0.1.0
+lrwxrwxrwx.  3 0 0       20 Aug 28 14:03 libipa_hbac.so.0 -> libipa_hbac.so.0.1.0
+-rwxr-xr-x.  3 0 0    16704 Jan  1  1970 libipa_hbac.so.0.1.0
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libiptc.so.0 -> libiptc.so.0.0.0
+-rwxr-xr-x.  3 0 0     7112 Jan  1  1970 libiptc.so.0.0.0
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libirs.so.160 -> libirs.so.160.0.5
+-rwxr-xr-x.  3 0 0    51752 Jan  1  1970 libirs.so.160.0.5
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libisc.so.169 -> libisc.so.169.0.3
+-rwxr-xr-x.  3 0 0   569000 Jan  1  1970 libisc.so.169.0.3
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 libisccc.so.160 -> libisccc.so.160.0.3
+-rwxr-xr-x.  3 0 0    49120 Jan  1  1970 libisccc.so.160.0.3
+lrwxrwxrwx.  3 0 0       20 Aug 28 14:03 libisccfg.so.160 -> libisccfg.so.160.2.1
+-rwxr-xr-x.  3 0 0   188544 Jan  1  1970 libisccfg.so.160.2.1
+-rwxr-xr-x.  3 0 0   366168 Jan  1  1970 libiscsi.so.0
+-rwxr-xr-x.  3 0 0   524712 Jan  1  1970 libisns.so.0
+lrwxrwxrwx.  3 0 0       20 Aug 28 14:03 libjansson.so.4 -> libjansson.so.4.11.0
+-rwxr-xr-x.  3 0 0    65736 Jan  1  1970 libjansson.so.4.11.0
+lrwxrwxrwx.  3 0 0       18 Aug 28 14:03 libjson-c.so.4 -> libjson-c.so.4.0.0
+-rwxr-xr-x.  3 0 0    70432 Jan  1  1970 libjson-c.so.4.0.0
+lrwxrwxrwx.  3 0 0       27 Aug 28 14:03 libjson-glib-1.0.so.0 -> libjson-glib-1.0.so.0.400.4
+-rwxr-xr-x.  3 0 0   175896 Jan  1  1970 libjson-glib-1.0.so.0.400.4
+lrwxrwxrwx.  3 0 0       18 Aug 28 14:03 libk5crypto.so.3 -> libk5crypto.so.3.1
+-rwxr-xr-x.  3 0 0   149440 Jan  1  1970 libk5crypto.so.3.1
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libkcapi.so.1 -> libkcapi.so.1.1.1
+-rwxr-xr-x.  3 0 0    51872 Jan  1  1970 libkcapi.so.1.1.1
+lrwxrwxrwx.  3 0 0       14 Aug 28 14:03 libkdb5.so.9 -> libkdb5.so.9.0
+-rwxr-xr-x.  3 0 0    87040 Jan  1  1970 libkdb5.so.9.0
+lrwxrwxrwx.  3 0 0       18 Aug 28 14:03 libkeyutils.so.1 -> libkeyutils.so.1.6
+-rwxr-xr-x.  3 0 0    16240 Jan  1  1970 libkeyutils.so.1.6
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libkmod.so.2 -> libkmod.so.2.3.3
+-rwxr-xr-x.  3 0 0   228144 Jan  1  1970 libkmod.so.2.3.3
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 libkms.so.1 -> libkms.so.1.0.0
+-rwxr-xr-x.  3 0 0    23000 Jan  1  1970 libkms.so.1.0.0
+lrwxrwxrwx.  3 0 0       14 Aug 28 14:03 libkrad.so.0 -> libkrad.so.0.0
+-rwxr-xr-x.  3 0 0    47328 Jan  1  1970 libkrad.so.0.0
+lrwxrwxrwx.  3 0 0       14 Aug 28 14:03 libkrb5.so.3 -> libkrb5.so.3.3
+-rwxr-xr-x.  3 0 0  1087096 Jan  1  1970 libkrb5.so.3.3
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libkrb5support.so.0 -> libkrb5support.so.0.1
+-rwxr-xr-x.  3 0 0    75040 Jan  1  1970 libkrb5support.so.0.1
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libksba.so.8 -> libksba.so.8.11.6
+-rwxr-xr-x.  3 0 0   244408 Jan  1  1970 libksba.so.8.11.6
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 liblber-2.4.so.2 -> liblber-2.4.so.2.10.9
+-rwxr-xr-x.  3 0 0    71136 Jan  1  1970 liblber-2.4.so.2.10.9
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libldap-2.4.so.2 -> libldap-2.4.so.2.10.9
+-rwxr-xr-x.  3 0 0   350920 Jan  1  1970 libldap-2.4.so.2.10.9
+lrwxrwxrwx.  3 0 0       23 Aug 28 14:03 libldap_r-2.4.so.2 -> libldap_r-2.4.so.2.10.9
+-rwxr-xr-x.  3 0 0   380672 Jan  1  1970 libldap_r-2.4.so.2.10.9
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 libldb.so.1 -> libldb.so.1.4.2
+-rwxr-xr-x.  3 0 0   218152 Jan  1  1970 libldb.so.1.4.2
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libltdl.so.7 -> libltdl.so.7.3.1
+-rwxr-xr-x.  3 0 0    44144 Jan  1  1970 libltdl.so.7.3.1
+-rwxr-xr-x.  3 0 0   258152 Jan  1  1970 liblua-5.3.so
+-r-xr-xr-x.  3 0 0  2386600 Jan  1  1970 liblvm2cmd.so.2.03
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 liblwres.so.160 -> liblwres.so.160.0.2
+-rwxr-xr-x.  3 0 0    91152 Jan  1  1970 liblwres.so.160.0.2
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 liblz4.so.1 -> liblz4.so.1.8.1
+-rwxr-xr-x.  3 0 0    95728 Jan  1  1970 liblz4.so.1.8.1
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 liblzma.so.5 -> liblzma.so.5.2.4
+-rwxr-xr-x.  3 0 0   192016 Jan  1  1970 liblzma.so.5.2.4
+-rwxr-xr-x.  3 0 0  2303696 Jan  1  1970 libm-2.28.so
+lrwxrwxrwx.  3 0 0       12 Aug 28 14:03 libm.so.6 -> libm-2.28.so
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libmagic.so.1 -> libmagic.so.1.0.0
+-rwxr-xr-x.  3 0 0   169536 Jan  1  1970 libmagic.so.1.0.0
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libmaxminddb.so.0 -> libmaxminddb.so.0.0.7
+-rwxr-xr-x.  3 0 0    24456 Jan  1  1970 libmaxminddb.so.0.0.7
+-rwxr-xr-x.  3 0 0    25240 Jan  1  1970 libmemusage.so
+lrwxrwxrwx.  3 0 0       14 Aug 28 14:03 libmenu.so.6 -> libmenu.so.6.1
+-rwxr-xr-x.  3 0 0    48040 Jan  1  1970 libmenu.so.6.1
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 libmenuw.so.6 -> libmenuw.so.6.1
+-rwxr-xr-x.  3 0 0    48040 Jan  1  1970 libmenuw.so.6.1
+lrwxrwxrwx.  3 0 0       20 Aug 28 14:03 libmetalink.so.3 -> libmetalink.so.3.1.0
+-rwxr-xr-x.  3 0 0    73672 Jan  1  1970 libmetalink.so.3.1.0
+lrwxrwxrwx.  3 0 0       24 Aug 28 14:03 libmicrohttpd.so.12 -> libmicrohttpd.so.12.46.0
+-rwxr-xr-x.  3 0 0   135104 Jan  1  1970 libmicrohttpd.so.12.46.0
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 libmnl.so.0 -> libmnl.so.0.2.0
+-rwxr-xr-x.  3 0 0    25600 Jan  1  1970 libmnl.so.0.2.0
+lrwxrwxrwx.  3 0 0       20 Aug 28 14:03 libmodulemd.so.1 -> libmodulemd.so.1.8.0
+-rwxr-xr-x.  3 0 0   493024 Jan  1  1970 libmodulemd.so.1.8.0
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libmount.so.1 -> libmount.so.1.1.0
+-rwxr-xr-x.  3 0 0   389512 Jan  1  1970 libmount.so.1.1.0
+lrwxrwxrwx.  3 0 0       20 Aug 28 14:03 libmozjs-52.so.0 -> libmozjs-52.so.0.0.0
+-rwxr-xr-x.  3 0 0 24802920 Jan  1  1970 libmozjs-52.so.0.0.0
+-rwxr-xr-x.  3 0 0    11960 Jan  1  1970 libmpathcmd.so.0
+-rwxr-xr-x.  3 0 0    37568 Jan  1  1970 libmpathpersist.so.0
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libmpfr.so.4 -> libmpfr.so.4.1.6
+-rwxr-xr-x.  3 0 0   486248 Jan  1  1970 libmpfr.so.4.1.6
+lrwxrwxrwx.  3 0 0       18 Aug 28 14:03 libmspack.so.0 -> libmspack.so.0.1.0
+-rwxr-xr-x.  3 0 0    87360 Jan  1  1970 libmspack.so.0.1.0
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libmultipath.so -> libmultipath.so.0
+-rwxr-xr-x.  3 0 0   420440 Jan  1  1970 libmultipath.so.0
+-rwxr-xr-x.  3 0 0   225016 Jan  1  1970 libmvec-2.28.so
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 libmvec.so.1 -> libmvec-2.28.so
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libncurses.so.6 -> libncurses.so.6.1
+-rwxr-xr-x.  3 0 0   216912 Jan  1  1970 libncurses.so.6.1
+lrwxrwxrwx.  3 0 0       18 Aug 28 14:03 libncursesw.so.6 -> libncursesw.so.6.1
+-rwxr-xr-x.  3 0 0   300104 Jan  1  1970 libncursesw.so.6.1
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 libndp.so.0 -> libndp.so.0.1.0
+-rwxr-xr-x.  3 0 0    46864 Jan  1  1970 libndp.so.0.1.0
+lrwxrwxrwx.  3 0 0       23 Aug 28 14:03 libndr-krb5pac.so.0 -> libndr-krb5pac.so.0.0.1
+-rwxr-xr-x.  3 0 0    62464 Jan  1  1970 libndr-krb5pac.so.0.0.1
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 libndr-nbt.so.0 -> libndr-nbt.so.0.0.1
+-rwxr-xr-x.  3 0 0    95584 Jan  1  1970 libndr-nbt.so.0.0.1
+lrwxrwxrwx.  3 0 0       24 Aug 28 14:03 libndr-standard.so.0 -> libndr-standard.so.0.0.1
+-rwxr-xr-x.  3 0 0  3416056 Jan  1  1970 libndr-standard.so.0.0.1
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 libndr.so.0 -> libndr.so.0.1.0
+-rwxr-xr-x.  3 0 0    98112 Jan  1  1970 libndr.so.0.1.0
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 libnet.so.1 -> libnet.so.1.7.0
+-rwxr-xr-x.  3 0 0   119008 Jan  1  1970 libnet.so.1.7.0
+-rwxr-xr-x.  3 0 0   440616 Jan  1  1970 libnetapi.so.0
+lrwxrwxrwx.  3 0 0       31 Aug 28 14:03 libnetfilter_conntrack.so.3 -> libnetfilter_conntrack.so.3.6.0
+-rwxr-xr-x.  3 0 0   144352 Jan  1  1970 libnetfilter_conntrack.so.3.6.0
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libnettle.so.6 -> libnettle.so.6.5
+-rwxr-xr-x.  3 0 0   299920 Jan  1  1970 libnettle.so.6.5
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libnfnetlink.so.0 -> libnfnetlink.so.0.2.0
+-rwxr-xr-x.  3 0 0    32632 Jan  1  1970 libnfnetlink.so.0.2.0
+drwxr-xr-x.  2 0 0       77 Jan  1  1970 libnfsidmap
+lrwxrwxrwx.  3 0 0       20 Aug 28 14:03 libnfsidmap.so.1 -> libnfsidmap.so.1.0.0
+-rwxr-xr-x.  2 0 0    51072 Jan  1  1970 libnfsidmap.so.1.0.0
+lrwxrwxrwx.  3 0 0       20 Aug 28 14:03 libnftables.so.0 -> libnftables.so.0.0.0
+-rwxr-xr-x.  3 0 0   691816 Jan  1  1970 libnftables.so.0.0.0
+lrwxrwxrwx.  3 0 0       18 Aug 28 14:03 libnftnl.so.11 -> libnftnl.so.11.0.0
+-rwxr-xr-x.  3 0 0   222720 Jan  1  1970 libnftnl.so.11.0.0
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libnghttp2.so.14 -> libnghttp2.so.14.17.0
+-rwxr-xr-x.  2 0 0   171424 Jan  1  1970 libnghttp2.so.14.17.0
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 libnl-3.so.200 -> libnl-3.so.200.26.0
+-rwxr-xr-x.  3 0 0   152512 Jan  1  1970 libnl-3.so.200.26.0
+lrwxrwxrwx.  3 0 0       24 Aug 28 14:03 libnl-genl-3.so.200 -> libnl-genl-3.so.200.26.0
+-rwxr-xr-x.  3 0 0    31232 Jan  1  1970 libnl-genl-3.so.200.26.0
+lrwxrwxrwx.  3 0 0       25 Aug 28 14:03 libnl-idiag-3.so.200 -> libnl-idiag-3.so.200.26.0
+-rwxr-xr-x.  3 0 0    43856 Jan  1  1970 libnl-idiag-3.so.200.26.0
+lrwxrwxrwx.  3 0 0       22 Aug 28 14:03 libnl-nf-3.so.200 -> libnl-nf-3.so.200.26.0
+-rwxr-xr-x.  3 0 0   114624 Jan  1  1970 libnl-nf-3.so.200.26.0
+lrwxrwxrwx.  3 0 0       25 Aug 28 14:03 libnl-route-3.so.200 -> libnl-route-3.so.200.26.0
+-rwxr-xr-x.  3 0 0   556024 Jan  1  1970 libnl-route-3.so.200.26.0
+lrwxrwxrwx.  3 0 0       24 Aug 28 14:03 libnl-xfrm-3.so.200 -> libnl-xfrm-3.so.200.26.0
+-rwxr-xr-x.  3 0 0    91048 Jan  1  1970 libnl-xfrm-3.so.200.26.0
+lrwxrwxrwx.  3 0 0       14 Aug 28 14:03 libnm.so.0 -> libnm.so.0.1.0
+-rwxr-xr-x.  3 0 0  3420184 Jan  1  1970 libnm.so.0.1.0
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libnpth.so.0 -> libnpth.so.0.1.1
+-rwxr-xr-x.  3 0 0    21128 Jan  1  1970 libnpth.so.0.1.1
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 libnsl.so.2 -> libnsl.so.2.0.0
+-rwxr-xr-x.  3 0 0   116408 Jan  1  1970 libnsl.so.2.0.0
+-rwxr-xr-x.  3 0 0    11936 Jan  1  1970 libnss_altfiles.so.2
+-rwxr-xr-x.  3 0 0    47056 Jan  1  1970 libnss_compat-2.28.so
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libnss_compat.so.2 -> libnss_compat-2.28.so
+-rwxr-xr-x.  3 0 0    29800 Jan  1  1970 libnss_dns-2.28.so
+lrwxrwxrwx.  3 0 0       18 Aug 28 14:03 libnss_dns.so.2 -> libnss_dns-2.28.so
+-rwxr-xr-x.  3 0 0    73264 Jan  1  1970 libnss_files-2.28.so
+lrwxrwxrwx.  3 0 0       20 Aug 28 14:03 libnss_files.so.2 -> libnss_files-2.28.so
+-rwxr-xr-x.  3 0 0   381920 Jan  1  1970 libnss_myhostname.so.2
+-rwxr-xr-x.  3 0 0   844848 Jan  1  1970 libnss_resolve.so.2
+-rwxr-xr-x.  3 0 0    42104 Jan  1  1970 libnss_sss.so.2
+-rwxr-xr-x.  3 0 0   854440 Jan  1  1970 libnss_systemd.so.2
+lrwxrwxrwx.  3 0 0       38 Aug 28 14:03 libnssckbi.so -> /etc/alternatives/libnssckbi.so.x86_64
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libnuma.so.1 -> libnuma.so.1.0.0
+-rwxr-xr-x.  3 0 0    53624 Jan  1  1970 libnuma.so.1.0.0
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libomapi.so.0 -> libomapi.so.0.0.0
+-rwxr-xr-x.  3 0 0   144952 Jan  1  1970 libomapi.so.0.0.0
+lrwxrwxrwx.  3 0 0       24 Aug 28 14:03 libopeniscsiusr.so.0 -> libopeniscsiusr.so.0.2.0
+-rwxr-xr-x.  3 0 0   126120 Jan  1  1970 libopeniscsiusr.so.0.2.0
+lrwxrwxrwx.  3 0 0       20 Aug 28 14:03 libostree-1.so.1 -> libostree-1.so.1.0.0
+-rwxr-xr-x.  3 0 0   925304 Jan  1  1970 libostree-1.so.1.0.0
+lrwxrwxrwx.  5 0 0       19 Aug 28 14:03 libp11-kit.so.0 -> libp11-kit.so.0.3.0
+-rwxr-xr-x.  3 0 0  1295528 Jan  1  1970 libp11-kit.so.0.3.0
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 libp11.so.3 -> libp11.so.3.4.0
+-rwxr-xr-x.  3 0 0    74568 Jan  1  1970 libp11.so.3.4.0
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libpam.so.0 -> libpam.so.0.84.2
+-rwxr-xr-x.  3 0 0    74600 Jan  1  1970 libpam.so.0.84.2
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libpam_misc.so.0 -> libpam_misc.so.0.82.1
+-rwxr-xr-x.  3 0 0    16704 Jan  1  1970 libpam_misc.so.0.82.1
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libpamc.so.0 -> libpamc.so.0.82.1
+-rwxr-xr-x.  3 0 0    17048 Jan  1  1970 libpamc.so.0.82.1
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 libpanel.so.6 -> libpanel.so.6.1
+-rwxr-xr-x.  3 0 0    21952 Jan  1  1970 libpanel.so.6.1
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libpanelw.so.6 -> libpanelw.so.6.1
+-rwxr-xr-x.  3 0 0    21952 Jan  1  1970 libpanelw.so.6.1
+lrwxrwxrwx.  3 0 0       22 Aug 28 14:03 libpath_utils.so.1 -> libpath_utils.so.1.0.1
+-rwxr-xr-x.  3 0 0    16160 Jan  1  1970 libpath_utils.so.1.0.1
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libpcap.so.1 -> libpcap.so.1.9.0
+-rwxr-xr-x.  3 0 0   297976 Jan  1  1970 libpcap.so.1.9.0
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 libpci.so.3 -> libpci.so.3.5.6
+-rwxr-xr-x.  3 0 0    65368 Jan  1  1970 libpci.so.3.5.6
+lrwxrwxrwx.  3 0 0       22 Aug 28 14:03 libpciaccess.so.0 -> libpciaccess.so.0.11.1
+-rwxr-xr-x.  3 0 0    44456 Jan  1  1970 libpciaccess.so.0.11.1
+-rwxr-xr-x.  3 0 0    10672 Jan  1  1970 libpcprofile.so
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libpcre.so.1 -> libpcre.so.1.2.10
+-rwxr-xr-x.  3 0 0   471224 Jan  1  1970 libpcre.so.1.2.10
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 libpcre2-8.so.0 -> libpcre2-8.so.0.7.1
+-rwxr-xr-x.  3 0 0   553480 Jan  1  1970 libpcre2-8.so.0.7.1
+lrwxrwxrwx.  3 0 0       23 Aug 28 14:03 libpcre2-posix.so.2 -> libpcre2-posix.so.2.0.1
+-rwxr-xr-x.  3 0 0    11896 Jan  1  1970 libpcre2-posix.so.2.0.1
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libpcreposix.so.0 -> libpcreposix.so.0.0.6
+-rwxr-xr-x.  3 0 0    11864 Jan  1  1970 libpcreposix.so.0.0.6
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 libpkgconf.so.3 -> libpkgconf.so.3.0.0
+-rwxr-xr-x.  3 0 0    66576 Jan  1  1970 libpkgconf.so.3.0.0
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 libpng16.so.16 -> libpng16.so.16.34.0
+-rwxr-xr-x.  3 0 0   229144 Jan  1  1970 libpng16.so.16.34.0
+lrwxrwxrwx.  3 0 0       26 Aug 28 14:03 libpolkit-agent-1.so.0 -> libpolkit-agent-1.so.0.0.0
+-rwxr-xr-x.  3 0 0    46792 Jan  1  1970 libpolkit-agent-1.so.0.0.0
+lrwxrwxrwx.  3 0 0       28 Aug 28 14:03 libpolkit-gobject-1.so.0 -> libpolkit-gobject-1.so.0.0.0
+-rwxr-xr-x.  3 0 0   135416 Jan  1  1970 libpolkit-gobject-1.so.0.0.0
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libpopt.so.0 -> libpopt.so.0.0.0
+-rwxr-xr-x.  3 0 0    55688 Jan  1  1970 libpopt.so.0.0.0
+lrwxrwxrwx.  3 0 0       18 Aug 28 14:03 libprocps.so.7 -> libprocps.so.7.1.0
+-rwxr-xr-x.  3 0 0    86912 Jan  1  1970 libprocps.so.7.1.0
+lrwxrwxrwx.  3 0 0       22 Aug 28 14:03 libprotobuf-c.so.1 -> libprotobuf-c.so.1.0.0
+-rwxr-xr-x.  3 0 0    36816 Jan  1  1970 libprotobuf-c.so.1.0.0
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 libpsl.so.5 -> libpsl.so.5.3.1
+-rwxr-xr-x.  3 0 0    69720 Jan  1  1970 libpsl.so.5.3.1
+-rwxr-xr-x.  3 0 0   326696 Jan  1  1970 libpthread-2.28.so
+lrwxrwxrwx.  3 0 0       18 Aug 28 14:03 libpthread.so.0 -> libpthread-2.28.so
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libpwquality.so.1 -> libpwquality.so.1.0.2
+-rwxr-xr-x.  3 0 0    25728 Jan  1  1970 libpwquality.so.1.0.2
+-rwxr-xr-x.  3 0 0  3372120 Jan  1  1970 libpython3.6m.so.1.0
+-rwxr-xr-x.  3 0 0     7104 Jan  1  1970 libpython3.so
+lrwxrwxrwx.  3 0 0       18 Aug 28 14:03 libreadline.so.7 -> libreadline.so.7.0
+-rwxr-xr-x.  3 0 0   335808 Jan  1  1970 libreadline.so.7.0
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libref_array.so.1 -> libref_array.so.1.2.1
+-rwxr-xr-x.  3 0 0    12024 Jan  1  1970 libref_array.so.1.2.1
+-rwxr-xr-x.  3 0 0   181776 Jan  1  1970 librepo.so.0
+-rwxr-xr-x.  3 0 0   113232 Jan  1  1970 libresolv-2.28.so
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libresolv.so.2 -> libresolv-2.28.so
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 librpm.so.8 -> librpm.so.8.1.0
+-rwxr-xr-x.  2 0 0   535264 Jan  1  1970 librpm.so.8.1.0
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 librpmio.so.8 -> librpmio.so.8.1.0
+-rwxr-xr-x.  2 0 0   212880 Jan  1  1970 librpmio.so.8.1.0
+lrwxrwxrwx.  3 0 0       23 Aug 28 14:03 librpmostree-1.so.1 -> librpmostree-1.so.1.0.0
+-rwxr-xr-x.  3 0 0  6259776 Jan  1  1970 librpmostree-1.so.1.0.0
+-rwxr-xr-x.  3 0 0    75272 Jan  1  1970 librt-2.28.so
+lrwxrwxrwx.  3 0 0       13 Aug 28 14:03 librt.so.1 -> librt-2.28.so
+lrwxrwxrwx.  3 0 0       29 Aug 28 14:03 libsamba-credentials.so.0 -> libsamba-credentials.so.0.0.1
+-rwxr-xr-x.  3 0 0    84640 Jan  1  1970 libsamba-credentials.so.0.0.1
+-rwxr-xr-x.  3 0 0  1353456 Jan  1  1970 libsamba-errors.so.1
+lrwxrwxrwx.  3 0 0       28 Aug 28 14:03 libsamba-hostconfig.so.0 -> libsamba-hostconfig.so.0.0.1
+-rwxr-xr-x.  3 0 0   185864 Jan  1  1970 libsamba-hostconfig.so.0.0.1
+lrwxrwxrwx.  3 0 0       25 Aug 28 14:03 libsamba-passdb.so.0 -> libsamba-passdb.so.0.27.1
+-rwxr-xr-x.  3 0 0   236160 Jan  1  1970 libsamba-passdb.so.0.27.1
+lrwxrwxrwx.  3 0 0       22 Aug 28 14:03 libsamba-util.so.0 -> libsamba-util.so.0.0.1
+-rwxr-xr-x.  3 0 0   532456 Jan  1  1970 libsamba-util.so.0.0.1
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libsamdb.so.0 -> libsamdb.so.0.0.1
+-rwxr-xr-x.  3 0 0   106192 Jan  1  1970 libsamdb.so.0.0.1
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libsasl2.so.3 -> libsasl2.so.3.0.0
+-rwxr-xr-x.  3 0 0   129096 Jan  1  1970 libsasl2.so.3.0.0
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 libseccomp.so.2 -> libseccomp.so.2.3.3
+-rwxr-xr-x.  3 0 0   281408 Jan  1  1970 libseccomp.so.2.3.3
+lrwxrwxrwx.  3 0 0       20 Aug 28 14:03 libsecret-1.so.0 -> libsecret-1.so.0.0.0
+-rwxr-xr-x.  3 0 0   360496 Jan  1  1970 libsecret-1.so.0.0.0
+-rwxr-xr-x.  3 0 0   193048 Jan  1  1970 libselinux.so.1
+-rwxr-xr-x.  3 0 0   297536 Jan  1  1970 libsemanage.so.1
+-rwxr-xr-x.  3 0 0   762472 Jan  1  1970 libsepol.so.1
+lrwxrwxrwx.  3 0 0       20 Aug 28 14:03 libsgutils2.so.2 -> libsgutils2.so.2.0.0
+-rwxr-xr-x.  3 0 0   262752 Jan  1  1970 libsgutils2.so.2.0.0
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 libsigsegv.so.2 -> libsigsegv.so.2.0.4
+-rwxr-xr-x.  3 0 0    17504 Jan  1  1970 libsigsegv.so.2.0.4
+lrwxrwxrwx.  3 0 0       22 Aug 28 14:03 libslapi-2.4.so.2 -> libslapi-2.4.so.2.10.9
+-rwxr-xr-x.  3 0 0   140264 Jan  1  1970 libslapi-2.4.so.2.10.9
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libsmartcols.so.1 -> libsmartcols.so.1.1.0
+-rwxr-xr-x.  3 0 0   234728 Jan  1  1970 libsmartcols.so.1.1.0
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libsmbclient.so.0 -> libsmbclient.so.0.5.0
+-rwxr-xr-x.  3 0 0   174000 Jan  1  1970 libsmbclient.so.0.5.0
+-rwxr-xr-x.  3 0 0   613992 Jan  1  1970 libsmbconf.so.0
+-rwxr-xr-x.  3 0 0    45464 Jan  1  1970 libsmbldap.so.2
+-rwxr-xr-x.  3 0 0   595728 Jan  1  1970 libsolv.so.0
+-rwxr-xr-x.  3 0 0   183008 Jan  1  1970 libsolvext.so.0
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 libsqlite3.so.0 -> libsqlite3.so.0.8.6
+-rwxr-xr-x.  3 0 0  1148440 Jan  1  1970 libsqlite3.so.0.8.6
+lrwxrwxrwx.  3 0 0       12 Aug 28 14:03 libss.so.2 -> libss.so.2.0
+-rwxr-xr-x.  3 0 0    34592 Jan  1  1970 libss.so.2.0
+lrwxrwxrwx.  7 0 0       15 Aug 28 14:03 libssh.so.4 -> libssh.so.4.7.2
+-rwxr-xr-x.  3 0 0   563352 Jan  1  1970 libssh.so.4.7.2
+lrwxrwxrwx.  7 0 0       15 Aug 28 14:03 libssh_threads.so.4 -> libssh.so.4.7.2
+lrwxrwxrwx.  7 0 0       15 Aug 28 14:03 libssh_threads.so.4.7.2 -> libssh.so.4.7.2
+-rwxr-xr-x.  3 0 0   475096 Jan  1  1970 libssl.so.1.0.2o
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 libssl.so.1.1 -> libssl.so.1.1.1
+-rwxr-xr-x.  3 0 0   629160 Jan  1  1970 libssl.so.1.1.1
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libssl.so.10 -> libssl.so.1.0.2o
+lrwxrwxrwx.  3 0 0       23 Aug 28 14:03 libsss_certmap.so.0 -> libsss_certmap.so.0.0.0
+-rwxr-xr-x.  3 0 0    71568 Jan  1  1970 libsss_certmap.so.0.0.0
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libsss_idmap.so.0 -> libsss_idmap.so.0.5.1
+-rwxr-xr-x.  3 0 0    29400 Jan  1  1970 libsss_idmap.so.0.5.1
+lrwxrwxrwx.  3 0 0       25 Aug 28 14:03 libsss_nss_idmap.so.0 -> libsss_nss_idmap.so.0.5.0
+-rwxr-xr-x.  3 0 0    51280 Jan  1  1970 libsss_nss_idmap.so.0.5.0
+-rwxr-xr-x.  3 0 0    21768 Jan  1  1970 libsss_sudo.so
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 libstdc++.so.6 -> libstdc++.so.6.0.25
+-rwxr-xr-x.  3 0 0  1661496 Jan  1  1970 libstdc++.so.6.0.25
+lrwxrwxrwx.  3 0 0       20 Aug 28 14:03 libsystemd.so.0 -> libsystemd.so.0.23.0
+-rwxr-xr-x.  3 0 0  1541392 Jan  1  1970 libsystemd.so.0.23.0
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 libtalloc.so.2 -> libtalloc.so.2.1.14
+-rwxr-xr-x.  3 0 0    84408 Jan  1  1970 libtalloc.so.2.1.14
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libtasn1.so.6 -> libtasn1.so.6.5.5
+-rwxr-xr-x.  3 0 0    81408 Jan  1  1970 libtasn1.so.6.5.5
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libtdb.so.1 -> libtdb.so.1.3.16
+-rwxr-xr-x.  3 0 0   101544 Jan  1  1970 libtdb.so.1.3.16
+lrwxrwxrwx.  3 0 0       23 Aug 28 14:03 libtevent-util.so.0 -> libtevent-util.so.0.0.1
+-rwxr-xr-x.  3 0 0    21816 Jan  1  1970 libtevent-util.so.0.0.1
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 libtevent.so.0 -> libtevent.so.0.9.37
+-rwxr-xr-x.  3 0 0    89144 Jan  1  1970 libtevent.so.0.9.37
+-rwxr-xr-x.  3 0 0    73768 Jan  1  1970 libthread_db-1.0.so
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 libthread_db.so.1 -> libthread_db-1.0.so
+lrwxrwxrwx.  3 0 0       13 Aug 28 14:03 libtic.so.6 -> libtic.so.6.1
+-rwxr-xr-x.  3 0 0    68424 Jan  1  1970 libtic.so.6.1
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 libtinfo.so.6 -> libtinfo.so.6.1
+-rwxr-xr-x.  3 0 0   208616 Jan  1  1970 libtinfo.so.6.1
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libtirpc.so.3 -> libtirpc.so.3.0.0
+-rwxr-xr-x.  3 0 0   240960 Jan  1  1970 libtirpc.so.3.0.0
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libtspi.so.1 -> libtspi.so.1.2.0
+-rwxr-xr-x.  3 0 0   531248 Jan  1  1970 libtspi.so.1.2.0
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libudev.so.1 -> libudev.so.1.6.11
+-rwxr-xr-x.  3 0 0   513112 Jan  1  1970 libudev.so.1.6.11
+lrwxrwxrwx.  3 0 0       20 Aug 28 14:03 libulockmgr.so.1 -> libulockmgr.so.1.0.1
+-rwxr-xr-x.  3 0 0    16176 Jan  1  1970 libulockmgr.so.1.0.1
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 libunistring.so.2 -> libunistring.so.2.1.0
+-rwxr-xr-x.  3 0 0  1760264 Jan  1  1970 libunistring.so.2.1.0
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 liburcu-bp.so.6 -> liburcu-bp.so.6.0.0
+-rwxr-xr-x.  3 0 0    34696 Jan  1  1970 liburcu-bp.so.6.0.0
+lrwxrwxrwx.  3 0 0       20 Aug 28 14:03 liburcu-cds.so.6 -> liburcu-cds.so.6.0.0
+-rwxr-xr-x.  3 0 0    44128 Jan  1  1970 liburcu-cds.so.6.0.0
+lrwxrwxrwx.  3 0 0       23 Aug 28 14:03 liburcu-common.so.6 -> liburcu-common.so.6.0.0
+-rwxr-xr-x.  3 0 0    21256 Jan  1  1970 liburcu-common.so.6.0.0
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 liburcu-mb.so.6 -> liburcu-mb.so.6.0.0
+-rwxr-xr-x.  3 0 0    34128 Jan  1  1970 liburcu-mb.so.6.0.0
+lrwxrwxrwx.  3 0 0       21 Aug 28 14:03 liburcu-qsbr.so.6 -> liburcu-qsbr.so.6.0.0
+-rwxr-xr-x.  3 0 0    34328 Jan  1  1970 liburcu-qsbr.so.6.0.0
+lrwxrwxrwx.  3 0 0       23 Aug 28 14:03 liburcu-signal.so.6 -> liburcu-signal.so.6.0.0
+-rwxr-xr-x.  3 0 0    34744 Jan  1  1970 liburcu-signal.so.6.0.0
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 liburcu.so.6 -> liburcu.so.6.0.0
+-rwxr-xr-x.  3 0 0    34392 Jan  1  1970 liburcu.so.6.0.0
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 libusb-1.0.so.0 -> libusb-1.0.so.0.1.0
+-rwxr-xr-x.  3 0 0   110744 Jan  1  1970 libusb-1.0.so.0.1.0
+drwxr-xr-x.  2 0 0       78 Jan  1  1970 libuser
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libuser.so.1 -> libuser.so.1.5.2
+-rwxr-xr-x.  3 0 0   140992 Jan  1  1970 libuser.so.1.5.2
+lrwxrwxrwx.  3 0 0       20 Aug 28 14:03 libutempter.so.0 -> libutempter.so.1.1.6
+-rwxr-xr-x.  3 0 0    12032 Jan  1  1970 libutempter.so.1.1.6
+-rwxr-xr-x.  3 0 0    23312 Jan  1  1970 libutil-2.28.so
+lrwxrwxrwx.  3 0 0       15 Aug 28 14:03 libutil.so.1 -> libutil-2.28.so
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libuuid.so.1 -> libuuid.so.1.3.0
+-rwxr-xr-x.  3 0 0    38504 Jan  1  1970 libuuid.so.1.3.0
+lrwxrwxrwx.  3 0 0       26 Aug 28 14:03 libverto-libevent.so.1 -> libverto-libevent.so.1.0.0
+-rwxr-xr-x.  3 0 0    12136 Jan  1  1970 libverto-libevent.so.1.0.0
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libverto.so.1 -> libverto.so.1.0.0
+-rwxr-xr-x.  3 0 0    24872 Jan  1  1970 libverto.so.1.0.0
+lrwxrwxrwx.  3 0 0       18 Aug 28 14:03 libvgauth.so.0 -> libvgauth.so.0.0.0
+-rwxr-xr-x.  3 0 0   126224 Jan  1  1970 libvgauth.so.0.0.0
+lrwxrwxrwx.  3 0 0       19 Aug 28 14:03 libvmtools.so.0 -> libvmtools.so.0.0.0
+-rwxr-xr-x.  3 0 0   903128 Jan  1  1970 libvmtools.so.0.0.0
+lrwxrwxrwx.  5 0 0       19 Aug 28 14:03 libwbclient.so.0 -> libwbclient.so.0.14
+lrwxrwxrwx.  3 0 0       40 Aug 28 14:03 libwbclient.so.0.14 -> /etc/alternatives/libwbclient.so.0.14-64
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libxml2.so.2 -> libxml2.so.2.9.7
+-rwxr-xr-x.  3 0 0  1517464 Jan  1  1970 libxml2.so.2.9.7
+lrwxrwxrwx.  5 0 0       28 Aug 28 14:03 libxmlsec1-openssl.so -> libxmlsec1-openssl.so.1.2.25
+lrwxrwxrwx.  5 0 0       28 Aug 28 14:03 libxmlsec1-openssl.so.1 -> libxmlsec1-openssl.so.1.2.25
+-rwxr-xr-x.  3 0 0   292656 Jan  1  1970 libxmlsec1-openssl.so.1.2.25
+lrwxrwxrwx.  3 0 0       20 Aug 28 14:03 libxmlsec1.so.1 -> libxmlsec1.so.1.2.25
+-rwxr-xr-x.  3 0 0   457928 Jan  1  1970 libxmlsec1.so.1.2.25
+drwxr-xr-x.  2 0 0        6 Jan  1  1970 libxslt-plugins
+lrwxrwxrwx.  3 0 0       17 Aug 28 14:03 libxslt.so.1 -> libxslt.so.1.1.32
+-rwxr-xr-x.  3 0 0   274624 Jan  1  1970 libxslt.so.1.1.32
+lrwxrwxrwx.  3 0 0       20 Aug 28 14:03 libxtables.so.12 -> libxtables.so.12.2.0
+-rwxr-xr-x.  3 0 0    62680 Jan  1  1970 libxtables.so.12.2.0
+lrwxrwxrwx.  3 0 0       16 Aug 28 14:03 libyajl.so.2 -> libyajl.so.2.1.0
+-rwxr-xr-x.  3 0 0    43864 Jan  1  1970 libyajl.so.2.1.0
+lrwxrwxrwx.  3 0 0       18 Aug 28 14:03 libyaml-0.so.2 -> libyaml-0.so.2.0.5
+-rwxr-xr-x.  3 0 0   133904 Jan  1  1970 libyaml-0.so.2.0.5
+lrwxrwxrwx.  3 0 0       14 Aug 28 14:03 libz.so.1 -> libz.so.1.2.11
+-rwxr-xr-x.  3 0 0    99776 Jan  1  1970 libz.so.1.2.11
+drwxr-xr-x.  2 0 0     4096 Jan  1  1970 multipath
+drwxr-xr-x.  3 0 0       21 Jan  1  1970 open-vm-tools
+lrwxrwxrwx.  5 0 0       19 Aug 28 14:03 p11-kit-proxy.so -> libp11-kit.so.0.3.0
+lrwxrwxrwx.  3 0 0       13 Aug 28 14:03 p11-kit-trust.so -> libnssckbi.so
+drwxr-xr-x.  2 0 0       30 Jan  1  1970 pkcs11
+drwxr-xr-x.  2 0 0       24 Jan  1  1970 pkgconfig
+drwxr-xr-x.  5 0 0       52 Jan  1  1970 pm-utils
+drwxr-xr-x. 32 0 0     8192 Jan  1  1970 python3.6
+drwxr-xr-x.  2 0 0       62 Jan  1  1970 rpm-ostree
+drwxr-xr-x.  2 0 0       24 Jan  1  1970 rpm-plugins
+drwxr-xr-x.  5 0 0     4096 Jan  1  1970 samba
+drwxr-xr-x.  2 0 0      225 Jan  1  1970 sasl2
+drwxr-xr-x.  3 0 0     4096 Jan  1  1970 security
+drwxr-xr-x.  2 0 0        6 Jan  1  1970 sse2
+drwxr-xr-x.  4 0 0     4096 Jan  1  1970 sssd
+drwxr-xr-x.  2 0 0        6 Jan  1  1970 tls
+drwxr-xr-x.  2 0 0     4096 Jan  1  1970 xtables
+
+/usr/lib64//bind9-export:
+total 3060
+drwxr-xr-x.  2 0 0     254 Jan  1  1970 .
+drwxr-xr-x. 40 0 0   24576 Jan  1  1970 ..
+lrwxrwxrwx.  3 0 0      25 Aug 28 14:03 libdns-export.so.1102 -> libdns-export.so.1102.1.2
+-rwxr-xr-x.  3 0 0 2351680 Jan  1  1970 libdns-export.so.1102.1.2
+lrwxrwxrwx.  3 0 0      24 Aug 28 14:03 libirs-export.so.160 -> libirs-export.so.160.0.5
+-rwxr-xr-x.  3 0 0   47616 Jan  1  1970 libirs-export.so.160.0.5
+lrwxrwxrwx.  3 0 0      24 Aug 28 14:03 libisc-export.so.169 -> libisc-export.so.169.0.3
+-rwxr-xr-x.  3 0 0  492144 Jan  1  1970 libisc-export.so.169.0.3
+lrwxrwxrwx.  3 0 0      27 Aug 28 14:03 libisccfg-export.so.160 -> libisccfg-export.so.160.2.1
+-rwxr-xr-x.  3 0 0  188560 Jan  1  1970 libisccfg-export.so.160.2.1

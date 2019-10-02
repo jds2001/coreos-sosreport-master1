@@ -1,0 +1,131 @@
+[
+    {
+        "Id": "dc24c7b8dba05c112f99179fda04541a337ef7bf29f8fff2912e12c6b5598f2d",
+        "Digest": "sha256:78508fa6bb58fd17bcd57ecde154d296fcb521c815c60da9c384133d945b612e",
+        "RepoTags": [
+            "quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:78508fa6bb58fd17bcd57ecde154d296fcb521c815c60da9c384133d945b612e"
+        ],
+        "RepoDigests": [
+            "quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:78508fa6bb58fd17bcd57ecde154d296fcb521c815c60da9c384133d945b612e"
+        ],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2019-09-22T19:09:20.634680508Z",
+        "Config": {
+            "User": "0",
+            "Env": [
+                "SOURCE_GIT_COMMIT=227189dae8e64eca5ad13a8bb96df8d8d5502f35",
+                "SOURCE_DATE_EPOCH=1562904198",
+                "BUILD_VERSION=v4.2.0",
+                "SOURCE_GIT_URL=https://github.com/openshift/kubecsr",
+                "SOURCE_GIT_TAG=227189d",
+                "BUILD_RELEASE=201909221318",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "container=oci"
+            ],
+            "Entrypoint": [
+                "/usr/bin/kube-client-agent"
+            ],
+            "Labels": {
+                "License": "Apache 2.0",
+                "architecture": "x86_64",
+                "authoritative-source-url": "registry.access.redhat.com",
+                "build-date": "2019-09-22T19:08:37.262314",
+                "com.redhat.build-host": "cpt-1008.osbs.prod.upshift.rdu2.redhat.com",
+                "com.redhat.component": "ose-kube-client-agent-container",
+                "com.redhat.license_terms": "https://www.redhat.com/en/about/red-hat-end-user-license-agreements",
+                "description": "This client agent generates a valid CSR according to the configuration flags provided to it.",
+                "distribution-scope": "public",
+                "io.k8s.description": "This client agent generates a valid CSR according to the configuration flags provided to it.",
+                "io.k8s.display-name": "kube-client-agent",
+                "io.openshift.build.commit.id": "227189dae8e64eca5ad13a8bb96df8d8d5502f35",
+                "io.openshift.build.commit.url": "https://github.com/openshift/kubecsr/commit/227189dae8e64eca5ad13a8bb96df8d8d5502f35",
+                "io.openshift.build.source-location": "https://github.com/openshift/kubecsr",
+                "io.openshift.tags": "kube-client-agent",
+                "maintainer": "Sam Batschelet \u003csbatsche@redhat.com\u003e",
+                "name": "openshift/ose-kube-client-agent",
+                "release": "201909221318",
+                "summary": "Provides the latest release of the Red Hat Universal Base Image 7.",
+                "url": "https://access.redhat.com/containers/#/registry.access.redhat.com/openshift/ose-kube-client-agent/images/v4.2.0-201909221318",
+                "vcs-ref": "85ff2e55a3bb965bf942666d95bbe20679376133",
+                "vcs-type": "git",
+                "vendor": "Red Hat, Inc.",
+                "version": "v4.2.0"
+            }
+        },
+        "Version": "1.13.1",
+        "Author": "",
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 277025365,
+        "VirtualSize": 277025365,
+        "GraphDriver": {
+            "Name": "overlay",
+            "Data": {
+                "LowerDir": "/var/lib/containers/storage/overlay/09d283a6fb8a3e1c9c8dde10b73988d890c55e2d6319872c3acc2d36d7e55295/diff:/var/lib/containers/storage/overlay/291ae62b8a11d68b0c092b6edaabdd5d2c02a055565fae5a7cbb561a3bea1b40/diff:/var/lib/containers/storage/overlay/15f6f472dfc8d1a417cbd0a14d3135444933ca20a1c526618e3fcfb9addcdfab/diff:/var/lib/containers/storage/overlay/4468e6d912c76d5b127f3554c3cd83b7dc07cce6107c6b916299ba76fa7d15ac/diff",
+                "MergedDir": "/var/lib/containers/storage/overlay/2c20f7fcf195fa968badefea30fcc97d542cc02da542553d4b60d9124cd26947/merged",
+                "UpperDir": "/var/lib/containers/storage/overlay/2c20f7fcf195fa968badefea30fcc97d542cc02da542553d4b60d9124cd26947/diff",
+                "WorkDir": "/var/lib/containers/storage/overlay/2c20f7fcf195fa968badefea30fcc97d542cc02da542553d4b60d9124cd26947/work"
+            }
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:4468e6d912c76d5b127f3554c3cd83b7dc07cce6107c6b916299ba76fa7d15ac",
+                "sha256:ecb0311889b3478bc9b62660fa9391d5ebf8da4c6ae143cb33434873668f9e36",
+                "sha256:1ba506a045fad2c9a07ccab396faa469d37e20a558facb901cc2310921d4e3e4",
+                "sha256:fb71772dc27a40cae91e9ca1039e7f6e0d17ebac1468983a3bd24e41f3d8b3f3",
+                "sha256:095f3f2a77c80b9ba2ec890fa3825bae71bdf6c4ea76b9c1fd247f8fec556b81"
+            ]
+        },
+        "Labels": {
+            "License": "Apache 2.0",
+            "architecture": "x86_64",
+            "authoritative-source-url": "registry.access.redhat.com",
+            "build-date": "2019-09-22T19:08:37.262314",
+            "com.redhat.build-host": "cpt-1008.osbs.prod.upshift.rdu2.redhat.com",
+            "com.redhat.component": "ose-kube-client-agent-container",
+            "com.redhat.license_terms": "https://www.redhat.com/en/about/red-hat-end-user-license-agreements",
+            "description": "This client agent generates a valid CSR according to the configuration flags provided to it.",
+            "distribution-scope": "public",
+            "io.k8s.description": "This client agent generates a valid CSR according to the configuration flags provided to it.",
+            "io.k8s.display-name": "kube-client-agent",
+            "io.openshift.build.commit.id": "227189dae8e64eca5ad13a8bb96df8d8d5502f35",
+            "io.openshift.build.commit.url": "https://github.com/openshift/kubecsr/commit/227189dae8e64eca5ad13a8bb96df8d8d5502f35",
+            "io.openshift.build.source-location": "https://github.com/openshift/kubecsr",
+            "io.openshift.tags": "kube-client-agent",
+            "maintainer": "Sam Batschelet \u003csbatsche@redhat.com\u003e",
+            "name": "openshift/ose-kube-client-agent",
+            "release": "201909221318",
+            "summary": "Provides the latest release of the Red Hat Universal Base Image 7.",
+            "url": "https://access.redhat.com/containers/#/registry.access.redhat.com/openshift/ose-kube-client-agent/images/v4.2.0-201909221318",
+            "vcs-ref": "85ff2e55a3bb965bf942666d95bbe20679376133",
+            "vcs-type": "git",
+            "vendor": "Red Hat, Inc.",
+            "version": "v4.2.0"
+        },
+        "Annotations": {},
+        "ManifestType": "application/vnd.docker.distribution.manifest.v2+json",
+        "User": "0",
+        "History": [
+            {
+                "created": "2019-09-02T12:56:36.440695936Z",
+                "comment": "Imported from -"
+            },
+            {
+                "created": "2019-09-02T12:56:43.939095Z"
+            },
+            {
+                "created": "2019-09-22T06:44:27.806751Z"
+            },
+            {
+                "created": "2019-09-22T18:29:20.371135921Z",
+                "created_by": "sleep 86400"
+            },
+            {
+                "created": "2019-09-22T19:09:20.634680508Z",
+                "created_by": "sleep 86400"
+            }
+        ]
+    }
+]

@@ -1,0 +1,38 @@
+{
+  "status": {
+    "id": "3f2164ffc40a996a2723131243bff2439166b35ef49345b699b467cc5d1a3832",
+    "metadata": {
+      "attempt": 0,
+      "name": "etcd-member-localhost.localdomain",
+      "namespace": "openshift-etcd",
+      "uid": "a4a4914b4a1d79ce6413f72b428053e2"
+    },
+    "state": "SANDBOX_READY",
+    "createdAt": "2019-10-02T02:19:38.687949Z",
+    "network": {
+      "ip": "172.16.1.10"
+    },
+    "linux": {
+      "namespaces": {
+        "options": {
+          "ipc": "POD",
+          "network": "NODE",
+          "pid": "CONTAINER"
+        }
+      }
+    },
+    "labels": {
+      "io.kubernetes.container.name": "POD",
+      "io.kubernetes.pod.name": "etcd-member-localhost.localdomain",
+      "io.kubernetes.pod.namespace": "openshift-etcd",
+      "io.kubernetes.pod.uid": "a4a4914b4a1d79ce6413f72b428053e2",
+      "k8s-app": "etcd"
+    },
+    "annotations": {
+      "kubernetes.io/config.hash": "a4a4914b4a1d79ce6413f72b428053e2",
+      "kubernetes.io/config.seen": "2019-10-02T02:19:31.3353088Z",
+      "kubernetes.io/config.source": "file"
+    },
+    "runtimeHandler": ""
+  }
+}

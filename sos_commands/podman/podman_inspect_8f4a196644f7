@@ -1,0 +1,133 @@
+[
+    {
+        "Id": "8f4a196644f7f676f078a672520e2164d39a5dc1442a34d47e2956614e7720cd",
+        "Digest": "sha256:f94afe7d7dcbb1fd574c483d1d839f47b643f5c133ced7de6eeb8c4be0e2ba88",
+        "RepoTags": [
+            "quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:f94afe7d7dcbb1fd574c483d1d839f47b643f5c133ced7de6eeb8c4be0e2ba88"
+        ],
+        "RepoDigests": [
+            "quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:f94afe7d7dcbb1fd574c483d1d839f47b643f5c133ced7de6eeb8c4be0e2ba88"
+        ],
+        "Parent": "",
+        "Comment": "",
+        "Created": "2019-09-22T20:26:34.940914753Z",
+        "Config": {
+            "User": "0",
+            "Env": [
+                "SOURCE_GIT_COMMIT=b8898db9af98e5c3d6a450ae123121677b0dbcb3",
+                "SOURCE_DATE_EPOCH=1569125417",
+                "BUILD_VERSION=v4.2.0",
+                "SOURCE_GIT_URL=https://github.com/openshift/machine-config-operator",
+                "SOURCE_GIT_TAG=machine-config-daemon-4.2.0-201907161330-235-gb8898db",
+                "BUILD_RELEASE=201909221318",
+                "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "container=oci"
+            ],
+            "Entrypoint": [
+                "/usr/bin/machine-config-operator"
+            ],
+            "Labels": {
+                "License": "GPLv2+",
+                "architecture": "x86_64",
+                "authoritative-source-url": "registry.access.redhat.com",
+                "build-date": "2019-09-22T20:24:25.390284",
+                "com.redhat.build-host": "cpt-1003.osbs.prod.upshift.rdu2.redhat.com",
+                "com.redhat.component": "ose-machine-config-operator-container",
+                "com.redhat.license_terms": "https://www.redhat.com/en/about/red-hat-end-user-license-agreements",
+                "description": "This is the base image from which all OpenShift Container Platform images inherit.",
+                "distribution-scope": "public",
+                "io.k8s.description": "This is the base image from which all OpenShift Container Platform images inherit.",
+                "io.k8s.display-name": "OpenShift Container Platform RHEL 7 Base",
+                "io.openshift.build.commit.id": "b8898db9af98e5c3d6a450ae123121677b0dbcb3",
+                "io.openshift.build.commit.url": "https://github.com/openshift/machine-config-operator/commit/b8898db9af98e5c3d6a450ae123121677b0dbcb3",
+                "io.openshift.build.source-location": "https://github.com/openshift/machine-config-operator",
+                "io.openshift.release.operator": "true",
+                "io.openshift.tags": "openshift,base",
+                "maintainer": "Red Hat, Inc.",
+                "name": "openshift/ose-machine-config-operator",
+                "release": "201909221318",
+                "summary": "Provides the latest release of the Red Hat Universal Base Image 7.",
+                "url": "https://access.redhat.com/containers/#/registry.access.redhat.com/openshift/ose-machine-config-operator/images/v4.2.0-201909221318",
+                "vcs-ref": "5e9f289330a719c908401eb017e9768036cec8a5",
+                "vcs-type": "git",
+                "vendor": "Red Hat, Inc.",
+                "version": "v4.2.0"
+            }
+        },
+        "Version": "1.13.1",
+        "Author": "",
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 405487309,
+        "VirtualSize": 405487309,
+        "GraphDriver": {
+            "Name": "overlay",
+            "Data": {
+                "LowerDir": "/var/lib/containers/storage/overlay/09d283a6fb8a3e1c9c8dde10b73988d890c55e2d6319872c3acc2d36d7e55295/diff:/var/lib/containers/storage/overlay/291ae62b8a11d68b0c092b6edaabdd5d2c02a055565fae5a7cbb561a3bea1b40/diff:/var/lib/containers/storage/overlay/15f6f472dfc8d1a417cbd0a14d3135444933ca20a1c526618e3fcfb9addcdfab/diff:/var/lib/containers/storage/overlay/4468e6d912c76d5b127f3554c3cd83b7dc07cce6107c6b916299ba76fa7d15ac/diff",
+                "MergedDir": "/var/lib/containers/storage/overlay/7a205d3a5769a2389b5b458694ee6527471670f76af6828dbc0c4760361e2393/merged",
+                "UpperDir": "/var/lib/containers/storage/overlay/7a205d3a5769a2389b5b458694ee6527471670f76af6828dbc0c4760361e2393/diff",
+                "WorkDir": "/var/lib/containers/storage/overlay/7a205d3a5769a2389b5b458694ee6527471670f76af6828dbc0c4760361e2393/work"
+            }
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:4468e6d912c76d5b127f3554c3cd83b7dc07cce6107c6b916299ba76fa7d15ac",
+                "sha256:ecb0311889b3478bc9b62660fa9391d5ebf8da4c6ae143cb33434873668f9e36",
+                "sha256:1ba506a045fad2c9a07ccab396faa469d37e20a558facb901cc2310921d4e3e4",
+                "sha256:fb71772dc27a40cae91e9ca1039e7f6e0d17ebac1468983a3bd24e41f3d8b3f3",
+                "sha256:74fd21c600b1dd9e723a2162e12b4d965f5b8dc2e04e4c8b54f1c9f6e8571fd6"
+            ]
+        },
+        "Labels": {
+            "License": "GPLv2+",
+            "architecture": "x86_64",
+            "authoritative-source-url": "registry.access.redhat.com",
+            "build-date": "2019-09-22T20:24:25.390284",
+            "com.redhat.build-host": "cpt-1003.osbs.prod.upshift.rdu2.redhat.com",
+            "com.redhat.component": "ose-machine-config-operator-container",
+            "com.redhat.license_terms": "https://www.redhat.com/en/about/red-hat-end-user-license-agreements",
+            "description": "This is the base image from which all OpenShift Container Platform images inherit.",
+            "distribution-scope": "public",
+            "io.k8s.description": "This is the base image from which all OpenShift Container Platform images inherit.",
+            "io.k8s.display-name": "OpenShift Container Platform RHEL 7 Base",
+            "io.openshift.build.commit.id": "b8898db9af98e5c3d6a450ae123121677b0dbcb3",
+            "io.openshift.build.commit.url": "https://github.com/openshift/machine-config-operator/commit/b8898db9af98e5c3d6a450ae123121677b0dbcb3",
+            "io.openshift.build.source-location": "https://github.com/openshift/machine-config-operator",
+            "io.openshift.release.operator": "true",
+            "io.openshift.tags": "openshift,base",
+            "maintainer": "Red Hat, Inc.",
+            "name": "openshift/ose-machine-config-operator",
+            "release": "201909221318",
+            "summary": "Provides the latest release of the Red Hat Universal Base Image 7.",
+            "url": "https://access.redhat.com/containers/#/registry.access.redhat.com/openshift/ose-machine-config-operator/images/v4.2.0-201909221318",
+            "vcs-ref": "5e9f289330a719c908401eb017e9768036cec8a5",
+            "vcs-type": "git",
+            "vendor": "Red Hat, Inc.",
+            "version": "v4.2.0"
+        },
+        "Annotations": {},
+        "ManifestType": "application/vnd.docker.distribution.manifest.v2+json",
+        "User": "0",
+        "History": [
+            {
+                "created": "2019-09-02T12:56:36.440695936Z",
+                "comment": "Imported from -"
+            },
+            {
+                "created": "2019-09-02T12:56:43.939095Z"
+            },
+            {
+                "created": "2019-09-22T06:44:27.806751Z"
+            },
+            {
+                "created": "2019-09-22T18:29:20.371135921Z",
+                "created_by": "sleep 86400"
+            },
+            {
+                "created": "2019-09-22T20:26:34.940914753Z",
+                "created_by": "sleep 86400"
+            }
+        ]
+    }
+]

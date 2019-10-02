@@ -1,0 +1,133 @@
+F S   UID   PID  PPID  PGID   SID CLS PRI ADDR    SZ WCHAN                   STARTED TT           TIME CMD
+4 S     0     1     0     1     1  TS  19    - 61090 do_epo Wed Oct  2 02:19:25 2019 ?        00:00:02 /usr/lib/systemd/systemd --switched-root --system --deserialize 17
+1 S     0     2     0     0     0  TS  19    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [kthreadd]
+1 I     0     3     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [rcu_gp]
+1 I     0     4     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [rcu_par_gp]
+1 I     0     6     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [kworker/0:0H-kblockd]
+1 I     0     7     2     0     0  TS  19    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [kworker/u4:0-events_unbound]
+1 I     0     8     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [mm_percpu_wq]
+1 S     0     9     2     0     0  TS  19    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [ksoftirqd/0]
+1 I     0    10     2     0     0  TS  19    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:03 [rcu_sched]
+1 S     0    11     2     0     0  FF 139    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [migration/0]
+5 S     0    12     2     0     0  FF 139    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [watchdog/0]
+1 S     0    13     2     0     0  TS  19    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [cpuhp/0]
+1 S     0    14     2     0     0  TS  19    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [cpuhp/1]
+5 S     0    15     2     0     0  FF 139    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [watchdog/1]
+1 S     0    16     2     0     0  FF 139    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [migration/1]
+1 S     0    17     2     0     0  TS  19    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [ksoftirqd/1]
+1 I     0    19     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [kworker/1:0H-kblockd]
+5 S     0    21     2     0     0  TS  19    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [kdevtmpfs]
+1 I     0    22     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [netns]
+1 S     0    23     2     0     0  TS  19    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [kauditd]
+1 S     0    26     2     0     0  TS  19    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [khungtaskd]
+1 S     0    27     2     0     0  TS  19    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [oom_reaper]
+1 I     0    28     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [writeback]
+1 S     0    29     2     0     0  TS  19    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [kcompactd0]
+1 S     0    30     2     0     0  TS  14    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [ksmd]
+1 S     0    31     2     0     0  TS   0    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [khugepaged]
+1 I     0    32     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [crypto]
+1 I     0    33     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [kintegrityd]
+1 I     0    34     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [kblockd]
+1 I     0    35     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [md]
+1 I     0    36     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [edac-poller]
+1 S     0    38     2     0     0  FF 139    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [watchdogd]
+1 S     0    49     2     0     0  TS  19    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [kswapd0]
+1 I     0    99     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [kthrotld]
+1 I     0   100     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [acpi_thermal_pm]
+1 I     0   101     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [kmpath_rdacd]
+1 I     0   102     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [kaluad]
+1 I     0   103     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [ipv6_addrconf]
+1 I     0   221     2     0     0  TS  19    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [kworker/u4:3-events_unbound]
+1 I     0   222     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:25 2019 ?        00:00:00 [iscsi_eh]
+1 I     0   363     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:26 2019 ?        00:00:00 [cnic_wq]
+1 S     0   364     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:26 2019 ?        00:00:00 [bnx2i_thread/0]
+1 S     0   365     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:26 2019 ?        00:00:00 [bnx2i_thread/1]
+1 I     0   420     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:26 2019 ?        00:00:00 [kmpathd]
+1 I     0   421     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:26 2019 ?        00:00:00 [kmpath_handlerd]
+1 I     0   514     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:26 2019 ?        00:00:00 [hv_vmbus_con]
+1 S     0   522     2     0     0  TS  19    -     0 -      Wed Oct  2 02:19:26 2019 ?        00:00:00 [scsi_eh_0]
+1 I     0   523     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:26 2019 ?        00:00:00 [scsi_tmf_0]
+1 I     0   524     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:26 2019 ?        00:00:00 [storvsc_error_w]
+1 I     0   530     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:26 2019 ?        00:00:00 [kworker/0:1H-kblockd]
+1 I     0   531     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:26 2019 ?        00:00:00 [kworker/1:1H-kblockd]
+1 I     0   576     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:26 2019 ?        00:00:00 [xfsalloc]
+1 I     0   577     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:26 2019 ?        00:00:00 [xfs_mru_cache]
+1 I     0   578     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:26 2019 ?        00:00:00 [xfs-buf/sda3]
+1 I     0   579     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:26 2019 ?        00:00:00 [xfs-data/sda3]
+1 I     0   580     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:26 2019 ?        00:00:00 [xfs-conv/sda3]
+1 I     0   582     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:26 2019 ?        00:00:00 [xfs-cil/sda3]
+1 I     0   584     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:26 2019 ?        00:00:00 [xfs-reclaim/sda]
+1 I     0   585     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:26 2019 ?        00:00:00 [xfs-log/sda3]
+1 I     0   586     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:26 2019 ?        00:00:00 [xfs-eofblocks/s]
+1 S     0   587     2     0     0  TS  19    -     0 -      Wed Oct  2 02:19:26 2019 ?        00:00:00 [xfsaild/sda3]
+4 S     0   702     1   702   702  TS  19    - 37921 do_epo Wed Oct  2 02:19:28 2019 ?        00:00:13 /usr/lib/systemd/systemd-journald
+4 S     0   735     1   735   735  TS  19    - 26218 do_epo Wed Oct  2 02:19:28 2019 ?        00:00:00 /usr/lib/systemd/systemd-udevd
+1 S     0   754     2     0     0  TS  19    -     0 -      Wed Oct  2 02:19:28 2019 ?        00:00:00 [hv_balloon]
+1 I     0   782     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:29 2019 ?        00:00:00 [nfit]
+1 I     0   833     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:29 2019 ?        00:00:00 [ib-comp-wq]
+1 I     0   835     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:29 2019 ?        00:00:00 [ib_mcast]
+1 I     0   838     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:29 2019 ?        00:00:00 [ib_nl_sa_wq]
+1 I     0   842     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:29 2019 ?        00:00:00 [rdma_cm]
+1 I     0   844     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:29 2019 ?        00:00:00 [iw_cxgb4]
+1 I     0   845     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:29 2019 ?        00:00:00 [Register_iWARP_]
+1 S     0   850     2     0     0  TS  19    -     0 -      Wed Oct  2 02:19:29 2019 ?        00:00:00 [jbd2/sda2-8]
+1 I     0   853     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:29 2019 ?        00:00:00 [ext4-rsv-conver]
+5 S     0   904     1   904   904  TS  23    - 15794 do_epo Wed Oct  2 02:19:29 2019 ?        00:00:00 /sbin/auditd
+1 I     0   933     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:29 2019 ?        00:00:00 [srp_remove]
+1 I     0   943     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:29 2019 ?        00:00:00 [target_completi]
+1 I     0   944     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:29 2019 ?        00:00:00 [tmr-rd_mcp]
+1 I     0   945     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:29 2019 ?        00:00:00 [xcopy_wq]
+4 S     0   962     1   962   962  TS  19    - 25079 x64_sy Wed Oct  2 02:19:29 2019 ?        00:00:00 /usr/sbin/irqbalance --foreground
+4 S     0   964     1   964   964  TS  19    - 22285 do_epo Wed Oct  2 02:19:29 2019 ?        00:00:00 /usr/lib/systemd/systemd-logind
+4 S    81   966     1   966   966  TS  19    - 16387 do_epo Wed Oct  2 02:19:29 2019 ?        00:00:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+4 S     0   967     1   967   967  TS  19    - 93650 x64_sy Wed Oct  2 02:19:29 2019 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+1 I     0   971     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:29 2019 ?        00:00:00 [kworker/u5:0]
+5 S   994   974     1   973   973  TS  19    - 30332 core_s Wed Oct  2 02:19:29 2019 ?        00:00:01 /usr/sbin/chronyd
+1 I     0  1006     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:29 2019 ?        00:00:00 [rpciod]
+1 I     0  1007     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:29 2019 ?        00:00:00 [xprtiod]
+1 I     0  1011     2     0     0  TS  39    -     0 -      Wed Oct  2 02:19:29 2019 ?        00:00:00 [xprtrdma_receiv]
+4 S   999  1022     1  1022  1022  TS  19    - 473648 x64_sy Wed Oct  2 02:19:29 2019 ?       00:00:00 /usr/lib/polkit-1/polkitd --no-debug
+4 S     0  1026     1  1026  1026  TS  19    - 20490 core_s Wed Oct  2 02:19:29 2019 ?        00:00:00 /usr/sbin/sshd -D -oCiphers=aes256-gcm@openssh.com,chacha20-poly1305@openssh.com,aes256-ctr,aes256-cbc,aes128-gcm@openssh.com,aes128-ctr,aes128-cbc -oMACs=hmac-sha2-256-etm@openssh.com,hmac-sha1-etm@openssh.com,umac-128-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha2-256,hmac-sha1,umac-128@openssh.com,hmac-sha2-512 -oGSSAPIKexAlgorithms=gss-gex-sha1-,gss-group14-sha1- -oKexAlgorithms=curve25519-sha256@libssh.org,ecdh-sha2-nistp256,ecdh-sha2-nistp384,ecdh-sha2-nistp521,diffie-hellman-group-exchange-sha256,diffie-hellman-group14-sha256,diffie-hellman-group16-sha512,diffie-hellman-group18-sha512,diffie-hellman-group-exchange-sha1,diffie-hellman-group14-sha1 -oHostKeyAlgorithms=rsa-sha2-256,ecdsa-sha2-nistp256,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384,ecdsa-sha2-nistp384-cert-v01@openssh.com,rsa-sha2-512,ecdsa-sha2-nistp521,ecdsa-sha2-nistp521-cert-v01@openssh.com,ssh-ed25519,ssh-ed25519-cert-v01@openssh.com,ssh-rsa,ssh-rsa-cert-v01@openssh.com -oPubkeyAcceptedKeyTypes=rsa-sha2-256,ecdsa-sha2-nistp256,ecdsa-sha2-nistp256-cert-v01@openssh.com,ecdsa-sha2-nistp384,ecdsa-sha2-nistp384-cert-v01@openssh.com,rsa-sha2-512,ecdsa-sha2-nistp521,ecdsa-sha2-nistp521-cert-v01@openssh.com,ssh-ed25519,ssh-ed25519-cert-v01@openssh.com,ssh-rsa,ssh-rsa-cert-v01@openssh.com
+4 S     0  1057     1  1057  1057  TS  19    - 286697 do_epo Wed Oct  2 02:19:29 2019 ?       00:00:18 /usr/bin/crio --enable-metrics=true --metrics-port=9537
+4 S    32  1062     1  1062  1062  TS  19    - 17121 x64_sy Wed Oct  2 02:19:29 2019 ?        00:00:00 /usr/bin/rpcbind -w -f
+5 S    29  1079     1  1079  1079  TS  19    - 11359 core_s Wed Oct  2 02:19:29 2019 ?        00:00:00 /usr/sbin/rpc.statd
+4 S     0  1107     1  1107  1107  TS  19    -  4222 core_s Wed Oct  2 02:19:30 2019 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+4 S     0  1143     1  1143  1143  TS  19    - 362900 -     Wed Oct  2 02:19:30 2019 ?        00:00:54 /usr/bin/hyperkube kubelet --config=/etc/kubernetes/kubelet.conf --bootstrap-kubeconfig=/etc/kubernetes/kubeconfig --rotate-certificates --kubeconfig=/var/lib/kubelet/kubeconfig --container-runtime=remote --container-runtime-endpoint=/var/run/crio/crio.sock --node-labels=node-role.kubernetes.io/master,node.openshift.io/os_id=rhcos --minimum-container-ttl-duration=6m0s --cloud-provider= --volume-plugin-dir=/etc/kubernetes/kubelet-plugins/volume/exec --register-with-taints=node-role.kubernetes.io/master=:NoSchedule --v=3
+1 S     0  1239     1  1239  1239  TS  19    - 21519 x64_sy Wed Oct  2 02:19:38 2019 ?        00:00:00 /usr/libexec/crio/conmon -s -c 3f2164ffc40a996a2723131243bff2439166b35ef49345b699b467cc5d1a3832 -n k8s_POD_etcd-member-localhost.localdomain_openshift-etcd_a4a4914b4a1d79ce6413f72b428053e2_0 -u 3f2164ffc40a996a2723131243bff2439166b35ef49345b699b467cc5d1a3832 -r /usr/bin/runc -b /var/run/containers/storage/overlay-containers/3f2164ffc40a996a2723131243bff2439166b35ef49345b699b467cc5d1a3832/userdata -p /var/run/containers/storage/overlay-containers/3f2164ffc40a996a2723131243bff2439166b35ef49345b699b467cc5d1a3832/userdata/pidfile -l /var/log/pods/openshift-etcd_etcd-member-localhost.localdomain_a4a4914b4a1d79ce6413f72b428053e2/3f2164ffc40a996a2723131243bff2439166b35ef49345b699b467cc5d1a3832.log --exit-dir /var/run/crio/exits --socket-dir-path /var/run/crio --log-level error
+4 S     0  1252  1239  1252  1252  TS  19    - 25549 -      Wed Oct  2 02:19:38 2019 ?        00:00:00 /usr/bin/pod
+1 S     0  1457     1  1457  1457  TS  19    - 21519 x64_sy Wed Oct  2 02:20:16 2019 ?        00:00:00 /usr/libexec/crio/conmon -s -c 4820eec2dfc82332f80ab783daad26b31f0a749ae8a09d970b51aede5adb9d75 -n k8s_etcd-member_etcd-member-localhost.localdomain_openshift-etcd_a4a4914b4a1d79ce6413f72b428053e2_0 -u 4820eec2dfc82332f80ab783daad26b31f0a749ae8a09d970b51aede5adb9d75 -r /usr/bin/runc -b /var/run/containers/storage/overlay-containers/4820eec2dfc82332f80ab783daad26b31f0a749ae8a09d970b51aede5adb9d75/userdata -p /var/run/containers/storage/overlay-containers/4820eec2dfc82332f80ab783daad26b31f0a749ae8a09d970b51aede5adb9d75/userdata/pidfile -l /var/log/pods/openshift-etcd_etcd-member-localhost.localdomain_a4a4914b4a1d79ce6413f72b428053e2/etcd-member/0.log --exit-dir /var/run/crio/exits --socket-dir-path /var/run/crio --log-level error
+4 S     0  1472  1457  1472  1472  TS  19    - 2128491 -    Wed Oct  2 02:20:16 2019 ?        00:01:42 etcd --initial-advertise-peer-urls=https://172.16.1.10:2380 --cert-file=/etc/ssl/etcd/system:etcd-server:etcd-0.openshift4poc.example.local.crt --key-file=/etc/ssl/etcd/system:etcd-server:etcd-0.openshift4poc.example.local.key --trusted-ca-file=/etc/ssl/etcd/ca.crt --client-cert-auth=true --peer-cert-file=/etc/ssl/etcd/system:etcd-peer:etcd-0.openshift4poc.example.local.crt --peer-key-file=/etc/ssl/etcd/system:etcd-peer:etcd-0.openshift4poc.example.local.key --peer-trusted-ca-file=/etc/ssl/etcd/ca.crt --peer-client-cert-auth=true --advertise-client-urls=https://172.16.1.10:2379 --listen-client-urls=https://0.0.0.0:2379 --listen-peer-urls=https://0.0.0.0:2380 --listen-metrics-urls=https://0.0.0.0:9978
+1 S     0  1503     1  1503  1503  TS  19    - 21519 x64_sy Wed Oct  2 02:20:17 2019 ?        00:00:00 /usr/libexec/crio/conmon -s -c 91635d506dcc3413a847ac6628550c44408b2092bc6bf76a78e78c73f8d8fb08 -n k8s_etcd-metrics_etcd-member-localhost.localdomain_openshift-etcd_a4a4914b4a1d79ce6413f72b428053e2_0 -u 91635d506dcc3413a847ac6628550c44408b2092bc6bf76a78e78c73f8d8fb08 -r /usr/bin/runc -b /var/run/containers/storage/overlay-containers/91635d506dcc3413a847ac6628550c44408b2092bc6bf76a78e78c73f8d8fb08/userdata -p /var/run/containers/storage/overlay-containers/91635d506dcc3413a847ac6628550c44408b2092bc6bf76a78e78c73f8d8fb08/userdata/pidfile -l /var/log/pods/openshift-etcd_etcd-member-localhost.localdomain_a4a4914b4a1d79ce6413f72b428053e2/etcd-metrics/0.log --exit-dir /var/run/crio/exits --socket-dir-path /var/run/crio --log-level error
+4 S     0  1516  1503  1516  1516  TS  19    - 31227 -      Wed Oct  2 02:20:17 2019 ?        00:00:26 etcd grpc-proxy start --endpoints https://etcd-0.openshift4poc.example.local:9978 --metrics-addr https://0.0.0.0:9979 --listen-addr 127.0.0.1:9977 --key /etc/ssl/etcd/system:etcd-peer:etcd-0.openshift4poc.example.local.key --key-file /etc/ssl/etcd/system:etcd-metric:etcd-0.openshift4poc.example.local.key --cert /etc/ssl/etcd/system:etcd-peer:etcd-0.openshift4poc.example.local.crt --cert-file /etc/ssl/etcd/system:etcd-metric:etcd-0.openshift4poc.example.local.crt --cacert /etc/ssl/etcd/ca.crt --trusted-ca-file /etc/ssl/etcd/metric-ca.crt
+1 I     0  1942     2     0     0  TS  19    -     0 -      Wed Oct  2 02:25:35 2019 ?        00:00:01 [kworker/0:0-xfs-conv/sda3]
+1 I     0  2090     2     0     0  TS  19    -     0 -      Wed Oct  2 02:31:17 2019 ?        00:00:02 [kworker/0:1-events]
+1 I     0  2380     2     0     0  TS  19    -     0 -      Wed Oct  2 02:41:37 2019 ?        00:00:00 [kworker/0:3-cgroup_pidlist_destroy]
+1 I     0  2581     2     0     0  TS  19    -     0 -      Wed Oct  2 02:41:38 2019 ?        00:00:00 [kworker/1:5-xfs-cil/sda3]
+1 I     0  2839     2     0     0  TS  19    -     0 -      Wed Oct  2 02:47:08 2019 ?        00:00:00 [kworker/1:1-events]
+1 I     0  2899     2     0     0  TS  19    -     0 -      Wed Oct  2 02:49:25 2019 ?        00:00:00 [kworker/u4:1-events_unbound]
+1 I     0  2932     2     0     0  TS  19    -     0 -      Wed Oct  2 02:50:01 2019 ?        00:00:00 [kworker/0:2-events]
+1 I     0  2942     2     0     0  TS  19    -     0 -      Wed Oct  2 02:50:01 2019 ?        00:00:00 [kworker/0:4-events]
+4 S     0  3002  1026  3002  3002  TS  19    - 32140 x64_sy Wed Oct  2 02:52:28 2019 ?        00:00:00 sshd: core [priv]
+4 S  1000  3006     1  3006  3006  TS  19    - 23265 do_epo Wed Oct  2 02:52:28 2019 ?        00:00:00 /usr/lib/systemd/systemd --user
+5 S  1000  3010  3006  3006  3006  TS  19    - 73637 -      Wed Oct  2 02:52:28 2019 ?        00:00:00 (sd-pam)
+5 S  1000  3016  3002  3002  3002  TS  19    - 32140 core_s Wed Oct  2 02:52:29 2019 ?        00:00:00 sshd: core@pts/0
+0 S  1000  3017  3016  3017  3017  TS  19    -  7523 -      Wed Oct  2 02:52:29 2019 pts/0    00:00:00 -bash
+4 S     0  3055  3017  3055  3017  TS  19    - 28578 x64_sy Wed Oct  2 02:52:36 2019 pts/0    00:00:00 sudo -i
+4 S     0  3057  3055  3057  3017  TS  19    -  7557 -      Wed Oct  2 02:52:36 2019 pts/0    00:00:00 -bash
+1 I     0  3083     2     0     0  TS  19    -     0 -      Wed Oct  2 02:52:40 2019 ?        00:00:00 [kworker/1:0-events_power_efficient]
+4 S     0  3111  3057  3111  3017  TS  19    -  3404 -      Wed Oct  2 02:53:30 2019 pts/0    00:00:00 /bin/bash /bin/toolbox
+4 S     0  3197  3111  3111  3017  TS  19    - 28578 x64_sy Wed Oct  2 02:53:36 2019 pts/0    00:00:00 sudo podman container runlabel --name toolbox-root RUN registry.local:5000/rhel8/support-tools
+4 S     0  3199  3197  3111  3017  TS  19    - 220841 -     Wed Oct  2 02:53:36 2019 pts/0    00:00:00 podman container runlabel --name toolbox-root RUN registry.local:5000/rhel8/support-tools
+4 S     0  3207  3199  3111  3017  TS  19    - 239274 -     Wed Oct  2 02:53:36 2019 pts/0    00:00:00 /proc/self/exe run -it --name toolbox-root --privileged --ipc=host --net=host --pid=host -e HOST=/host -e NAME=toolbox-root -e IMAGE=registry.local:5000/rhel8/support-tools:latest -v /run:/run -v /var/log:/var/log -v /etc/machine-id:/etc/machine-id -v /etc/localtime:/etc/localtime -v /:/host registry.local:5000/rhel8/support-tools:latest
+1 S     0  3221     1  3221  3221  TS  19    - 29633 x64_sy Wed Oct  2 02:53:36 2019 ?        00:00:00 /usr/libexec/podman/conmon -s -c 009ed41b946511f53b0face7d64f252b394bc971f0808b498ea588959f1e626f -u 009ed41b946511f53b0face7d64f252b394bc971f0808b498ea588959f1e626f -n toolbox-root -r /usr/bin/runc -b /var/lib/containers/storage/overlay-containers/009ed41b946511f53b0face7d64f252b394bc971f0808b498ea588959f1e626f/userdata -p /var/run/containers/storage/overlay-containers/009ed41b946511f53b0face7d64f252b394bc971f0808b498ea588959f1e626f/userdata/pidfile --exit-dir /var/run/libpod/exits --exit-command /usr/bin/podman --exit-command-arg --root --exit-command-arg /var/lib/containers/storage --exit-command-arg --runroot --exit-command-arg /var/run/containers/storage --exit-command-arg --log-level --exit-command-arg error --exit-command-arg --cgroup-manager --exit-command-arg systemd --exit-command-arg --tmpdir --exit-command-arg /var/run/libpod --exit-command-arg --runtime --exit-command-arg runc --exit-command-arg --storage-driver --exit-command-arg overlay --exit-command-arg --events-backend --exit-command-arg journald --exit-command-arg container --exit-command-arg cleanup --exit-command-arg 009ed41b946511f53b0face7d64f252b394bc971f0808b498ea588959f1e626f --socket-dir-path /var/run/libpod/socket -t -l k8s-file:/var/lib/containers/storage/overlay-containers/009ed41b946511f53b0face7d64f252b394bc971f0808b498ea588959f1e626f/userdata/ctr.log --log-level error
+4 S     0  3233  3221  3233  3233  TS  19    -  3007 -      Wed Oct  2 02:53:36 2019 pts/0    00:00:00 /usr/bin/bash
+4 S     0  3255  3233  3255  3233  TS  19    - 248689 -     Wed Oct  2 02:53:56 2019 pts/0    00:00:03 /usr/libexec/platform-python -s /usr/sbin/sosreport
+4 S     0  3686  3255  3686  3233  TS  19    -  2159 -      Wed Oct  2 02:54:30 2019 pts/0    00:00:00 timeout 300s chronyc activity
+4 S     0  3688  3686  3686  3233  TS  19    -  4243 core_s Wed Oct  2 02:54:30 2019 pts/0    00:00:00 chronyc activity
+4 S     0  4230  3255  4230  3233  TS  19    -  2159 -      Wed Oct  2 02:54:31 2019 pts/0    00:00:00 timeout 300s hostnamectl status
+4 S     0  4234  4230  4230  3233  TS  19    - 20693 x64_sy Wed Oct  2 02:54:31 2019 pts/0    00:00:00 hostnamectl status
+4 S     0  4243     1  4243  4243  TS  19    - 21112 do_epo Wed Oct  2 02:54:31 2019 ?        00:00:00 /usr/lib/systemd/systemd-hostnamed
+4 S     0  5993  3255  5993  3233  TS  19    -  2159 -      Wed Oct  2 02:54:34 2019 pts/0    00:00:00 timeout 300s podman images
+4 S     0  5996  5993  5993  3233  TS  19    - 202408 do_epo Wed Oct  2 02:54:34 2019 pts/0   00:00:00 podman images
+4 S     0  6012  3255  6012  3233  TS  19    -  2159 -      Wed Oct  2 02:54:34 2019 pts/0    00:00:00 timeout 300s ps axo flags,state,uid,pid,ppid,pgid,sid,cls,pri,addr,sz,wchan,lstart,tty,time,cmd
+0 R     0  6016  6012  6012  3233  TS  19    - 10456 -      Wed Oct  2 02:54:34 2019 pts/0    00:00:00 ps axo flags,state,uid,pid,ppid,pgid,sid,cls,pri,addr,sz,wchan,lstart,tty,time,cmd

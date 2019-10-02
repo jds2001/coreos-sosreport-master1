@@ -1,0 +1,9 @@
+511 470 0:45 / / ro,relatime - overlay overlay rw,context="system_u:object_r:container_file_t:s0:c505,c622",lowerdir=/var/lib/containers/storage/overlay/l/W7AMM74YID5MGBKFGGEK575V5Y:/var/lib/containers/storage/overlay/l/XNW2OIS2TCNWWZMK6HV6GBTCLJ:/var/lib/containers/storage/overlay/l/WF7ZHI3KDJ4Z6WPUH4CY7VX7FT:/var/lib/containers/storage/overlay/l/LOC3TDBNCLBH5LLGM37T6FNIHX:/var/lib/containers/storage/overlay/l/RJAL234532UAV4ALZMEIM7ZH6K,upperdir=/var/lib/containers/storage/overlay/ca1446e181ba582dab039d6f0e3e0b4ca9c330c17ecf4fdecfaec66e5325c375/diff,workdir=/var/lib/containers/storage/overlay/ca1446e181ba582dab039d6f0e3e0b4ca9c330c17ecf4fdecfaec66e5325c375/work
+512 511 0:47 / /proc rw,relatime - proc proc rw
+513 511 0:48 / /dev rw,nosuid - tmpfs tmpfs rw,context="system_u:object_r:container_file_t:s0:c505,c622",size=65536k,mode=755
+514 513 0:49 / /dev/pts rw,nosuid,noexec,relatime - devpts devpts rw,context="system_u:object_r:container_file_t:s0:c505,c622",gid=5,mode=620,ptmxmode=666
+515 513 0:46 / /dev/mqueue rw,nosuid,nodev,noexec,relatime - mqueue mqueue rw,seclabel
+516 511 0:20 / /sys ro,nosuid,nodev,noexec,relatime - sysfs sysfs rw,seclabel
+517 511 0:23 /containers/storage/overlay-containers/3f2164ffc40a996a2723131243bff2439166b35ef49345b699b467cc5d1a3832/userdata/resolv.conf /etc/resolv.conf ro,nosuid,nodev,noexec master:27 - tmpfs tmpfs rw,seclabel,mode=755
+518 513 0:44 / /dev/shm rw,nosuid,nodev,noexec,relatime master:244 - tmpfs shm rw,context="system_u:object_r:container_file_t:s0:c505,c622",size=65536k
+519 511 0:23 /containers/storage/overlay-containers/3f2164ffc40a996a2723131243bff2439166b35ef49345b699b467cc5d1a3832/userdata/hostname /etc/hostname ro,nosuid,nodev,noexec master:27 - tmpfs tmpfs rw,seclabel,mode=755

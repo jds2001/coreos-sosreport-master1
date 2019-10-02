@@ -1,0 +1,129 @@
+
+Udevadm info starts with the device specified by the devpath and then
+walks up the chain of parent devices. It prints for every device
+found, all possible attributes in the udev rules key format.
+A rule to match, can be composed by the attributes of the device
+and the attributes from one single parent device.
+
+  looking at device '/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/335e82c9-7ed6-4710-b93f-3a32144c025c/host0/target0:0:0/0:0:0:1/block/sr0':
+    KERNEL=="sr0"
+    SUBSYSTEM=="block"
+    DRIVER==""
+    ATTR{alignment_offset}=="0"
+    ATTR{capability}=="119"
+    ATTR{discard_alignment}=="0"
+    ATTR{events}=="media_change eject_request"
+    ATTR{events_async}==""
+    ATTR{events_poll_msecs}=="-1"
+    ATTR{ext_range}=="1"
+    ATTR{hidden}=="0"
+    ATTR{inflight}=="       0        0"
+    ATTR{range}=="1"
+    ATTR{removable}=="1"
+    ATTR{ro}=="0"
+    ATTR{size}=="150980"
+    ATTR{stat}=="      96        0     8368       56        0        0        0        0        0       49       14        0        0        0        0"
+
+  looking at parent device '/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/335e82c9-7ed6-4710-b93f-3a32144c025c/host0/target0:0:0/0:0:0:1':
+    KERNELS=="0:0:0:1"
+    SUBSYSTEMS=="scsi"
+    DRIVERS=="sr"
+    ATTRS{blacklist}=="REPORTLUN2 TRY_VPD_PAGES"
+    ATTRS{device_blocked}=="0"
+    ATTRS{device_busy}=="0"
+    ATTRS{dh_state}=="detached"
+    ATTRS{eh_timeout}=="10"
+    ATTRS{evt_capacity_change_reported}=="0"
+    ATTRS{evt_inquiry_change_reported}=="0"
+    ATTRS{evt_lun_change_reported}=="0"
+    ATTRS{evt_media_change}=="0"
+    ATTRS{evt_mode_parameter_change_reported}=="0"
+    ATTRS{evt_soft_threshold_reached}=="0"
+    ATTRS{iocounterbits}=="32"
+    ATTRS{iodone_cnt}=="0x4ee"
+    ATTRS{ioerr_cnt}=="0x0"
+    ATTRS{iorequest_cnt}=="0x4ee"
+    ATTRS{model}=="Virtual DVD-ROM "
+    ATTRS{queue_depth}=="2048"
+    ATTRS{queue_type}=="none"
+    ATTRS{rev}=="1.0 "
+    ATTRS{scsi_level}=="0"
+    ATTRS{state}=="running"
+    ATTRS{timeout}=="30"
+    ATTRS{type}=="5"
+    ATTRS{unpriv_sgio}=="0"
+    ATTRS{vendor}=="Msft    "
+
+  looking at parent device '/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/335e82c9-7ed6-4710-b93f-3a32144c025c/host0/target0:0:0':
+    KERNELS=="target0:0:0"
+    SUBSYSTEMS=="scsi"
+    DRIVERS==""
+
+  looking at parent device '/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/335e82c9-7ed6-4710-b93f-3a32144c025c/host0':
+    KERNELS=="host0"
+    SUBSYSTEMS=="scsi"
+    DRIVERS==""
+
+  looking at parent device '/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/335e82c9-7ed6-4710-b93f-3a32144c025c':
+    KERNELS=="335e82c9-7ed6-4710-b93f-3a32144c025c"
+    SUBSYSTEMS=="vmbus"
+    DRIVERS=="hv_storvsc"
+    ATTRS{channel_vp_mapping}=="14:0"
+    ATTRS{class_id}=="{ba6163d9-04a1-4d29-b605-72e2ffb1dc7f}"
+    ATTRS{client_monitor_conn_id}=="8206"
+    ATTRS{client_monitor_latency}=="1000"
+    ATTRS{client_monitor_pending}=="0"
+    ATTRS{device}=="0x1"
+    ATTRS{device_id}=="{335e82c9-7ed6-4710-b93f-3a32144c025c}"
+    ATTRS{driver_override}=="(null)"
+    ATTRS{id}=="14"
+    ATTRS{in_intr_mask}=="0"
+    ATTRS{in_read_bytes_avail}=="0"
+    ATTRS{in_read_index}=="530760"
+    ATTRS{in_write_bytes_avail}=="1044480"
+    ATTRS{in_write_index}=="530760"
+    ATTRS{monitor_id}=="1"
+    ATTRS{out_intr_mask}=="0"
+    ATTRS{out_read_bytes_avail}=="0"
+    ATTRS{out_read_index}=="41040"
+    ATTRS{out_write_bytes_avail}=="1044480"
+    ATTRS{out_write_index}=="41040"
+    ATTRS{server_monitor_conn_id}=="33"
+    ATTRS{server_monitor_latency}=="1000"
+    ATTRS{server_monitor_pending}=="0"
+    ATTRS{state}=="3"
+    ATTRS{vendor}=="0x1414"
+
+  looking at parent device '/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00':
+    KERNELS=="VMBUS:00"
+    SUBSYSTEMS=="acpi"
+    DRIVERS=="vmbus"
+    ATTRS{adr}=="0x00000000"
+    ATTRS{hid}=="VMBUS"
+    ATTRS{path}=="\_SB_.VMOD.VMBS"
+    ATTRS{power_state}=="D0"
+    ATTRS{status}=="15"
+    ATTRS{uid}=="0"
+
+  looking at parent device '/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00':
+    KERNELS=="ACPI0004:00"
+    SUBSYSTEMS=="acpi"
+    DRIVERS==""
+    ATTRS{hid}=="ACPI0004"
+    ATTRS{path}=="\_SB_.VMOD"
+    ATTRS{uid}=="0"
+
+  looking at parent device '/devices/LNXSYSTM:00/LNXSYBUS:00':
+    KERNELS=="LNXSYBUS:00"
+    SUBSYSTEMS=="acpi"
+    DRIVERS==""
+    ATTRS{hid}=="LNXSYBUS"
+    ATTRS{path}=="\_SB_"
+
+  looking at parent device '/devices/LNXSYSTM:00':
+    KERNELS=="LNXSYSTM:00"
+    SUBSYSTEMS=="acpi"
+    DRIVERS==""
+    ATTRS{hid}=="LNXSYSTM"
+    ATTRS{path}=="\"
+

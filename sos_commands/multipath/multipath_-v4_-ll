@@ -1,0 +1,25 @@
+Oct 02 02:54:34 | /etc/multipath.conf does not exist, blacklisting all devices.
+Oct 02 02:54:34 | You can run "/sbin/mpathconf --enable" to create
+Oct 02 02:54:34 | /etc/multipath.conf. See man mpathconf(8) for more details
+Oct 02 02:54:34 | loading /lib64/multipath/libchecktur.so checker
+Oct 02 02:54:34 | loading /lib64/multipath/libprioconst.so prioritizer
+Oct 02 02:54:34 | _init_foreign: found libforeign-nvme.so
+Oct 02 02:54:34 | foreign library "nvme" loaded successfully
+Oct 02 02:54:34 | released_to_systemd: DM_MULTIPATH_DEVICE_PATH=(null) -> 0
+Oct 02 02:54:34 | Discover device /sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/335e82c9-7ed6-4710-b93f-3a32144c025c/host0/target0:0:0/0:0:0:0/block/sda
+Oct 02 02:54:34 | sda: dev not found in pathvec
+Oct 02 02:54:34 | 8:0: dev_t not found in pathvec
+Oct 02 02:54:34 | sda: device node name blacklisted
+Oct 02 02:54:34 | Discover device /sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/335e82c9-7ed6-4710-b93f-3a32144c025c/host0/target0:0:0/0:0:0:0/block/sda/sda1
+Oct 02 02:54:34 | Discover device /sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/335e82c9-7ed6-4710-b93f-3a32144c025c/host0/target0:0:0/0:0:0:0/block/sda/sda2
+Oct 02 02:54:34 | Discover device /sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/335e82c9-7ed6-4710-b93f-3a32144c025c/host0/target0:0:0/0:0:0:0/block/sda/sda3
+Oct 02 02:54:34 | Discover device /sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/335e82c9-7ed6-4710-b93f-3a32144c025c/host0/target0:0:0/0:0:0:1/block/sr0
+Oct 02 02:54:34 | sr0: dev not found in pathvec
+Oct 02 02:54:34 | 11:0: dev_t not found in pathvec
+Oct 02 02:54:34 | sr0: device node name blacklisted
+Oct 02 02:54:34 | Discovered 0/2 paths
+Oct 02 02:54:34 | libdevmapper version 1.02.155-RHEL8 (2019-01-04)
+Oct 02 02:54:34 | DM multipath kernel driver v1.13.0
+Oct 02 02:54:34 | unloading const prioritizer
+Oct 02 02:54:34 | unloading tur checker
+===== no paths =====

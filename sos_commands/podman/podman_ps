@@ -1,0 +1,2 @@
+CONTAINER ID  IMAGE                                           COMMAND        CREATED         STATUS             PORTS  NAMES
+009ed41b9465  registry.local:5000/rhel8/support-tools:latest  /usr/bin/bash  58 seconds ago  Up 58 seconds ago         toolbox-root

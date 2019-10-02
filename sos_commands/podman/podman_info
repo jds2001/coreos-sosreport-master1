@@ -1,0 +1,46 @@
+host:
+  BuildahVersion: 1.9.0
+  Conmon:
+    package: podman-1.4.2-5.el8.x86_64
+    path: /usr/libexec/podman/conmon
+    version: 'conmon version 0.3.0, commit: unknown'
+  Distribution:
+    distribution: '"rhcos"'
+    version: "4.2"
+  MemFree: 794161152
+  MemTotal: 8360497152
+  OCIRuntime:
+    package: runc-1.0.0-61.rc8.rhaos4.1.git3cbe540.el8.x86_64
+    path: /usr/bin/runc
+    version: 'runc version spec: 1.0.1-dev'
+  SwapFree: 0
+  SwapTotal: 0
+  arch: amd64
+  cpus: 2
+  hostname: localhost.localdomain
+  kernel: 4.18.0-80.11.2.el8_0.x86_64
+  os: linux
+  rootless: false
+  uptime: 35m 9.54s
+registries:
+  blocked: null
+  insecure: null
+  search:
+  - registry.access.redhat.com
+  - docker.io
+store:
+  ConfigFile: /etc/containers/storage.conf
+  ContainerStore:
+    number: 6
+  GraphDriverName: overlay
+  GraphOptions: null
+  GraphRoot: /var/lib/containers/storage
+  GraphStatus:
+    Backing Filesystem: xfs
+    Native Overlay Diff: "true"
+    Supports d_type: "true"
+    Using metacopy: "false"
+  ImageStore:
+    number: 5
+  RunRoot: /var/run/containers/storage
+  VolumePath: /var/lib/containers/storage/volumes

@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/site-packages/sos/sosreport.py", line 1114, in collect_plugin
+    plug.collect()
+  File "/usr/lib/python3.6/site-packages/sos/plugins/__init__.py", line 954, in collect
+    self._collect_copy_specs()
+  File "/usr/lib/python3.6/site-packages/sos/plugins/__init__.py", line 910, in _collect_copy_specs
+    self._do_copy_path(path)
+  File "/usr/lib/python3.6/site-packages/sos/plugins/__init__.py", line 444, in _do_copy_path
+    self._copy_symlink(srcpath)
+  File "/usr/lib/python3.6/site-packages/sos/plugins/__init__.py", line 356, in _copy_symlink
+    self.archive.add_link(reldest, dstpath)
+  File "/usr/lib/python3.6/site-packages/sos/archive.py", line 411, in add_link
+    os.symlink(source, dest)
+FileNotFoundError: [Errno 2] No such file or directory: '../efi/EFI/redhat/grubenv' -> '/host/var/tmp/sos.aidv6a49/sosreport-localhost-2019-10-02-pmjpmmk/boot/grub2/grubenv'
+

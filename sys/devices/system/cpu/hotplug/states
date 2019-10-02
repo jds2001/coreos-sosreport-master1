@@ -1,0 +1,65 @@
+  0: offline
+  1: threads:prepare
+  2: perf:prepare
+  9: x86/mce:dead
+ 11: slub:dead
+ 12: mm/writeback:dead
+ 13: mm/vmstat:dead
+ 14: softirq:dead
+ 19: irq_poll:dead
+ 20: block/softirq:dead
+ 21: acpi/cpu-drv:dead
+ 23: block/mq:dead
+ 24: fs/buffer:dead
+ 25: printk:dead
+ 26: mm/memctrl:dead
+ 27: lib/percpu_cnt:dead
+ 28: lib/radix:dead
+ 29: mm/page_alloc:dead
+ 30: net/dev:dead
+ 35: workqueue:prepare
+ 37: hrtimers:prepare
+ 40: smpcfd:prepare
+ 41: relay:prepare
+ 42: slab:prepare
+ 44: RCU/tree:prepare
+ 53: base/topology:prepare
+ 56: trace/RB:preapre
+ 57: mm/zsmalloc:prepare
+ 58: mm/zswap:prepare
+ 59: mm/zswap_pool:prepare
+ 62: timers:dead
+ 64: fork:vm_stack_cache
+ 85: cpu:bringup
+ 86: idle:dead
+ 87: ap:offline
+ 88: sched:starting
+ 89: RCU/tree:dying
+128: smpcfd:dying
+131: ap:online
+132: cpu:teardown
+134: smpboot/threads:online
+135: x86/vdso/vma:online
+136: irq/affinity:online
+137: perf:online
+142: perf/x86/rapl:online
+159: workqueue:online
+160: RCU/tree:online
+161: x86/hyperv_init:online
+162: mm/writeback:online
+163: mm/vmstat:online
+164: mm/compaction:online
+165: x86/msr:online
+166: x86/cpuid:online
+167: padata:online
+168: mm/vmscan:online
+169: lib/percpu_cnt:online
+170: acpi/cpu-drv:online
+171: base/cacheinfo:online
+172: x86/mce:online
+173: printk:online
+174: platform/x86/turbo_max_3:online
+175: scsi/bnx2i:online
+176: hyperv/vmbus:online
+194: sched:active
+195: online

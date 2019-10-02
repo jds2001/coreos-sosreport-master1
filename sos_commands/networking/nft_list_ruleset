@@ -1,0 +1,49 @@
+table ip nat {
+	chain PREROUTING {
+		type nat hook prerouting priority -100; policy accept;
+	}
+
+	chain INPUT {
+		type nat hook input priority 100; policy accept;
+	}
+
+	chain POSTROUTING {
+		type nat hook postrouting priority 100; policy accept;
+		 counter packets 107561 bytes 7523145 jump KUBE-POSTROUTING
+	}
+
+	chain OUTPUT {
+		type nat hook output priority -100; policy accept;
+	}
+
+	chain KUBE-MARK-MASQ {
+		counter packets 0 bytes 0 meta mark set mark or 0x4000 
+	}
+
+	chain KUBE-MARK-DROP {
+		counter packets 0 bytes 0 meta mark set mark or 0x8000 
+	}
+
+	chain KUBE-POSTROUTING {
+		 mark and 0x4000 == 0x4000 counter packets 0 bytes 0 masquerade 
+	}
+}
+table ip filter {
+	chain INPUT {
+		type filter hook input priority 0; policy accept;
+		counter packets 328022 bytes 282588706 jump KUBE-FIREWALL
+	}
+
+	chain FORWARD {
+		type filter hook forward priority 0; policy accept;
+	}
+
+	chain OUTPUT {
+		type filter hook output priority 0; policy accept;
+		counter packets 337652 bytes 37088298 jump KUBE-FIREWALL
+	}
+
+	chain KUBE-FIREWALL {
+		 mark and 0x8000 == 0x8000 counter packets 0 bytes 0 drop
+	}
+}

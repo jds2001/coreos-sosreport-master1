@@ -1,0 +1,16 @@
+{
+  "ociVersion": "1.0.1-dev",
+  "id": "009ed41b946511f53b0face7d64f252b394bc971f0808b498ea588959f1e626f",
+  "pid": 3233,
+  "status": "running",
+  "bundle": "/var/lib/containers/storage/overlay-containers/009ed41b946511f53b0face7d64f252b394bc971f0808b498ea588959f1e626f/userdata",
+  "rootfs": "/var/lib/containers/storage/overlay/cde0b912a9fb9f23193fe53c43c33fe0653cc7d5e1724a35e6d9d8f581348e6a/merged",
+  "created": "2019-10-02T02:53:37.3062738Z",
+  "annotations": {
+    "io.kubernetes.cri-o.ContainerType": "sandbox",
+    "io.kubernetes.cri-o.Created": "2019-10-02T02:53:37.1607256Z",
+    "io.kubernetes.cri-o.TTY": "true",
+    "org.opencontainers.image.stopSignal": "15"
+  },
+  "owner": ""
+}

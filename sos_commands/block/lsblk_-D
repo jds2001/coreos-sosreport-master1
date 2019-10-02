@@ -1,0 +1,6 @@
+NAME   DISC-ALN DISC-GRAN DISC-MAX DISC-ZERO
+sda           0        2M       4G         0
+|-sda1  1048576        2M       4G         0
+|-sda2  1048576        2M       4G         0
+`-sda3  1048576        2M       4G         0
+sr0           0        0B       0B         0

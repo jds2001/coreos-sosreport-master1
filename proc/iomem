@@ -1,0 +1,20 @@
+00000000-00000fff : Reserved
+00001000-0009ffff : System RAM
+000c0000-000fffff : Reserved
+  000f0000-000fffff : System ROM
+00100000-f6dd5fff : System RAM
+f6dd6000-f6dd6fff : ACPI Tables
+f6de3000-f6ecbfff : System RAM
+f6ed3000-f6ef1fff : ACPI Tables
+f6f1b000-f7f9afff : System RAM
+f7ff3000-f7ffafff : ACPI Tables
+f7ffb000-f7ffefff : ACPI Non-volatile Storage
+f7fff000-f7ffffff : System RAM
+f8800000-f8ffffff : 5620e0c7-8062-4dce-aeb7-520c7ef76171
+fec00000-fec00fff : PNP0003:00
+fee00000-fee00fff : Local APIC
+  fee00000-fee00fff : PNP0003:00
+100000000-207ffffff : System RAM
+  1c4000000-1c4c013c0 : Kernel code
+  1c4c013c1-1c540d7ff : Kernel data
+  1c59b1000-1c5ceefff : Kernel bss

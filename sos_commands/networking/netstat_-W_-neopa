@@ -1,0 +1,153 @@
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       User       Inode      PID/Program name     Timer
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      0          22405      1026/sshd            off (0.00/0/0)
+tcp        0      0 127.0.0.1:9977          0.0.0.0:*               LISTEN      0          27163      1516/etcd            off (0.00/0/0)
+tcp        0      0 172.16.1.10:10010       0.0.0.0:*               LISTEN      0          25676      1057/crio            off (0.00/0/0)
+tcp        0      0 0.0.0.0:39681           0.0.0.0:*               LISTEN      29         24910      1079/rpc.statd       off (0.00/0/0)
+tcp        0      0 127.0.0.1:10248         0.0.0.0:*               LISTEN      0          25188      1143/hyperkube       off (0.00/0/0)
+tcp        0      0 0.0.0.0:111             0.0.0.0:*               LISTEN      0          18611      1/systemd            off (0.00/0/0)
+tcp        0      0 172.16.1.10:60094       172.16.1.11:2380        ESTABLISHED 0          93720      1472/etcd            keepalive (6.63/0/0)
+tcp        0      0 172.16.1.10:45248       172.16.1.10:9978        ESTABLISHED 0          27167      1516/etcd            off (0.00/0/0)
+tcp        0      0 172.16.1.10:60126       172.16.1.11:2380        ESTABLISHED 0          94715      1472/etcd            keepalive (9.24/0/0)
+tcp        0      0 172.16.1.10:39118       172.16.1.2:6443         ESTABLISHED 0          25167      1143/hyperkube       keepalive (10.97/0/0)
+tcp        0      0 172.16.1.10:22          172.16.1.1:41282        ESTABLISHED 0          150882     3002/sshd: core [pr  keepalive (7074.91/0/0)
+tcp        0      0 172.16.1.10:60092       172.16.1.11:2380        ESTABLISHED 0          93719      1472/etcd            keepalive (15.10/0/0)
+tcp        0      0 172.16.1.10:39114       172.16.1.2:6443         ESTABLISHED 0          25846      1143/hyperkube       keepalive (4.88/0/0)
+tcp6       0      0 :::22                   :::*                    LISTEN      0          22414      1026/sshd            off (0.00/0/0)
+tcp6       0      0 :::9978                 :::*                    LISTEN      0          28529      1472/etcd            off (0.00/0/0)
+tcp6       0      0 :::9979                 :::*                    LISTEN      0          27173      1516/etcd            off (0.00/0/0)
+tcp6       0      0 :::9537                 :::*                    LISTEN      0          25681      1057/crio            off (0.00/0/0)
+tcp6       0      0 :::56007                :::*                    LISTEN      29         24920      1079/rpc.statd       off (0.00/0/0)
+tcp6       0      0 :::10250                :::*                    LISTEN      0          25186      1143/hyperkube       off (0.00/0/0)
+tcp6       0      0 :::2379                 :::*                    LISTEN      0          27068      1472/etcd            off (0.00/0/0)
+tcp6       0      0 :::2380                 :::*                    LISTEN      0          27067      1472/etcd            off (0.00/0/0)
+tcp6       0      0 :::111                  :::*                    LISTEN      0          18613      1/systemd            off (0.00/0/0)
+tcp6       0      0 172.16.1.10:2380        172.16.1.11:48636       ESTABLISHED 0          94688      1472/etcd            off (0.00/0/0)
+tcp6       0      0 172.16.1.10:2380        172.16.1.11:48714       ESTABLISHED 0          93790      1472/etcd            off (0.00/0/0)
+tcp6       0      0 172.16.1.10:2380        172.16.1.11:48864       ESTABLISHED 0          93861      1472/etcd            off (0.00/0/0)
+tcp6       0      0 172.16.1.10:2379        172.16.1.20:50892       ESTABLISHED 0          130228     1472/etcd            keepalive (11.60/0/0)
+tcp6       0      0 172.16.1.10:2380        172.16.1.11:48638       ESTABLISHED 0          94689      1472/etcd            off (0.00/0/0)
+tcp6       0      0 172.16.1.10:9978        172.16.1.10:45248       ESTABLISHED 0          27168      1472/etcd            off (0.00/0/0)
+udp        0      0 172.16.1.10:68          0.0.0.0:*                           0          24398      967/NetworkManager   off (0.00/0/0)
+udp        0      0 0.0.0.0:111             0.0.0.0:*                           0          18612      1/systemd            off (0.00/0/0)
+udp        0      0 127.0.0.1:323           0.0.0.0:*                           0          22098      974/chronyd          off (0.00/0/0)
+udp        0      0 127.0.0.1:834           0.0.0.0:*                           0          24894      1079/rpc.statd       off (0.00/0/0)
+udp        0      0 0.0.0.0:43586           0.0.0.0:*                           29         24899      1079/rpc.statd       off (0.00/0/0)
+udp6       0      0 :::111                  :::*                                0          18614      1/systemd            off (0.00/0/0)
+udp6       0      0 ::1:323                 :::*                                0          22099      974/chronyd          off (0.00/0/0)
+udp6       0      0 :::38388                :::*                                29         24914      1079/rpc.statd       off (0.00/0/0)
+raw6       0      0 :::58                   :::*                    7           0          22482      967/NetworkManager   off (0.00/0/0)
+Active UNIX domain sockets (servers and established)
+Proto RefCnt Flags       Type       State         I-Node   PID/Program name     Path
+unix  3      [ ]         DGRAM                    11778    1/systemd            /run/systemd/notify
+unix  2      [ ]         DGRAM                    11780    1/systemd            /run/systemd/cgroups-agent
+unix  2      [ ACC ]     SEQPACKET  LISTENING     27152    1503/conmon          /var/run/crio/91635d506dcc3413a847ac6628550c44408b2092bc6bf76a78e78c73f8d8fb08/attach
+unix  11     [ ]         DGRAM                    11791    1/systemd            /run/systemd/journal/dev-log
+unix  2      [ ACC ]     STREAM     LISTENING     11796    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ACC ]     STREAM     LISTENING     22927    962/irqbalance       @irqbalance962.sock
+unix  9      [ ]         DGRAM                    11799    1/systemd            /run/systemd/journal/socket
+unix  2      [ ]         DGRAM                    174374   3688/chronyc         /var/run/chrony/chronyc.3688.sock
+unix  2      [ ACC ]     STREAM     LISTENING     21818    1/systemd            /run/dbus/system_bus_socket
+unix  2      [ ACC ]     SEQPACKET  LISTENING     18507    1/systemd            /run/udev/control
+unix  2      [ ACC ]     SEQPACKET  LISTENING     18516    1/systemd            /run/systemd/coredump
+unix  3      [ ]         DGRAM                    22105    974/chronyd          /var/run/chrony/chronyd.sock
+unix  2      [ ]         DGRAM                    151898   3006/systemd         /run/user/1000/systemd/notify
+unix  2      [ ACC ]     STREAM     LISTENING     151902   3006/systemd         /run/user/1000/systemd/private
+unix  2      [ ACC ]     STREAM     LISTENING     151910   3006/systemd         /run/user/1000/bus
+unix  2      [ ACC ]     STREAM     LISTENING     26003    1143/hyperkube       /var/lib/kubelet/device-plugins/kubelet.sock
+unix  2      [ ACC ]     SEQPACKET  LISTENING     27042    1457/conmon          /var/run/crio/4820eec2dfc82332f80ab783daad26b31f0a749ae8a09d970b51aede5adb9d75/attach
+unix  2      [ ACC ]     STREAM     LISTENING     24995    1057/crio            /var/run/crio/crio.sock
+unix  2      [ ACC ]     SEQPACKET  LISTENING     25509    1239/conmon          /var/run/crio/3f2164ffc40a996a2723131243bff2439166b35ef49345b699b467cc5d1a3832/attach
+unix  2      [ ACC ]     STREAM     LISTENING     18609    1/systemd            /run/rpcbind.sock
+unix  2      [ ACC ]     STREAM     LISTENING     14011    1/systemd            /run/systemd/private
+unix  2      [ ACC ]     SEQPACKET  LISTENING     155903   3221/conmon          /var/run/libpod/socket/009ed41b946511f53b0face7d64f252b394bc971f0808b498ea588959f1e626f/attach
+unix  2      [ ACC ]     STREAM     LISTENING     18426    1/systemd            /run/lvm/lvmpolld.socket
+unix  3      [ ]         STREAM     CONNECTED     155425   3199/podman          
+unix  3      [ ]         STREAM     CONNECTED     22079    966/dbus-daemon      
+unix  2      [ ]         DGRAM                    22261    966/dbus-daemon      
+unix  2      [ ]         STREAM     CONNECTED     28517    1503/conmon          
+unix  3      [ ]         STREAM     CONNECTED     19613    735/systemd-udevd    
+unix  3      [ ]         STREAM     CONNECTED     24696    1057/crio            
+unix  2      [ ]         STREAM     CONNECTED     155474   3221/conmon          
+unix  3      [ ]         DGRAM                    11782    1/systemd            
+unix  3      [ ]         STREAM     CONNECTED     22960    966/dbus-daemon      
+unix  3      [ ]         STREAM     CONNECTED     151109   1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     22081    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     22920    967/NetworkManager   
+unix  2      [ ]         STREAM     CONNECTED     150909   3002/sshd: core [pr  
+unix  3      [ ]         STREAM     CONNECTED     175102   1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     22249    967/NetworkManager   
+unix  3      [ ]         STREAM     CONNECTED     24442    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     151189   3016/sshd: core@pts  
+unix  3      [ ]         STREAM     CONNECTED     22016    1/systemd            
+unix  3      [ ]         STREAM     CONNECTED     22430    967/NetworkManager   
+unix  3      [ ]         STREAM     CONNECTED     19615    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         DGRAM                    11783    1/systemd            
+unix  3      [ ]         STREAM     CONNECTED     22023    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    19625    735/systemd-udevd    
+unix  3      [ ]         STREAM     CONNECTED     151105   3006/systemd         
+unix  2      [ ]         DGRAM                    155418   3199/podman          
+unix  2      [ ]         DGRAM                    22083    964/systemd-logind   
+unix  3      [ ]         STREAM     CONNECTED     22864    964/systemd-logind   
+unix  3      [ ]         STREAM     CONNECTED     25829    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     22431    966/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     25228    966/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     151904   3006/systemd         
+unix  3      [ ]         STREAM     CONNECTED     175092   4234/hostnamectl     
+unix  3      [ ]         STREAM     CONNECTED     25227    1143/hyperkube       
+unix  3      [ ]         STREAM     CONNECTED     22118    964/systemd-logind   
+unix  3      [ ]         STREAM     CONNECTED     151143   966/dbus-daemon      /run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    152157   3055/sudo            
+unix  2      [ ]         DGRAM                    21704    904/auditd           
+unix  3      [ ]         STREAM     CONNECTED     25169    1143/hyperkube       
+unix  3      [ ]         STREAM     CONNECTED     22420    1022/polkitd         
+unix  2      [ ]         DGRAM                    155807   3197/sudo            
+unix  3      [ ]         DGRAM                    151900   3006/systemd         
+unix  3      [ ]         STREAM     CONNECTED     21714    904/auditd           
+unix  2      [ ]         DGRAM                    155820   3207/exe             
+unix  2      [ ]         DGRAM                    24878    1079/rpc.statd       
+unix  3      [ ]         STREAM     CONNECTED     151190   3002/sshd: core [pr  
+unix  3      [ ]         DGRAM                    19641    735/systemd-udevd    
+unix  3      [ ]         DGRAM                    175099   1/systemd            
+unix  3      [ ]         STREAM     CONNECTED     22021    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     21889    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         STREAM     CONNECTED     28184    1457/conmon          
+unix  3      [ ]         STREAM     CONNECTED     25828    1143/hyperkube       
+unix  2      [ ]         DGRAM                    18641    702/systemd-journal  
+unix  2      [ ]         DGRAM                    151183   3002/sshd: core [pr  
+unix  3      [ ]         STREAM     CONNECTED     22250    966/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         DGRAM                    19642    735/systemd-udevd    
+unix  3      [ ]         STREAM     CONNECTED     24836    1062/rpcbind         
+unix  3      [ ]         STREAM     CONNECTED     175292   4243/systemd-hostna  
+unix  3      [ ]         SEQPACKET  CONNECTED     155904   3221/conmon          /var/run/libpod/socket/009ed41b946511f53b0face7d64f252b394bc971f0808b498ea588959f1e626f/attach
+unix  3      [ ]         STREAM     CONNECTED     24428    1/systemd            /run/systemd/journal/stdout
+unix  2      [ ]         DGRAM                    19521    1/systemd            
+unix  3      [ ]         STREAM     CONNECTED     21888    962/irqbalance       
+unix  3      [ ]         STREAM     CONNECTED     155426   966/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     22962    966/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         DGRAM                    175098   1/systemd            
+unix  2      [ ]         STREAM     CONNECTED     26191    1239/conmon          
+unix  3      [ ]         STREAM     CONNECTED     22961    966/dbus-daemon      
+unix  2      [ ]         DGRAM                    22084    974/chronyd          
+unix  3      [ ]         SEQPACKET  CONNECTED     156752   3207/exe             
+unix  3      [ ]         STREAM     CONNECTED     155827   3207/exe             
+unix  3      [ ]         STREAM     CONNECTED     25173    1057/crio            /var/run/crio/crio.sock
+unix  3      [ ]         STREAM     CONNECTED     22382    1/systemd            /run/systemd/journal/stdout
+unix  3      [ ]         STREAM     CONNECTED     25170    1057/crio            /var/run/crio/crio.sock
+unix  2      [ ]         DGRAM                    151889   3006/systemd         
+unix  2      [ ]         DGRAM                    151131   3010/(sd-pam)        
+unix  3      [ ]         STREAM     CONNECTED     21713    904/auditd           
+unix  3      [ ]         STREAM     CONNECTED     24199    966/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     25225    1143/hyperkube       
+unix  3      [ ]         STREAM     CONNECTED     155445   966/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     175093   966/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         DGRAM                    151901   3006/systemd         
+unix  3      [ ]         STREAM     CONNECTED     22381    1026/sshd            
+unix  3      [ ]         STREAM     CONNECTED     22971    966/dbus-daemon      /run/dbus/system_bus_socket
+unix  3      [ ]         STREAM     CONNECTED     25172    1143/hyperkube       
+unix  2      [ ]         DGRAM                    22226    967/NetworkManager   
+unix  3      [ ]         STREAM     CONNECTED     25226    966/dbus-daemon      /run/dbus/system_bus_socket
+unix  2      [ ]         DGRAM                    22483    1022/polkitd         
+Active Bluetooth connections (servers and established)
+Proto  Destination       Source            State         PSM DCID   SCID      IMTU    OMTU Security
+Proto  Destination       Source            State     Channel

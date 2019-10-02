@@ -1,0 +1,6 @@
+/sys/block:
+total 0
+drwxr-xr-x.  2 0 0 0 Oct  2 02:19 .
+dr-xr-xr-x. 13 0 0 0 Oct  2 02:19 ..
+lrwxrwxrwx.  1 0 0 0 Oct  2 02:19 sda -> ../devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/335e82c9-7ed6-4710-b93f-3a32144c025c/host0/target0:0:0/0:0:0:0/block/sda
+lrwxrwxrwx.  1 0 0 0 Oct  2 02:19 sr0 -> ../devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/VMBUS:00/335e82c9-7ed6-4710-b93f-3a32144c025c/host0/target0:0:0/0:0:0:1/block/sr0

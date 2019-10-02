@@ -1,0 +1,73 @@
+Ip:
+    Forwarding: 1
+    328107 total packets received
+    4 with invalid addresses
+    0 forwarded
+    0 incoming packets discarded
+    328101 incoming packets delivered
+    337745 requests sent out
+    4165 dropped because of missing route
+Icmp:
+    714 ICMP messages received
+    423 input ICMP message failed
+    ICMP input histogram:
+        destination unreachable: 714
+    714 ICMP messages sent
+    0 ICMP messages failed
+    ICMP output histogram:
+        destination unreachable: 714
+IcmpMsg:
+        InType3: 714
+        OutType3: 714
+Tcp:
+    54035 active connection openings
+    354 passive connection openings
+    53223 failed connection attempts
+    21 connection resets received
+    13 connections established
+    271654 segments received
+    286045 segments sent out
+    441 segments retransmitted
+    0 bad segments received
+    2743 resets sent
+Udp:
+    55720 packets received
+    0 packets to unknown port received
+    0 packet receive errors
+    55720 packets sent
+    0 receive buffer errors
+    0 send buffer errors
+    IgnoredMulti: 15
+UdpLite:
+TcpExt:
+    1 TCP sockets finished time wait in fast timer
+    20904 delayed acks sent
+    Quick ack mode was activated 3 times
+    98365 packet headers predicted
+    1663 acknowledgments not containing data payload received
+    83286 predicted acknowledgments
+    TCPTimeouts: 668
+    TCPLossProbes: 2
+    TCPDSACKOldSent: 3
+    TCPDSACKRecv: 2
+    322 connections reset due to unexpected data
+    TCPDSACKIgnoredNoUndo: 1
+    TCPRcvCoalesce: 543
+    TCPSpuriousRtxHostQueues: 432
+    TCPAutoCorking: 873
+    TCPFromZeroWindowAdv: 141
+    TCPToZeroWindowAdv: 141
+    TCPWantZeroWindowAdv: 368
+    TCPSynRetrans: 439
+    TCPOrigDataSent: 143400
+    TCPHystartTrainDetect: 2
+    TCPHystartTrainCwnd: 44
+    TCPKeepAlive: 116
+    TCPDelivered: 143055
+IpExt:
+    InNoRoutes: 2
+    InBcastPkts: 15
+    InOctets: 282605781
+    OutOctets: 37102828
+    InBcastOctets: 4866
+    InNoECTPkts: 499181

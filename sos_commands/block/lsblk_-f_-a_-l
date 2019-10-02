@@ -1,0 +1,6 @@
+NAME FSTYPE  LABEL UUID                                 MOUNTPOINT
+sda                                                     
+sda1 vfat          9AF0-40EA                            /boot/efi
+sda2 ext4    boot  a1850af0-318f-4c6e-92b1-72230a4427d8 /boot
+sda3 xfs     root  9213770d-ddd3-40f9-aeba-d6e8c6fec4c8 /sysroot
+sr0  iso9660 CDROM 2019-08-28-14-05-37-00               

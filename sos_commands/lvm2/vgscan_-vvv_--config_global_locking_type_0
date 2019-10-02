@@ -1,0 +1,140 @@
+        Parsing: vgscan -vvv --config=global{locking_type=0}
+        Recognised command vgscan_general (id 144 / enum 129).
+    Reloading config files
+        Syncing device names
+        Dropping VG info
+        Freeing VG #orphans_lvm2 at 0x557b4ba87e20.
+      Loading config file: /etc/lvm/lvm.conf
+        Opened /etc/lvm/lvm.conf RO
+        Closed /etc/lvm/lvm.conf
+        DEGRADED MODE. Incomplete RAID LVs will be processed.
+        Processing command: vgscan -vvv --config=global{locking_type=0}
+        Command pid: 5664
+        System ID: 
+        O_DIRECT will be used
+  WARNING: locking_type (0) is deprecated, using --nolocking.
+  WARNING: File locking is disabled.
+  Reading all physical volumes.  This may take a while...
+        Processing each VG
+        Finding VG info
+        Sysfs filter initialised.
+        Internal filter initialised.
+        LVM type filter initialised.
+        Usable device filter initialised (scan_lvs 0).
+        mpath filter initialised.
+        Partitioned filter initialised.
+        signature filter initialised.
+        MD filter initialised.
+        Composite filter initialised.
+        Persistent filter initialised.
+        Finding devices to scan
+        Creating list of system devices.
+        Found dev 8:0 /dev/sda - new.
+        Found dev 8:0 /dev/disk/by-id/scsi-360022480c69a91de346aa68b13d6a9e6 - new alias.
+        Found dev 8:0 /dev/disk/by-id/wwn-0x60022480c69a91de346aa68b13d6a9e6 - new alias.
+        Found dev 8:0 /dev/disk/by-path/acpi-VMBUS:00-vmbus-335e82c97ed64710b93f3a32144c025c-lun-0 - new alias.
+        Found dev 8:1 /dev/sda1 - new.
+        Found dev 8:1 /dev/disk/by-id/scsi-360022480c69a91de346aa68b13d6a9e6-part1 - new alias.
+        Found dev 8:1 /dev/disk/by-id/wwn-0x60022480c69a91de346aa68b13d6a9e6-part1 - new alias.
+        Found dev 8:1 /dev/disk/by-partlabel/EFI\x20System\x20Partition - new alias.
+        Found dev 8:1 /dev/disk/by-partuuid/b4622c34-475f-4f0e-9d61-921fec02cf11 - new alias.
+        Found dev 8:1 /dev/disk/by-path/acpi-VMBUS:00-vmbus-335e82c97ed64710b93f3a32144c025c-lun-0-part1 - new alias.
+        Found dev 8:1 /dev/disk/by-uuid/9AF0-40EA - new alias.
+        Found dev 8:2 /dev/sda2 - new.
+        Found dev 8:2 /dev/disk/by-id/scsi-360022480c69a91de346aa68b13d6a9e6-part2 - new alias.
+        Found dev 8:2 /dev/disk/by-id/wwn-0x60022480c69a91de346aa68b13d6a9e6-part2 - new alias.
+        Found dev 8:2 /dev/disk/by-label/boot - new alias.
+        Found dev 8:2 /dev/disk/by-partuuid/198974bb-472b-4320-bac0-7bf040dbfc61 - new alias.
+        Found dev 8:2 /dev/disk/by-path/acpi-VMBUS:00-vmbus-335e82c97ed64710b93f3a32144c025c-lun-0-part2 - new alias.
+        Found dev 8:2 /dev/disk/by-uuid/a1850af0-318f-4c6e-92b1-72230a4427d8 - new alias.
+        Found dev 8:3 /dev/sda3 - new.
+        Found dev 8:3 /dev/disk/by-id/scsi-360022480c69a91de346aa68b13d6a9e6-part3 - new alias.
+        Found dev 8:3 /dev/disk/by-id/wwn-0x60022480c69a91de346aa68b13d6a9e6-part3 - new alias.
+        Found dev 8:3 /dev/disk/by-label/root - new alias.
+        Found dev 8:3 /dev/disk/by-partuuid/008da501-3745-49f7-bc73-f83111202d02 - new alias.
+        Found dev 8:3 /dev/disk/by-path/acpi-VMBUS:00-vmbus-335e82c97ed64710b93f3a32144c025c-lun-0-part3 - new alias.
+        Found dev 8:3 /dev/disk/by-uuid/9213770d-ddd3-40f9-aeba-d6e8c6fec4c8 - new alias.
+        Found dev 11:0 /dev/sr0 - new.
+        Found dev 11:0 /dev/cdrom - new alias.
+        Found dev 11:0 /dev/disk/by-id/scsi-14d534654202020207305e3437703544694957d7ced624a7d - new alias.
+        Found dev 11:0 /dev/disk/by-label/CDROM - new alias.
+        Found dev 11:0 /dev/disk/by-path/acpi-VMBUS:00-vmbus-335e82c97ed64710b93f3a32144c025c-lun-1 - new alias.
+        Found dev 11:0 /dev/disk/by-uuid/2019-08-28-14-05-37-00 - new alias.
+        Opened /dev/sda RO O_DIRECT
+      /dev/sda: size is 266338304 sectors
+        Closed /dev/sda
+        filter partitioned deferred /dev/sda
+        filter signature deferred /dev/sda
+        filter md deferred /dev/sda
+        filter cache deferred /dev/sda
+        /dev/cdrom: Skipping: Unrecognised LVM device type 11
+        filter caching bad /dev/cdrom
+        Opened /dev/sda1 RO O_DIRECT
+      /dev/sda1: size is 192512 sectors
+        Closed /dev/sda1
+        /dev/sda1: Device is a partition, using primary device sda for mpath component detection
+        filter partitioned deferred /dev/sda1
+        filter signature deferred /dev/sda1
+        filter md deferred /dev/sda1
+        filter cache deferred /dev/sda1
+        Opened /dev/sda2 RO O_DIRECT
+      /dev/sda2: size is 2097152 sectors
+        Closed /dev/sda2
+        /dev/sda2: Device is a partition, using primary device sda for mpath component detection
+        filter partitioned deferred /dev/sda2
+        filter signature deferred /dev/sda2
+        filter md deferred /dev/sda2
+        filter cache deferred /dev/sda2
+        Opened /dev/sda3 RO O_DIRECT
+      /dev/sda3: size is 264046559 sectors
+        Closed /dev/sda3
+        /dev/sda3: Device is a partition, using primary device sda for mpath component detection
+        filter partitioned deferred /dev/sda3
+        filter signature deferred /dev/sda3
+        filter md deferred /dev/sda3
+        filter cache deferred /dev/sda3
+        Found 4 devices to scan
+        Scanning 4 devices for VG info
+        Scanning submitted 4 reads
+        Processing data from device /dev/sda 8:0 fd 3 block 0x557b4baaff60
+        Scan filtering /dev/sda
+      /dev/sda: using cached size 266338304 sectors
+        /dev/sda: Skipping: Partition table signature found
+        filter caching bad /dev/sda
+      /dev/sda: Not processing filtered
+        Processing data from device /dev/sda1 8:1 fd 4 block 0x557b4baaffa0
+        Scan filtering /dev/sda1
+      /dev/sda1: using cached size 192512 sectors
+        /dev/sda1: Device is a partition, using primary device sda for mpath component detection
+      /dev/sda1: using cached size 192512 sectors
+        filter caching good /dev/sda1
+      /dev/sda1: No lvm label detected
+        Processing data from device /dev/sda2 8:2 fd 5 block 0x557b4baaffe0
+        Scan filtering /dev/sda2
+      /dev/sda2: using cached size 2097152 sectors
+        /dev/sda2: Device is a partition, using primary device sda for mpath component detection
+      /dev/sda2: using cached size 2097152 sectors
+        filter caching good /dev/sda2
+      /dev/sda2: No lvm label detected
+        Processing data from device /dev/sda3 8:3 fd 6 block 0x557b4bab0020
+        Scan filtering /dev/sda3
+      /dev/sda3: using cached size 264046559 sectors
+        /dev/sda3: Device is a partition, using primary device sda for mpath component detection
+      /dev/sda3: using cached size 264046559 sectors
+        filter caching good /dev/sda3
+      /dev/sda3: No lvm label detected
+        Scanned devices: read errors 0 process errors 0 failed 0
+        Found VG info for 0 VGs
+      Obtaining the complete list of VGs to process
+    No volume groups found.
+        Dropping VG info
+        lvmcache has no info for vgname "#orphans_lvm2" with VGID #orphans_lvm2.
+        lvmcache has no info for vgname "#orphans_lvm2".
+        lvmcache: Initialised VG #orphans_lvm2.
+    Reloading config files
+        Syncing device names
+        Dropping VG info
+        Freeing VG #orphans_lvm2 at 0x557b4ba98780.
+      Loading config file: /etc/lvm/lvm.conf
+        Opened /etc/lvm/lvm.conf RO
+        Closed /etc/lvm/lvm.conf

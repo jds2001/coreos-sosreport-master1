@@ -1,0 +1,2 @@
+/dev/sg0  0 0 0 0  0  /dev/sda
+/dev/sg1  0 0 0 1  5  /dev/sr0

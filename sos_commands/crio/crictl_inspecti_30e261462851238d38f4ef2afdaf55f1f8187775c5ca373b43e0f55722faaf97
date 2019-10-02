@@ -1,0 +1,14 @@
+{
+  "status": {
+    "id": "30e261462851238d38f4ef2afdaf55f1f8187775c5ca373b43e0f55722faaf97",
+    "repoTags": [
+      "registry.local:5000/rhel8/support-tools:latest"
+    ],
+    "repoDigests": [
+      "registry.local:5000/rhel8/support-tools@sha256:3cb0bf0ebfba3bd5456f15754c833bfd8dfe894b2f0ff4e742b2f8a3bcb709fb"
+    ],
+    "size": "248131525",
+    "uid": null,
+    "username": ""
+  }
+}

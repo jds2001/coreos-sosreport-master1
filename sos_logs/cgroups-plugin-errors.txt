@@ -1,0 +1,27 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/site-packages/sos/sosreport.py", line 1114, in collect_plugin
+    plug.collect()
+  File "/usr/lib/python3.6/site-packages/sos/plugins/__init__.py", line 954, in collect
+    self._collect_copy_specs()
+  File "/usr/lib/python3.6/site-packages/sos/plugins/__init__.py", line 910, in _collect_copy_specs
+    self._do_copy_path(path)
+  File "/usr/lib/python3.6/site-packages/sos/plugins/__init__.py", line 448, in _do_copy_path
+    self._copy_dir(srcpath)
+  File "/usr/lib/python3.6/site-packages/sos/plugins/__init__.py", line 394, in _copy_dir
+    self._do_copy_path(os.path.join(srcpath, afile), dest=None)
+  File "/usr/lib/python3.6/site-packages/sos/plugins/__init__.py", line 448, in _do_copy_path
+    self._copy_dir(srcpath)
+  File "/usr/lib/python3.6/site-packages/sos/plugins/__init__.py", line 394, in _copy_dir
+    self._do_copy_path(os.path.join(srcpath, afile), dest=None)
+  File "/usr/lib/python3.6/site-packages/sos/plugins/__init__.py", line 448, in _do_copy_path
+    self._copy_dir(srcpath)
+  File "/usr/lib/python3.6/site-packages/sos/plugins/__init__.py", line 394, in _copy_dir
+    self._do_copy_path(os.path.join(srcpath, afile), dest=None)
+  File "/usr/lib/python3.6/site-packages/sos/plugins/__init__.py", line 465, in _do_copy_path
+    self.archive.add_string("", dest)
+  File "/usr/lib/python3.6/site-packages/sos/archive.py", line 379, in add_string
+    f = codecs.open(dest, 'w', encoding='utf-8')
+  File "/usr/lib64/python3.6/codecs.py", line 897, in open
+    file = builtins.open(filename, mode, buffering)
+FileNotFoundError: [Errno 2] No such file or directory: '/host/var/tmp/sos.aidv6a49/sosreport-localhost-2019-10-02-pmjpmmk/sys/fs/cgroup/blkio/user.slice/blkio.reset_stats'
+

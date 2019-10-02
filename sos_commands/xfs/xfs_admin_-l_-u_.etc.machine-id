@@ -1,0 +1,3 @@
+shell-init: error retrieving current directory: getcwd: cannot access parent directories: No such file or directory
+xfs_admin: error - read only 33 of 32768 bytes
+xfs_admin: /etc/machine-id is invalid (cannot read first 512 bytes)

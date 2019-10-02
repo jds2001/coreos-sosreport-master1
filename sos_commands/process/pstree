@@ -1,0 +1,28 @@
+systemd-+-NetworkManager---2*[{NetworkManager}]
+        |-agetty
+        |-auditd---{auditd}
+        |-chronyd
+        |-conmon-+-pod---5*[{pod}]
+        |        `-{conmon}
+        |-2*[conmon-+-etcd---9*[{etcd}]]
+        |           `-{conmon}]
+        |-conmon-+-bash---sosreport-+-timeout---chronyc
+        |        |                  |-timeout---hostnamectl
+        |        |                  |-timeout---podman---5*[{podman}]
+        |        |                  |-timeout---pstree
+        |        |                  `-12*[{sosreport}]
+        |        `-{conmon}
+        |-crio---13*[{crio}]
+        |-dbus-daemon---{dbus-daemon}
+        |-hyperkube---15*[{hyperkube}]
+        |-irqbalance---{irqbalance}
+        |-polkitd---9*[{polkitd}]
+        |-rpc.statd
+        |-rpcbind
+        |-sshd---sshd---sshd---bash---sudo---bash---toolbox---sudo---podman-+-exe---9*[{exe}]
+        |                                                                   `-8*[{podman}]
+        |-systemd---(sd-pam)
+        |-systemd-hostnam
+        |-systemd-journal
+        |-systemd-logind
+        `-systemd-udevd

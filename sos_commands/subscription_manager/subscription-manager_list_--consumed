@@ -1,0 +1,3 @@
+2019-10-02 02:54:36,901 [INFO] subscription-manager:6493:MainThread @connection.py:924 - Connection built: host=subscription.rhsm.redhat.com port=443 handler=/subscription auth=identity_cert ca_dir=/etc/rhsm-host/ca/ insecure=False
+subscription-manager is disabled when running inside a container. Please refer to your host system for subscription management.
+

@@ -1,0 +1,18 @@
+{
+  "status": {
+    "conditions": [
+      {
+        "type": "RuntimeReady",
+        "status": true,
+        "reason": "",
+        "message": ""
+      },
+      {
+        "type": "NetworkReady",
+        "status": false,
+        "reason": "NetworkPluginNotReady",
+        "message": "Network plugin returns error: Missing CNI default network"
+      }
+    ]
+  }
+}

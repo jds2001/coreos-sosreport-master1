@@ -1,0 +1,4 @@
+Disk /dev/sr0: 73.7 MiB, 77301760 bytes, 37745 sectors
+Units: sectors of 1 * 2048 = 2048 bytes
+Sector size (logical/physical): 2048 bytes / 2048 bytes
+I/O size (minimum/optimal): 2048 bytes / 2048 bytes

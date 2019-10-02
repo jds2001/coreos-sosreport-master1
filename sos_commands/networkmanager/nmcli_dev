@@ -1,0 +1,3 @@
+DEVICE  TYPE      STATE      CONNECTION         
+eth0    ethernet  connected  Wired connection 1 
+lo      loopback  unmanaged  --                 

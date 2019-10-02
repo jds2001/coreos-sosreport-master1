@@ -1,0 +1,1 @@
+BOOT_IMAGE=/ostree/rhcos-405a55e876e45e7c5a51e97c920a5e5e00294a6186e504ecf578605541d2dbc8/vmlinuz-4.18.0-80.11.2.el8_0.x86_64 console=tty0 console=ttyS0,115200n8 rootflags=defaults,prjquota rw root=UUID=9213770d-ddd3-40f9-aeba-d6e8c6fec4c8 ostree=/ostree/boot.1/rhcos/405a55e876e45e7c5a51e97c920a5e5e00294a6186e504ecf578605541d2dbc8/0 coreos.oem.id=metal ignition.platform.id=metal

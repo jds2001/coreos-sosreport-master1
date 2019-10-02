@@ -1,0 +1,2 @@
+subscription-manager is disabled when running inside a container. Please refer to your host system for subscription management.
+

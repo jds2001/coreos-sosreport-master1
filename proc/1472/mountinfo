@@ -1,0 +1,50 @@
+401 358 0:43 / / rw,relatime - overlay overlay rw,context="system_u:object_r:container_file_t:s0:c505,c622",lowerdir=/var/lib/containers/storage/overlay/l/VC36MFMVNLLCMSOW3IQGXFOLMP:/var/lib/containers/storage/overlay/l/XNW2OIS2TCNWWZMK6HV6GBTCLJ:/var/lib/containers/storage/overlay/l/WF7ZHI3KDJ4Z6WPUH4CY7VX7FT:/var/lib/containers/storage/overlay/l/LOC3TDBNCLBH5LLGM37T6FNIHX:/var/lib/containers/storage/overlay/l/RJAL234532UAV4ALZMEIM7ZH6K,upperdir=/var/lib/containers/storage/overlay/7e0d201c7be555bd5c916cf571e708d4aa1d9ea2726d0b3f02b2558960dcd814/diff,workdir=/var/lib/containers/storage/overlay/7e0d201c7be555bd5c916cf571e708d4aa1d9ea2726d0b3f02b2558960dcd814/work
+402 401 0:52 / /proc rw,relatime - proc proc rw
+403 401 0:53 / /dev rw,nosuid - tmpfs tmpfs rw,context="system_u:object_r:container_file_t:s0:c505,c622",size=65536k,mode=755
+404 403 0:54 / /dev/pts rw,nosuid,noexec,relatime - devpts devpts rw,context="system_u:object_r:container_file_t:s0:c505,c622",gid=5,mode=620,ptmxmode=666
+405 403 0:46 / /dev/mqueue rw,nosuid,nodev,noexec,relatime - mqueue mqueue rw,seclabel
+406 401 0:55 / /sys/fs/cgroup rw,nosuid,nodev,noexec,relatime - tmpfs tmpfs rw,context="system_u:object_r:container_file_t:s0:c505,c622",mode=755
+407 406 0:25 /kubepods.slice/kubepods-burstable.slice/kubepods-burstable-poda4a4914b4a1d79ce6413f72b428053e2.slice/crio-4820eec2dfc82332f80ab783daad26b31f0a749ae8a09d970b51aede5adb9d75.scope /sys/fs/cgroup/systemd rw,nosuid,nodev,noexec,relatime master:7 - cgroup cgroup rw,seclabel,xattr,release_agent=/usr/lib/systemd/systemd-cgroups-agent,name=systemd
+408 406 0:29 /kubepods.slice/kubepods-burstable.slice/kubepods-burstable-poda4a4914b4a1d79ce6413f72b428053e2.slice/crio-4820eec2dfc82332f80ab783daad26b31f0a749ae8a09d970b51aede5adb9d75.scope /sys/fs/cgroup/net_cls,net_prio rw,nosuid,nodev,noexec,relatime master:8 - cgroup cgroup rw,seclabel,net_cls,net_prio
+409 406 0:30 / /sys/fs/cgroup/rdma rw,nosuid,nodev,noexec,relatime master:9 - cgroup cgroup rw,seclabel,rdma
+410 406 0:31 /kubepods.slice/kubepods-burstable.slice/kubepods-burstable-poda4a4914b4a1d79ce6413f72b428053e2.slice/crio-4820eec2dfc82332f80ab783daad26b31f0a749ae8a09d970b51aede5adb9d75.scope /sys/fs/cgroup/memory rw,nosuid,nodev,noexec,relatime master:10 - cgroup cgroup rw,seclabel,memory
+411 406 0:32 /kubepods.slice/kubepods-burstable.slice/kubepods-burstable-poda4a4914b4a1d79ce6413f72b428053e2.slice/crio-4820eec2dfc82332f80ab783daad26b31f0a749ae8a09d970b51aede5adb9d75.scope /sys/fs/cgroup/cpu,cpuacct rw,nosuid,nodev,noexec,relatime master:11 - cgroup cgroup rw,seclabel,cpu,cpuacct
+412 406 0:33 /kubepods.slice/kubepods-burstable.slice/kubepods-burstable-poda4a4914b4a1d79ce6413f72b428053e2.slice/crio-4820eec2dfc82332f80ab783daad26b31f0a749ae8a09d970b51aede5adb9d75.scope /sys/fs/cgroup/cpuset rw,nosuid,nodev,noexec,relatime master:12 - cgroup cgroup rw,seclabel,cpuset
+413 406 0:34 /kubepods.slice/kubepods-burstable.slice/kubepods-burstable-poda4a4914b4a1d79ce6413f72b428053e2.slice/crio-4820eec2dfc82332f80ab783daad26b31f0a749ae8a09d970b51aede5adb9d75.scope /sys/fs/cgroup/hugetlb rw,nosuid,nodev,noexec,relatime master:13 - cgroup cgroup rw,seclabel,hugetlb
+414 406 0:35 /kubepods.slice/kubepods-burstable.slice/kubepods-burstable-poda4a4914b4a1d79ce6413f72b428053e2.slice/crio-4820eec2dfc82332f80ab783daad26b31f0a749ae8a09d970b51aede5adb9d75.scope /sys/fs/cgroup/pids rw,nosuid,nodev,noexec,relatime master:14 - cgroup cgroup rw,seclabel,pids
+415 406 0:36 /kubepods.slice/kubepods-burstable.slice/kubepods-burstable-poda4a4914b4a1d79ce6413f72b428053e2.slice/crio-4820eec2dfc82332f80ab783daad26b31f0a749ae8a09d970b51aede5adb9d75.scope /sys/fs/cgroup/devices rw,nosuid,nodev,noexec,relatime master:15 - cgroup cgroup rw,seclabel,devices
+416 406 0:37 /kubepods.slice/kubepods-burstable.slice/kubepods-burstable-poda4a4914b4a1d79ce6413f72b428053e2.slice/crio-4820eec2dfc82332f80ab783daad26b31f0a749ae8a09d970b51aede5adb9d75.scope /sys/fs/cgroup/freezer rw,nosuid,nodev,noexec,relatime master:16 - cgroup cgroup rw,seclabel,freezer
+417 406 0:38 /kubepods.slice/kubepods-burstable.slice/kubepods-burstable-poda4a4914b4a1d79ce6413f72b428053e2.slice/crio-4820eec2dfc82332f80ab783daad26b31f0a749ae8a09d970b51aede5adb9d75.scope /sys/fs/cgroup/blkio rw,nosuid,nodev,noexec,relatime master:17 - cgroup cgroup rw,seclabel,blkio
+418 406 0:39 /kubepods.slice/kubepods-burstable.slice/kubepods-burstable-poda4a4914b4a1d79ce6413f72b428053e2.slice/crio-4820eec2dfc82332f80ab783daad26b31f0a749ae8a09d970b51aede5adb9d75.scope /sys/fs/cgroup/perf_event rw,nosuid,nodev,noexec,relatime master:18 - cgroup cgroup rw,seclabel,perf_event
+419 401 0:20 / /sys rw,nosuid,nodev,noexec,relatime master:4 - sysfs sysfs rw,seclabel
+420 419 0:7 / /sys/kernel/security rw,nosuid,nodev,noexec,relatime master:5 - securityfs securityfs rw
+421 419 0:24 / /sys/fs/cgroup ro,nosuid,nodev,noexec master:6 - tmpfs tmpfs ro,seclabel,mode=755
+422 421 0:25 / /sys/fs/cgroup/systemd rw,nosuid,nodev,noexec,relatime master:7 - cgroup cgroup rw,seclabel,xattr,release_agent=/usr/lib/systemd/systemd-cgroups-agent,name=systemd
+423 421 0:29 / /sys/fs/cgroup/net_cls,net_prio rw,nosuid,nodev,noexec,relatime master:8 - cgroup cgroup rw,seclabel,net_cls,net_prio
+424 421 0:30 / /sys/fs/cgroup/rdma rw,nosuid,nodev,noexec,relatime master:9 - cgroup cgroup rw,seclabel,rdma
+425 421 0:31 / /sys/fs/cgroup/memory rw,nosuid,nodev,noexec,relatime master:10 - cgroup cgroup rw,seclabel,memory
+426 421 0:32 / /sys/fs/cgroup/cpu,cpuacct rw,nosuid,nodev,noexec,relatime master:11 - cgroup cgroup rw,seclabel,cpu,cpuacct
+427 421 0:33 / /sys/fs/cgroup/cpuset rw,nosuid,nodev,noexec,relatime master:12 - cgroup cgroup rw,seclabel,cpuset
+428 421 0:34 / /sys/fs/cgroup/hugetlb rw,nosuid,nodev,noexec,relatime master:13 - cgroup cgroup rw,seclabel,hugetlb
+429 421 0:35 / /sys/fs/cgroup/pids rw,nosuid,nodev,noexec,relatime master:14 - cgroup cgroup rw,seclabel,pids
+430 421 0:36 / /sys/fs/cgroup/devices rw,nosuid,nodev,noexec,relatime master:15 - cgroup cgroup rw,seclabel,devices
+431 421 0:37 / /sys/fs/cgroup/freezer rw,nosuid,nodev,noexec,relatime master:16 - cgroup cgroup rw,seclabel,freezer
+432 421 0:38 / /sys/fs/cgroup/blkio rw,nosuid,nodev,noexec,relatime master:17 - cgroup cgroup rw,seclabel,blkio
+433 421 0:39 / /sys/fs/cgroup/perf_event rw,nosuid,nodev,noexec,relatime master:18 - cgroup cgroup rw,seclabel,perf_event
+434 419 0:26 / /sys/fs/pstore rw,nosuid,nodev,noexec,relatime master:19 - pstore pstore rw,seclabel
+435 419 0:27 / /sys/firmware/efi/efivars rw,nosuid,nodev,noexec,relatime master:20 - efivarfs efivarfs rw
+436 419 0:28 / /sys/fs/bpf rw,nosuid,nodev,noexec,relatime master:21 - bpf bpf rw,mode=700
+437 419 0:40 / /sys/kernel/config rw,relatime master:22 - configfs configfs rw
+438 419 0:19 / /sys/fs/selinux rw,relatime master:23 - selinuxfs selinuxfs rw
+439 419 0:8 / /sys/kernel/debug rw,relatime master:30 - debugfs debugfs rw,seclabel
+441 403 0:44 / /dev/shm rw,nosuid,nodev,noexec,relatime master:244 - tmpfs shm rw,context="system_u:object_r:container_file_t:s0:c505,c622",size=65536k
+442 401 0:23 /containers/storage/overlay-containers/3f2164ffc40a996a2723131243bff2439166b35ef49345b699b467cc5d1a3832/userdata/resolv.conf /etc/resolv.conf rw,nosuid,nodev,noexec master:27 - tmpfs tmpfs rw,seclabel,mode=755
+452 401 0:23 /containers/storage/overlay-containers/3f2164ffc40a996a2723131243bff2439166b35ef49345b699b467cc5d1a3832/userdata/hostname /etc/hostname rw,nosuid,nodev master:27 - tmpfs tmpfs rw,seclabel,mode=755
+453 401 0:23 /etcd /run/etcd rw,nosuid,nodev - tmpfs tmpfs rw,seclabel,mode=755
+484 401 8:3 /ostree/deploy/rhcos/deploy/c652005903e3449b7e3ef8b4d4a3ee4bd4153d0d6760fd03209203cec9bf904c.0/etc/etcd /etc/etcd rw,relatime - xfs /dev/sda3 rw,seclabel,attr2,inode64,prjquota
+485 401 8:3 /ostree/deploy/rhcos/var/lib/kubelet/pods/a4a4914b4a1d79ce6413f72b428053e2/etc-hosts /etc/hosts rw,relatime - xfs /dev/sda3 rw,seclabel,attr2,inode64,prjquota
+486 403 8:3 /ostree/deploy/rhcos/var/lib/kubelet/pods/a4a4914b4a1d79ce6413f72b428053e2/containers/etcd-member/fdb2a044 /dev/termination-log rw,relatime - xfs /dev/sda3 rw,seclabel,attr2,inode64,prjquota
+487 401 0:23 /containers/storage/overlay-containers/4820eec2dfc82332f80ab783daad26b31f0a749ae8a09d970b51aede5adb9d75/userdata/run/secrets /run/secrets rw,nosuid,nodev master:27 - tmpfs tmpfs rw,seclabel,mode=755
+488 487 0:23 /containers/storage/overlay-containers/4820eec2dfc82332f80ab783daad26b31f0a749ae8a09d970b51aede5adb9d75/userdata/run/secrets /run/secrets rw,nosuid,nodev - tmpfs tmpfs rw,seclabel,mode=755
+489 401 8:3 /ostree/deploy/rhcos/deploy/c652005903e3449b7e3ef8b4d4a3ee4bd4153d0d6760fd03209203cec9bf904c.0/etc/kubernetes/static-pod-resources/etcd-member /etc/ssl/etcd rw,relatime - xfs /dev/sda3 rw,seclabel,attr2,inode64,prjquota
+490 401 8:3 /ostree/deploy/rhcos/var/lib/etcd /var/lib/etcd rw,relatime - xfs /dev/sda3 rw,seclabel,attr2,inode64,prjquota
