@@ -1,0 +1,67 @@
+{
+  "status": {
+    "id": "84352f194df11a00c4e3303fe874fc284683ace27339d38ffca9cadd3299dbfd",
+    "metadata": {
+      "attempt": 5,
+      "name": "etcd-metrics"
+    },
+    "state": "CONTAINER_EXITED",
+    "createdAt": "2019-10-02T02:40:37.8896015Z",
+    "startedAt": "2019-10-02T02:40:37.9304464Z",
+    "finishedAt": "2019-10-02T02:40:42.9476006Z",
+    "exitCode": 1,
+    "image": {
+      "image": "quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:b83087564c4e331a89eb9e8babdece68f82cf8537808ec300a690bcb0b499757"
+    },
+    "imageRef": "quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:b83087564c4e331a89eb9e8babdece68f82cf8537808ec300a690bcb0b499757",
+    "reason": "Error",
+    "message": "",
+    "labels": {
+      "io.kubernetes.container.name": "etcd-metrics",
+      "io.kubernetes.pod.name": "etcd-member-localhost.localdomain",
+      "io.kubernetes.pod.namespace": "openshift-etcd",
+      "io.kubernetes.pod.uid": "a4a4914b4a1d79ce6413f72b428053e2"
+    },
+    "annotations": {
+      "io.kubernetes.container.hash": "e119d1b5",
+      "io.kubernetes.container.ports": "[{\"name\":\"metric\",\"hostPort\":9979,\"containerPort\":9979,\"protocol\":\"TCP\"}]",
+      "io.kubernetes.container.restartCount": "5",
+      "io.kubernetes.container.terminationMessagePath": "/dev/termination-log",
+      "io.kubernetes.container.terminationMessagePolicy": "FallbackToLogsOnError",
+      "io.kubernetes.pod.terminationGracePeriod": "30"
+    },
+    "mounts": [
+      {
+        "containerPath": "/run/etcd/",
+        "hostPath": "/run/etcd",
+        "propagation": "PROPAGATION_PRIVATE",
+        "readonly": false,
+        "selinuxRelabel": false
+      },
+      {
+        "containerPath": "/etc/hosts",
+        "hostPath": "/var/lib/kubelet/pods/a4a4914b4a1d79ce6413f72b428053e2/etc-hosts",
+        "propagation": "PROPAGATION_PRIVATE",
+        "readonly": false,
+        "selinuxRelabel": false
+      },
+      {
+        "containerPath": "/dev/termination-log",
+        "hostPath": "/var/lib/kubelet/pods/a4a4914b4a1d79ce6413f72b428053e2/containers/etcd-metrics/91b02cb4",
+        "propagation": "PROPAGATION_PRIVATE",
+        "readonly": false,
+        "selinuxRelabel": false
+      },
+      {
+        "containerPath": "/etc/ssl/etcd/",
+        "hostPath": "/etc/kubernetes/static-pod-resources/etcd-member",
+        "propagation": "PROPAGATION_PRIVATE",
+        "readonly": false,
+        "selinuxRelabel": false
+      }
+    ],
+    "logPath": "/var/log/pods/openshift-etcd_etcd-member-localhost.localdomain_a4a4914b4a1d79ce6413f72b428053e2/etcd-metrics/5.log"
+  },
+  "pid": 0,
+  "sandboxId": "45215d703658723377df82dfbb1576359154f60658b8b6c76928a2a8435fdf1e"
+}

@@ -1,0 +1,14 @@
+Writing asset: /assets/kube-apiserver-bootstrap/bootstrap-manifests/kube-apiserver-pod.yaml
+Writing asset: /assets/kube-apiserver-bootstrap/manifests/secret-aggregator-client-signer.yaml
+Writing asset: /assets/kube-apiserver-bootstrap/manifests/secret-loadbalancer-serving-signer.yaml
+Writing asset: /assets/kube-apiserver-bootstrap/manifests/cluster-role-binding-kube-apiserver.yaml
+Writing asset: /assets/kube-apiserver-bootstrap/manifests/configmap-admin-kubeconfig-client-ca.yaml
+Writing asset: /assets/kube-apiserver-bootstrap/manifests/configmap-csr-controller-ca.yaml
+Writing asset: /assets/kube-apiserver-bootstrap/manifests/configmap-sa-token-signing-certs.yaml
+Writing asset: /assets/kube-apiserver-bootstrap/manifests/secret-control-plane-client-signer.yaml
+Writing asset: /assets/kube-apiserver-bootstrap/manifests/secret-kube-apiserver-to-kubelet-signer.yaml
+Writing asset: /assets/kube-apiserver-bootstrap/manifests/secret-localhost-serving-signer.yaml
+Writing asset: /assets/kube-apiserver-bootstrap/manifests/secret-service-network-serving-signer.yaml
+Writing asset: /assets/kube-apiserver-bootstrap/manifests/00_openshift-kube-apiserver-ns.yaml
+Writing asset: /assets/kube-apiserver-bootstrap/manifests/00_openshift-kube-apiserver-operator-ns.yaml
+Writing asset: /assets/kube-apiserver-bootstrap/manifests/cluster-role-kube-apiserver.yaml

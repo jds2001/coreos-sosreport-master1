@@ -1,0 +1,5 @@
+I1002 02:19:42.199208       1 run.go:50] Version: v4.2.0-201909221318-dirty (b8898db9af98e5c3d6a450ae123121677b0dbcb3)
+I1002 02:19:42.204034       1 run.go:178] checking against etcd-0.openshift4poc.example.local.
+I1002 02:19:42.205042       1 run.go:178] checking against etcd-1.openshift4poc.example.local.
+I1002 02:19:42.205893       1 run.go:178] checking against etcd-2.openshift4poc.example.local.
+I1002 02:19:42.207663       1 run.go:81] dns name is etcd-0.openshift4poc.example.local

@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: etcd-ca-bundle
+  namespace: openshift-config
+data:
+  ca-bundle.crt: |
+    -----BEGIN CERTIFICATE-----
+    MIIDGDCCAgCgAwIBAgIIGfWoQR23VIswDQYJKoZIhvcNAQELBQAwKjESMBAGA1UE
+    CxMJb3BlbnNoaWZ0MRQwEgYDVQQDEwtldGNkLXNpZ25lcjAeFw0xOTEwMDEyMzAz
+    MTNaFw0yOTA5MjgyMzAzMTNaMCoxEjAQBgNVBAsTCW9wZW5zaGlmdDEUMBIGA1UE
+    AxMLZXRjZC1zaWduZXIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCg
+    qr/FFLQXntL+26nW1lbL53StgbwwGiGIyckaZwF/hvu7eGJhdanoLwUFieUNPHG+
+    lS5bkkYolSXFGCviAgapbhBL3IRDbus0U3BQPtrrTpQUoLTuHL1c6aTrL49Z/nPG
+    9CIeUk3iofVKkyoodBsnu4JcRRPYVOwAEtmhbF2wlFG89eXwMHLYWugrn47JpIH3
+    bY7EbC4Wgz/FncVP/5f0cfO8dz7deOG4+KFH2gdTA7W5B2Zu/L8jC2YG5iau55Nz
+    T9kXGVPgx+58Wx49QQZIKepBH2kddcdDEFJEDGlPqccYLJiBPDItZFAQ6mmL0U5a
+    u68sXv4jyI3ySSXYjiDrAgMBAAGjQjBAMA4GA1UdDwEB/wQEAwICpDAPBgNVHRMB
+    Af8EBTADAQH/MB0GA1UdDgQWBBRn6/X2PkblSJpSccAShCg3pb5PlDANBgkqhkiG
+    9w0BAQsFAAOCAQEAOKLUDqR9EH8wYinrMEetIXIxlwzzOB9BvuVoLdKqUWPjyfOq
+    5AtFWox8cYYUkrgLRNQrltGfC4OUh0wxpUiEIuWHBSBp3ykm/Y7gyawjnYbJFwZd
+    BVGF7sbMR9BiH4G24Cq2K0maAUN1aadBqz8VQT7w2twtxSQEol9XN0sjVrO9q6iz
+    D7mf0kxnmI9/K+JnFxbZFihmCDAeyDiO6rfv534GnbHmDSmz1/zgxQSAqfW8Ka9z
+    ZmdgKDgIUijPoGmuxXZvz3CrXEpedQvJYM/M4xPTNRzYRt1hyjrYdTuLL2oY+Lo2
+    x/1GpK7GFsxq8fbWNZs+ccm8oT7VaIN/NkFPAA==
+    -----END CERTIFICATE-----
+    

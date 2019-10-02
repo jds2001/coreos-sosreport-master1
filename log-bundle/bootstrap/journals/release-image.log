@@ -1,0 +1,7 @@
+-- Logs begin at Wed 2019-10-02 02:13:51 UTC, end at Wed 2019-10-02 02:41:32 UTC. --
+Oct 02 02:14:07 bootstrap.openshift4poc.example.local systemd[1]: Starting Download the OpenShift Release Image...
+Oct 02 02:14:07 bootstrap.openshift4poc.example.local release-image-download.sh[1468]: Pulling registry.local:5000/ocp4/openshift4:4.2.0-0.nightly-2019-09-27-191818...
+Oct 02 02:14:07 bootstrap.openshift4poc.example.local podman[1473]: 2019-10-02 02:14:07.3753724 +0000 UTC m=+0.236215301 system refresh
+Oct 02 02:14:14 bootstrap.openshift4poc.example.local podman[1473]: 2019-10-02 02:14:14.6642753 +0000 UTC m=+7.525118301 image pull  
+Oct 02 02:14:14 bootstrap.openshift4poc.example.local release-image-download.sh[1468]: ca147eee20b758024bb7aa64703d1447746b10dedbbbfa00e3218ec6e3d054bd
+Oct 02 02:14:14 bootstrap.openshift4poc.example.local systemd[1]: Started Download the OpenShift Release Image.

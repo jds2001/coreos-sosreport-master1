@@ -1,0 +1,52 @@
+{
+  "status": {
+    "id": "5609881f43b6a7ac0262ce0029455baafa45d7df0fc2f16aabfe928a596c2d4e",
+    "metadata": {
+      "attempt": 0,
+      "name": "discovery"
+    },
+    "state": "CONTAINER_EXITED",
+    "createdAt": "2019-10-02T02:19:42.1531695Z",
+    "startedAt": "2019-10-02T02:19:42.1984498Z",
+    "finishedAt": "2019-10-02T02:19:42.2166757Z",
+    "exitCode": 0,
+    "image": {
+      "image": "quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:f94afe7d7dcbb1fd574c483d1d839f47b643f5c133ced7de6eeb8c4be0e2ba88"
+    },
+    "imageRef": "quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:f94afe7d7dcbb1fd574c483d1d839f47b643f5c133ced7de6eeb8c4be0e2ba88",
+    "reason": "Completed",
+    "message": "",
+    "labels": {
+      "io.kubernetes.container.name": "discovery",
+      "io.kubernetes.pod.name": "etcd-member-localhost.localdomain",
+      "io.kubernetes.pod.namespace": "openshift-etcd",
+      "io.kubernetes.pod.uid": "a4a4914b4a1d79ce6413f72b428053e2"
+    },
+    "annotations": {
+      "io.kubernetes.container.hash": "c13a5457",
+      "io.kubernetes.container.restartCount": "0",
+      "io.kubernetes.container.terminationMessagePath": "/dev/termination-log",
+      "io.kubernetes.container.terminationMessagePolicy": "File",
+      "io.kubernetes.pod.terminationGracePeriod": "30"
+    },
+    "mounts": [
+      {
+        "containerPath": "/run/etcd/",
+        "hostPath": "/run/etcd",
+        "propagation": "PROPAGATION_PRIVATE",
+        "readonly": false,
+        "selinuxRelabel": false
+      },
+      {
+        "containerPath": "/dev/termination-log",
+        "hostPath": "/var/lib/kubelet/pods/a4a4914b4a1d79ce6413f72b428053e2/containers/discovery/98745e50",
+        "propagation": "PROPAGATION_PRIVATE",
+        "readonly": false,
+        "selinuxRelabel": false
+      }
+    ],
+    "logPath": "/var/log/pods/openshift-etcd_etcd-member-localhost.localdomain_a4a4914b4a1d79ce6413f72b428053e2/discovery/0.log"
+  },
+  "pid": 0,
+  "sandboxId": "3f2164ffc40a996a2723131243bff2439166b35ef49345b699b467cc5d1a3832"
+}

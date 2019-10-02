@@ -1,0 +1,2 @@
+Writing asset: /assets/kube-scheduler-bootstrap/bootstrap-manifests/kube-scheduler-pod.yaml
+Writing asset: /assets/kube-scheduler-bootstrap/manifests/00_openshift-kube-scheduler-ns.yaml

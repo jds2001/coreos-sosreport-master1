@@ -1,0 +1,73 @@
+{
+  "status": {
+    "id": "c17a97c7b311cebc2dcc4f70a1c29c2c47b77c6ddcc4b6c654f1613aa3c4d803",
+    "metadata": {
+      "attempt": 0,
+      "name": "machine-config-server"
+    },
+    "state": "CONTAINER_RUNNING",
+    "createdAt": "2019-10-02T02:14:54.3798294Z",
+    "startedAt": "2019-10-02T02:14:54.4224905Z",
+    "finishedAt": "1970-01-01T00:00:00Z",
+    "exitCode": 0,
+    "image": {
+      "image": "quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:f94afe7d7dcbb1fd574c483d1d839f47b643f5c133ced7de6eeb8c4be0e2ba88"
+    },
+    "imageRef": "quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:f94afe7d7dcbb1fd574c483d1d839f47b643f5c133ced7de6eeb8c4be0e2ba88",
+    "reason": "",
+    "message": "",
+    "labels": {
+      "io.kubernetes.container.name": "machine-config-server",
+      "io.kubernetes.pod.name": "bootstrap-machine-config-operator-bootstrap.openshift4poc.example.local",
+      "io.kubernetes.pod.namespace": "default",
+      "io.kubernetes.pod.uid": "c4d00597c1030e6b63e34c95115c16eb"
+    },
+    "annotations": {
+      "io.kubernetes.container.hash": "3567dad9",
+      "io.kubernetes.container.restartCount": "0",
+      "io.kubernetes.container.terminationMessagePath": "/dev/termination-log",
+      "io.kubernetes.container.terminationMessagePolicy": "FallbackToLogsOnError",
+      "io.kubernetes.pod.terminationGracePeriod": "30"
+    },
+    "mounts": [
+      {
+        "containerPath": "/etc/hosts",
+        "hostPath": "/var/lib/kubelet/pods/c4d00597c1030e6b63e34c95115c16eb/etc-hosts",
+        "propagation": "PROPAGATION_PRIVATE",
+        "readonly": false,
+        "selinuxRelabel": false
+      },
+      {
+        "containerPath": "/dev/termination-log",
+        "hostPath": "/var/lib/kubelet/pods/c4d00597c1030e6b63e34c95115c16eb/containers/machine-config-server/ba4db00b",
+        "propagation": "PROPAGATION_PRIVATE",
+        "readonly": false,
+        "selinuxRelabel": false
+      },
+      {
+        "containerPath": "/etc/ssl/mcs",
+        "hostPath": "/etc/ssl/mcs",
+        "propagation": "PROPAGATION_PRIVATE",
+        "readonly": false,
+        "selinuxRelabel": false
+      },
+      {
+        "containerPath": "/etc/kubernetes/kubeconfig",
+        "hostPath": "/etc/mcs/kubeconfig",
+        "propagation": "PROPAGATION_PRIVATE",
+        "readonly": false,
+        "selinuxRelabel": false
+      },
+      {
+        "containerPath": "/etc/mcs/bootstrap",
+        "hostPath": "/etc/mcs/bootstrap",
+        "propagation": "PROPAGATION_PRIVATE",
+        "readonly": false,
+        "selinuxRelabel": false
+      }
+    ],
+    "logPath": "/var/log/pods/default_bootstrap-machine-config-operator-bootstrap.openshift4poc.example.local_c4d00597c1030e6b63e34c95115c16eb/machine-config-server/0.log"
+  },
+  "pid": 4191,
+  "sandboxId": "01130ffd56dc74b6acde14adc7a6ca2e9b20123d546f18029d1e58e04879c0b3"
+}

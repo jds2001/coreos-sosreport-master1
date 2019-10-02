@@ -1,0 +1,24 @@
+2019-10-02 02:40:10.924541 I | pkg/flags: recognized and used environment variable ETCD_DATA_DIR=/var/lib/etcd
+2019-10-02 02:40:10.924698 I | pkg/flags: recognized and used environment variable ETCD_DEBUG=false
+2019-10-02 02:40:10.924719 I | pkg/flags: recognized and used environment variable ETCD_DISCOVERY_SRV=openshift4poc.example.local
+2019-10-02 02:40:10.924735 I | pkg/flags: recognized and used environment variable ETCD_ELECTION_TIMEOUT=1000
+2019-10-02 02:40:10.924749 I | pkg/flags: recognized and used environment variable ETCD_ENABLE_PPROF=false
+2019-10-02 02:40:10.924769 I | pkg/flags: recognized and used environment variable ETCD_HEARTBEAT_INTERVAL=100
+2019-10-02 02:40:10.924791 I | pkg/flags: recognized and used environment variable ETCD_NAME=etcd-member-localhost.localdomain
+2019-10-02 02:40:10.924812 I | pkg/flags: recognized and used environment variable ETCD_QUOTA_BACKEND_BYTES=7516192768
+2019-10-02 02:40:10.924828 I | pkg/flags: recognized and used environment variable ETCD_SNAPSHOT_COUNT=100000
+2019-10-02 02:40:10.924866 I | etcdmain: etcd Version: 3.3.10
+2019-10-02 02:40:10.924880 I | etcdmain: Git SHA: 0942d93
+2019-10-02 02:40:10.924893 I | etcdmain: Go Version: go1.11.13
+2019-10-02 02:40:10.924906 I | etcdmain: Go OS/Arch: linux/amd64
+2019-10-02 02:40:10.924918 I | etcdmain: setting maximum number of CPUs to 2, total number of available CPUs is 2
+2019-10-02 02:40:10.924946 N | etcdmain: failed to detect default host (could not find default route)
+2019-10-02 02:40:10.925044 N | etcdmain: the server is already initialized as member before, starting as etcd member...
+2019-10-02 02:40:10.925068 I | embed: peerTLS: cert = /etc/ssl/etcd/system:etcd-peer:etcd-2.openshift4poc.example.local.crt, key = /etc/ssl/etcd/system:etcd-peer:etcd-2.openshift4poc.example.local.key, ca = , trusted-ca = /etc/ssl/etcd/ca.crt, client-cert-auth = true, crl-file = 
+2019-10-02 02:40:10.925400 I | embed: listening for peers on https://0.0.0.0:2380
+2019-10-02 02:40:10.925465 I | embed: listening for client requests on 0.0.0.0:2379
+2019-10-02 02:40:10.930467 N | embed: got bootstrap from DNS for etcd-server at 0=https://etcd-1.openshift4poc.example.local:2380
+2019-10-02 02:40:10.930606 N | embed: got bootstrap from DNS for etcd-server at 1=https://etcd-0.openshift4poc.example.local:2380
+2019-10-02 02:40:10.930659 N | embed: got bootstrap from DNS for etcd-server at etcd-member-localhost.localdomain=https://etcd-2.openshift4poc.example.local:2380
+2019-10-02 02:40:10.932564 I | pkg/netutil: resolving etcd-2.openshift4poc.example.local:2380 to 172.16.1.13:2380
+2019-10-02 02:40:10.953740 C | etcdmain: member 79b8671202ba0d33 has already been bootstrapped

@@ -1,0 +1,59 @@
+{
+  "status": {
+    "id": "13a864ac3f037da9a6ac4276385122cc059bc1579502151e7769fa8fb1889dfa",
+    "metadata": {
+      "attempt": 0,
+      "name": "machine-config-controller"
+    },
+    "state": "CONTAINER_EXITED",
+    "createdAt": "2019-10-02T02:14:52.9889222Z",
+    "startedAt": "2019-10-02T02:14:53.0180734Z",
+    "finishedAt": "2019-10-02T02:14:53.274523Z",
+    "exitCode": 0,
+    "image": {
+      "image": "quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:f94afe7d7dcbb1fd574c483d1d839f47b643f5c133ced7de6eeb8c4be0e2ba88"
+    },
+    "imageRef": "quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:f94afe7d7dcbb1fd574c483d1d839f47b643f5c133ced7de6eeb8c4be0e2ba88",
+    "reason": "Completed",
+    "message": "",
+    "labels": {
+      "io.kubernetes.container.name": "machine-config-controller",
+      "io.kubernetes.pod.name": "bootstrap-machine-config-operator-bootstrap.openshift4poc.example.local",
+      "io.kubernetes.pod.namespace": "default",
+      "io.kubernetes.pod.uid": "c4d00597c1030e6b63e34c95115c16eb"
+    },
+    "annotations": {
+      "io.kubernetes.container.hash": "c052894e",
+      "io.kubernetes.container.restartCount": "0",
+      "io.kubernetes.container.terminationMessagePath": "/dev/termination-log",
+      "io.kubernetes.container.terminationMessagePolicy": "FallbackToLogsOnError",
+      "io.kubernetes.pod.terminationGracePeriod": "30"
+    },
+    "mounts": [
+      {
+        "containerPath": "/dev/termination-log",
+        "hostPath": "/var/lib/kubelet/pods/c4d00597c1030e6b63e34c95115c16eb/containers/machine-config-controller/c904e102",
+        "propagation": "PROPAGATION_PRIVATE",
+        "readonly": false,
+        "selinuxRelabel": false
+      },
+      {
+        "containerPath": "/etc/mcc/bootstrap",
+        "hostPath": "/etc/mcc/bootstrap",
+        "propagation": "PROPAGATION_PRIVATE",
+        "readonly": false,
+        "selinuxRelabel": false
+      },
+      {
+        "containerPath": "/etc/mcs/bootstrap",
+        "hostPath": "/etc/mcs/bootstrap",
+        "propagation": "PROPAGATION_PRIVATE",
+        "readonly": false,
+        "selinuxRelabel": false
+      }
+    ],
+    "logPath": "/var/log/pods/default_bootstrap-machine-config-operator-bootstrap.openshift4poc.example.local_c4d00597c1030e6b63e34c95115c16eb/machine-config-controller/0.log"
+  },
+  "pid": 0,
+  "sandboxId": "01130ffd56dc74b6acde14adc7a6ca2e9b20123d546f18029d1e58e04879c0b3"
+}

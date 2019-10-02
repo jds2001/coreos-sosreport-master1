@@ -1,0 +1,5 @@
+Writing asset: /assets/kube-controller-manager-bootstrap/bootstrap-manifests/kube-controller-manager-pod.yaml
+Writing asset: /assets/kube-controller-manager-bootstrap/manifests/00_openshift-kube-controller-manager-operator-ns.yaml
+Writing asset: /assets/kube-controller-manager-bootstrap/manifests/secret-csr-signer-signer.yaml
+Writing asset: /assets/kube-controller-manager-bootstrap/manifests/secret-initial-kube-controller-manager-service-account-private-key.yaml
+Writing asset: /assets/kube-controller-manager-bootstrap/manifests/00_openshift-kube-controller-manager-ns.yaml

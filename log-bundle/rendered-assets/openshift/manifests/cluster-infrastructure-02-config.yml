@@ -1,0 +1,16 @@
+apiVersion: config.openshift.io/v1
+kind: Infrastructure
+metadata:
+  creationTimestamp: null
+  name: cluster
+spec:
+  cloudConfig:
+    name: ""
+status:
+  apiServerInternalURI: https://api-int.openshift4poc.example.local:6443
+  apiServerURL: https://api.openshift4poc.example.local:6443
+  etcdDiscoveryDomain: openshift4poc.example.local
+  infrastructureName: openshift4poc-xg8fj
+  platform: None
+  platformStatus:
+    type: None

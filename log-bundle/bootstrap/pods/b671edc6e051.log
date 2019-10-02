@@ -1,0 +1,7 @@
+I1002 02:14:50.493618       1 bootstrap.go:86] Version: v4.2.0-201909221318-dirty (b8898db9af98e5c3d6a450ae123121677b0dbcb3)
+I1002 02:14:50.502601       1 bootstrap.go:219] manifests/machineconfigcontroller/controllerconfig.yaml
+I1002 02:14:50.505456       1 bootstrap.go:219] manifests/master.machineconfigpool.yaml
+I1002 02:14:50.505684       1 bootstrap.go:219] manifests/worker.machineconfigpool.yaml
+I1002 02:14:50.505862       1 bootstrap.go:219] manifests/bootstrap-pod-v2.yaml
+I1002 02:14:50.506103       1 bootstrap.go:219] manifests/machineconfigserver/csr-bootstrap-role-binding.yaml
+I1002 02:14:50.506329       1 bootstrap.go:219] manifests/machineconfigserver/kube-apiserver-serving-ca-configmap.yaml

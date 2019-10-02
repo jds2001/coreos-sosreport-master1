@@ -1,0 +1,12 @@
++ source /run/etcd/environment
+++ export ETCD_DISCOVERY_SRV=openshift4poc.example.local
+++ ETCD_DISCOVERY_SRV=openshift4poc.example.local
+++ ETCD_WILDCARD_DNS_NAME='*.openshift4poc.example.local'
+++ ETCD_IPV4_ADDRESS=172.16.1.10
+++ ETCD_DNS_NAME=etcd-0.openshift4poc.example.local
++ '[' -e /etc/ssl/etcd/system:etcd-server:etcd-0.openshift4poc.example.local.crt -a -e /etc/ssl/etcd/system:etcd-server:etcd-0.openshift4poc.example.local.key ']'
++ kube-client-agent request --kubeconfig=/etc/kubernetes/kubeconfig --orgname=system:etcd-servers --assetsdir=/etc/ssl/etcd '--dnsnames=localhost,etcd.kube-system.svc,etcd.kube-system.svc.cluster.local,etcd.openshift-etcd.svc,etcd.openshift-etcd.svc.cluster.local,*.openshift4poc.example.local' --commonname=system:etcd-server:etcd-0.openshift4poc.example.local --ipaddrs=172.16.1.10,127.0.0.1
++ '[' -e /etc/ssl/etcd/system:etcd-peer:etcd-0.openshift4poc.example.local.crt -a -e /etc/ssl/etcd/system:etcd-peer:etcd-0.openshift4poc.example.local.key ']'
++ kube-client-agent request --kubeconfig=/etc/kubernetes/kubeconfig --orgname=system:etcd-peers --assetsdir=/etc/ssl/etcd --dnsnames=etcd-0.openshift4poc.example.local,openshift4poc.example.local --commonname=system:etcd-peer:etcd-0.openshift4poc.example.local --ipaddrs=172.16.1.10
++ '[' -e /etc/ssl/etcd/system:etcd-metric:etcd-0.openshift4poc.example.local.crt -a -e /etc/ssl/etcd/system:etcd-metric:etcd-0.openshift4poc.example.local.key ']'
++ kube-client-agent request --kubeconfig=/etc/kubernetes/kubeconfig --orgname=system:etcd-metrics --assetsdir=/etc/ssl/etcd '--dnsnames=localhost,etcd.kube-system.svc,etcd.kube-system.svc.cluster.local,etcd.openshift-etcd.svc,etcd.openshift-etcd.svc.cluster.local,*.openshift4poc.example.local' --commonname=system:etcd-metric:etcd-0.openshift4poc.example.local --ipaddrs=172.16.1.10

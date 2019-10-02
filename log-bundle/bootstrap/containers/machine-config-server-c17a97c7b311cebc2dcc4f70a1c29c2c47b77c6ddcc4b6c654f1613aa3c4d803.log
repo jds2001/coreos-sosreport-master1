@@ -1,0 +1,9 @@
+I1002 02:14:54.426780       1 bootstrap.go:37] Version: v4.2.0-201909221318-dirty (b8898db9af98e5c3d6a450ae123121677b0dbcb3)
+I1002 02:14:54.426977       1 api.go:51] Launching server on :22624
+I1002 02:14:54.427506       1 api.go:51] Launching server on :22623
+I1002 02:18:52.928290       1 api.go:97] Pool master requested by 172.16.1.2:41874
+I1002 02:18:52.928364       1 bootstrap_server.go:62] reading file "/etc/mcs/bootstrap/machine-pools/master.yaml"
+I1002 02:18:52.929828       1 bootstrap_server.go:82] reading file "/etc/mcs/bootstrap/machine-configs/rendered-master-a03db97b9eb72571b88f86c9751e3f26.yaml"
+I1002 02:35:52.111683       1 api.go:97] Pool master requested by 172.16.1.2:50104
+I1002 02:35:52.112795       1 bootstrap_server.go:62] reading file "/etc/mcs/bootstrap/machine-pools/master.yaml"
+I1002 02:35:52.113937       1 bootstrap_server.go:82] reading file "/etc/mcs/bootstrap/machine-configs/rendered-master-a03db97b9eb72571b88f86c9751e3f26.yaml"

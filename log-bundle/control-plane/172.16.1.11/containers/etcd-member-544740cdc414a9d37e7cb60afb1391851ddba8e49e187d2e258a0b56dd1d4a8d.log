@@ -1,0 +1,143 @@
+2019-10-02 01:56:05.975292 I | pkg/flags: recognized and used environment variable ETCD_DATA_DIR=/var/lib/etcd
+2019-10-02 01:56:05.975360 I | pkg/flags: recognized and used environment variable ETCD_DEBUG=false
+2019-10-02 01:56:05.975366 I | pkg/flags: recognized and used environment variable ETCD_DISCOVERY_SRV=openshift4poc.example.local
+2019-10-02 01:56:05.975386 I | pkg/flags: recognized and used environment variable ETCD_ELECTION_TIMEOUT=1000
+2019-10-02 01:56:05.975402 I | pkg/flags: recognized and used environment variable ETCD_ENABLE_PPROF=false
+2019-10-02 01:56:05.975411 I | pkg/flags: recognized and used environment variable ETCD_HEARTBEAT_INTERVAL=100
+2019-10-02 01:56:05.975424 I | pkg/flags: recognized and used environment variable ETCD_NAME=etcd-member-localhost.localdomain
+2019-10-02 01:56:05.975436 I | pkg/flags: recognized and used environment variable ETCD_QUOTA_BACKEND_BYTES=7516192768
+2019-10-02 01:56:05.975442 I | pkg/flags: recognized and used environment variable ETCD_SNAPSHOT_COUNT=100000
+2019-10-02 01:56:05.975476 I | etcdmain: etcd Version: 3.3.10
+2019-10-02 01:56:05.975479 I | etcdmain: Git SHA: 0942d93
+2019-10-02 01:56:05.975482 I | etcdmain: Go Version: go1.11.13
+2019-10-02 01:56:05.975485 I | etcdmain: Go OS/Arch: linux/amd64
+2019-10-02 01:56:05.975488 I | etcdmain: setting maximum number of CPUs to 2, total number of available CPUs is 2
+2019-10-02 01:56:05.975492 N | etcdmain: failed to detect default host (could not find default route)
+2019-10-02 01:56:05.975583 I | embed: peerTLS: cert = /etc/ssl/etcd/system:etcd-peer:etcd-1.openshift4poc.example.local.crt, key = /etc/ssl/etcd/system:etcd-peer:etcd-1.openshift4poc.example.local.key, ca = , trusted-ca = /etc/ssl/etcd/ca.crt, client-cert-auth = true, crl-file = 
+2019-10-02 01:56:05.976603 I | embed: listening for peers on https://0.0.0.0:2380
+2019-10-02 01:56:05.976702 I | embed: listening for client requests on 0.0.0.0:2379
+2019-10-02 01:56:05.986071 N | embed: got bootstrap from DNS for etcd-server at etcd-member-localhost.localdomain=https://etcd-1.openshift4poc.example.local:2380
+2019-10-02 01:56:05.986242 N | embed: got bootstrap from DNS for etcd-server at 0=https://etcd-0.openshift4poc.example.local:2380
+2019-10-02 01:56:05.986297 N | embed: got bootstrap from DNS for etcd-server at 1=https://etcd-2.openshift4poc.example.local:2380
+2019-10-02 01:56:05.990896 I | pkg/netutil: resolving etcd-1.openshift4poc.example.local:2380 to 172.16.1.11:2380
+2019-10-02 01:56:06.004738 I | etcdserver: name = etcd-member-localhost.localdomain
+2019-10-02 01:56:06.004804 I | etcdserver: data dir = /var/lib/etcd
+2019-10-02 01:56:06.004819 I | etcdserver: member dir = /var/lib/etcd/member
+2019-10-02 01:56:06.004826 I | etcdserver: heartbeat = 100ms
+2019-10-02 01:56:06.004833 I | etcdserver: election = 1000ms
+2019-10-02 01:56:06.004839 I | etcdserver: snapshot count = 100000
+2019-10-02 01:56:06.004855 I | etcdserver: advertise client URLs = https://172.16.1.11:2379
+2019-10-02 01:56:06.004863 I | etcdserver: initial advertise peer URLs = https://172.16.1.11:2380
+2019-10-02 01:56:06.004890 I | etcdserver: initial cluster = 0=https://etcd-0.openshift4poc.example.local:2380,1=https://etcd-2.openshift4poc.example.local:2380,etcd-member-localhost.localdomain=https://etcd-1.openshift4poc.example.local:2380
+2019-10-02 01:56:06.007815 I | etcdserver: starting member d27b1d0646021082 in cluster 582d3e403ae36b5f
+2019-10-02 01:56:06.008326 I | raft: d27b1d0646021082 became follower at term 0
+2019-10-02 01:56:06.008431 I | raft: newRaft d27b1d0646021082 [peers: [], term: 0, commit: 0, applied: 0, lastindex: 0, lastterm: 0]
+2019-10-02 01:56:06.008483 I | raft: d27b1d0646021082 became follower at term 1
+2019-10-02 01:56:06.014229 W | auth: simple token is not cryptographically signed
+2019-10-02 01:56:06.018355 I | rafthttp: starting peer 6ec6db378bd53b9a...
+2019-10-02 01:56:06.018481 I | rafthttp: started HTTP pipelining with peer 6ec6db378bd53b9a
+2019-10-02 01:56:06.019923 I | rafthttp: started streaming with peer 6ec6db378bd53b9a (writer)
+2019-10-02 01:56:06.020425 I | rafthttp: started streaming with peer 6ec6db378bd53b9a (writer)
+2019-10-02 01:56:06.022622 I | rafthttp: started peer 6ec6db378bd53b9a
+2019-10-02 01:56:06.022743 I | rafthttp: added peer 6ec6db378bd53b9a
+2019-10-02 01:56:06.022775 I | rafthttp: starting peer 79b8671202ba0d33...
+2019-10-02 01:56:06.022809 I | rafthttp: started HTTP pipelining with peer 79b8671202ba0d33
+2019-10-02 01:56:06.025293 I | rafthttp: started streaming with peer 79b8671202ba0d33 (writer)
+2019-10-02 01:56:06.025597 I | rafthttp: started peer 79b8671202ba0d33
+2019-10-02 01:56:06.025622 I | rafthttp: started streaming with peer 79b8671202ba0d33 (stream MsgApp v2 reader)
+2019-10-02 01:56:06.025810 I | rafthttp: added peer 79b8671202ba0d33
+2019-10-02 01:56:06.025838 I | etcdserver: starting server... [version: 3.3.10, cluster version: to_be_decided]
+2019-10-02 01:56:06.026296 I | rafthttp: started streaming with peer 79b8671202ba0d33 (stream Message reader)
+2019-10-02 01:56:06.026743 I | rafthttp: started streaming with peer 6ec6db378bd53b9a (stream Message reader)
+2019-10-02 01:56:06.027037 I | etcdserver/membership: added member 6ec6db378bd53b9a [https://etcd-0.openshift4poc.example.local:2380] to cluster 582d3e403ae36b5f
+2019-10-02 01:56:06.027098 I | etcdserver/membership: added member 79b8671202ba0d33 [https://etcd-2.openshift4poc.example.local:2380] to cluster 582d3e403ae36b5f
+2019-10-02 01:56:06.027128 I | etcdserver/membership: added member d27b1d0646021082 [https://etcd-1.openshift4poc.example.local:2380] to cluster 582d3e403ae36b5f
+2019-10-02 01:56:06.027134 I | rafthttp: started streaming with peer 79b8671202ba0d33 (writer)
+2019-10-02 01:56:06.027205 I | rafthttp: started streaming with peer 6ec6db378bd53b9a (stream MsgApp v2 reader)
+2019-10-02 01:56:06.035946 I | embed: ClientTLS: cert = /etc/ssl/etcd/system:etcd-server:etcd-1.openshift4poc.example.local.crt, key = /etc/ssl/etcd/system:etcd-server:etcd-1.openshift4poc.example.local.key, ca = , trusted-ca = /etc/ssl/etcd/ca.crt, client-cert-auth = true, crl-file = 
+2019-10-02 01:56:06.036886 I | embed: listening for metrics on https://0.0.0.0:9978
+2019-10-02 01:56:06.047529 I | rafthttp: peer 6ec6db378bd53b9a became active
+2019-10-02 01:56:06.047604 I | rafthttp: established a TCP streaming connection with peer 6ec6db378bd53b9a (stream MsgApp v2 reader)
+2019-10-02 01:56:06.051320 I | rafthttp: established a TCP streaming connection with peer 6ec6db378bd53b9a (stream Message reader)
+2019-10-02 01:56:06.079900 I | rafthttp: established a TCP streaming connection with peer 6ec6db378bd53b9a (stream MsgApp v2 writer)
+2019-10-02 01:56:06.088535 I | rafthttp: established a TCP streaming connection with peer 6ec6db378bd53b9a (stream Message writer)
+2019-10-02 01:56:06.316519 I | raft: d27b1d0646021082 [term: 1] received a MsgVote message with higher term from 6ec6db378bd53b9a [term: 122]
+2019-10-02 01:56:06.316592 I | raft: d27b1d0646021082 became follower at term 122
+2019-10-02 01:56:06.316615 I | raft: d27b1d0646021082 [logterm: 1, index: 3, vote: 0] cast MsgVote for 6ec6db378bd53b9a [logterm: 1, index: 3] at term 122
+2019-10-02 01:56:06.319188 I | raft: raft.node: d27b1d0646021082 elected leader 6ec6db378bd53b9a at term 122
+2019-10-02 01:56:06.324884 I | etcdserver: published {Name:etcd-member-localhost.localdomain ClientURLs:[https://172.16.1.11:2379]} to cluster 582d3e403ae36b5f
+2019-10-02 01:56:06.325057 I | embed: ready to serve client requests
+2019-10-02 01:56:06.328953 I | embed: serving client requests on [::]:2379
+2019-10-02 01:56:06.347773 I | embed: rejected connection from "127.0.0.1:33688" (error "tls: failed to verify client's certificate: x509: certificate specifies an incompatible key usage", ServerName "")
+WARNING: 2019/10/02 01:56:06 Failed to dial 0.0.0.0:2379: connection error: desc = "transport: authentication handshake failed: remote error: tls: bad certificate"; please retry.
+2019-10-02 01:56:06.353337 N | etcdserver/membership: set the initial cluster version to 3.0
+2019-10-02 01:56:06.353422 I | etcdserver/api: enabled capabilities for version 3.0
+2019-10-02 01:56:11.025737 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:56:11.025763 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:56:16.025877 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:56:16.025929 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:56:21.026096 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:56:21.026180 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:56:26.026335 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:56:26.026536 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:56:31.027163 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:56:31.027228 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:56:36.027512 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:56:36.027741 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:56:41.028004 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:56:41.028042 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:56:46.028212 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: i/o timeout (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:56:46.028266 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: i/o timeout (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:56:51.028646 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: i/o timeout (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:56:51.028816 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: i/o timeout (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:56:56.028913 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: i/o timeout (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:56:56.029041 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: i/o timeout (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:57:01.029252 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: i/o timeout (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:57:01.029295 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: i/o timeout (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:57:06.029760 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:57:06.029990 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:57:11.030231 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:57:11.030554 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:57:16.031015 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:57:16.031188 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:57:21.031439 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:57:21.031535 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:57:26.033716 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:57:26.033794 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:57:31.034202 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:57:31.034242 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:57:36.034536 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:57:36.034660 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:57:41.035301 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:57:41.035333 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:57:46.036252 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:57:46.036302 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:57:51.036553 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:57:51.036577 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:57:56.036790 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:57:56.037082 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:58:01.037095 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:58:01.037279 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:58:06.037342 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:58:06.037789 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:58:11.037615 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:58:11.038106 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:58:16.037936 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:58:16.038363 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:58:21.038695 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:58:21.038793 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:58:26.038992 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:58:26.039038 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:58:31.039677 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:58:31.039749 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:58:36.040416 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:58:36.040544 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:58:41.040775 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_RAFT_MESSAGE")
+2019-10-02 01:58:41.040829 W | rafthttp: health check for peer 79b8671202ba0d33 could not connect: dial tcp 172.16.1.13:2380: connect: connection refused (prober "ROUND_TRIPPER_SNAPSHOT")
+2019-10-02 01:58:41.753952 I | rafthttp: peer 79b8671202ba0d33 became active
+2019-10-02 01:58:41.754010 I | rafthttp: established a TCP streaming connection with peer 79b8671202ba0d33 (stream MsgApp v2 writer)
+2019-10-02 01:58:41.765509 I | rafthttp: established a TCP streaming connection with peer 79b8671202ba0d33 (stream Message writer)
+2019-10-02 01:58:41.790091 I | rafthttp: established a TCP streaming connection with peer 79b8671202ba0d33 (stream MsgApp v2 reader)
+2019-10-02 01:58:41.791610 I | rafthttp: established a TCP streaming connection with peer 79b8671202ba0d33 (stream Message reader)
+2019-10-02 01:58:43.576362 N | etcdserver/membership: updated the cluster version from 3.0 to 3.3
+2019-10-02 01:58:43.576617 I | etcdserver/api: enabled capabilities for version 3.3

@@ -1,0 +1,52 @@
+{
+  "status": {
+    "id": "61bc5d7706df2ac416c6c7c9762620aa23627a41f04be112dd9cd54fa6d7b787",
+    "metadata": {
+      "attempt": 1,
+      "name": "discovery"
+    },
+    "state": "CONTAINER_EXITED",
+    "createdAt": "2019-10-02T02:33:38.7967383Z",
+    "startedAt": "2019-10-02T02:33:38.944764Z",
+    "finishedAt": "2019-10-02T02:33:38.9789312Z",
+    "exitCode": 0,
+    "image": {
+      "image": "quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:f94afe7d7dcbb1fd574c483d1d839f47b643f5c133ced7de6eeb8c4be0e2ba88"
+    },
+    "imageRef": "quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:f94afe7d7dcbb1fd574c483d1d839f47b643f5c133ced7de6eeb8c4be0e2ba88",
+    "reason": "Completed",
+    "message": "",
+    "labels": {
+      "io.kubernetes.container.name": "discovery",
+      "io.kubernetes.pod.name": "etcd-member-localhost.localdomain",
+      "io.kubernetes.pod.namespace": "openshift-etcd",
+      "io.kubernetes.pod.uid": "a4a4914b4a1d79ce6413f72b428053e2"
+    },
+    "annotations": {
+      "io.kubernetes.container.hash": "c13a5457",
+      "io.kubernetes.container.restartCount": "1",
+      "io.kubernetes.container.terminationMessagePath": "/dev/termination-log",
+      "io.kubernetes.container.terminationMessagePolicy": "File",
+      "io.kubernetes.pod.terminationGracePeriod": "30"
+    },
+    "mounts": [
+      {
+        "containerPath": "/run/etcd/",
+        "hostPath": "/run/etcd",
+        "propagation": "PROPAGATION_PRIVATE",
+        "readonly": false,
+        "selinuxRelabel": false
+      },
+      {
+        "containerPath": "/dev/termination-log",
+        "hostPath": "/var/lib/kubelet/pods/a4a4914b4a1d79ce6413f72b428053e2/containers/discovery/9dcbb475",
+        "propagation": "PROPAGATION_PRIVATE",
+        "readonly": false,
+        "selinuxRelabel": false
+      }
+    ],
+    "logPath": "/var/log/pods/openshift-etcd_etcd-member-localhost.localdomain_a4a4914b4a1d79ce6413f72b428053e2/discovery/1.log"
+  },
+  "pid": 0,
+  "sandboxId": "8880ccb8672e7f06bfec47b62f739214ed152302ab7fcf318a525534b4b8c02a"
+}

@@ -1,0 +1,2 @@
+https://etcd-1.openshift4poc.example.local:2379 is healthy: successfully committed proposal: took = 2.5694ms
+https://etcd-0.openshift4poc.example.local:2379 is healthy: successfully committed proposal: took = 2.4494ms

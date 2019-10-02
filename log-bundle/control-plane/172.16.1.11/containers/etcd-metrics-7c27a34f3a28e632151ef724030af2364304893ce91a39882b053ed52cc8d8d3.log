@@ -1,0 +1,4 @@
+2019-10-02 01:56:06.201539 I | etcdmain: ServerTLS: cert = /etc/ssl/etcd/system:etcd-metric:etcd-1.openshift4poc.example.local.crt, key = /etc/ssl/etcd/system:etcd-metric:etcd-1.openshift4poc.example.local.key, ca = /etc/ssl/etcd/metric-ca.crt, trusted-ca = , client-cert-auth = false, crl-file = 
+2019-10-02 01:56:06.203665 I | etcdmain: listening for grpc-proxy client requests on 127.0.0.1:9977
+2019-10-02 01:56:06.204133 I | etcdmain: ClientTLS: cert = /etc/ssl/etcd/system:etcd-peer:etcd-1.openshift4poc.example.local.crt, key = /etc/ssl/etcd/system:etcd-peer:etcd-1.openshift4poc.example.local.key, ca = /etc/ssl/etcd/ca.crt, trusted-ca = , client-cert-auth = false, crl-file = 
+2019-10-02 01:56:06.222425 I | etcdmain: grpc-proxy: listening for metrics on https://0.0.0.0:9979

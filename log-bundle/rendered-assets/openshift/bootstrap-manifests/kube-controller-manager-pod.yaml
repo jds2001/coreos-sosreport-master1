@@ -1,0 +1,64 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: bootstrap-kube-controller-manager
+  namespace: kube-system
+  labels:
+    openshift.io/control-plane: "true"
+    openshift.io/component: "controller-manager"
+  annotations:
+    openshift.io/run-level: "0"
+spec:
+  restartPolicy: Always
+  hostNetwork: true
+  containers:
+  - name: kube-controller-manager
+    image: quay.io/openshift-release-dev/ocp-v4.0-art-dev@sha256:476a6d3ff4481b3ce527b9dcbe4a8c3f9d09aaec249bfa78cedd7618afa264f4
+    imagePullPolicy: IfNotPresent
+    ports:
+      - containerPort: 10257
+    command: ["hyperkube", "kube-controller-manager"]
+    args:
+    - --openshift-config=/etc/kubernetes/config/kube-controller-manager-config.yaml
+    - --kubeconfig=/etc/kubernetes/secrets/kubeconfig
+    - --logtostderr=false
+    - --alsologtostderr
+    - --log-file=/var/log/bootstrap-control-plane/kube-controller-manager.log
+    volumeMounts:
+    - mountPath: /etc/ssl/certs
+      name: ssl-certs-host
+      readOnly: true
+    - mountPath: /etc/kubernetes/secrets
+      name: secrets
+      readOnly: true
+    - mountPath: /etc/kubernetes/cloud
+      name: etc-kubernetes-cloud
+      readOnly: true
+    - mountPath: /etc/kubernetes/config
+      name: config
+      readOnly: true
+    - mountPath: /var/log/bootstrap-control-plane
+      name: logs
+    livenessProbe:
+      httpGet:
+        scheme: HTTPS
+        port: 10257
+        path: healthz
+      initialDelaySeconds: 45
+      timeoutSeconds: 10
+  volumes:
+  - hostPath:
+      path: /etc/kubernetes/bootstrap-secrets
+    name: secrets
+  - hostPath:
+      path: /etc/kubernetes/cloud
+    name: etc-kubernetes-cloud
+  - hostPath:
+      path: /etc/kubernetes/bootstrap-configs
+    name: config
+  - hostPath:
+      path: /etc/ssl/certs
+    name: ssl-certs-host
+  - hostPath:
+      path: /var/log/bootstrap-control-plane
+    name: logs

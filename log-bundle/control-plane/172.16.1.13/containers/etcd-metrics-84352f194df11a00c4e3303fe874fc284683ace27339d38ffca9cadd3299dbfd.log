@@ -1,0 +1,7 @@
+2019-10-02 02:40:37.939436 I | etcdmain: ServerTLS: cert = /etc/ssl/etcd/system:etcd-metric:etcd-2.openshift4poc.example.local.crt, key = /etc/ssl/etcd/system:etcd-metric:etcd-2.openshift4poc.example.local.key, ca = /etc/ssl/etcd/metric-ca.crt, trusted-ca = , client-cert-auth = false, crl-file = 
+2019-10-02 02:40:37.940564 I | etcdmain: listening for grpc-proxy client requests on 127.0.0.1:9977
+2019-10-02 02:40:37.941121 I | etcdmain: ClientTLS: cert = /etc/ssl/etcd/system:etcd-peer:etcd-2.openshift4poc.example.local.crt, key = /etc/ssl/etcd/system:etcd-peer:etcd-2.openshift4poc.example.local.key, ca = /etc/ssl/etcd/ca.crt, trusted-ca = , client-cert-auth = false, crl-file = 
+WARNING: 2019/10/02 02:40:37 grpc: addrConn.resetTransport failed to create client transport: connection error: desc = "transport: Error while dialing dial tcp 172.16.1.13:9978: connect: connection refused"; Reconnecting to {etcd-2.openshift4poc.example.local:9978 0  <nil>}
+WARNING: 2019/10/02 02:40:38 grpc: addrConn.resetTransport failed to create client transport: connection error: desc = "transport: Error while dialing dial tcp 172.16.1.13:9978: connect: connection refused"; Reconnecting to {etcd-2.openshift4poc.example.local:9978 0  <nil>}
+WARNING: 2019/10/02 02:40:40 grpc: addrConn.resetTransport failed to create client transport: connection error: desc = "transport: Error while dialing dial tcp 172.16.1.13:9978: connect: connection refused"; Reconnecting to {etcd-2.openshift4poc.example.local:9978 0  <nil>}
+dial tcp 172.16.1.13:9978: connect: connection refused

@@ -1,0 +1,3 @@
+-- Logs begin at Wed 2019-10-02 01:54:27 UTC, end at Wed 2019-10-02 02:41:40 UTC. --
+Oct 02 02:33:36 localhost.localdomain systemd[1]: Starting Open Container Initiative Daemon...
+Oct 02 02:33:37 localhost.localdomain systemd[1]: Started Open Container Initiative Daemon.
